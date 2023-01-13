@@ -1,0 +1,148 @@
+.burger-menu {
+  $this: &;
+
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity var(--transition);
+
+  &--active {
+    visibility: visible;
+    opacity: 1;
+
+    #{$this}__content {
+      transform: translateX(0%);
+    }
+  }
+
+  @include media('1401', min) {
+    display: none;
+  }
+
+  &__content {
+    @include flex-column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    padding: rem(32) rem(16);
+    overflow: auto;
+    background-color: var(--pallette-white);
+    transform: translateX(100%);
+    transition: transform var(--transition);
+
+    @include media('600', max) {
+      width: 75%;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem(20);
+    margin-bottom: rem(16);
+  }
+
+  &__search {
+    @include flex-center;
+
+    @include media('600', max) { // pa!!!
+      &:focus-visible {
+        outline: unset;
+      }
+    }
+
+    #{$this}__icon {
+      fill: var(--pallette-nobel);
+    }
+  }
+
+  &__close {
+    @include flex-center;
+  }
+
+  &__icon {
+    width: rem(32);
+    height: rem(32);
+    flex-shrink: 0;
+
+    &:hover {
+      fill: var(--pallette-cerulean);
+    }
+  }
+
+  &__tel {
+    margin-bottom: rem(24);
+
+    .header__tel-icon {
+      fill: var(--pallette-deep-cerulean);
+    }
+  }
+
+  &__btn {
+    align-self: flex-start;
+
+    &:not(:last-child) {
+      margin-bottom: rem(24);
+    }
+
+    @include media('600', max) {
+      width: 100%;
+    }
+  }
+
+  &__list {
+    margin-bottom: rem(56);
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(16);
+      }
+    }
+  }
+
+  &__link {
+    color: inherit;
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
+
+  &__entry-list {
+    @include flex-center-y;
+    gap: rem(24);
+    margin-bottom: rem(24);
+    padding-left: rem(10);
+  }
+
+  &__entry-item {
+    position: relative;
+
+    &:not(:last-child) {
+      &::after {
+        position: absolute;
+        top: 0;
+        right: rem(-12);
+        width: rem(2);
+        height: 100%;
+        background-color: var(--pallette-ebony);
+        content: '';
+      }
+    }
+  }
+
+  &__entry-link {
+    color: inherit;
+    font-weight: 700;
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
+}

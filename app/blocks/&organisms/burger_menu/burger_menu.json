@@ -1,0 +1,69 @@
+{
+  "burger_menu": {
+    "catalog_link": {
+      "href": "#",
+      "text": {
+        "text": "Каталог франшиз"
+      },
+      "icon": {
+        "name": "sprite-mono.svg#four_squares"
+      }
+    },
+    "tel_block": {
+      "link": {
+        "href": "tel:+74951855663",
+        "text": {
+          "text": "+7 (495) 185-56-63"
+        },
+        "icon": {
+          "class": "header__tel-icon",
+          "name": "sprite-mono.svg#phone"
+        }
+      }
+    },
+    "add_franchise_link": {
+      "href": "#",
+      "text": {
+        "text": "Добавить франшизу"
+      }
+    },
+    "list": {
+      "items": [{
+        "text": {
+          "text": "Отзывы о франшизах"
+        }
+      }, {
+        "text": {
+          "text": "Новости франшиз"
+        }
+      }, {
+        "text": {
+          "text": "Все франшизы"
+        }
+      }, {
+        "text": {
+          "text": "Упаковка франшизы"
+        }
+      }, {
+        "text": {
+          "text": "О сайте"
+        }
+      }, {
+        "text": {
+          "text": "Контакты"
+        }
+      }]
+    },
+    "entry_list": {
+      "items": [{
+        "text": {
+          "text": "Войти"
+        }
+      }, {
+        "text": {
+          "text": "Зарегистрироваться"
+        }
+      }]
+    }
+  }
+}

@@ -11,4 +11,8 @@
   @include media('1400', max) {
     @include flex-center;
   }
+
+  @include media('600', max) {
+    padding-right: 1rem;
+  }
 }

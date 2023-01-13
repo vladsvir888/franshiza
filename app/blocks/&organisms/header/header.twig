@@ -1,4 +1,8 @@
 <header class="header">
+  {% view "@skip_link" with {
+    skip_link: header.skip_link
+  } %}
+
   <div class="container">
     <div class="header__inner">
       <div class="header__top">
@@ -60,4 +64,6 @@
       </div>
     </div>
   </div>
+
+  {% view "&burger_menu" %}
 </header>

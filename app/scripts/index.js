@@ -3,11 +3,14 @@ import LazyLoad from 'vanilla-lazyload';
 // import AirDatepicker from 'air-datepicker';
 
 // components
+import BurgerMenu from './components/burgerMenu';
 // import Tabs from './components/tabs';
 // import Accordion from './components/accordion';
 
 document.addEventListener('DOMContentLoaded', () => {
   new LazyLoad();
+
+  new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
 
   // document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
 

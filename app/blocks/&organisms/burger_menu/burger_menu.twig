@@ -1,0 +1,71 @@
+<div id="burger_menu" class="burger-menu">
+  <div class="burger-menu__content">
+    <div class="burger-menu__header">
+      {% view "@button" with {
+        "button": {
+          "class": "burger-menu__search",
+          "icon": {
+            "class": "burger-menu__icon",
+            "name": "sprite-mono.svg#search"
+          },
+          "attrs": "aria-label='Открыть поиск'"
+        }
+      } %}
+
+      {% view "@button" with {
+        "button": {
+          "class": "burger-menu__close",
+          "icon": {
+            "class": "burger-menu__icon",
+            "name": "sprite-mono.svg#close"
+          },
+          "attrs": "aria-label='Закрыть меню'"
+        }
+      } %}
+    </div>
+
+    {% view "@button" with {
+      button: burger_menu.tel_block.link|merge({
+        class: "header__tel burger-menu__tel"
+      })
+    } %}
+
+    {% view "@button" with {
+      button: burger_menu.catalog_link|merge({
+        class: "btn--btn btn--secondary burger-menu__btn"
+      })
+    } %}
+
+    <ul class="burger-menu__list">
+      {% for item in burger_menu.list.items %}
+        <li class="burger-menu__item">
+          {% view "@button" with {
+            button: item|merge({
+              href: "#",
+              class: "burger-menu__link"
+            })
+          } %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <ul class="burger-menu__entry-list">
+      {% for item in burger_menu.entry_list.items %}
+        <li class="burger-menu__entry-item">
+          {% view "@button" with {
+            button: item|merge({
+              href: "#",
+              class: "burger-menu__entry-link"
+            })
+          } %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% view "@button" with {
+      button: burger_menu.add_franchise_link|merge({
+        class: "btn--btn btn--primary burger-menu__btn"
+      })
+    } %}
+  </div>
+</div>

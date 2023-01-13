@@ -5,6 +5,9 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+  transition:
+    color var(--transition),
+    background-color var(--transition);
 
   &--btn {
     display: inline-flex;

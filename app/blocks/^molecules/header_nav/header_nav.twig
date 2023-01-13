@@ -2,9 +2,12 @@
   <ul class="header-nav__list">
     {% for item in header_nav.items %}
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">
-          {{ item.text }}
-        </a>
+        {% view "@button" with {
+          button: item|merge({
+            href: "#",
+            class: "header-nav__link"
+          })
+        } %}
       </li>
     {% endfor %}
   </ul>

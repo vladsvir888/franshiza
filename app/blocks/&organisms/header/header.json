@@ -1,5 +1,11 @@
 {
   "header": {
+    "skip_link": {
+      "href": "#main",
+      "text": {
+        "text": "Перейти к главному разделу"
+      }
+    },
     "logo": {
       "path": "./assets/images/logo.png",
       "text": "Главная страница"
@@ -37,13 +43,21 @@
       "class": "header-nav--meta header__nav-meta",
       "attrs": "aria-label='Мета'",
       "items": [{
-        "text": "О сайте"
+        "text": {
+          "text": "О сайте"
+        }
       }, {
-        "text": "Контакты"
+        "text": {
+          "text": "Контакты"
+        }
       }, {
-        "text": "Войти"
+        "text": {
+          "text": "Войти"
+        }
       }, {
-        "text": "Зарегистрироваться"
+        "text": {
+          "text": "Зарегистрироваться"
+        }
       }]
     },
     "tel_block": {
@@ -63,13 +77,21 @@
       "class": "header__main-nav",
       "attrs": "aria-label='Главное'",
       "items": [{
-        "text": "Отзывы о франшизах"
+        "text": {
+          "text": "Отзывы о франшизах"
+        }
       }, {
-        "text": "Новости франшиз"
+        "text": {
+          "text": "Новости франшиз"
+        }
       }, {
-        "text": "Все франшизы"
+        "text": {
+          "text": "Все франшизы"
+        }
       }, {
-        "text": "Упаковка франшизы"
+        "text": {
+          "text": "Упаковка франшизы"
+        }
       }]
     },
     "add_franchise_link": {

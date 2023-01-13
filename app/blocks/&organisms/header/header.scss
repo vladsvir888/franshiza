@@ -1,5 +1,6 @@
 .header {
   $this: &;
+  position: relative;
 
   &__top {
     display: flex;
@@ -9,6 +10,9 @@
     border-bottom: rem(1) solid var(--pallette-mystic);
 
     @include media('600', max) {
+      width: calc(100% + 2rem);
+      margin-left: -1rem;
+      margin-right: -1rem;
       padding: rem(32) 0 rem(16);
     }
   }
@@ -18,6 +22,7 @@
 
     @include media('600', max) {
       margin-right: rem(85);
+      padding-left: 1rem;
     }
   }
 
@@ -30,6 +35,7 @@
   }
 
   &__search {
+    width: rem(285);
     margin-right: rem(38);
 
     @include media('1400', max) {
@@ -53,7 +59,6 @@
   &__tel {
     @include flex-center-y;
     color: inherit;
-    transition: color var(--transition);
 
     @at-root {
       #{$this}__tel-block {
