@@ -1,0 +1,11 @@
+.tabs {
+  $this: &;
+
+  &--hidden {
+    display: none;
+  }
+
+  [role=tab][aria-selected=true] {
+    background-color: yellow;
+  }
+}

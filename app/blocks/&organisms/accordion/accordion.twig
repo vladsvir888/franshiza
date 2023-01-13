@@ -1,0 +1,20 @@
+<div class="accordion">
+  {% for item in accordion.items %}
+    <div class="accordion__item">
+      <h3 class="accordion__heading">
+        {% view "@button" with {
+          button: item.button|default({})|merge({
+            class: "accordion__btn"
+          })
+        } %}
+      </h3>
+      <section
+        {% if item.content.id %}id="{{ item.content.id }}"{% endif %}
+        class="accordion__content {{ item.content.class }}"
+        {{ item.content.attrs }}
+      >
+        {{ item.content.text }}
+      </section>
+    </div>
+  {% endfor %}
+</div>

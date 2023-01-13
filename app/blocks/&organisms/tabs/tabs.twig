@@ -1,0 +1,20 @@
+<div class="tabs {{ tabs.class }}">
+  <div role="tablist" class="tabs__btns">
+    {% for btn in tabs.btns.items %}
+      {% view "@button" with {
+        button: btn|default({})|merge({
+          class: "tabs__btn"
+        })
+      } %}
+    {% endfor %}
+  </div>
+  {% for content in tabs.content.items %}
+    <div
+        {% if content.id %}id="{{ content.id }}"{% endif %}
+        class="tabs__content {{ content.class }}"
+        {{ content.attrs }}
+      >
+      {{ content.text }}
+    </div>
+  {% endfor %}
+</div>

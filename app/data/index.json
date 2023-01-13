@@ -1,0 +1,11 @@
+{
+  "pages": [{
+    "text": "Home",
+    "link": "home"
+  }],
+  "meta": {
+    "html_lang": "ru",
+    "title": "title",
+    "description": "descr"
+  }
+}

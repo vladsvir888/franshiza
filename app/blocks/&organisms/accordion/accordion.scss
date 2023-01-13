@@ -1,0 +1,9 @@
+.accordion {
+  $this: &;
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition);
+  }
+}
