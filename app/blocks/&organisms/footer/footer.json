@@ -1,0 +1,92 @@
+{
+  "footer": {
+    "logo": {
+      "path": "./assets/images/logo.png",
+      "text": "Главная страница"
+    },
+    "info": {
+      "location": "Москва ул. Кулакова, д. 20",
+      "copyright": "Франшиза Инфо. Каталог франшиз 2022 для желающих купить франшизу. Все права защищены.",
+      "email": {
+        "href": "mailto:info@franshiza-info.ru",
+        "text": {
+          "text": "info@franshiza-info.ru"
+        }
+      }
+    },
+    "first_list": {
+      "items": [{
+        "text": "Каталог франшиз"
+      }, {
+        "text": "Отзывы о франшизах"
+      }, {
+        "text": "Новости франшиз"
+      }, {
+        "text": "Реклама франшизы"
+      }, {
+        "text": "Все франшизы"
+      }]
+    },
+    "second_list": {
+      "items": [{
+        "text": "О сайте"
+      }, {
+        "text": "Контакты"
+      }, {
+        "text": "Упаковка франшизы"
+      }, {
+        "text": "Словарь терминов"
+      }, {
+        "text": "Франшизы по категориям"
+      }]
+    },
+    "subscribe": {
+      "title": {
+        "level": 2,
+        "text": "Подпишитесь на новости"
+      },
+      "list": {
+        "items": [{
+          "class": "subscribe__item--telegram",
+          "link": {
+            "href": "#",
+            "attrs": "aria-label='Телеграм'",
+            "icon": {
+              "class": "subscribe__link-icon",
+              "name": "sprite-mono.svg#telegram"
+            }
+          }
+        }, {
+          "class": "subscribe__item--youtube",
+          "link": {
+            "href": "#",
+            "attrs": "aria-label='Ютуб'",
+            "icon": {
+              "class": "subscribe__link-icon",
+              "name": "sprite-mono.svg#youtube"
+            }
+          }
+        }]
+      },
+      "form": {
+        "input": {
+          "wrap": {
+            "class": "subscribe__input-block"
+          },
+          "id": "subscribe_form",
+          "type": "text",
+          "text": "Ваш E-mail",
+          "name": "subscribe"
+        },
+        "btn": {
+          "text": {
+            "text": "Подписаться на новости"
+          },
+          "attrs": "type='submit'"
+        }
+      },
+      "text": "Подписываясь на новости, я <a class='subscribe__text-link' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "bottom_text": "Вся информация размещенная на сайте каталога франшиз для желающих купить франшизу попадает под закон об охране авторских и смежных прав. Любое копирование, использование, распространение без согласования с администрацией сайта и без активной ссылки на страницу-источник преследуется по закону."
+  }
+}

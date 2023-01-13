@@ -1,0 +1,15 @@
+.input-block {
+  padding: rem(12);
+  background-color: var(--pallette-athens-gray);
+  border-radius: rem(6);
+
+  &__input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+
+    &::placeholder {
+      color: var(--pallette-nepal);
+    }
+  }
+}

@@ -1,11 +1,21 @@
 :root {
   // pallette
-  --pallette-black: #000;
+  --pallette-ebony: #090d1b;
   --pallette-white: #fff;
+  --pallette-cerulean: #01a0e1;
+  --pallette-deep-cerulean: #007aa9;
+  --pallette-mystic: #e9eff2;
+  --pallette-athens-gray: #f6f7f9;
+  --pallette-nepal: #84a8bd;
+  --pallette-nobel: #b4b4b4;
+  --pallette-scorpion: #575757;
 
   // containers
-  --container-width: 1200px;
-  --container-padding: 20px;
+  --container-width: 77rem;
+  --container-padding: 1rem;
+
+  // fonts
+  --font-primary: 'PT Sans', sans-serif;
 
   // transitions
   --transition: 0.3s;

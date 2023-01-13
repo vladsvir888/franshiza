@@ -1,32 +1,5 @@
 {% extends "../blocks/layout/base.twig" %}
 
 {% block content %}
-<main id="main" class="main">
-  {% view "&tabs" %}
-  <hr style="margin: 20px 0;">
-  {% view "&accordion" %}
-  <hr style="margin: 20px 0;">
-
-  <!-- Dialog Contents -->
-  <div id="dialog-content" style="display:none;max-width:500px;">
-    <h2>Hello, world!</h2>
-    <p>
-      <input type="text" value="" />
-    </p>
-    <p>
-      Try hitting the tab key and notice how the focus stays within the dialog itself.
-    </p>
-    <p>
-      To close dialog hit the esc button, click on the overlay or just click the close button.
-    </p>
-    <p className="margin-bottom--none">
-      Element used to launch the modal would receive focus back after closing.
-    </p>
-  </div>
-
-  <!-- Dialog Trigger -->
-  <button data-fancybox="dialog" data-src="#dialog-content">Launch Dialog</button>
-
-  <input type="text" id="input">
-</main>
+<main id="main" class="main" tabindex="-1"></main>
 {% endblock %}

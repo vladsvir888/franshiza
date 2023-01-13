@@ -1,0 +1,82 @@
+{
+  "header": {
+    "logo": {
+      "path": "./assets/images/logo.png",
+      "text": "Главная страница"
+    },
+    "catalog_link": {
+      "href": "#",
+      "text": {
+        "text": "Каталог франшиз"
+      },
+      "icon": {
+        "name": "sprite-mono.svg#four_squares"
+      }
+    },
+    "search": {
+      "input": {
+        "wrap": {
+          "class": "search__input-block"
+        },
+        "id": "header_search",
+        "class": "search__input",
+        "type": "search",
+        "text": "Поиск, например, магазин",
+        "name": "search",
+        "btn": {
+          "class": "search__btn",
+          "icon": {
+            "class": "search__icon",
+            "name": "sprite-mono.svg#search"
+          },
+          "attrs": "aria-label='Поиск' type='submit'"
+        }
+      }
+    },
+    "meta_nav": {
+      "class": "header-nav--meta header__nav-meta",
+      "attrs": "aria-label='Мета'",
+      "items": [{
+        "text": "О сайте"
+      }, {
+        "text": "Контакты"
+      }, {
+        "text": "Войти"
+      }, {
+        "text": "Зарегистрироваться"
+      }]
+    },
+    "tel_block": {
+      "text": "Ваш каталог франшиз №1",
+      "link": {
+        "href": "tel:+74951855663",
+        "text": {
+          "text": "+7 (495) 185-56-63"
+        },
+        "icon": {
+          "class": "header__tel-icon",
+          "name": "sprite-mono.svg#phone"
+        }
+      }
+    },
+    "main_nav": {
+      "class": "header__main-nav",
+      "attrs": "aria-label='Главное'",
+      "items": [{
+        "text": "Отзывы о франшизах"
+      }, {
+        "text": "Новости франшиз"
+      }, {
+        "text": "Все франшизы"
+      }, {
+        "text": "Упаковка франшизы"
+      }]
+    },
+    "add_franchise_link": {
+      "href": "#",
+      "text": {
+        "text": "Добавить франшизу в каталог"
+      }
+    }
+  }
+}

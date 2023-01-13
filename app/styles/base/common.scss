@@ -40,12 +40,24 @@ img {
   height: auto;
 }
 
-a[class] {
+a {
   text-decoration: none;
 }
 
 :focus-visible {
-  outline: rem(2) dotted var(--pallette-black);
+  outline: rem(2) dotted var(--pallette-cerulean);
+  outline-offset: 0.2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
 }
 
 .no-scroll {
@@ -54,14 +66,22 @@ a[class] {
 
 html {
   height: 100%;
-  scrollbar-color: var(--pallette-black) transparent;
+  scrollbar-color: var(--pallette-cerulean) transparent;
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
 
 body {
   @include flex-column;
+  @include font-size(14, 20);
   height: 100%;
+  font-family: var(--font-primary);
+  color: var(--pallette-ebony);
+  letter-spacing: 0.01em;
+}
+
+.container {
+  @include container;
 }
 
 .header {
@@ -89,14 +109,6 @@ body {
   clip: rect(0 0 0 0);
 }
 
-.offset-x > *:not(:last-child) {
-  margin-right: var(--offset-x, 1rem);
-}
-
-.offset-y > *:not(:last-child) {
-  margin-bottom: var(--offset-y, 1rem);
-}
-
 ::-webkit-scrollbar {
   width: 0.625rem;
   height: 0.625rem;
@@ -104,6 +116,14 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--pallette-black);
+  background-color: var(--pallette-cerulean);
   border-radius: 0.5rem;
+}
+
+address {
+  font-style: normal;
+}
+
+small {
+  font-size: inherit;
 }

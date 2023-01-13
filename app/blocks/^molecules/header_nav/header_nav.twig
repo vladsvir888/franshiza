@@ -1,0 +1,11 @@
+<nav class="header-nav {{ header_nav.class }}" {{ header_nav.attrs }}>
+  <ul class="header-nav__list">
+    {% for item in header_nav.items %}
+      <li class="header-nav__item">
+        <a class="header-nav__link" href="#">
+          {{ item.text }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

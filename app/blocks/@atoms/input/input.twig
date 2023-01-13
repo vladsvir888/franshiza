@@ -1,0 +1,18 @@
+<div class="input-block {{ input.wrap.class }}">
+  <input
+    id="{{ input.id }}"
+    class="input-block__input {{ input.class }}"
+    type="{{ input.type }}"
+    name="{{ input.name }}"
+    placeholder="{{ input.text }}"
+  >
+  <label for="{{ input.id }}">
+    {% if input.btn %}
+      {% view "@button" with {
+        button: input.btn
+      } %}
+    {% else %}
+      <span class="visually-hidden">{{ input.text }}</span>
+    {% endif %}
+  </label>
+</div>

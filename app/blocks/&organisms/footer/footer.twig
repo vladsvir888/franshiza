@@ -1,3 +1,61 @@
 <footer class="footer">
-  Footer
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__info">
+        {% view "@logo" with {
+          logo: footer.logo|merge({
+            class: "footer__logo"
+          })
+        } %}
+        <address class="footer__address">
+          <p class="footer__location">
+            {% view "@icon" with {
+              "icon": {
+                "class": "footer__location-icon",
+                "name": "sprite-mono.svg#location-pin"
+              }
+            } %}
+
+            {{ footer.info.location }}
+          </p>
+
+          <p class="footer__copyright">
+            <small>
+              {{ footer.info.copyright }}
+            </small>
+          </p>
+
+          {% view "@button" with {
+            button: footer.info.email|merge({
+              class: "footer__email"
+            })
+          } %}
+        </address>
+      </div>
+
+      <div class="footer__list-block footer__list-block--first">
+        {% view "^footer_list" with {
+          footer_list: footer.first_list
+        } %}
+      </div>
+
+      <div class="footer__list-block footer__list-block--second">
+        {% view "^footer_list" with {
+          footer_list: footer.second_list
+        } %}
+      </div>
+
+      {% view "^subscribe" with {
+        subscribe: footer.subscribe|merge({
+          class: "footer__subscribe"
+        })
+      } %}
+    </div>
+
+    <div class="footer__bottom">
+      <p>
+        {{ footer.bottom_text }}
+      </p>
+    </div>
+  </div>
 </footer>

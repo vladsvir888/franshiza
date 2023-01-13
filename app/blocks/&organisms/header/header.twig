@@ -1,3 +1,63 @@
 <header class="header">
-  {{ header.text }}
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__top">
+        {% view "@logo" with {
+          logo: header.logo|merge({
+            class: "header__logo"
+          })
+        } %}
+
+        {% view "@button" with {
+          button: header.catalog_link|merge({
+            class: "btn--btn btn--secondary header__catalog-btn"
+          })
+        } %}
+
+        {% view "^search" with {
+          search: header.search|merge({
+            class: "header__search"
+          })
+        } %}
+
+        {% view "^header_nav" with {
+          header_nav: header.meta_nav
+        } %}
+
+        {% view "@burger" %}
+      </div>
+      <div class="header__bottom">
+        <div class="header__tel-block">
+          <p class="header__tel-text">
+            {{ header.tel_block.text }}
+          </p>
+          {% view "@button" with {
+            button: header.tel_block.link|merge({
+              class: "header__tel"
+            })
+          } %}
+        </div>
+
+        {% view "^header_nav" with {
+          header_nav: header.main_nav
+        } %}
+
+        {% view "@button" with {
+          button: header.add_franchise_link|merge({
+            class: "btn--btn btn--primary header__franchise-btn"
+          })
+        } %}
+
+        {% view "@button" with {
+          "button": {
+            "class": "header__search-btn",
+            "icon": {
+              "class": "header__search-icon",
+              "name": "sprite-mono.svg#search"
+            }
+          }
+        } %}
+      </div>
+    </div>
+  </div>
 </header>

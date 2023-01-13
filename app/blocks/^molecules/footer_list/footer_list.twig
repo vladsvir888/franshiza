@@ -1,0 +1,9 @@
+<ul class="footer-list">
+  {% for item in footer_list.items %}
+    <li class="footer-list__item">
+      <a class="footer-list__link" href="#">
+        {{ item.text }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

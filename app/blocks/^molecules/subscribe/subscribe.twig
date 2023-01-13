@@ -1,0 +1,35 @@
+<aside class="subscribe {{ subscribe.class }}">
+  {% view "@title" with {
+    title: subscribe.title|merge({
+      class: "subscribe__title"
+    })
+  } %}
+
+  <ul class="subscribe__list">
+    {% for item in subscribe.list.items %}
+      <li class="subscribe__item {{ item.class }}">
+        {% view "@button" with {
+          button: item.link|merge({
+            class: "subscribe__link"
+          })
+        } %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <form action="/" method="get" class="subscribe__form">
+    {% view "@input" with {
+      input: subscribe.form.input
+    } %}
+
+    {% view "@button" with {
+      button: subscribe.form.btn|merge({
+        class: "btn--btn btn--primary subscribe__btn"
+      })
+    } %}
+  </form>
+
+  <p class="subscribe__text">
+    {{ subscribe.text }}
+  </p>
+</aside>

@@ -1,0 +1,20 @@
+.footer-list {
+  > * {
+    &:not(:last-child) {
+      margin-bottom: rem(22);
+
+      @include media('600', max) {
+        margin-bottom: rem(10);
+      }
+    }
+  }
+
+  &__link {
+    color: inherit;
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
+}

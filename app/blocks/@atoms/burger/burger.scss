@@ -1,0 +1,14 @@
+.burger {
+  display: none;
+
+  &__icon {
+    width: rem(32);
+    height: rem(32);
+    flex-shrink: 0;
+    fill: var(--pallette-cerulean);
+  }
+
+  @include media('1400', max) {
+    @include flex-center;
+  }
+}

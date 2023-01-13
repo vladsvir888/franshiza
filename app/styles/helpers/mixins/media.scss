@@ -1,7 +1,8 @@
 $breakpoints: (
-  "500": 500px,
-  "767": 767px,
-  "1024": 1024px
+  "375": 375px,
+  "600": 600px,
+  "900": 900px,
+  "1400": 1400px
 );
 
 @mixin media($breakpoint, $type) {

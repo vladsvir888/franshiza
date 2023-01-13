@@ -1,0 +1,38 @@
+.header-nav {
+  $this: &;
+
+  &--meta {
+    #{$this}__item {
+      &:not(:last-child) {
+        &::after {
+          position: absolute;
+          top: 0;
+          right: rem(-16);
+          width: rem(2);
+          height: 100%;
+          background-color: var(--pallette-mystic);
+          content: '';
+        }
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: rem(32);
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    color: inherit;
+    font-weight: 700;
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
+}
