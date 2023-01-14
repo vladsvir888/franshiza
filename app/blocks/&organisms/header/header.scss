@@ -4,12 +4,20 @@
 
   &__top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    gap: rem(20);
+    align-items: center;
     padding: rem(23) 0 rem(26);
     border-bottom: rem(1) solid var(--pallette-mystic);
 
+    @include media('1401', min) {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: "logo logo logo catalog-btn catalog-btn search search search nav-meta nav-meta nav-meta nav-meta";
+    }
+
     @include media('600', max) {
+      gap: rem(100);
       width: calc(100% + 2rem);
       margin-left: -1rem;
       margin-right: -1rem;
@@ -18,16 +26,15 @@
   }
 
   &__logo {
-    margin-right: rem(107);
+    grid-area: logo;
 
     @include media('600', max) {
-      margin-right: rem(85);
       padding-left: 1rem;
     }
   }
 
   &__catalog-btn {
-    margin-right: rem(20);
+    grid-area: catalog-btn;
 
     @include media('1400', max) {
       display: none;
@@ -35,8 +42,7 @@
   }
 
   &__search {
-    width: rem(285);
-    margin-right: rem(38);
+    grid-area: search;
 
     @include media('1400', max) {
       display: none;
@@ -44,16 +50,28 @@
   }
 
   &__nav-meta {
+    grid-area: nav-meta;
+    padding-left: rem(18);
+
     @include media('1400', max) {
       display: none;
     }
   }
 
   &__bottom {
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    gap: rem(20);
+    align-items: center;
     padding-top: rem(14);
+
+    @include media('1401', min) {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: "tel-block tel-block tel-block main-nav main-nav main-nav main-nav main-nav main-nav franchise-btn franchise-btn franchise-btn";
+      align-items: flex-end;
+    }
   }
 
   &__tel {
@@ -62,11 +80,7 @@
 
     @at-root {
       #{$this}__tel-block {
-        margin-right: rem(140);
-
-        @include media('600', max) {
-          margin-right: rem(90);
-        }
+        grid-area: tel-block;
 
         > * {
           &:not(:last-child) {
@@ -94,7 +108,7 @@
   }
 
   &__main-nav {
-    margin-right: rem(94);
+    grid-area: main-nav;
 
     @include media('1400', max) {
       display: none;
@@ -102,23 +116,11 @@
   }
 
   &__franchise-btn {
+    grid-area: franchise-btn;
+    margin-left: rem(51);
+
     @include media('1400', max) {
       display: none;
     }
-  }
-
-  &__search-btn {
-    display: none;
-
-    @include media('1400', max) {
-      display: block;
-    }
-  }
-
-  &__search-icon {
-    width: rem(32);
-    height: rem(32);
-    flex-shrink: 0;
-    fill: var(--pallette-nobel);
   }
 }

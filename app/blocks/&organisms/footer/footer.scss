@@ -95,28 +95,40 @@
   }
 
   &__list-block {
-    @include media('600', max) {
-      width: 45%;
+    &--first {
+      width: 12%;
 
-      &--first {
-        order: 1;
-
-        @include media('375', max) {
-          padding-left: 1rem;
-        }
+      @include media('900', max) {
+        width: 20%;
       }
 
-      &--second {
-        order: 2;
+      @include media('600', max) {
+        width: 45%;
+        order: 1;
+      }
 
-        @include media('375', max) {
-          padding-right: 1rem;
-        }
+      @include media('375', max) {
+        width: 42%;
+        padding-left: 1rem;
       }
     }
 
-    @include media('375', max) {
-      width: 42%;
+    &--second {
+      width: 14%;
+
+      @include media('900', max) {
+        width: 20%;
+      }
+
+      @include media('600', max) {
+        width: 45%;
+        order: 2;
+      }
+
+      @include media('375', max) {
+        width: 42%;
+        padding-right: 1rem;
+      }
     }
   }
 

@@ -99,6 +99,26 @@
       "text": {
         "text": "Добавить франшизу в каталог"
       }
+    },
+    "mobile_search": {
+      "input": {
+        "wrap": {
+          "class": "search__input-block"
+        },
+        "id": "header_search_2",
+        "class": "search__input",
+        "type": "search",
+        "text": "Поиск, например, магазин",
+        "name": "search",
+        "btn": {
+          "class": "search__btn",
+          "icon": {
+            "class": "search__icon",
+            "name": "sprite-mono.svg#search"
+          },
+          "attrs": "aria-label='Поиск' type='submit'"
+        }
+      }
     }
   }
 }

@@ -19,7 +19,8 @@
 
   &__list {
     display: flex;
-    gap: rem(32);
+    flex-wrap: wrap;
+    gap: rem(12) rem(32);
   }
 
   &__item {

@@ -82,6 +82,7 @@
   }
 
   &__text {
+    @include font-size(12, 16);
     color: var(--pallette-nobel);
 
     &-link {

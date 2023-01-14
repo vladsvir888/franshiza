@@ -1,7 +1,7 @@
 .footer-list {
   > * {
     &:not(:last-child) {
-      margin-bottom: rem(22);
+      margin-bottom: rem(20);
 
       @include media('600', max) {
         margin-bottom: rem(10);

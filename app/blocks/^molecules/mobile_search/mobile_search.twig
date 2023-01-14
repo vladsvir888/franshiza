@@ -1,0 +1,28 @@
+<div class="mobile-search">
+  {% view "@button" with {
+    "button": {
+      "class": "mobile-search__open-btn",
+      "icon": {
+        "class": "mobile-search__open-icon",
+        "name": "sprite-mono.svg#search"
+      }
+    }
+  } %}
+
+  {% view "^search" with {
+    search: header.mobile_search|merge({
+      class: "mobile-search__search"
+    })
+  } %}
+
+  {% view "@button" with {
+    "button": {
+      "class": "mobile-search__close-btn",
+      "icon": {
+        "class": "mobile-search__close-icon",
+        "name": "sprite-mono.svg#close"
+      },
+      "attrs": "aria-label='Закрыть поиск'"
+    }
+  } %}
+</div>

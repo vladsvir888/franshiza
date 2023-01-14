@@ -51,12 +51,6 @@
   &__search {
     @include flex-center;
 
-    @include media('600', max) { // pa!!!
-      &:focus-visible {
-        outline: unset;
-      }
-    }
-
     #{$this}__icon {
       fill: var(--pallette-nobel);
     }
