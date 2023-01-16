@@ -1,0 +1,56 @@
+.sidebar-form {
+  @include flex-column;
+  max-width: rem(231);
+  padding: rem(16);
+  background-color: var(--pallette-mystic);
+  border-radius: rem(12);
+  text-align: center;
+
+  &__title {
+    @include font-size(16, 24);
+    margin-bottom: rem(24);
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    margin-bottom: rem(8);
+  }
+
+  &__content {
+    display: flex;
+    gap: rem(8);
+    margin-bottom: rem(24);
+    text-align: left;
+
+    &-img {
+      border-radius: rem(6);
+    }
+
+    &-title {
+      color: var(--pallette-scorpion);
+    }
+  }
+
+  &__form {
+    margin-bottom: rem(10);
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(8);
+      }
+    }
+  }
+
+  &__note {
+    color: var(--pallette-nepal);
+
+    &-link {
+      color: inherit;
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
+    }
+  }
+}

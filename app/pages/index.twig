@@ -1,5 +1,17 @@
 {% extends "../blocks/layout/base.twig" %}
 
 {% block content %}
-<main id="main" class="main" tabindex="-1"></main>
+<main id="main" class="main" tabindex="-1">
+  <div class="container">
+    <ul class="page-list">
+      {% for page in pages %}
+        <li class="page-list__item">
+          <a class="btn page-list__link" href="{{ page.link }}.html" target="_blank">
+            {{ page.text }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</main>
 {% endblock %}

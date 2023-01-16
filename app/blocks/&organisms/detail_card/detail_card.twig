@@ -1,0 +1,82 @@
+{% set card = detail.main_card %}
+
+<article class="detail-card">
+  <div class="detail-card__img-block">
+    {% view "@image" with {
+      image: card.image|merge({
+        class: "detail-card__img"
+      })
+    } %}
+  </div>
+  <div class="detail-card__info">
+    <dl class="detail-card__list">
+      {% for item in card.info.list.items %}
+        <div class="detail-card__item">
+          <dt class="detail-card__term">
+            {{ item.term }}
+          </dt>
+          <dd class="detail-card__descr">
+            {{ item.descr }}
+          </dd>
+        </div>
+      {% endfor %}
+    </dl>
+    <div class="detail-card__links">
+      {% view "@button" with {
+        button: card.info.site_btn|merge({
+          "class": "detail-card__info-btn",
+          "icon": {
+            "class": "detail-card__info-icon",
+            "name": "sprite-multi.svg#globe"
+          }
+        })
+      } %}
+
+      {% view "@button" with {
+        button: card.info.presentation_btn|merge({
+          "class": "detail-card__info-btn",
+          "icon": {
+            "class": "detail-card__info-icon",
+            "name": "sprite-multi.svg#file"
+          }
+        })
+      } %}
+    </div>
+  </div>
+  <div class="detail-card__specialist">
+    <div class="detail-card__specialist-header">
+      {% view "@image" with {
+        image: card.specialist.image|merge({
+          class: "detail-card__img"
+        })
+      } %}
+
+      <div class="detail-card__specialist-content">
+        <div class="detail-card__specialist-name">
+          {{ card.specialist.name }}
+        </div>
+
+        <p class="detail-card__specialist-job">
+          {{ card.specialist.job }}
+        </p>
+      </div>
+    </div>
+
+    <div class="detail-card__specialist-footer">
+      {% view "@button" with {
+        button: card.specialist.add_to_list_btn|merge({
+          class: "btn--btn btn--toggle-gray detail-card__specialist-btn",
+          "icon": {
+            "name": "sprite-multi.svg#square"
+          }
+        })
+      } %}
+
+      {% view "@button" with {
+        button: card.specialist.contact_btn|merge({
+          class: "btn--btn btn--primary btn--large detail-card__specialist-btn"
+        })
+      } %}
+    </div>
+  </div>
+</article>

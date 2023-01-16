@@ -1,0 +1,55 @@
+.sidebar-accordion {
+  $this: &;
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: rem(20);
+    }
+  }
+
+  &__list {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(4);
+      }
+    }
+
+    &-link {
+      color: var(--pallette-scorpion);
+
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
+    }
+  }
+
+  &__btn {
+    @include font-size(14, 20);
+    @include flex-center-y;
+    font-weight: 700;
+    color: inherit;
+    transition: margin-bottom var(--transition);
+
+    &[aria-expanded=true] {
+      margin-bottom: rem(8);
+
+      #{$this}__icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__link {
+    #{$this}__icon {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__icon {
+    width: rem(18);
+    height: rem(18);
+    margin-left: rem(6);
+    flex-shrink: 0;
+    transition: transform var(--transition);
+  }
+}

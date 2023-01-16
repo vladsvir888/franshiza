@@ -1,0 +1,7 @@
+.title {
+  &--h1 {
+    @include font-size(36, 50);
+    font-weight: 400;
+    margin-bottom: rem(20);
+  }
+}

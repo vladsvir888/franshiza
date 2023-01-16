@@ -11,9 +11,19 @@
       })
     } %}
   {% endif %}
+
   {% if button.text %}
     <span class="btn__text {{ button.text.class }}">
       {{ button.text.text }}
     </span>
   {% endif %}
+
+  {% if button.right_icon %}
+    {% view "@icon" with {
+      icon: button.right_icon|default({})|merge({
+        class: "btn__icon" ~ (button.right_icon.class is defined ? " " ~ button.right_icon.class : "")
+      })
+    } %}
+  {% endif %}
+
 </{{ button.href ? "a" : "button" }}>

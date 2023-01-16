@@ -1,11 +1,11 @@
 {
   "pages": [{
-    "text": "Home",
-    "link": "home"
+    "text": "Страница франшизы",
+    "link": "detail"
   }],
   "meta": {
     "html_lang": "ru",
-    "title": "title",
-    "description": "descr"
+    "title": "Разводная",
+    "description": "Разводная"
   }
 }

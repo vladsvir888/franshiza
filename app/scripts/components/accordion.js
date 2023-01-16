@@ -1,7 +1,7 @@
 class Accordion {
   static selectors = {
     accordion: '.accordion',
-    button: '.accordion__btn',
+    button: '.accordion__btn[aria-expanded]',
   }
 
   constructor(element, index) {

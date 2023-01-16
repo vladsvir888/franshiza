@@ -1,0 +1,9 @@
+<ul class="sidebar-accordion__list">
+  {% for item in sidebar_accordion_list.items %}
+    <li class="sidebar-accordion__list-item">
+      {% view "@button" with {
+        button: item
+      } %}
+    </li>
+  {% endfor %}
+</ul>

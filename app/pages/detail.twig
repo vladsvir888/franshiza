@@ -1,0 +1,42 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__sidebar">
+        {% view "&sidebar_form" with {
+          sidebar_form: detail.sidebar_form
+        } %}
+
+        {% view "&accordion" with {
+          accordion: detail.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: detail.sidebar_slider
+        } %}
+      </div>
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: detail.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: detail.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        {% view "&detail_card" with {
+          detail_card: detail.detail_card
+        } %}
+
+        {% view "&tabs" with {
+          tabs: detail.tabs
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

@@ -5,18 +5,25 @@ import LazyLoad from 'vanilla-lazyload';
 // components
 import BurgerMenu from './components/burgerMenu';
 import MobileSearch from './components/mobileSearch';
-// import Tabs from './components/tabs';
-// import Accordion from './components/accordion';
+import Tabs from './components/tabs';
+import Accordion from './components/accordion';
+import sidebarSlider from './components/sidebarSlider';
+import detailTabsSlider from './components/detailTabsSlider';
 
 document.addEventListener('DOMContentLoaded', () => {
   new LazyLoad();
 
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
+
   new MobileSearch(document.querySelector(MobileSearch.selectors.header));
 
-  // document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
+  sidebarSlider();
 
-  // document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 0));
+  detailTabsSlider();
+
+  document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
+
+  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 0));
 
   // new AirDatepicker('#input');
 });

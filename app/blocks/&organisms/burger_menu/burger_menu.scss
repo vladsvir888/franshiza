@@ -4,7 +4,8 @@
   position: fixed;
   inset: 0;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(87, 87, 87, 0.8);
+  backdrop-filter: blur(rem(1.5));
   visibility: hidden;
   opacity: 0;
   transition: opacity var(--transition);

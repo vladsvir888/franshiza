@@ -1,0 +1,22 @@
+<nav class="breadcrumbs" aria-label="Хлебные крошки">
+  <ul class="breadcrumbs__list">
+    {% for item in breadcrumbs.items %}
+      {% if not loop.last %}
+        <li class="breadcrumbs__item">
+          {% view "@button" with {
+            button: item|merge({
+              href: "#",
+              class: "breadcrumbs__link"
+            })
+          } %}
+        </li>
+      {% else %}
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" aria-current="page">
+            {{ item.text.text }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

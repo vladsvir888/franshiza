@@ -1,0 +1,39 @@
+.breadcrumbs {
+  $this: &;
+
+  margin-bottom: rem(20);
+
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: rem(10) rem(20);
+  }
+
+  &__item {
+    position: relative;
+
+    &:not(:last-child) {
+      &::after {
+        position: absolute;
+        top: 50%;
+        right: rem(-10);
+        width: rem(1);
+        height: 80%;
+        transform: translateY(-50%);
+        background-color: var(--pallette-scorpion);
+        content: '';
+      }
+
+      #{$this}__link {
+        &:hover {
+          color: var(--pallette-cerulean);
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: var(--pallette-scorpion);
+  }
+}

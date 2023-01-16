@@ -39,13 +39,14 @@
 
   &__close-btn {
     display: none;
-    margin-left: rem(8);
+    margin-left: rem(18);
   }
 
   &__close-icon {
-    width: rem(20);
-    height: rem(20);
+    width: rem(15);
+    height: rem(15);
     flex-shrink: 0;
+    fill: var(--pallette-scorpion);
   }
 
   &__search {

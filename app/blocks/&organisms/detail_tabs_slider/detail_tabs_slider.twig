@@ -1,0 +1,30 @@
+<div class="detail-tabs-slider">
+  <div class="swiper detail-tabs-slider__inner">
+    <div class="swiper-wrapper">
+      {% for item in detail_tabs_slider.items %}
+        <div class="swiper-slide">
+          {% view "@image" with {
+            image: item.image
+          } %}
+        </div>
+      {% endfor %}
+    </div>
+    <button class="btn swiper-button-prev detail-tabs-slider__btn">
+      {% view "@icon" with {
+        icon: {
+          class: "detail-tabs-slider__btn-icon",
+          name: "sprite-mono.svg#arrow_left"
+        }
+      } %}
+    </button>
+    <button class="btn swiper-button-next detail-tabs-slider__btn detail-tabs-slider__btn--next">
+      {% view "@icon" with {
+        icon: {
+          class: "detail-tabs-slider__btn-icon",
+          name: "sprite-mono.svg#arrow_left"
+        }
+      } %}
+    </button>
+  </div>
+  <div class="swiper-pagination detail-tabs-slider__pagination"></div>
+</div>

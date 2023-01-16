@@ -1,0 +1,17 @@
+<div class="swiper sidebar-slider">
+  <div class="swiper-wrapper">
+    {% for item in sidebar_slider.items %}
+      <div class="swiper-slide sidebar-slider__item">
+        {% view "@image" with {
+          image: item.image
+        } %}
+
+        <h3 class="title sidebar-slider__title">
+          <a class="sidebar-slider__link" href="#">
+            {{ item.title }}
+          </a>
+        </h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>

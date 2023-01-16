@@ -2,6 +2,7 @@
   $this: &;
 
   padding: 0;
+  letter-spacing: 0.01em;
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -13,7 +14,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: rem(12) rem(22);
+    // padding: rem(12) rem(22);
+    padding: rem(12) rem(14);
     color: var(--pallette-white);
     font-weight: 700;
     border-radius: rem(6);
@@ -41,6 +43,32 @@
 
     &:hover {
       background-color: var(--pallette-cerulean);
+    }
+  }
+
+  &--large {
+    @include font-size(17, 22);
+  }
+
+  &--toggle-gray {
+    background-color: var(--pallette-mystic);
+    color: var(--pallette-deep-cerulean);
+    font-weight: 400;
+    transition: opacity var(--transition);
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &--toggle-white {
+    background-color: var(--pallette-white);
+    color: var(--pallette-deep-cerulean);
+    font-weight: 400;
+    transition: opacity var(--transition);
+
+    &:hover {
+      opacity: 0.75;
     }
   }
 }

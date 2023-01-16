@@ -1,9 +1,9 @@
 <div class="tabs {{ tabs.class }}">
-  <div role="tablist" class="tabs__btns">
+  <div role="tablist" class="tabs__btns {{ tabs.btns.class }}">
     {% for btn in tabs.btns.items %}
       {% view "@button" with {
         button: btn|default({})|merge({
-          class: "tabs__btn"
+          class: "tabs__btn " ~ btn.class
         })
       } %}
     {% endfor %}
@@ -14,7 +14,12 @@
         class="tabs__content {{ content.class }}"
         {{ content.attrs }}
       >
-      {{ content.text }}
+
+      {% if content.data.type == '&detail_tabs_slider' %}
+        {% view "&detail_tabs_slider" with {
+          detail_tabs_slider: content.data.content
+        } %}
+      {% endif %}
     </div>
   {% endfor %}
 </div>

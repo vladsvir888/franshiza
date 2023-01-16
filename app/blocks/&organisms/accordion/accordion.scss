@@ -4,6 +4,11 @@
   &__content {
     max-height: 0;
     overflow: hidden;
+    visibility: hidden;
     transition: max-height var(--transition);
+
+    &[style] {
+      visibility: visible;
+    }
   }
 }
