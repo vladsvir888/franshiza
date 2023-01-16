@@ -1,0 +1,9 @@
+.kind-franchise {
+  @include flex-center-y;
+  flex-wrap: wrap;
+  gap: rem(20);
+
+  &__text-block {
+    max-width: rem(550);
+  }
+}

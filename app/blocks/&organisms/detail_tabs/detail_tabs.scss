@@ -1,6 +1,7 @@
 .detail-tabs {
   &__btns {
     display: flex;
+    flex-wrap: wrap;
     gap: rem(12) rem(32);
     margin-bottom: rem(24);
   }

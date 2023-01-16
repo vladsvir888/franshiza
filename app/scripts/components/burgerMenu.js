@@ -15,6 +15,7 @@ class BurgerMenu {
 
   static classes = {
     active_menu: 'burger-menu--active',
+    active_mobile_search: 'mobile-search--active',
   };
 
   constructor(containerEl) {
@@ -46,9 +47,12 @@ class BurgerMenu {
       this.trap.deactivate();
       document.body.classList.remove('lock');
 
-      if (target.closest(BurgerMenu.selectors.search)) {
+      if (
+        target.closest(BurgerMenu.selectors.search)
+        && !this.mobileSearch.classList.contains(BurgerMenu.classes.active_mobile_search)
+      ) {
         setTimeout(() => {
-          this.mobileSearch.classList.add('mobile-search--active');
+          this.mobileSearch.classList.add(BurgerMenu.classes.active_mobile_search);
 
           this.mobileSearch.animate(MobileSearch.config, {
             duration: 500,

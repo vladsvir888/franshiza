@@ -1,8 +1,19 @@
 .detail-card {
+  $this: &;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: rem(20);
   margin-bottom: rem(44);
+
+  @include media('900', max) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media('600', max) {
+    grid-template-columns: 1fr;
+    gap: rem(24);
+  }
 
   &__list {
     @include font-size(16, 24);
@@ -36,6 +47,10 @@
 
       &:hover {
         color: var(--pallette-cerulean);
+
+        #{$this}__info-icon {
+          fill: var(--pallette-cerulean);
+        }
       }
     }
 
@@ -43,6 +58,7 @@
       width: rem(24);
       height: rem(24);
       margin-right: rem(8);
+      fill: var(--pallette-gray);
     }
   }
 

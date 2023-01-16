@@ -19,6 +19,10 @@
         {% view "&detail_tabs_slider" with {
           detail_tabs_slider: content.data.content
         } %}
+      {% elseif content.data.type == '^video' %}
+        {% view "^video" %}
+      {% elseif content.data.type == '^kind_franchise' %}
+        {% view "^kind_franchise" %}
       {% endif %}
     </div>
   {% endfor %}

@@ -1,0 +1,80 @@
+.video {
+  $this: &;
+
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+
+  &:hover {
+    #{$this}__btn-shape {
+      fill: var(--pallette-red);
+      fill-opacity: 1;
+    }
+  }
+
+  &:focus {
+    outline: none;
+
+    #{$this}__btn-shape {
+      fill: var(--pallette-red);
+      fill-opacity: 1;
+    }
+  }
+
+  &--enabled {
+    cursor: pointer;
+
+    #{$this}__btn {
+      display: block;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    inset: 0;
+  }
+
+  &__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    &-img {
+      width: rem(138);
+      height: rem(92);
+
+      @include media('767', max) {
+        width: rem(68);
+        height: rem(45);
+      }
+    }
+
+    &-shape {
+      fill: var(--pallette-mine-shaft);
+      fill-opacity: 0.8;
+      transition:
+        fill var(--transition-secondary),
+        fill-opacity var(--transition-secondary);
+    }
+
+    &-icon {
+      fill: var(--pallette-white);
+      transition:
+        fill var(--transition-secondary),
+        fill-opacity var(--transition-secondary);
+    }
+  }
+}

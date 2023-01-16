@@ -3,8 +3,8 @@
 
   position: relative;
 
-  .swiper-button-next:after,
-  .swiper-button-prev:after {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
     content: none;
   }
 
@@ -28,7 +28,7 @@
       fill: var(--pallette-deep-cerulean);
     }
 
-    &.swiper-button-disabled {
+    &[disabled] {
       opacity: 1;
       background-color: rgba(224, 227, 229, 0.75);
     }
@@ -46,6 +46,14 @@
       .swiper-pagination-bullet-active {
         background-color: var(--pallette-deep-cerulean);
       }
+    }
+  }
+
+  &__img {
+    border-radius: rem(6);
+
+    @include media('1200', max) {
+      margin: 0 auto;
     }
   }
 }

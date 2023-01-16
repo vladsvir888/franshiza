@@ -54,21 +54,11 @@
     background-color: var(--pallette-mystic);
     color: var(--pallette-deep-cerulean);
     font-weight: 400;
-    transition: opacity var(--transition);
-
-    &:hover {
-      opacity: 0.75;
-    }
   }
 
   &--toggle-white {
     background-color: var(--pallette-white);
     color: var(--pallette-deep-cerulean);
     font-weight: 400;
-    transition: opacity var(--transition);
-
-    &:hover {
-      opacity: 0.75;
-    }
   }
 }

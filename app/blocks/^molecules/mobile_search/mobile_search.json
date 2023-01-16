@@ -1,0 +1,19 @@
+{
+  "mobile_search": {
+    "open_btn": {
+      "class": "mobile-search__open-btn",
+      "icon": {
+        "class": "mobile-search__open-icon",
+        "name": "sprite-mono.svg#search"
+      }
+    },
+    "close_btn": {
+      "class": "mobile-search__close-btn",
+      "icon": {
+        "class": "mobile-search__close-icon",
+        "name": "sprite-mono.svg#close"
+      },
+      "attrs": "aria-label='Закрыть поиск'"
+    }
+  }
+}

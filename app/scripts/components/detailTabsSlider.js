@@ -3,7 +3,7 @@ import Swiper, { Pagination, Navigation } from 'swiper';
 const detailTabsSlider = () => {
   new Swiper('.detail-tabs-slider__inner', {
     modules: [Pagination, Navigation],
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 20,
     pagination: {
       el: '.swiper-pagination',
@@ -12,6 +12,14 @@ const detailTabsSlider = () => {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      500: {
+        slidesPerView: 2,
+      },
+      767: {
+        slidesPerView: 3,
+      },
     },
   });
 };

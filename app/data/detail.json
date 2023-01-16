@@ -1,9 +1,9 @@
 {
+  "meta": {
+    "title": "Франшиза Группы компаний Альфа",
+    "description": "Франшиза Группы компаний Альфа"
+  },
   "detail": {
-    "meta": {
-      "title": "Страница франшизы",
-      "description": "Страница франшизы"
-    },
     "sidebar_form": {
       "title": "Получить бизнес-план и контакты франшизы Группы&nbsp;компаний Альфа",
       "subtitle": "Ваш запрос получит Михаил&nbsp;Черепанов",
@@ -40,7 +40,7 @@
         },
         "attrs": "type='submit'"
       },
-      "note": "<p class='sidebar-form__note'>Отправляя запрос, я <a class='sidebar-form__note-link' href='#'>соглашаюсь на обработку</a> персональных данных</p>"
+      "note": "<p class='sidebar-form__note'>Отправляя запрос, я <a class='btn sidebar-form__note-link' href='#'>соглашаюсь на обработку</a> персональных данных</p>"
     },
     "sidebar_accordion": {
       "class": "sidebar-accordion",
@@ -583,7 +583,38 @@
           "attrs": "aria-labelledby='accordion11id'"
         },
         "data": {
-          "type": "@sidebar_accordion_list"
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
         }
       }, {
         "class": "sidebar-accordion__item",
@@ -810,7 +841,10 @@
         }, {
           "id": "tabpanel-2",
           "class": "tabs--hidden",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-2'"
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-2'",
+          "data": {
+            "type": "^video"
+          }
         }, {
           "id": "tabpanel-3",
           "class": "tabs--hidden",
@@ -818,7 +852,10 @@
         }, {
           "id": "tabpanel-4",
           "class": "tabs--hidden",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-4'"
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-4'",
+          "data": {
+            "type": "^kind_franchise"
+          }
         }]
       }
     }

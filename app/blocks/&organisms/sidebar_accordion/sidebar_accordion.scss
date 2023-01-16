@@ -14,7 +14,7 @@
       }
     }
 
-    &-link {
+    &-btn {
       color: var(--pallette-scorpion);
 
       &:hover {
@@ -28,7 +28,17 @@
     @include flex-center-y;
     font-weight: 700;
     color: inherit;
-    transition: margin-bottom var(--transition);
+    transition:
+      margin-bottom var(--transition),
+      color var(--transition);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+
+      #{$this}__icon {
+        fill: var(--pallette-cerulean);
+      }
+    }
 
     &[aria-expanded=true] {
       margin-bottom: rem(8);
@@ -50,6 +60,8 @@
     height: rem(18);
     margin-left: rem(6);
     flex-shrink: 0;
-    transition: transform var(--transition);
+    transition:
+      transform var(--transition),
+      fill var(--transition);
   }
 }

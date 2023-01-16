@@ -4,6 +4,10 @@
   {% if button.id %}id="{{ button.id }}"{% endif %}
   {% if button.attrs %}{{ button.attrs }}{% endif %}
 >
+  {% if button.svg_as_code %}
+    {{ button.svg_as_code }}
+  {% endif %}
+
   {% if button.icon %}
     {% view "@icon" with {
       icon: button.icon|default({})|merge({

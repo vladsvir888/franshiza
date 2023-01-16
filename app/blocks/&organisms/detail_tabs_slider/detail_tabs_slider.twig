@@ -4,7 +4,9 @@
       {% for item in detail_tabs_slider.items %}
         <div class="swiper-slide">
           {% view "@image" with {
-            image: item.image
+            image: item.image|merge({
+              class: "detail-tabs-slider__img"
+            })
           } %}
         </div>
       {% endfor %}

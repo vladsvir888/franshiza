@@ -1,0 +1,10 @@
+{
+  "burger": {
+    "class": "burger",
+    "attrs": "aria-expanded='false' aria-label='Открыть' aria-controls='burger_menu'",
+    "icon": {
+      "class": "burger__icon",
+      "name": "sprite-mono.svg#burger"
+    }
+  }
+}
