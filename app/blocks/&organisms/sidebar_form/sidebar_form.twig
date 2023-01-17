@@ -1,4 +1,4 @@
-<div class="sidebar-form">
+<div class="sidebar-form {{ sidebar_form.class }}">
   <div class="sidebar-form__title">
     {{ sidebar_form.title }}
   </div>
@@ -25,7 +25,7 @@
 
     {% view "@button" with {
       button: sidebar_form.button|merge({
-        class: "btn--btn btn--primary btn--large"
+        class: "btn--btn btn--primary btn--large sidebar-form__btn"
       })
     } %}
   </form>

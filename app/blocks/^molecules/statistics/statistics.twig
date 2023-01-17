@@ -1,0 +1,28 @@
+<div class="statistics">
+  {% for item in statistics.items %}
+    <div class="statistics__item">
+      <div class="statistics__info">
+        {% view "@icon" with {
+          icon: item.info.icon
+        } %}
+
+        <div class="statistics__info-text">
+          {{ item.info.text }}
+        </div>
+      </div>
+
+      {% view "@button" with {
+        button: {
+          class: "statistics__btn",
+          text: {
+            text: "Показать"
+          },
+          right_icon: {
+            class: "statistics__btn-icon",
+            name: "sprite-mono.svg#arrow_left"
+          }
+        }
+      } %}
+    </div>
+  {% endfor %}
+</div>

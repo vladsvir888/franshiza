@@ -1,4 +1,10 @@
 .detail-tabs {
+  margin-bottom: rem(74);
+
+  @include media('900', max) {
+    margin-bottom: rem(30);
+  }
+
   &__btns {
     display: flex;
     flex-wrap: wrap;

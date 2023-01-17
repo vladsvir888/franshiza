@@ -1,0 +1,25 @@
+<div class="form-block {{ form_block.class }}">
+  {% view "@title" with {
+    title: form_block.title|merge({
+      class: "form-block__title"
+    })
+  } %}
+
+  <form class="form-block__form" action="/" method="get">
+    {% for input in form_block.inputs %}
+      {% view "@input" with {
+        input: input
+      } %}
+    {% endfor %}
+
+    {% view "@button" with {
+      button: form_block.button|merge({
+        class: "btn--btn btn--primary btn--large form-block__btn"
+      })
+    } %}
+  </form>
+
+  <div class="form-block__note">
+    {{ form_block.note }}
+  </div>
+</div>

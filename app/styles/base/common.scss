@@ -104,6 +104,9 @@ body {
   }
 
   &__sidebar {
+    position: sticky;
+    top: rem(20);
+    align-self: flex-start;
     grid-column: span 3;
     order: 0;
 
