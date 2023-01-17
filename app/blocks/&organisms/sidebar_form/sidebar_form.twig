@@ -2,10 +2,11 @@
   <div class="sidebar-form__title">
     {{ sidebar_form.title }}
   </div>
-  <p class="sidebar-form__subtitle">
-    {{ sidebar_form.subtitle }}
-  </p>
   <div class="sidebar-form__content">
+    <p class="sidebar-form__subtitle">
+      {{ sidebar_form.subtitle }}
+    </p>
+
     {% view "@image" with {
       image: sidebar_form.content.image|merge({
         class: "sidebar-form__content-img"
@@ -16,7 +17,8 @@
       {{ sidebar_form.content.title }}
     </div>
   </div>
-  <form class="sidebar-form__form" action="/" method="get">
+
+  <form class="form sidebar-form__form" action="/" method="get">
     {% for input in sidebar_form.inputs %}
       {% view "@input" with {
         input: input
@@ -29,7 +31,8 @@
       })
     } %}
   </form>
-  <div class="sidebar-form__note-wrap">
+
+  <p class="sidebar-form__note">
     {{ sidebar_form.note }}
-  </div>
+  </p>
 </div>

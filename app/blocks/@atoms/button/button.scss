@@ -61,4 +61,35 @@
     color: var(--pallette-deep-cerulean);
     font-weight: 400;
   }
+
+  &--arrow {
+    @include flex-center-y;
+    color: var(--pallette-deep-cerulean);
+
+    #{$this}__icon {
+      width: rem(10);
+      height: rem(10);
+      flex-shrink: 0;
+      margin-left: rem(16);
+      transform: rotate(-180deg);
+      fill: currentColor;
+    }
+
+    &:hover {
+      color: var(--pallette-cerulean);
+
+      #{$this}__icon {
+        fill: var(--pallette-cerulean);
+      }
+    }
+  }
+
+  &--underline {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
 }

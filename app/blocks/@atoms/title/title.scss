@@ -8,4 +8,14 @@
       @include font-size(22, 33);
     }
   }
+
+  &__link {
+    color: inherit;
+
+    &::before {
+      position: absolute;
+      inset: 0;
+      content: '';
+    }
+  }
 }

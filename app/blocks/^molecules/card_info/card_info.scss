@@ -1,0 +1,44 @@
+.card-info {
+  $this: &;
+
+  position: relative;
+  padding: rem(30) rem(30) rem(40);
+  border-radius: rem(8);
+  background-color: var(--pallette-mystic);
+
+  @include media('600', max) {
+    padding: rem(12);
+  }
+
+  &:hover {
+    #{$this}__title {
+      color: var(--pallette-cerulean);
+    }
+  }
+
+  &__title {
+    @include font-size(14, 20);
+    margin-bottom: rem(12);
+
+    @include media('600', max) {
+      @include font-size(14, 20);
+    }
+
+    &-link {
+      transition: color var(--transition);
+    }
+  }
+
+  &__text {
+    margin-bottom: rem(12);
+
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+
+  &__time {
+    @include font-size(12, 16);
+    color: var(--pallette-scorpion);
+  }
+}

@@ -5,7 +5,7 @@
     })
   } %}
 
-  <form class="form-block__form" action="/" method="get">
+  <form class="form form-block__form" action="/" method="get">
     {% for input in form_block.inputs %}
       {% view "@input" with {
         input: input
@@ -19,7 +19,7 @@
     } %}
   </form>
 
-  <div class="form-block__note">
+  <p class="form-block__note">
     {{ form_block.note }}
-  </div>
+  </p>
 </div>

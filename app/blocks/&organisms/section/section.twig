@@ -1,0 +1,37 @@
+<section class="section">
+  {% if section.header %}
+    <div class="section__header">
+      {% view "@title" with {
+        title: section.header.title|merge({
+          class: "section__title"
+        })
+      } %}
+
+      {% view "@button" with {
+        button: section.header.button|merge({
+          class: "btn--arrow section__btn section__header-btn"
+        })
+      } %}
+    </div>
+  {% endif %}
+
+  {% if section.content.type == '^card_info' %}
+    <div class="section__content section__content--two-items">
+      {% for item in section.content.items %}
+        {% view "^card_info" with {
+          card_info: item
+        } %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if section.footer %}
+    <div class="section__footer">
+      {% view "@button" with {
+        button: section.header.button|merge({
+          class: "btn--arrow section__footer-btn"
+        })
+      } %}
+    </div>
+  {% endif %}
+</section>

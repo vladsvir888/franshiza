@@ -41,7 +41,7 @@
         },
         "attrs": "type='submit'"
       },
-      "note": "<p class='sidebar-form__note'>Отправляя запрос, я <a class='btn sidebar-form__note-link' href='#'>соглашаюсь на обработку</a> персональных данных</p>"
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
     },
     "sidebar_accordion": {
       "class": "sidebar-accordion",
@@ -864,7 +864,7 @@
       "type": "&detail_text_block"
     },
     "form_block": {
-      "class": "form-block--detail",
+      "class": "form-block--heading-left",
       "title": {
         "level": 2,
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
@@ -886,7 +886,7 @@
         },
         "attrs": "type='submit'"
       },
-      "note": "Отправляя запрос, я <a class='btn form-block__note-link' href='#'>соглашаюсь на обработку</a> персональных данных"
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
     },
     "statistics": {
       "items": [{
@@ -977,7 +977,59 @@
         },
         "attrs": "type='submit'"
       },
-      "note": "<p class='sidebar-form__note'>Отправляя запрос, я <a class='btn sidebar-form__note-link' href='#'>соглашаюсь на обработку</a> персональных данных</p>"
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "review_franchise_and_exclusive_interviews": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Отзывы о франшизах и эксклюзивные интервью"
+        },
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Все отзывы"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_left"
+          }
+        }
+      },
+      "content": {
+        "type": "^card_info",
+        "items": [{
+          "title": {
+            "level": 3,
+            "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
+          },
+          "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
+          "time": {
+            "text": "23 Авг 2022",
+            "datetime": "2022-08-23"
+          }
+        }, {
+          "title": {
+            "level": 3,
+            "text": "Отзыв о франшизе магазина Суши Wok из Омска"
+          },
+          "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
+          "time": {
+            "text": "25 Авг 2022",
+            "datetime": "2022-08-25"
+          }
+        }]
+      },
+      "footer": {
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Все отзывы"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_left"
+          }
+        }
+      }
     }
   }
 }

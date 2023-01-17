@@ -1,0 +1,21 @@
+<article class="card-info">
+  {% view "@title" with {
+    title: card_info.title|merge({
+      class: "card-info__title",
+      link: {
+        class: "card-info__title-link"
+      }
+    })
+  } %}
+
+  <p class="card-info__text">
+    {{ card_info.text }}
+  </p>
+
+  <time
+    class="card-info__time"
+    datetime="{{ card_info.time.datetime }}"
+  >
+    {{ card_info.time.text }}
+  </time>
+</article>

@@ -8,20 +8,17 @@
 
   @include media('600', max) {
     padding: rem(20) rem(16);
+    margin-top: rem(30);
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    border-radius: 0;
   }
 
-  &--detail {
-    @include media('600', max) {
-      margin-top: rem(30);
-      width: calc(100% + 2rem);
-      margin-left: -1rem;
-      border-radius: 0;
-    }
-
-    #{$this}__title {
-      @include media('375', max) {
+  &--heading-left {
+    @include media('375', max) {
+      #{$this}__title {
         text-align: left;
-        max-width: rem(200);
+        max-width: rem(240);
       }
     }
   }
@@ -39,12 +36,6 @@
   &__form {
     max-width: rem(460);
     margin: 0 auto rem(10);
-
-    > * {
-      &:not(:last-child) {
-        margin-bottom: rem(8);
-      }
-    }
   }
 
   &__btn {
@@ -54,14 +45,5 @@
   &__note {
     @include font-size(12, 16);
     color: var(--pallette-nepal);
-
-    a {
-      color: inherit;
-      text-decoration: underline;
-
-      &:hover {
-        color: var(--pallette-cerulean);
-      }
-    }
   }
 }

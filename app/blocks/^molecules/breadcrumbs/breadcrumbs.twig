@@ -1,5 +1,5 @@
 <nav class="breadcrumbs" aria-label="Хлебные крошки">
-  <ul class="breadcrumbs__list">
+  <ol class="breadcrumbs__list">
     {% for item in breadcrumbs.items %}
       {% if not loop.last %}
         <li class="breadcrumbs__item">
@@ -18,5 +18,5 @@
         </li>
       {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
 </nav>
