@@ -26,6 +26,7 @@
   &__title {
     @include font-size(22, 33);
     margin-bottom: rem(24);
+    font-weight: 400;
 
     @include media('600', max) {
       @include font-size(16, 24);

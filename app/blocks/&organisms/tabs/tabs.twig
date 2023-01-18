@@ -17,7 +17,7 @@
 
       {% if content.data.type == '&detail_tabs_slider' %}
         {% view "&detail_tabs_slider" with {
-          detail_tabs_slider: content.data.content
+          detail_tabs_slider: content.data.tabs_slider_content
         } %}
       {% elseif content.data.type == '^video' %}
         {% view "^video" %}

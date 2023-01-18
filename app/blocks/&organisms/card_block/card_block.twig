@@ -1,0 +1,40 @@
+<article class="card-block">
+  {% view "@image" with {
+    image: card_block.image|merge({
+      class: "card-block__img"
+    })
+  } %}
+
+  <div class="card-block__content">
+    {% if card_block.content.title %}
+      {% view "@title" with {
+        title: card_block.content.title|merge({
+          class: "card-block__title"
+        })
+      } %}
+    {% endif %}
+
+    {% if card_block.content.text %}
+      <p class="card-block__text">
+        {{ card_block.content.text }}
+      </p>
+    {% endif %}
+
+    {% if card_block.content.time %}
+      <time class="card-block__time" datetime="{{ card_block.content.time.datetime }}">
+        {{ card_block.content.time.text }}
+      </time>
+    {% endif %}
+
+    {% if card_block.content.button %}
+      {% view "@button" with {
+        button: card_block.content.button|merge({
+          class: "btn--arrow card-block__btn",
+          right_icon: {
+            name: "sprite-mono.svg#arrow_right"
+          }
+        })
+      } %}
+    {% endif %}
+  </div>
+</article>

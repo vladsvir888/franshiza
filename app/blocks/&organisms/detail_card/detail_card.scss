@@ -2,7 +2,7 @@
   $this: &;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: rem(285) 1fr 1fr;
   gap: rem(20);
   margin-bottom: rem(44);
 
@@ -77,7 +77,7 @@
 
     &-header {
       display: grid;
-      grid-template-columns: max-content 1fr;
+      grid-template-columns: rem(82) 1fr;
       gap: rem(20);
       margin-bottom: rem(23);
     }

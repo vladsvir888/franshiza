@@ -1,0 +1,20 @@
+<div class="socials {{ socials.class }}">
+  {% if socials.text %}
+    <p class="socials__text">
+      {{ socials.text }}
+    </p>
+  {% endif %}
+
+  <ul class="socials__list">
+    {% for item in socials.list.items %}
+      <li class="socials__item">
+        {% view "@button" with {
+          button: item|merge({
+            class: "socials__btn",
+            href: "#",
+          })
+        } %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

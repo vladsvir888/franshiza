@@ -5,7 +5,6 @@
   },
   "detail": {
     "sidebar_form": {
-      "class": "sidebar-form--desktop",
       "title": "Получить бизнес-план и контакты франшизы Группы&nbsp;компаний Альфа",
       "subtitle": "Ваш запрос получит Михаил&nbsp;Черепанов",
       "content": {
@@ -811,7 +810,7 @@
           "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-1'",
           "data": {
             "type": "&detail_tabs_slider",
-            "content": {
+            "tabs_slider_content": {
               "items": [{
                 "image": {
                   "name": "detail_tabs_slider/01.png"
@@ -940,45 +939,6 @@
         }
       }]
     },
-    "sidebar_form_mobile": {
-      "class": "sidebar-form--mobile",
-      "title": "Получить бизнес-план и контакты франшизы Группы&nbsp;компаний Альфа",
-      "subtitle": "Ваш запрос получит Михаил&nbsp;Черепанов",
-      "content": {
-        "image": {
-          "name": "sidebar_form/01.png"
-        },
-        "title": "Специалист отдела развития <br /> сети ГК Альфа"
-      },
-      "inputs": [{
-        "id": "sidebar_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
-      }, {
-        "id": "sidebar_form_city",
-        "type": "text",
-        "text": "Введите ваш город",
-        "name": "city"
-      }, {
-        "id": "sidebar_form_email",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
-      }, {
-        "id": "sidebar_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
-      }],
-      "button": {
-        "text": {
-          "text": "Получить бизнес-план"
-        },
-        "attrs": "type='submit'"
-      },
-      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
-    },
     "review_franchise_and_exclusive_interviews": {
       "header": {
         "title": {
@@ -991,7 +951,7 @@
             "text": "Все отзывы"
           },
           "right_icon": {
-            "name": "sprite-mono.svg#arrow_left"
+            "name": "sprite-mono.svg#arrow_right"
           }
         }
       },
@@ -1026,10 +986,283 @@
             "text": "Все отзывы"
           },
           "right_icon": {
-            "name": "sprite-mono.svg#arrow_left"
+            "name": "sprite-mono.svg#arrow_right"
           }
         }
       }
+    },
+    "review_partners": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Отзывы действующих партнеров"
+        }
+      },
+      "content": {
+        "type": "&card_block",
+        "items": [{
+          "image": {
+            "name": "card_block/01.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Галина Каравайцева, Красноярск"
+            },
+            "text": "Привлекло то, что работа по франшизе построена максимально открыто. Я случайно попала в социальных сетях на страницу партнера Dr.Laser и отзывы были лишь положительные. На обучении мы проработали и обговорили много практических аспектов. Я поняла, как выглядит бизнес изнутри и прошла практику в действующей студии на позиции администратора, а также мастера.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/02.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Галина Каравайцева, Красноярск"
+            },
+            "text": "Изучила все предложения на рынке - потратила не меньше месяца, вела переговоры, но именно бизнес с Dr.Laser был наиболее прозрачным, и все слова подкреплялись цифрами. Главное преимущество для меня - комплексное сопровождение. Специалисты по франшизе Dr.Laser оперативно реагируют на все вопросы. ",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/03.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Галина Каравайцева, Красноярск"
+            },
+            "text": "Свой выбор остановил именно на данной франшизе, так как она предполагает работу по стандартам медицинских клиник с обязательным лицензированием. На старте получили огромную поддержку по организации бизнес-процессов с нуля. И уже в первый месяц работы был выполнен план, на уровень которого, согласно финансовой модели, должны были выйти только на третий месяц.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/04.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Галина Каравайцева, Красноярск"
+            },
+            "text": "Я владела салоном красоты, хотела ввести услугу лазерной эпиляции, но поставила некачественное оборудование и услугу не удалось развить. Тогда и познакомилась с Dr.Laser и приняла решение о покупке франшизы. Специалисты ведут полностью каждый шаг до открытия и сопровождают после, а качеству оказываемых услуг уделяется огромное внимание.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }]
+      },
+      "footer": {
+        "show_more_button": {
+          "text": {
+            "text": "Показать еще"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_bottom"
+          }
+        }
+      }
+    },
+    "similar_franchise": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Похожие франшизы"
+        },
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Каталог"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_right"
+          }
+        }
+      },
+      "text": "Добавьте и эти франшизы в список, чтобы запросить подробности сразу у нескольких и сравнить условия",
+      "content": {
+        "type": "&card",
+        "items": [{
+
+        }]
+      }
+    },
+    "card_official": {
+      "text": "<p>Официальная страница франшизы.</p><p>Информация предоставлена представителем франшизы.</p><p>Информация обновлена 26.07.2022.</p>",
+      "second_text": "Получите подробную информацию у сотрудника сети «Группы компаний Альфа» через форму для связи ниже."
+    },
+    "form_photo_block": {
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
+      },
+      "inputs": [{
+        "id": "sidebar_form_name",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "sidebar_form_city",
+        "type": "text",
+        "text": "Введите ваш город",
+        "name": "city"
+      }, {
+        "id": "sidebar_form_email",
+        "type": "email",
+        "text": "Введите ваш E-mail",
+        "name": "email"
+      }, {
+        "id": "sidebar_form_tel",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
+      "content_block": {
+        "image": {
+          "name": "form_photo_block/01.png"
+        },
+        "title": "Ваш запрос получит Михаил Черепанов",
+        "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
+      }
+    },
+    "form_photo_block_mobile": {
+      "class": "form-photo-block--mobile",
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
+      },
+      "inputs": [{
+        "id": "sidebar_form_name",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "sidebar_form_city",
+        "type": "text",
+        "text": "Введите ваш город",
+        "name": "city"
+      }, {
+        "id": "sidebar_form_email",
+        "type": "email",
+        "text": "Введите ваш E-mail",
+        "name": "email"
+      }, {
+        "id": "sidebar_form_tel",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
+      "content_block": {
+        "image": {
+          "name": "form_photo_block/01.png"
+        },
+        "title": "Ваш запрос получит Михаил Черепанов",
+        "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
+      }
+    },
+    "socials": {
+      "class": "socials--detail",
+      "text": "Поделитесь с друзьями:",
+      "list": {
+        "items": [{
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#vk"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#email"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#telegram"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#odnokl"
+          }
+        }]
+      }
+    },
+    "sidebar_slider_mobile": {
+      "class": "sidebar-slider--mobile",
+      "items": [{
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
+      }]
     }
   }
 }

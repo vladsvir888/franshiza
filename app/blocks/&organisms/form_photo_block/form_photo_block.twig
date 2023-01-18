@@ -1,0 +1,46 @@
+<div class="form-photo-block {{ form_photo_block.class }}">
+  {% view "@title" with {
+    title: form_photo_block.title|merge({
+      class: "form-photo-block__title"
+    })
+  } %}
+
+  <div class="form-photo-block__form-block">
+    <form class="form form-photo-block__form" action="/" method="get">
+      {% for input in form_photo_block.inputs %}
+        {% view "@input" with {
+          input: input
+        } %}
+      {% endfor %}
+
+      {% view "@button" with {
+        button: form_photo_block.button|merge({
+          class: "btn--btn btn--primary btn--large form-photo-block__btn"
+        })
+      } %}
+    </form>
+
+    <p class="form-photo-block__note">
+      {{ form_photo_block.note }}
+    </p>
+  </div>
+
+  <div class="form-photo-block__content-block">
+    {% view "@image" with {
+      image: form_photo_block.content_block.image|merge({
+        picture: {
+          class: "form-photo-block__content-picture"
+        },
+        class: "form-photo-block__content-img"
+      })
+    } %}
+
+    <p class="form-photo-block__content-title">
+      {{ form_photo_block.content_block.title }}
+    </p>
+
+    <p class="form-photo-block__content-text">
+      {{ form_photo_block.content_block.text }}
+    </p>
+  </div>
+</div>

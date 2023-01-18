@@ -1,9 +1,11 @@
-<div class="swiper sidebar-slider">
+<div class="swiper sidebar-slider {{ sidebar_slider.class }}">
   <div class="swiper-wrapper">
     {% for item in sidebar_slider.items %}
       <div class="swiper-slide sidebar-slider__item">
         {% view "@image" with {
-          image: item.image
+          image: item.image|merge({
+            class: "sidebar-slider__img"
+          })
         } %}
 
         <h3 class="title sidebar-slider__title">

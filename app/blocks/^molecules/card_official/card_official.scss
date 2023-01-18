@@ -1,0 +1,44 @@
+.card-official {
+  $this: &;
+
+  @include flex-center-y;
+  padding: rem(30);
+  border-radius: rem(12);
+  background-color: var(--pallette-mystic);
+
+  @include media('600', max) {
+    padding: rem(20) rem(16);
+    border-radius: 0;
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+  }
+
+  @at-root #{$this}-wrap {
+    &:not(:last-child) {
+      margin-bottom: rem(44);
+
+      @include media('600', max) {
+        margin-bottom: rem(30);
+      }
+    }
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(16);
+      }
+    }
+  }
+
+  &__icon {
+    width: rem(20);
+    height: rem(20);
+    flex-shrink: 0;
+    margin-right: rem(8);
+  }
+
+  &__second-text {
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+}

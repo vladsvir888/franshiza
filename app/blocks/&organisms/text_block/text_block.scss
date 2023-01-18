@@ -1,6 +1,10 @@
 .text-block {
   margin-bottom: rem(44);
 
+  @include media('600', max) {
+    margin-bottom: rem(30);
+  }
+
   > * {
     margin-bottom: rem(14);
 

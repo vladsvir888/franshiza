@@ -1,0 +1,23 @@
+.banner {
+  &:not(:last-child) {
+    margin-bottom: rem(44);
+
+    @include media('600', max) {
+      margin-bottom: rem(30);
+    }
+  }
+
+  @include media('375', max) {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+  }
+
+  img {
+    border-radius: rem(12);
+
+    @include media('375', max) {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+}

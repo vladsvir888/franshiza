@@ -26,7 +26,8 @@
       height: rem(18);
       margin-right: rem(10);
       flex-shrink: 0;
-      fill: var(--pallette-white);
+      // fill: var(--pallette-white);
+      fill: currentColor;
     }
   }
 
@@ -67,11 +68,10 @@
     color: var(--pallette-deep-cerulean);
 
     #{$this}__icon {
-      width: rem(10);
-      height: rem(10);
+      width: rem(24);
+      height: rem(24);
       flex-shrink: 0;
-      margin-left: rem(16);
-      transform: rotate(-180deg);
+      margin-left: rem(6);
       fill: currentColor;
     }
 

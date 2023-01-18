@@ -28,7 +28,33 @@
         } %}
 
         {% view "&section" with {
+          section: detail.review_partners
+        } %}
+
+        {% view "^card_official" with {
+          card_official: detail.card_official
+        } %}
+
+        {% view "&form_photo_block" with {
+          form_photo_block: detail.form_photo_block
+        } %}
+
+        {% view "^socials" with {
+          socials: detail.socials
+        } %}
+
+        {% view "&section" with {
+          section: detail.similar_franchise
+        } %}
+
+        {% view "&section" with {
           section: detail.review_franchise_and_exclusive_interviews
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: detail.sidebar_slider_mobile
         } %}
       </div>
       <div class="main__sidebar">

@@ -7,12 +7,20 @@
         })
       } %}
 
-      {% view "@button" with {
-        button: section.header.button|merge({
-          class: "btn--arrow section__btn section__header-btn"
-        })
-      } %}
+      {% if section.header.button %}
+        {% view "@button" with {
+          button: section.header.button|merge({
+            class: "btn--arrow section__btn section__header-btn"
+          })
+        } %}
+      {% endif %}
     </div>
+  {% endif %}
+
+  {% if section.text %}
+    <p class="section__text">
+      {{ section.text }}
+    </p>
   {% endif %}
 
   {% if section.content.type == '^card_info' %}
@@ -23,15 +31,41 @@
         } %}
       {% endfor %}
     </div>
+  {% elseif section.content.type == '&card_block' %}
+    <div class="section__content section__content--mb">
+      {% for item in section.content.items %}
+        {% view "&card_block" with {
+          card_block: item
+        } %}
+      {% endfor %}
+    </div>
+  {% elseif section.content.type == '&card' %}
+    <div class="section__content section__content--three-items">
+      {% for item in section.content.items %}
+        {% view "&card" with {
+          card: item
+        } %}
+      {% endfor %}
+    </div>
   {% endif %}
 
   {% if section.footer %}
     <div class="section__footer">
-      {% view "@button" with {
-        button: section.header.button|merge({
-          class: "btn--arrow section__footer-btn"
-        })
-      } %}
+      {% if section.footer.button %}
+        {% view "@button" with {
+          button: section.footer.button|merge({
+            class: "btn--arrow section__footer-btn"
+          })
+        } %}
+      {% endif %}
+
+      {% if section.footer.show_more_button %}
+        {% view "@button" with {
+          button: section.footer.show_more_button|merge({
+            class: "btn--large btn--btn btn--primary section__show-more"
+          })
+        } %}
+      {% endif %}
     </div>
   {% endif %}
 </section>

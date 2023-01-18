@@ -1,0 +1,45 @@
+.socials {
+  @include flex-center-y;
+  gap: rem(24);
+
+  @include media('600', max) {
+    gap: rem(12);
+  }
+
+  &--detail {
+    justify-content: flex-end;
+
+    @include media('600', max) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: rem(44);
+
+      @include media('600', max) {
+        margin-bottom: rem(30);
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: rem(12);
+  }
+
+  &__btn {
+    display: flex;
+    transition: transform var(--transition);
+
+    &:hover {
+      transform: translateY(-0.1rem);
+    }
+  }
+
+  &__icon {
+    width: rem(32);
+    height: rem(32);
+    flex-shrink: 0;
+  }
+}

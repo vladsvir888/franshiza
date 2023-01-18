@@ -1,4 +1,6 @@
 .footer {
+  $this: &;
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -11,7 +13,6 @@
     }
 
     @include media('600', max) {
-      // padding: rem(30) 0 rem(48);
       padding: 0 0 rem(48);
       gap: rem(32);
       border-top: 0;
