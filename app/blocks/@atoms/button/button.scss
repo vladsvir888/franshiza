@@ -10,25 +10,19 @@
     color var(--transition),
     background-color var(--transition);
 
+  &__icon {
+    fill: currentColor;
+  }
+
   &--btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    // padding: rem(12) rem(22);
     padding: rem(12) rem(14);
     color: var(--pallette-white);
     font-weight: 700;
     border-radius: rem(6);
     transition: background-color var(--transition);
-
-    #{$this}__icon {
-      width: rem(18);
-      height: rem(18);
-      margin-right: rem(10);
-      flex-shrink: 0;
-      // fill: var(--pallette-white);
-      fill: currentColor;
-    }
   }
 
   &--primary {
@@ -63,14 +57,23 @@
     font-weight: 400;
   }
 
+  &--toggle-gray,
+  &--toggle-white {
+    .btn__icon {
+      width: rem(18);
+      height: rem(18);
+      margin-right: rem(10);
+    }
+  }
+
   &--arrow {
-    @include flex-center-y;
+    display: inline-flex;
+    align-items: center;
     color: var(--pallette-deep-cerulean);
 
     #{$this}__icon {
       width: rem(24);
       height: rem(24);
-      flex-shrink: 0;
       margin-left: rem(6);
       fill: currentColor;
     }

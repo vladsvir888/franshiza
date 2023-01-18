@@ -36,9 +36,11 @@
 
   &__pagination {
     &.swiper-pagination-bullets {
-      bottom: rem(-30);
+      bottom: rem(-32);
 
       .swiper-pagination-bullet {
+        width: rem(6);
+        height: rem(6);
         background-color: var(--pallette-nobel);
         opacity: 1;
       }

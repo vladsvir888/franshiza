@@ -36,6 +36,12 @@
   &__catalog-btn {
     grid-area: catalog-btn;
 
+    .btn__icon {
+      width: rem(18);
+      height: rem(18);
+      margin-right: rem(10);
+    }
+
     @include media('1400', max) {
       display: none;
     }
@@ -101,7 +107,6 @@
     &-icon {
       width: rem(18);
       height: rem(18);
-      flex-shrink: 0;
       margin-right: rem(6);
       fill: var(--pallette-cerulean);
     }

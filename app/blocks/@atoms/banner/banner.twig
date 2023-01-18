@@ -1,8 +1,18 @@
 <div class="banner">
   <a href="#">
     <picture>
-      <source media="(max-width: 375px)" srcset="./assets/images/pixel.png" data-src="./assets/images/banner/01.webp"
+      <source type="image/avif" media="(max-width: 375px)" srcset="./assets/images/pixel.avif"
+        data-srcset="./assets/images/banner/01_mobile.avif">
+      <source media="(max-width: 375px)" srcset="./assets/images/pixel.png"
+        data-srcset="./assets/images/banner/01_mobile.png">
+      <source type="image/webp" srcset="./assets/images/pixel.avif" data-srcset="./assets/images/banner/01.avif">
+
+      <source type="image/webp" media="(max-width: 375px)" srcset="./assets/images/pixel.webp"
         data-srcset="./assets/images/banner/01_mobile.webp">
+      <source media="(max-width: 375px)" srcset="./assets/images/pixel.png"
+        data-srcset="./assets/images/banner/01_mobile.png">
+      <source type="image/webp" srcset="./assets/images/pixel.webp" data-srcset="./assets/images/banner/01.webp">
+
       <img class="lazy" src="./assets/images/pixel.png" data-src="./assets/images/banner/01.png">
     </picture>
   </a>

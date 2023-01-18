@@ -16,7 +16,6 @@
   &__subtitle {
     grid-column: span 2;
     font-weight: 700;
-    margin-bottom: rem(8);
     text-align: center;
 
     @include media('600', max) {
@@ -42,6 +41,7 @@
     }
 
     &-title {
+      align-self: center;
       color: var(--pallette-scorpion);
 
       @include media('600', max) {

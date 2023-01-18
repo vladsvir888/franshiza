@@ -7,7 +7,7 @@
   &__list {
     display: flex;
     align-items: center;
-    gap: rem(10) rem(20);
+    gap: rem(10) rem(25);
     width: max-content;
   }
 
@@ -18,9 +18,9 @@
       &::after {
         position: absolute;
         top: 50%;
-        right: rem(-10);
+        right: rem(-12.5);
         width: rem(1);
-        height: 80%;
+        height: 60%;
         transform: translateY(-50%);
         background-color: var(--pallette-scorpion);
         content: '';

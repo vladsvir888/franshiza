@@ -147,6 +147,12 @@ small {
     margin: rem(52) 0 rem(30);
   }
 
+  &--detail {
+    .title--h1 {
+      margin-bottom: rem(27);
+    }
+  }
+
   &__inner {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -154,9 +160,6 @@ small {
   }
 
   &__sidebar {
-    // position: sticky;
-    // top: rem(20);
-    // align-self: flex-start;
     grid-column: span 3;
     order: 0;
 

@@ -33,7 +33,6 @@
   &__open-icon {
     width: rem(32);
     height: rem(32);
-    flex-shrink: 0;
     fill: var(--pallette-nobel);
   }
 
@@ -45,7 +44,6 @@
   &__close-icon {
     width: rem(15);
     height: rem(15);
-    flex-shrink: 0;
     fill: var(--pallette-scorpion);
   }
 

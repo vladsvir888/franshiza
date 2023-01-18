@@ -1,13 +1,11 @@
 {% set card = detail.main_card %}
 
 <article class="detail-card">
-  <div class="detail-card__img-block">
-    {% view "@image" with {
-      image: card.image|merge({
-        class: "detail-card__img"
-      })
-    } %}
-  </div>
+  {% view "@image" with {
+    image: card.image|merge({
+      class: "detail-card__img"
+    })
+  } %}
   <div class="detail-card__info">
     <dl class="detail-card__list">
       {% for item in card.info.list.items %}

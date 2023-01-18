@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: rem(204) 1fr;
   gap: rem(30);
-  align-items: center;
   padding: rem(30);
   background-color: var(--pallette-mystic);
   border-radius: rem(8);
@@ -54,6 +53,7 @@
 
   &__title {
     @include font-size(14, 20);
+    margin-bottom: rem(12);
   }
 
   &__time {
@@ -68,5 +68,9 @@
     @include media('375', max) {
       max-width: rem(240);
     }
+  }
+
+  &__bottom {
+    margin-top: auto;
   }
 }

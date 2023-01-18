@@ -20,7 +20,6 @@
     &-icon {
       width: rem(24);
       height: rem(24);
-      flex-shrink: 0;
       margin-right: rem(8);
 
       @include media('600', max) {
