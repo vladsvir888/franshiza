@@ -1,3 +1,75 @@
 .card {
+  $this: &;
 
+  position: relative;
+
+  &:hover {
+    #{$this}__title {
+      color: var(--pallette-deep-cerulean);
+    }
+  }
+
+  @include media('500', max) {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+  }
+
+  &__img {
+    margin: 0 auto;
+    border-radius: rem(6);
+
+    @include media('500', max) {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: rem(10) rem(12) rem(14);
+    border-bottom-left-radius: rem(6);
+    border-bottom-right-radius: rem(6);
+
+    @include media('500', max) {
+      padding: rem(10) rem(16) 0;
+    }
+  }
+
+  &__title {
+    @include font-size(14, 20);
+    margin-bottom: rem(6);
+    transition: color var(--transition);
+  }
+
+  &__text {
+    color: var(--pallette-scorpion);
+    margin-bottom: rem(24);
+  }
+
+  &__list {
+    margin-bottom: rem(10);
+  }
+
+  &__item {
+    display: flex;
+    gap: rem(16);
+  }
+
+  &__term {
+    color: var(--pallette-scorpion);
+  }
+
+  &__descr {
+    font-weight: 700;
+  }
+
+  &__bottom {
+    margin-top: auto;
+  }
+
+  &__btn {
+    position: relative;
+    width: 100%;
+  }
 }

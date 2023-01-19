@@ -1,6 +1,7 @@
 .header {
   $this: &;
   position: relative;
+  overflow: hidden;
 
   &__top {
     display: flex;

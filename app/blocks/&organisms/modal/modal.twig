@@ -1,0 +1,49 @@
+<div
+  {% if modal.id %}id="{{ modal.id }}"{% endif %}
+  class="modal {{ modal.class }}"
+  {{ modal.attrs }}
+>
+  {% view "@title" with {
+    title: modal.title|merge({
+      class: "modal__title"
+    })
+  } %}
+
+  {% if modal.type == 'login' %}
+    {% view "^socials" with {
+      socials: modal.socials|merge({
+        class: "modal__socials"
+      })
+    } %}
+
+    <p class="modal__small-text">
+      или
+    </p>
+
+    <form class="form modal__form" action="/" method="get">
+      {% for input in modal.inputs %}
+        {% view "@input" with {
+          input: input
+        } %}
+      {% endfor %}
+
+      {% view "@button" with {
+        button: modal.button_forgot_password|merge({
+          class: "modal__btn modal__forgot-password"
+        })
+      } %}
+
+      {% view "@button" with {
+        button: modal.button_entry|merge({
+          class: "btn--btn btn--primary btn--large modal__btn"
+        })
+      } %}
+
+      {% view "@button" with {
+        button: modal.button_registration|merge({
+          class: "btn--btn btn--tertiary btn--large modal__btn"
+        })
+      } %}
+    </form>
+  {% endif %}
+</div>

@@ -1,0 +1,28 @@
+<article class="tabs-card">
+  {% view "@image" with {
+    image: tabs_card.image|merge({
+      class: "tabs-card__image"
+    })
+  } %}
+
+  <div class="tabs-card__content">
+    {% view "@title" with {
+      title: tabs_card.content.title|merge({
+        class: "tabs-card__title"
+      })
+    } %}
+
+    <time class="tabs-card__time" datetime="{{ tabs_card.content.time.datetime }}">
+      {{ tabs_card.content.time.text }}
+    </time>
+
+    {% view "@button" with {
+      button: tabs_card.content.button|merge({
+        class: "btn--arrow tabs-card__btn",
+        right_icon: {
+          name: "sprite-mono.svg#arrow_right"
+        }
+      })
+    } %}
+  </div>
+</article>

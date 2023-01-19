@@ -2,6 +2,7 @@
 
 {% if not title.link %}
   <h{{ level }}
+    {% if title.id %}id="{{ title.id }}"{% endif %}
     class="title {% if title.class %}{{ title.class }}{% endif %}"
     {% if title.attrs %}{{ title.attrs }}{% endif %}
   >
@@ -9,6 +10,7 @@
   </h{{ level }}>
 {% else %}
   <h{{ level }}
+    {% if title.id %}id="{{ title.id }}"{% endif %}
     class="title {% if title.class %}{{ title.class }}{% endif %}"
     {% if title.attrs %}{{ title.attrs }}{% endif %}
   >

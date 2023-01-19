@@ -52,6 +52,1850 @@
           "text": {
             "text": "Особые списки франшиз"
           },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect1'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect1",
+          "attrs": "aria-labelledby='accordion1id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Акции на франшизы"
+              }
+            }, {
+              "text": {
+                "text": "Беспроигрышная франшиза"
+              }
+            }, {
+              "text": {
+                "text": "Добрая франшиза"
+              }
+            }, {
+              "text": {
+                "text": "Идеи, куда вложить деньги"
+              }
+            }, {
+              "text": {
+                "text": "ТОП франшизы"
+              }
+            }, {
+              "text": {
+                "text": "Франшиза с гарантиями"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы от Сбербанка"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion2id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Франшизы по городам/странам"
+          },
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect2'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect2",
+          "attrs": "aria-labelledby='accordion2id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion3id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Франшизы по вложениям"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect3'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect3",
+          "attrs": "aria-labelledby='accordion3id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion4id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Питание"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect4'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect4",
+          "attrs": "aria-labelledby='accordion4id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion5id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Детские товары и услуги"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect5'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect5",
+          "attrs": "aria-labelledby='accordion5id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion6id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Красота и здоровье"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect6'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect6",
+          "attrs": "aria-labelledby='accordion6id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion7id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Торговля"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect7'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect7",
+          "attrs": "aria-labelledby='accordion7id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion8id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Производство"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect8'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect8",
+          "attrs": "aria-labelledby='accordion8id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion9id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Услуги"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect9'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect9",
+          "attrs": "aria-labelledby='accordion9id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion10id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "В интернете"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect10'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect10",
+          "attrs": "aria-labelledby='accordion10id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion11id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Популярные"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect11'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect11",
+          "attrs": "aria-labelledby='accordion11id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion12id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Бизнес-идеи"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect12'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect12",
+          "attrs": "aria-labelledby='accordion12id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "href": "#",
+          "class": "sidebar-accordion__btn sidebar-accordion__link",
+          "text": {
+            "text": "Все франшизы"
+          },
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        }
+      }]
+    },
+    "mobile_accordion": {
+      "class": "detail-accordion",
+      "items": [{
+        "class": "detail-accordion__item",
+        "button": {
+          "id": "detail_accordion1id",
+          "class": "detail-accordion__btn",
+          "text": {
+            "text": "Фото"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='detail_acc_sect1'",
+          "right_icon": {
+            "class": "detail-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "detail_acc_sect1",
+          "attrs": "aria-labelledby='detail_accordion1id'"
+        },
+        "data": {
+          "type": "&detail_tabs_slider",
+          "content": {
+            "items": [{
+              "image": {
+                "name": "detail_tabs_slider/01.png"
+              }
+            }, {
+              "image": {
+                "name": "detail_tabs_slider/02.png"
+              }
+            }, {
+              "image": {
+                "name": "detail_tabs_slider/03.png"
+              }
+            }, {
+              "image": {
+                "name": "detail_tabs_slider/01.png"
+              }
+            }, {
+              "image": {
+                "name": "detail_tabs_slider/02.png"
+              }
+            }, {
+              "image": {
+                "name": "detail_tabs_slider/03.png"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "detail-accordion__item",
+        "button": {
+          "id": "detail_accordion2id",
+          "class": "detail-accordion__btn",
+          "text": {
+            "text": "Видео"
+          },
+          "attrs": "type='button' aria-expanded='true' aria-controls='detail_acc_sect2'",
+          "right_icon": {
+            "class": "detail-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "detail_acc_sect2",
+          "attrs": "aria-labelledby='detail_accordion2id'"
+        },
+        "data": {
+          "type": "^video"
+        }
+      }, {
+        "class": "detail-accordion__item",
+        "button": {
+          "id": "detail_accordion3id",
+          "class": "detail-accordion__btn",
+          "text": {
+            "text": "Новости франшизы"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='detail_acc_sect3'",
+          "right_icon": {
+            "class": "detail-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "detail_acc_sect3",
+          "attrs": "aria-labelledby='detail_accordion3id'"
+        },
+        "data": {
+          "type": "&tabs_card",
+          "content": {
+            "items": [{
+              "image": {
+                "name": "tabs_card/01.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/02.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/03.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/04.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/05.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/06.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/07.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/08.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/09.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }, {
+              "image": {
+                "name": "tabs_card/10.png"
+              },
+              "content": {
+                "title": {
+                  "level": 3,
+                  "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                },
+                "time": {
+                  "text": "2 ноя 2022",
+                  "datetime": "2022-11-02"
+                },
+                "button": {
+                  "href": "#",
+                  "text": {
+                    "text": "Читать подробнее"
+                  }
+                }
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "detail-accordion__item",
+        "button": {
+          "id": "detail_accordion4id",
+          "class": "detail-accordion__btn",
+          "text": {
+            "text": "Добрая франшиза"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='detail_acc_sect4'",
+          "right_icon": {
+            "class": "detail-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "detail_acc_sect4",
+          "attrs": "aria-labelledby='detail_accordion4id'"
+        },
+        "data": {
+          "type": "^kind_franchise"
+        }
+      }]
+    },
+    "sidebar_slider": {
+      "items": [{
+        "image": {
+          "name": "sidebar_slider/01.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/01.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/01.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/01.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/01.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
+      }]
+    },
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "Франшиза Группы компаний Альфа"
+        }
+      }]
+    },
+    "title": {
+      "text": "Франшиза Группы компаний Альфа"
+    },
+    "main_card": {
+      "image": {
+        "name": "detail_card/01.png"
+      },
+      "info": {
+        "list": {
+          "items": [{
+            "term": "Инвестиции",
+            "descr": "от 400 000 р."
+          }, {
+            "term": "Окупаемость",
+            "descr": "от 2 мес."
+          }]
+        },
+        "site_btn": {
+          "href": "#",
+          "text": {
+            "text": "Сайт франшизы"
+          }
+        },
+        "presentation_btn": {
+          "href": "#",
+          "text": {
+            "text": "Презентация франшизы"
+          }
+        }
+      },
+      "specialist": {
+        "image": {
+          "name": "detail_card/02.png"
+        },
+        "name": "Михаил Черепанов",
+        "job": "Специалист отдела развития сети ГК Альфа",
+        "add_to_list_btn": {
+          "text": {
+            "text": "Добавить в список"
+          }
+        },
+        "contact_btn": {
+          "text": {
+            "text": "Связаться с представителем"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "class": "detail-tabs",
+      "btns": {
+        "class": "detail-tabs__btns",
+        "items": [{
+          "id": "tab-1",
+          "class": "detail-tabs__btn",
+          "text": {
+            "text": "Фото"
+          },
+          "attrs": "type='button' role='tab' aria-selected='true' aria-controls='tabpanel-1'"
+        }, {
+          "id": "tab-2",
+          "class": "detail-tabs__btn",
+          "text": {
+            "text": "Видео"
+          },
+          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-2' tabindex='-1'"
+        }, {
+          "id": "tab-3",
+          "class": "detail-tabs__btn",
+          "text": {
+            "text": "Новости франшизы"
+          },
+          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-3' tabindex='-1'"
+        }, {
+          "id": "tab-4",
+          "class": "detail-tabs__btn",
+          "text": {
+            "text": "Добрая франшиза"
+          },
+          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-4' tabindex='-1'"
+        }]
+      },
+      "content": {
+        "items": [{
+          "id": "tabpanel-1",
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-1'",
+          "data": {
+            "type": "&detail_tabs_slider",
+            "tabs_slider_content": {
+              "items": [{
+                "image": {
+                  "name": "detail_tabs_slider/01.png"
+                }
+              }, {
+                "image": {
+                  "name": "detail_tabs_slider/02.png"
+                }
+              }, {
+                "image": {
+                  "name": "detail_tabs_slider/03.png"
+                }
+              }, {
+                "image": {
+                  "name": "detail_tabs_slider/01.png"
+                }
+              }, {
+                "image": {
+                  "name": "detail_tabs_slider/02.png"
+                }
+              }, {
+                "image": {
+                  "name": "detail_tabs_slider/03.png"
+                }
+              }]
+            }
+          }
+        }, {
+          "id": "tabpanel-2",
+          "class": "tabs--hidden",
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-2'",
+          "data": {
+            "type": "^video"
+          }
+        }, {
+          "id": "tabpanel-3",
+          "class": "tabs--hidden",
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-3'",
+          "data": {
+            "type": "&tabs_card",
+            "tabs_card_content": {
+              "items": [{
+                "image": {
+                  "name": "tabs_card/01.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/02.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/03.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/04.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/05.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/06.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/07.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/08.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/09.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }, {
+                "image": {
+                  "name": "tabs_card/10.png"
+                },
+                "content": {
+                  "title": {
+                    "level": 3,
+                    "text": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера"
+                  },
+                  "time": {
+                    "text": "2 ноя 2022",
+                    "datetime": "2022-11-02"
+                  },
+                  "button": {
+                    "href": "#",
+                    "text": {
+                      "text": "Читать подробнее"
+                    }
+                  }
+                }
+              }]
+            }
+          }
+        }, {
+          "id": "tabpanel-4",
+          "class": "tabs--hidden",
+          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-4'",
+          "data": {
+            "type": "^kind_franchise"
+          }
+        }]
+      }
+    },
+    "text_block": {
+      "type": "&detail_text_block"
+    },
+    "form_block": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
+      },
+      "inputs": [{
+        "id": "form_block_form_name",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "form_block_form_tel",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "form_block_2": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
+      },
+      "inputs": [{
+        "id": "form_block_form_name_2",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "form_block_form_tel_2",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "form_block_3": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
+      },
+      "inputs": [{
+        "id": "form_block_form_name_3",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "form_block_form_tel_3",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "form_block_4": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
+      },
+      "inputs": [{
+        "id": "form_block_form_name_4",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "form_block_form_tel_4",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "statistics": {
+      "items": [{
+        "info": {
+          "text": "Минимальная сумма необходимых инвестиций",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M15 4.32812C10.58 4.32812 7 7.90812 7 12.3281C7 16.7481 10.58 20.3281 15 20.3281C19.42 20.3281 23 16.7481 23 12.3281C23 7.90812 19.42 4.32812 15 4.32812ZM15 18.3281C11.69 18.3281 9 15.6381 9 12.3281C9 9.01813 11.69 6.32812 15 6.32812C18.31 6.32812 21 9.01813 21 12.3281C21 15.6381 18.31 18.3281 15 18.3281ZM7 6.67812C4.67 7.49812 3 9.71813 3 12.3281C3 14.9381 4.67 17.1581 7 17.9781V20.0681C3.55 19.1781 1 16.0581 1 12.3281C1 8.59812 3.55 5.47812 7 4.58812V6.67812Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Вступительный взнос",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M20.5 5.32812V7.60813C21.09 7.95813 21.5 8.58813 21.5 9.32812V15.3281C21.5 16.0681 21.09 16.6981 20.5 17.0481V19.3281C20.5 20.4281 19.6 21.3281 18.5 21.3281H4.5C3.39 21.3281 2.5 20.4281 2.5 19.3281V5.32812C2.5 4.22812 3.39 3.32812 4.5 3.32812H18.5C19.6 3.32812 20.5 4.22812 20.5 5.32812ZM12.5 15.3281H19.5V9.32812H12.5V15.3281ZM4.5 19.3281V5.32812H18.5V7.32812H12.5C11.4 7.32812 10.5 8.22813 10.5 9.32812V15.3281C10.5 16.4281 11.4 17.3281 12.5 17.3281H18.5V19.3281H4.5ZM14 12.3281C14 11.4997 14.6716 10.8281 15.5 10.8281C16.3284 10.8281 17 11.4997 17 12.3281C17 13.1566 16.3284 13.8281 15.5 13.8281C14.6716 13.8281 14 13.1566 14 12.3281Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Сумма роялти",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M4.5 12.3281C4.5 7.35813 8.53 3.32812 13.5 3.32812C18.47 3.32812 22.5 7.35813 22.5 12.3281C22.5 17.2981 18.47 21.3281 13.5 21.3281C11.01 21.3281 8.77 20.3181 7.14 18.6881L8.56 17.2681C9.82 18.5381 11.57 19.3281 13.5 19.3281C17.37 19.3281 20.5 16.1981 20.5 12.3281C20.5 8.45813 17.37 5.32812 13.5 5.32812C9.63 5.32812 6.5 8.45813 6.5 12.3281H9.5L5.5 16.3181L1.5 12.3281H4.5ZM12.5 13.3281V8.32812H14V12.4781L17.52 14.5681L16.75 15.8481L12.5 13.3281Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Количество франшизных точек",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M9.19 9.45813L12 2.82812L14.81 9.45813L22 10.0681L16.54 14.7981L18.18 21.8281L12 18.0981L5.82 21.8281L7.46 14.7981L2 10.0681L9.19 9.45813ZM12.97 10.2481L12 7.95813L11.03 10.2281L10.56 11.3381L9.36 11.4381L6.89 11.6481L8.77 13.2781L9.68 14.0681L9.41 15.2481L8.85 17.6581L10.97 16.3781L12 15.7581L13.03 16.3981L15.15 17.6781L14.59 15.2681L14.32 14.0881L15.23 13.2981L17.11 11.6681L14.64 11.4581L13.44 11.3581L12.97 10.2481Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Количество собственных объектов",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M11.99 2.32812C6.47 2.32812 2 6.80813 2 12.3281C2 17.8481 6.47 22.3281 11.99 22.3281C17.52 22.3281 22 17.8481 22 12.3281C22 6.80813 17.52 2.32812 11.99 2.32812ZM19.47 9.48812L14.46 9.05813L12.46 4.34812C15.67 4.53813 18.37 6.61812 19.47 9.48812ZM12 14.3081L14.4 15.7481L13.76 13.0181L15.87 11.1881L13.09 10.9481L12 8.38812L10.91 10.9581L8.13 11.1981L10.24 13.0281L9.61 15.7481L12 14.3081ZM11.54 4.34812L9.54 9.06812L4.52 9.49813C5.62 6.61812 8.32 4.52813 11.54 4.34812ZM4.23 10.4681C4.08 11.0681 4 11.6881 4 12.3281C4 14.8081 5.13 17.0281 6.91 18.4981L8.02 13.7481L4.23 10.4681ZM7.84 19.1481L12 16.6381L16.16 19.1381C14.94 19.8881 13.52 20.3281 11.99 20.3281C10.47 20.3281 9.05 19.8881 7.84 19.1481ZM15.98 13.7481L17.09 18.4981C18.86 17.0281 20 14.8081 20 12.3281C20 11.6881 19.91 11.0581 19.77 10.4681L15.98 13.7481Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Год основания компании",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M12.5 3.82812L13.5 5.82812H19.5V15.8281H12.5L11.5 13.8281H6.5V20.8281H4.5V3.82812H12.5ZM13.5 13.8281H17.5V7.82812H12.5L11.5 5.82812H6.5V11.8281H12.5L13.5 13.8281Z' fill='#828282'/></svg>"
+          }
+        }
+      }, {
+        "info": {
+          "text": "Год начала франчайзинговой деятельности",
+          "icon": {
+            "svg_as_code": "<svg class='statistics__info-icon statistics__info-icon--with-stroke' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M13.3374 9.16866L12.5453 7.58435H9.58447H8.58447V8.58435V11.3373V12.3373H9.58447H13.3374L14.1296 13.9216H16.2982H17.2982V12.9216V10.1687V9.16866H16.2982H13.3374ZM13.3373 6L14.1294 7.58431H17.8824H18.8824V8.58431V14.5059V15.5059H17.8824H13.3373L12.5451 13.9216H9.58431H8.58431V14.9216V18.4667V19.4667H8H7.58431H7V18.4667V7V6H8H13.3373Z' fill='#828282'/><path d='M13.3374 9.16866L13.1625 9.25612L13.2166 9.36422H13.3374V9.16866ZM12.5453 7.58435L12.7202 7.4969L12.6661 7.3888H12.5453V7.58435ZM8.58447 7.58435V7.3888H8.38892V7.58435H8.58447ZM8.58447 12.3373H8.38892V12.5328H8.58447V12.3373ZM13.3374 12.3373L13.5123 12.2498L13.4583 12.1417H13.3374V12.3373ZM14.1296 13.9216L13.9547 14.0091L14.0087 14.1172H14.1296V13.9216ZM17.2982 13.9216V14.1172H17.4938V13.9216H17.2982ZM17.2982 9.16866H17.4938V8.97311H17.2982V9.16866ZM13.3373 6L13.5122 5.91254L13.4581 5.80444H13.3373V6ZM14.1294 7.58431L13.9545 7.67177L14.0086 7.77987H14.1294V7.58431ZM18.8824 7.58431H19.0779V7.38876H18.8824V7.58431ZM18.8824 15.5059V15.7014H19.0779V15.5059H18.8824ZM13.3373 15.5059L13.1623 15.5933L13.2164 15.7014H13.3373V15.5059ZM12.5451 13.9216L12.72 13.8341L12.666 13.726H12.5451V13.9216ZM8.58431 13.9216V13.726H8.38876V13.9216H8.58431ZM8.58431 19.4667V19.6622H8.77987V19.4667H8.58431ZM7 19.4667H6.80444V19.6622H7V19.4667ZM7 6V5.80444H6.80444V6H7ZM13.5123 9.08121L12.7202 7.4969L12.3703 7.67181L13.1625 9.25612L13.5123 9.08121ZM12.5453 7.3888H9.58447V7.77991H12.5453V7.3888ZM9.58447 7.3888H8.58447V7.77991H9.58447V7.3888ZM8.38892 7.58435V8.58435H8.78003V7.58435H8.38892ZM8.38892 8.58435V11.3373H8.78003V8.58435H8.38892ZM8.38892 11.3373V12.3373H8.78003V11.3373H8.38892ZM8.58447 12.5328H9.58447V12.1417H8.58447V12.5328ZM9.58447 12.5328H13.3374V12.1417H9.58447V12.5328ZM13.1625 12.4247L13.9547 14.0091L14.3045 13.8341L13.5123 12.2498L13.1625 12.4247ZM14.1296 14.1172H16.2982V13.726H14.1296V14.1172ZM16.2982 14.1172H17.2982V13.726H16.2982V14.1172ZM17.4938 13.9216V12.9216H17.1026V13.9216H17.4938ZM17.4938 12.9216V10.1687H17.1026V12.9216H17.4938ZM17.4938 10.1687V9.16866H17.1026V10.1687H17.4938ZM17.2982 8.97311H16.2982V9.36422H17.2982V8.97311ZM16.2982 8.97311H13.3374V9.36422H16.2982V8.97311ZM13.1623 6.08746L13.9545 7.67177L14.3043 7.49686L13.5122 5.91254L13.1623 6.08746ZM14.1294 7.77987H17.8824V7.38876H14.1294V7.77987ZM17.8824 7.77987H18.8824V7.38876H17.8824V7.77987ZM18.6868 7.58431V8.58431H19.0779V7.58431H18.6868ZM18.6868 8.58431V14.5059H19.0779V8.58431H18.6868ZM18.6868 14.5059V15.5059H19.0779V14.5059H18.6868ZM18.8824 15.3103H17.8824V15.7014H18.8824V15.3103ZM17.8824 15.3103H13.3373V15.7014H17.8824V15.3103ZM13.5122 15.4184L12.72 13.8341L12.3702 14.009L13.1623 15.5933L13.5122 15.4184ZM12.5451 13.726H9.58431V14.1171H12.5451V13.726ZM9.58431 13.726H8.58431V14.1171H9.58431V13.726ZM8.38876 13.9216V14.9216H8.77987V13.9216H8.38876ZM8.38876 14.9216V18.4667H8.77987V14.9216H8.38876ZM8.38876 18.4667V19.4667H8.77987V18.4667H8.38876ZM8.58431 19.2711H8V19.6622H8.58431V19.2711ZM8 19.2711H7.58431V19.6622H8V19.2711ZM7.58431 19.2711H7V19.6622H7.58431V19.2711ZM7.19556 19.4667V18.4667H6.80444V19.4667H7.19556ZM7.19556 18.4667V7H6.80444V18.4667H7.19556ZM7.19556 7V6H6.80444V7H7.19556ZM7 6.19556H8V5.80444H7V6.19556ZM8 6.19556H13.3373V5.80444H8V6.19556Z' fill='#828282'/><rect x='3' y='3' width='18' height='18' rx='9' stroke='#828282' stroke-width='2'/></svg>"
+          }
+        }
+      }]
+    },
+    "review_franchise_and_exclusive_interviews": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Отзывы о франшизах и эксклюзивные интервью"
+        },
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Все отзывы"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_right"
+          }
+        }
+      },
+      "content": {
+        "type": "^card_info",
+        "items": [{
+          "title": {
+            "level": 3,
+            "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
+          },
+          "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
+          "time": {
+            "text": "23 Авг 2022",
+            "datetime": "2022-08-23"
+          }
+        }, {
+          "title": {
+            "level": 3,
+            "text": "Отзыв о франшизе магазина Суши Wok из Омска"
+          },
+          "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
+          "time": {
+            "text": "25 Авг 2022",
+            "datetime": "2022-08-25"
+          }
+        }]
+      },
+      "footer": {
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Все отзывы"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_right"
+          }
+        }
+      }
+    },
+    "review_partners": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Отзывы действующих партнеров"
+        }
+      },
+      "content": {
+        "type": "&card_block",
+        "items": [{
+          "image": {
+            "name": "card_block/01.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Галина Каравайцева, Красноярск"
+            },
+            "text": "Привлекло то, что работа по франшизе построена максимально открыто. Я случайно попала в социальных сетях на страницу партнера Dr.Laser и отзывы были лишь положительные. На&nbsp;обучении мы проработали и обговорили много практических аспектов. Я поняла, как выглядит бизнес изнутри и прошла практику в действующей студии на позиции администратора, а также мастера.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/02.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Анастасия Гришина, Уфа"
+            },
+            "text": "Изучила все предложения на рынке - потратила не меньше месяца, вела переговоры, но именно бизнес с Dr.Laser был наиболее прозрачным, и все слова подкреплялись цифрами. Главное преимущество для меня - комплексное сопровождение. Специалисты по франшизе Dr.Laser оперативно реагируют на все вопросы.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/03.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Халил Яхъяев, Астрахань"
+            },
+            "text": "Свой выбор остановил именно на данной франшизе, так как она предполагает работу по стандартам медицинских клиник с обязательным лицензированием. На старте получили огромную поддержку по организации бизнес-процессов с нуля. И уже в первый месяц работы был выполнен план, на уровень которого, согласно финансовой модели, должны были выйти только на третий месяц.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }, {
+          "image": {
+            "name": "card_block/04.jpg"
+          },
+          "content": {
+            "title": {
+              "level": 3,
+              "text": "Юлия Артюхова, Краснодар"
+            },
+            "text": "Я владела салоном красоты, хотела ввести услугу лазерной эпиляции, но поставила некачественное оборудование и услугу не удалось развить. Тогда и познакомилась с Dr.Laser и приняла решение о покупке франшизы. <br /> Специалисты ведут полностью каждый шаг до открытия и сопровождают после, а качеству оказываемых услуг уделяется огромное внимание.",
+            "time": {
+              "text": "22 ноя 2022",
+              "datetime": "2022-11-22"
+            },
+            "button": {
+              "href": "#",
+              "text": {
+                "text": "Читайте полный интервью-отзыв о франшизе"
+              }
+            }
+          }
+        }]
+      },
+      "footer": {
+        "show_more_button": {
+          "text": {
+            "text": "Показать еще"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_bottom"
+          }
+        }
+      }
+    },
+    "similar_franchise": {
+      "header": {
+        "title": {
+          "level": 2,
+          "text": "Похожие франшизы"
+        },
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Каталог"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_right"
+          }
+        }
+      },
+      "text": "Добавьте и эти франшизы в список, чтобы запросить подробности сразу у нескольких и сравнить условия",
+      "content": {
+        "type": "&card",
+        "items": [{
+          "image": {
+            "name": "card/01.png"
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза ARTCRAFT"
+            },
+            "text": "франшиза бьюти-коворкинга",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "level": 3,
+              "text": "Добавить в список"
+            }
+          }
+        }, {
+          "image": {
+            "name": "card/03.png"
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза INDI"
+            },
+            "text": "франшиза бьюти-коворкинга",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "text": "Добавить в список"
+            }
+          }
+        }, {
+          "image": {
+            "name": "card/02.png"
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза GASTRONOM"
+            },
+            "text": "франшиза студии маникюра и бровей",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "text": "Добавить в список"
+            }
+          }
+        }]
+      }
+    },
+    "card_official": {
+      "text": "<p>Официальная страница франшизы.</p><p>Информация предоставлена представителем франшизы.</p><p>Информация обновлена 26.07.2022.</p>",
+      "second_text": "Получите подробную информацию у сотрудника сети «Группы компаний Альфа» через форму для связи ниже."
+    },
+    "form_photo_block": {
+      "title": {
+        "level": 2,
+        "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
+      },
+      "inputs": [{
+        "id": "form_photo_name",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name"
+      }, {
+        "id": "form_photo_city",
+        "type": "text",
+        "text": "Введите ваш город",
+        "name": "city"
+      }, {
+        "id": "form_photo_email",
+        "type": "email",
+        "text": "Введите ваш E-mail",
+        "name": "email"
+      }, {
+        "id": "form_photo_tel",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel"
+      }],
+      "button": {
+        "text": {
+          "text": "Получить бизнес-план"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
+      "content_block": {
+        "image": {
+          "name": "form_photo_block/01.png"
+        },
+        "title": "Ваш запрос получит Михаил Черепанов",
+        "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
+      }
+    },
+    "socials": {
+      "class": "socials--detail",
+      "text": "Поделитесь с друзьями:",
+      "list": {
+        "items": [{
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#vk"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#email"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#telegram"
+          }
+        }, {
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#odnokl"
+          }
+        }]
+      }
+    },
+    "sidebar_slider_mobile": {
+      "class": "sidebar-slider--mobile",
+      "items": [{
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg"
+        },
+        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
+      }]
+    },
+    "sidebar_accordion_mobile": {
+      "class": "sidebar-accordion sidebar-accordion--mobile",
+      "items": [{
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion1id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Особые списки франшиз"
+          },
           "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
@@ -683,586 +2527,70 @@
         }
       }]
     },
-    "sidebar_slider": {
-      "items": [{
-        "image": {
-          "name": "sidebar_slider/01.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/01.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/01.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/01.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/01.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
-      }]
-    },
-    "breadcrumbs": {
-      "items": [{
-        "text": {
-          "text": "Главная"
-        }
-      }, {
-        "text": {
-          "text": "Франшиза Группы компаний Альфа"
-        }
-      }]
-    },
-    "title": {
-      "text": "Франшиза Группы компаний Альфа"
-    },
-    "main_card": {
-      "image": {
-        "name": "detail_card/01.png"
+    "modal_login": {
+      "type": "login",
+      "id": "modal_login",
+      "class": "modal--login",
+      "attrs": "role='dialog' aria-labelledby='modal_title'",
+      "title": {
+        "id": "modal_title",
+        "level": 2,
+        "text": "Войти через"
       },
-      "info": {
+      "socials": {
         "list": {
           "items": [{
-            "term": "Инвестиции",
-            "descr": "от 400 000 р."
+            "icon": {
+              "class": "socials__icon",
+              "name": "sprite-multi.svg#gmail"
+            }
           }, {
-            "term": "Окупаемость",
-            "descr": "от 2 мес."
+            "icon": {
+              "class": "socials__icon",
+              "name": "sprite-multi.svg#vk"
+            }
+          }, {
+            "icon": {
+              "class": "socials__icon",
+              "name": "sprite-multi.svg#yandex"
+            }
+          }, {
+            "icon": {
+              "class": "socials__icon",
+              "name": "sprite-multi.svg#mail"
+            }
           }]
-        },
-        "site_btn": {
-          "href": "#",
-          "text": {
-            "text": "Сайт франшизы"
-          }
-        },
-        "presentation_btn": {
-          "href": "#",
-          "text": {
-            "text": "Презентация франшизы"
-          }
         }
-      },
-      "specialist": {
-        "image": {
-          "name": "detail_card/02.png"
-        },
-        "name": "Михаил Черепанов",
-        "job": "Специалист отдела развития сети ГК Альфа",
-        "add_to_list_btn": {
-          "text": {
-            "text": "Добавить в список"
-          }
-        },
-        "contact_btn": {
-          "text": {
-            "text": "Связаться с представителем"
-          }
-        }
-      }
-    },
-    "tabs": {
-      "class": "detail-tabs",
-      "btns": {
-        "class": "detail-tabs__btns",
-        "items": [{
-          "id": "tab-1",
-          "class": "detail-tabs__btn",
-          "text": {
-            "text": "Фото"
-          },
-          "attrs": "type='button' role='tab' aria-selected='true' aria-controls='tabpanel-1'"
-        }, {
-          "id": "tab-2",
-          "class": "detail-tabs__btn",
-          "text": {
-            "text": "Видео"
-          },
-          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-2' tabindex='-1'"
-        }, {
-          "id": "tab-3",
-          "class": "detail-tabs__btn",
-          "text": {
-            "text": "Новости франшизы"
-          },
-          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-3' tabindex='-1'"
-        }, {
-          "id": "tab-4",
-          "class": "detail-tabs__btn",
-          "text": {
-            "text": "Добрая франшиза"
-          },
-          "attrs": "type='button' role='tab' aria-selected='false' aria-controls='tabpanel-4' tabindex='-1'"
-        }]
-      },
-      "content": {
-        "items": [{
-          "id": "tabpanel-1",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-1'",
-          "data": {
-            "type": "&detail_tabs_slider",
-            "tabs_slider_content": {
-              "items": [{
-                "image": {
-                  "name": "detail_tabs_slider/01.png"
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/02.png"
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/03.png"
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/01.png"
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/02.png"
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/03.png"
-                }
-              }]
-            }
-          }
-        }, {
-          "id": "tabpanel-2",
-          "class": "tabs--hidden",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-2'",
-          "data": {
-            "type": "^video"
-          }
-        }, {
-          "id": "tabpanel-3",
-          "class": "tabs--hidden",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-3'"
-        }, {
-          "id": "tabpanel-4",
-          "class": "tabs--hidden",
-          "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-4'",
-          "data": {
-            "type": "^kind_franchise"
-          }
-        }]
-      }
-    },
-    "text_block": {
-      "type": "&detail_text_block"
-    },
-    "form_block": {
-      "class": "form-block--heading-left",
-      "title": {
-        "level": 2,
-        "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
-      }, {
-        "id": "form_block_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
-      }],
-      "button": {
-        "text": {
-          "text": "Получить бизнес-план"
-        },
-        "attrs": "type='submit'"
-      },
-      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
-    },
-    "statistics": {
-      "items": [{
-        "info": {
-          "text": "Минимальная сумма необходимых инвестиций",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M15 4.32812C10.58 4.32812 7 7.90812 7 12.3281C7 16.7481 10.58 20.3281 15 20.3281C19.42 20.3281 23 16.7481 23 12.3281C23 7.90812 19.42 4.32812 15 4.32812ZM15 18.3281C11.69 18.3281 9 15.6381 9 12.3281C9 9.01813 11.69 6.32812 15 6.32812C18.31 6.32812 21 9.01813 21 12.3281C21 15.6381 18.31 18.3281 15 18.3281ZM7 6.67812C4.67 7.49812 3 9.71813 3 12.3281C3 14.9381 4.67 17.1581 7 17.9781V20.0681C3.55 19.1781 1 16.0581 1 12.3281C1 8.59812 3.55 5.47812 7 4.58812V6.67812Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Вступительный взнос",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M20.5 5.32812V7.60813C21.09 7.95813 21.5 8.58813 21.5 9.32812V15.3281C21.5 16.0681 21.09 16.6981 20.5 17.0481V19.3281C20.5 20.4281 19.6 21.3281 18.5 21.3281H4.5C3.39 21.3281 2.5 20.4281 2.5 19.3281V5.32812C2.5 4.22812 3.39 3.32812 4.5 3.32812H18.5C19.6 3.32812 20.5 4.22812 20.5 5.32812ZM12.5 15.3281H19.5V9.32812H12.5V15.3281ZM4.5 19.3281V5.32812H18.5V7.32812H12.5C11.4 7.32812 10.5 8.22813 10.5 9.32812V15.3281C10.5 16.4281 11.4 17.3281 12.5 17.3281H18.5V19.3281H4.5ZM14 12.3281C14 11.4997 14.6716 10.8281 15.5 10.8281C16.3284 10.8281 17 11.4997 17 12.3281C17 13.1566 16.3284 13.8281 15.5 13.8281C14.6716 13.8281 14 13.1566 14 12.3281Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Сумма роялти",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M4.5 12.3281C4.5 7.35813 8.53 3.32812 13.5 3.32812C18.47 3.32812 22.5 7.35813 22.5 12.3281C22.5 17.2981 18.47 21.3281 13.5 21.3281C11.01 21.3281 8.77 20.3181 7.14 18.6881L8.56 17.2681C9.82 18.5381 11.57 19.3281 13.5 19.3281C17.37 19.3281 20.5 16.1981 20.5 12.3281C20.5 8.45813 17.37 5.32812 13.5 5.32812C9.63 5.32812 6.5 8.45813 6.5 12.3281H9.5L5.5 16.3181L1.5 12.3281H4.5ZM12.5 13.3281V8.32812H14V12.4781L17.52 14.5681L16.75 15.8481L12.5 13.3281Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Количество франшизных точек",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M9.19 9.45813L12 2.82812L14.81 9.45813L22 10.0681L16.54 14.7981L18.18 21.8281L12 18.0981L5.82 21.8281L7.46 14.7981L2 10.0681L9.19 9.45813ZM12.97 10.2481L12 7.95813L11.03 10.2281L10.56 11.3381L9.36 11.4381L6.89 11.6481L8.77 13.2781L9.68 14.0681L9.41 15.2481L8.85 17.6581L10.97 16.3781L12 15.7581L13.03 16.3981L15.15 17.6781L14.59 15.2681L14.32 14.0881L15.23 13.2981L17.11 11.6681L14.64 11.4581L13.44 11.3581L12.97 10.2481Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Количество собственных объектов",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M11.99 2.32812C6.47 2.32812 2 6.80813 2 12.3281C2 17.8481 6.47 22.3281 11.99 22.3281C17.52 22.3281 22 17.8481 22 12.3281C22 6.80813 17.52 2.32812 11.99 2.32812ZM19.47 9.48812L14.46 9.05813L12.46 4.34812C15.67 4.53813 18.37 6.61812 19.47 9.48812ZM12 14.3081L14.4 15.7481L13.76 13.0181L15.87 11.1881L13.09 10.9481L12 8.38812L10.91 10.9581L8.13 11.1981L10.24 13.0281L9.61 15.7481L12 14.3081ZM11.54 4.34812L9.54 9.06812L4.52 9.49813C5.62 6.61812 8.32 4.52813 11.54 4.34812ZM4.23 10.4681C4.08 11.0681 4 11.6881 4 12.3281C4 14.8081 5.13 17.0281 6.91 18.4981L8.02 13.7481L4.23 10.4681ZM7.84 19.1481L12 16.6381L16.16 19.1381C14.94 19.8881 13.52 20.3281 11.99 20.3281C10.47 20.3281 9.05 19.8881 7.84 19.1481ZM15.98 13.7481L17.09 18.4981C18.86 17.0281 20 14.8081 20 12.3281C20 11.6881 19.91 11.0581 19.77 10.4681L15.98 13.7481Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Год основания компании",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M12.5 3.82812L13.5 5.82812H19.5V15.8281H12.5L11.5 13.8281H6.5V20.8281H4.5V3.82812H12.5ZM13.5 13.8281H17.5V7.82812H12.5L11.5 5.82812H6.5V11.8281H12.5L13.5 13.8281Z' fill='#828282'/></svg>"
-          }
-        }
-      }, {
-        "info": {
-          "text": "Год начала франчайзинговой деятельности",
-          "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon statistics__info-icon--with-stroke' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M13.3374 9.16866L12.5453 7.58435H9.58447H8.58447V8.58435V11.3373V12.3373H9.58447H13.3374L14.1296 13.9216H16.2982H17.2982V12.9216V10.1687V9.16866H16.2982H13.3374ZM13.3373 6L14.1294 7.58431H17.8824H18.8824V8.58431V14.5059V15.5059H17.8824H13.3373L12.5451 13.9216H9.58431H8.58431V14.9216V18.4667V19.4667H8H7.58431H7V18.4667V7V6H8H13.3373Z' fill='#828282'/><path d='M13.3374 9.16866L13.1625 9.25612L13.2166 9.36422H13.3374V9.16866ZM12.5453 7.58435L12.7202 7.4969L12.6661 7.3888H12.5453V7.58435ZM8.58447 7.58435V7.3888H8.38892V7.58435H8.58447ZM8.58447 12.3373H8.38892V12.5328H8.58447V12.3373ZM13.3374 12.3373L13.5123 12.2498L13.4583 12.1417H13.3374V12.3373ZM14.1296 13.9216L13.9547 14.0091L14.0087 14.1172H14.1296V13.9216ZM17.2982 13.9216V14.1172H17.4938V13.9216H17.2982ZM17.2982 9.16866H17.4938V8.97311H17.2982V9.16866ZM13.3373 6L13.5122 5.91254L13.4581 5.80444H13.3373V6ZM14.1294 7.58431L13.9545 7.67177L14.0086 7.77987H14.1294V7.58431ZM18.8824 7.58431H19.0779V7.38876H18.8824V7.58431ZM18.8824 15.5059V15.7014H19.0779V15.5059H18.8824ZM13.3373 15.5059L13.1623 15.5933L13.2164 15.7014H13.3373V15.5059ZM12.5451 13.9216L12.72 13.8341L12.666 13.726H12.5451V13.9216ZM8.58431 13.9216V13.726H8.38876V13.9216H8.58431ZM8.58431 19.4667V19.6622H8.77987V19.4667H8.58431ZM7 19.4667H6.80444V19.6622H7V19.4667ZM7 6V5.80444H6.80444V6H7ZM13.5123 9.08121L12.7202 7.4969L12.3703 7.67181L13.1625 9.25612L13.5123 9.08121ZM12.5453 7.3888H9.58447V7.77991H12.5453V7.3888ZM9.58447 7.3888H8.58447V7.77991H9.58447V7.3888ZM8.38892 7.58435V8.58435H8.78003V7.58435H8.38892ZM8.38892 8.58435V11.3373H8.78003V8.58435H8.38892ZM8.38892 11.3373V12.3373H8.78003V11.3373H8.38892ZM8.58447 12.5328H9.58447V12.1417H8.58447V12.5328ZM9.58447 12.5328H13.3374V12.1417H9.58447V12.5328ZM13.1625 12.4247L13.9547 14.0091L14.3045 13.8341L13.5123 12.2498L13.1625 12.4247ZM14.1296 14.1172H16.2982V13.726H14.1296V14.1172ZM16.2982 14.1172H17.2982V13.726H16.2982V14.1172ZM17.4938 13.9216V12.9216H17.1026V13.9216H17.4938ZM17.4938 12.9216V10.1687H17.1026V12.9216H17.4938ZM17.4938 10.1687V9.16866H17.1026V10.1687H17.4938ZM17.2982 8.97311H16.2982V9.36422H17.2982V8.97311ZM16.2982 8.97311H13.3374V9.36422H16.2982V8.97311ZM13.1623 6.08746L13.9545 7.67177L14.3043 7.49686L13.5122 5.91254L13.1623 6.08746ZM14.1294 7.77987H17.8824V7.38876H14.1294V7.77987ZM17.8824 7.77987H18.8824V7.38876H17.8824V7.77987ZM18.6868 7.58431V8.58431H19.0779V7.58431H18.6868ZM18.6868 8.58431V14.5059H19.0779V8.58431H18.6868ZM18.6868 14.5059V15.5059H19.0779V14.5059H18.6868ZM18.8824 15.3103H17.8824V15.7014H18.8824V15.3103ZM17.8824 15.3103H13.3373V15.7014H17.8824V15.3103ZM13.5122 15.4184L12.72 13.8341L12.3702 14.009L13.1623 15.5933L13.5122 15.4184ZM12.5451 13.726H9.58431V14.1171H12.5451V13.726ZM9.58431 13.726H8.58431V14.1171H9.58431V13.726ZM8.38876 13.9216V14.9216H8.77987V13.9216H8.38876ZM8.38876 14.9216V18.4667H8.77987V14.9216H8.38876ZM8.38876 18.4667V19.4667H8.77987V18.4667H8.38876ZM8.58431 19.2711H8V19.6622H8.58431V19.2711ZM8 19.2711H7.58431V19.6622H8V19.2711ZM7.58431 19.2711H7V19.6622H7.58431V19.2711ZM7.19556 19.4667V18.4667H6.80444V19.4667H7.19556ZM7.19556 18.4667V7H6.80444V18.4667H7.19556ZM7.19556 7V6H6.80444V7H7.19556ZM7 6.19556H8V5.80444H7V6.19556ZM8 6.19556H13.3373V5.80444H8V6.19556Z' fill='#828282'/><rect x='3' y='3' width='18' height='18' rx='9' stroke='#828282' stroke-width='2'/></svg>"
-          }
-        }
-      }]
-    },
-    "review_franchise_and_exclusive_interviews": {
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Отзывы о франшизах и эксклюзивные интервью"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "content": {
-        "type": "^card_info",
-        "items": [{
-          "title": {
-            "level": 3,
-            "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
-          },
-          "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
-          "time": {
-            "text": "23 Авг 2022",
-            "datetime": "2022-08-23"
-          }
-        }, {
-          "title": {
-            "level": 3,
-            "text": "Отзыв о франшизе магазина Суши Wok из Омска"
-          },
-          "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
-          "time": {
-            "text": "25 Авг 2022",
-            "datetime": "2022-08-25"
-          }
-        }]
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      }
-    },
-    "review_partners": {
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Отзывы действующих партнеров"
-        }
-      },
-      "content": {
-        "type": "&card_block",
-        "items": [{
-          "image": {
-            "name": "card_block/01.jpg"
-          },
-          "content": {
-            "title": {
-              "level": 3,
-              "text": "Галина Каравайцева, Красноярск"
-            },
-            "text": "Привлекло то, что работа по франшизе построена максимально открыто. Я случайно попала в социальных сетях на страницу партнера Dr.Laser и отзывы были лишь положительные. На&nbsp;обучении мы проработали и обговорили много практических аспектов. Я поняла, как выглядит бизнес изнутри и прошла практику в действующей студии на позиции администратора, а также мастера.",
-            "time": {
-              "text": "22 ноя 2022",
-              "datetime": "2022-11-22"
-            },
-            "button": {
-              "href": "#",
-              "text": {
-                "text": "Читайте полный интервью-отзыв о франшизе"
-              }
-            }
-          }
-        }, {
-          "image": {
-            "name": "card_block/02.jpg"
-          },
-          "content": {
-            "title": {
-              "level": 3,
-              "text": "Анастасия Гришина, Уфа"
-            },
-            "text": "Изучила все предложения на рынке - потратила не меньше месяца, вела переговоры, но именно бизнес с Dr.Laser был наиболее прозрачным, и все слова подкреплялись цифрами. Главное преимущество для меня - комплексное сопровождение. Специалисты по франшизе Dr.Laser оперативно реагируют на все вопросы.",
-            "time": {
-              "text": "22 ноя 2022",
-              "datetime": "2022-11-22"
-            },
-            "button": {
-              "href": "#",
-              "text": {
-                "text": "Читайте полный интервью-отзыв о франшизе"
-              }
-            }
-          }
-        }, {
-          "image": {
-            "name": "card_block/03.jpg"
-          },
-          "content": {
-            "title": {
-              "level": 3,
-              "text": "Халил Яхъяев, Астрахань"
-            },
-            "text": "Свой выбор остановил именно на данной франшизе, так как она предполагает работу по стандартам медицинских клиник с обязательным лицензированием. На старте получили огромную поддержку по организации бизнес-процессов с нуля. И уже в первый месяц работы был выполнен план, на уровень которого, согласно финансовой модели, должны были выйти только на третий месяц.",
-            "time": {
-              "text": "22 ноя 2022",
-              "datetime": "2022-11-22"
-            },
-            "button": {
-              "href": "#",
-              "text": {
-                "text": "Читайте полный интервью-отзыв о франшизе"
-              }
-            }
-          }
-        }, {
-          "image": {
-            "name": "card_block/04.jpg"
-          },
-          "content": {
-            "title": {
-              "level": 3,
-              "text": "Юлия Артюхова, Краснодар"
-            },
-            "text": "Я владела салоном красоты, хотела ввести услугу лазерной эпиляции, но поставила некачественное оборудование и услугу не удалось развить. Тогда и познакомилась с Dr.Laser и приняла решение о покупке франшизы. <br /> Специалисты ведут полностью каждый шаг до открытия и сопровождают после, а качеству оказываемых услуг уделяется огромное внимание.",
-            "time": {
-              "text": "22 ноя 2022",
-              "datetime": "2022-11-22"
-            },
-            "button": {
-              "href": "#",
-              "text": {
-                "text": "Читайте полный интервью-отзыв о франшизе"
-              }
-            }
-          }
-        }]
-      },
-      "footer": {
-        "show_more_button": {
-          "text": {
-            "text": "Показать еще"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_bottom"
-          }
-        }
-      }
-    },
-    "similar_franchise": {
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Похожие франшизы"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Каталог"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "text": "Добавьте и эти франшизы в список, чтобы запросить подробности сразу у нескольких и сравнить условия",
-      "content": {
-        "type": "&card",
-        "items": [{
-
-        }]
-      }
-    },
-    "card_official": {
-      "text": "<p>Официальная страница франшизы.</p><p>Информация предоставлена представителем франшизы.</p><p>Информация обновлена 26.07.2022.</p>",
-      "second_text": "Получите подробную информацию у сотрудника сети «Группы компаний Альфа» через форму для связи ниже."
-    },
-    "form_photo_block": {
-      "title": {
-        "level": 2,
-        "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
-      },
-      "inputs": [{
-        "id": "sidebar_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
-      }, {
-        "id": "sidebar_form_city",
-        "type": "text",
-        "text": "Введите ваш город",
-        "name": "city"
-      }, {
-        "id": "sidebar_form_email",
+        "id": "modal_form_email",
         "type": "email",
         "text": "Введите ваш E-mail",
         "name": "email"
       }, {
-        "id": "sidebar_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "id": "modal_form_password",
+        "type": "password",
+        "text": "Введите пароль",
+        "name": "password"
       }],
-      "button": {
+      "button_forgot_password": {
+        "href": "#",
         "text": {
-          "text": "Получить бизнес-план"
-        },
-        "attrs": "type='submit'"
+          "text": "Забыли пароль?"
+        }
       },
-      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
-      "content_block": {
-        "image": {
-          "name": "form_photo_block/01.png"
-        },
-        "title": "Ваш запрос получит Михаил Черепанов",
-        "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
-      }
-    },
-    "form_photo_block_mobile": {
-      "class": "form-photo-block--mobile",
-      "title": {
-        "level": 2,
-        "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
-      },
-      "inputs": [{
-        "id": "sidebar_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
-      }, {
-        "id": "sidebar_form_city",
-        "type": "text",
-        "text": "Введите ваш город",
-        "name": "city"
-      }, {
-        "id": "sidebar_form_email",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
-      }, {
-        "id": "sidebar_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
-      }],
-      "button": {
+      "button_entry": {
+        "href": "#",
         "text": {
-          "text": "Получить бизнес-план"
-        },
-        "attrs": "type='submit'"
+          "text": "Войти"
+        }
       },
-      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
-      "content_block": {
-        "image": {
-          "name": "form_photo_block/01.png"
-        },
-        "title": "Ваш запрос получит Михаил Черепанов",
-        "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
+      "button_registration": {
+        "href": "#",
+        "text": {
+          "text": "Зарегистрироваться"
+        }
       }
-    },
-    "socials": {
-      "class": "socials--detail",
-      "text": "Поделитесь с друзьями:",
-      "list": {
-        "items": [{
-          "icon": {
-            "class": "socials__icon",
-            "name": "sprite-multi.svg#vk"
-          }
-        }, {
-          "icon": {
-            "class": "socials__icon",
-            "name": "sprite-multi.svg#email"
-          }
-        }, {
-          "icon": {
-            "class": "socials__icon",
-            "name": "sprite-multi.svg#telegram"
-          }
-        }, {
-          "icon": {
-            "class": "socials__icon",
-            "name": "sprite-multi.svg#odnokl"
-          }
-        }]
-      }
-    },
-    "sidebar_slider_mobile": {
-      "class": "sidebar-slider--mobile",
-      "items": [{
-        "image": {
-          "name": "sidebar_slider/02.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg"
-        },
-        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
-      }]
     }
   }
 }

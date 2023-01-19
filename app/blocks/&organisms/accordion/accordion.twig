@@ -20,6 +20,24 @@
             {% view "^sidebar_accordion_list" with {
               sidebar_accordion_list: item.data.content
             } %}
+          {% elseif item.data.type == '&detail_tabs_slider' %}
+            {% view "&detail_tabs_slider" with {
+              detail_tabs_slider: item.data.content
+            } %}
+          {% elseif item.data.type == '^video' %}
+            {% view "^video" %}
+          {% elseif item.data.type == '&tabs_card' %}
+            <ul class="tabs__card">
+              {% for item in item.data.content.items %}
+                <li class="tabs__card-item">
+                  {% view "&tabs_card" with {
+                    tabs_card: item
+                  } %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% elseif item.data.type == '^kind_franchise' %}
+            {% view "^kind_franchise" %}
           {% endif %}
         </section>
       {% endif %}

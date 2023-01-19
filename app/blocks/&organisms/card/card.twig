@@ -1,3 +1,41 @@
-<article class="card">
+<article class="card {{ card.class }}">
+  {% view "@image" with {
+    image: card.image|merge({
+      class: "card__img"
+    })
+  } %}
 
+  <div class="card__content">
+    {% view "@title" with {
+      title: card.content.title|merge({
+        class: "card__title"
+      })
+    } %}
+
+    <p class="card__text">
+      {{ card.content.text }}
+    </p>
+
+    <div class="card__bottom">
+      <dl class="card__list">
+        <div class="card__item">
+          <dt class="card__term">
+            {{ card.content.investment.text }}
+          </dt>
+          <dd class="card__descr">
+            {{ card.content.investment.num }}
+          </dd>
+        </div>
+      </dl>
+
+      {% view "@button" with {
+        button: card.button|merge({
+          class: "card__btn btn--btn btn--toggle " ~ card.button.class,
+          icon: {
+            name: "sprite-multi.svg#square"
+          }
+        })
+      } %}
+    </div>
+  </div>
 </article>

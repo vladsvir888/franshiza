@@ -144,7 +144,7 @@ small {
   margin: rem(75) 0 rem(100);
 
   @include media('600', max) {
-    margin: rem(52) 0 rem(30);
+    margin: rem(52) 0 rem(46);
   }
 
   &--detail {
@@ -192,4 +192,15 @@ small {
       margin-bottom: rem(8);
     }
   }
+}
+
+// вырубаем стрелки
+.fancybox__nav {
+  display: none;
+}
+
+// делаем обычный курсор
+.fancybox__carousel.is-draggable .fancybox__slide,
+.fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
+  cursor: default;
 }

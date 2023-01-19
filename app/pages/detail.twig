@@ -19,6 +19,10 @@
           detail_card: detail.detail_card
         } %}
 
+        {% view "&accordion" with {
+          accordion: detail.mobile_accordion
+        } %}
+
         {% view "&tabs" with {
           tabs: detail.tabs
         } %}
@@ -53,6 +57,10 @@
 
         {% view "@banner" %}
 
+        {% view "&accordion" with {
+          accordion: detail.sidebar_accordion_mobile
+        } %}
+
         {% view "&sidebar_slider" with {
           sidebar_slider: detail.sidebar_slider_mobile
         } %}
@@ -72,5 +80,19 @@
       </div>
     </div>
   </div>
+
+  {% view "@button" with {
+    button: {
+      class: "btn--btn btn--large btn--primary btn--sticky",
+      text: {
+        text: "Получить бизнес-план"
+      }
+    }
+  } %}
 </main>
+
+{% view "&modal" with {
+  modal: detail.modal_login
+} %}
+
 {% endblock %}

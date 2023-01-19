@@ -1,4 +1,8 @@
 .detail-tabs {
+  @include media('600', max) {
+    display: none;
+  }
+
   &__btns {
     display: flex;
     flex-wrap: wrap;

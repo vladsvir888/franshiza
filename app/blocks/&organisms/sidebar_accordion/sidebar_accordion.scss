@@ -1,6 +1,51 @@
 .sidebar-accordion {
   $this: &;
 
+  &--mobile {
+    display: none;
+
+    @include media('600', max) {
+      display: block;
+
+      &:not(:last-child) {
+        margin-bottom: rem(30);
+      }
+    }
+
+    #{$this}__item {
+      padding: rem(8) 0;
+      border-bottom: rem(1) solid var(--pallette-nobel);
+
+      &:first-child {
+        padding-top: 0;
+      }
+
+      &:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+
+    #{$this}__btn {
+      width: 100%;
+      justify-content: space-between;
+
+      &[aria-expanded=true] {
+        #{$this}__icon {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+
+    #{$this}__icon {
+      transform: rotate(-90deg);
+    }
+  }
+
   &__item {
     &:not(:last-child) {
       margin-bottom: rem(20);

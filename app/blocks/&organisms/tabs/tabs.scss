@@ -4,4 +4,15 @@
   &--hidden {
     display: none;
   }
+
+  &__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: rem(20);
+
+    @include media('600', max) {
+      grid-template-columns: 1fr;
+      gap: rem(12);
+    }
+  }
 }
