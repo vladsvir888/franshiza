@@ -53,6 +53,7 @@
       text-align: left;
       width: 100%;
       padding: rem(10) rem(5) rem(10) rem(25);
+      color: inherit;
 
       @include media('600', max) {
         font-size: rem(13);
