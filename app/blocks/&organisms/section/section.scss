@@ -1,10 +1,8 @@
 .section {
-  &:not(:last-child) {
-    margin-bottom: rem(44);
+  margin-bottom: rem(44);
 
-    @include media('600', max) {
-      margin-bottom: rem(30);
-    }
+  @include media('600', max) {
+    margin-bottom: rem(30);
   }
 
   &__header {

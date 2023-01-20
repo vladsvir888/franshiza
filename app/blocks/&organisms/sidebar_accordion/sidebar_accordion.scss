@@ -1,15 +1,15 @@
 .sidebar-accordion {
   $this: &;
 
+  max-width: rem(230);
+
   &--mobile {
     display: none;
+    max-width: unset;
 
     @include media('600', max) {
       display: block;
-
-      &:not(:last-child) {
-        margin-bottom: rem(30);
-      }
+      margin-bottom: rem(30);
     }
 
     #{$this}__item {

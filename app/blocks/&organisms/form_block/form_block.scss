@@ -2,9 +2,14 @@
   $this: &;
 
   padding: rem(30);
+  margin-bottom: rem(44);
   border-radius: rem(12);
   background-color: var(--pallette-mystic);
   text-align: center;
+
+  @include media('600', max) {
+    margin-bottom: rem(24);
+  }
 
   @include media('600', max) {
     padding: rem(20) rem(16);
@@ -37,6 +42,7 @@
   &__form {
     max-width: rem(460);
     margin: 0 auto rem(10);
+    transition: margin var(--transition);
   }
 
   &__btn {
@@ -46,5 +52,100 @@
   &__note {
     @include font-size(12, 16);
     color: var(--pallette-nepal);
+  }
+
+  &__toggle {
+    @include flex-center-y;
+    color: var(--pallette-cerulean);
+    font-weight: 700;
+    margin: 0 auto rem(20);
+
+    &:hover {
+      color: var(--pallette-deep-cerulean);
+    }
+
+    &--active {
+      #{$this}__toggle-icon {
+        transform: rotate(-180deg);
+      }
+    }
+
+    @include media('375', max) {
+      @include font-size(14, 20);
+      margin: 0 0 rem(8);
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: rem(20);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height var(--transition);
+
+      &[style] + #{$this}__form {
+        margin-top: rem(24);
+      }
+
+      @include media('767', max) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @include media('375', max) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    &-item {
+      @include flex-center-y;
+      gap: rem(12);
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      > * {
+        &:not(:last-child) {
+          margin-bottom: rem(3);
+        }
+      }
+    }
+
+    &-remove {
+      @include flex-center-y;
+      color: var(--pallette-scorpion);
+
+      &-icon {
+        width: rem(12);
+        height: rem(12);
+        margin-left: rem(2);
+        fill: var(--pallette-nobel);
+      }
+
+      &:hover {
+        color: var(--pallette-cerulean);
+
+        #{$this}__toggle-remove-icon {
+          fill: var(--pallette-cerulean);
+        }
+      }
+    }
+
+    &-link {
+      color: inherit;
+      text-align: left;
+
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
+    }
+
+    &-icon {
+      width: rem(24);
+      height: rem(24);
+      transition: transform var(--transition);
+    }
   }
 }

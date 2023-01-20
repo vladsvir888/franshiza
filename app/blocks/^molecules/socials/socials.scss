@@ -8,18 +8,12 @@
 
   &--detail {
     justify-content: flex-end;
+    margin-bottom: rem(44);
 
     @include media('600', max) {
       flex-direction: column;
       justify-content: center;
-    }
-
-    &:not(:last-child) {
-      margin-bottom: rem(44);
-
-      @include media('600', max) {
-        margin-bottom: rem(30);
-      }
+      margin-bottom: rem(30);
     }
   }
 

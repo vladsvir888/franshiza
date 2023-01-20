@@ -4,6 +4,10 @@
   margin-bottom: rem(20);
   overflow: auto;
 
+  @include media('600', max) {
+    margin-bottom: rem(8);
+  }
+
   &__list {
     display: flex;
     align-items: center;

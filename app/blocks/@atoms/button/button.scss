@@ -14,6 +14,10 @@
     fill: currentColor;
   }
 
+  &__text {
+    pointer-events: none;
+  }
+
   &--btn {
     display: inline-flex;
     align-items: center;

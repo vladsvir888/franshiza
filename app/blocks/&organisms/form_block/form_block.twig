@@ -5,6 +5,47 @@
     })
   } %}
 
+  {% if form_block.toggle %}
+    <button class="btn btn--large form-block__toggle">
+      У франшиз из списка (<span class="form-block__toggle-num">3</span>)
+      <svg class="icon btn__icon form-block__toggle-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.8019 10.1912C15.675 10.0688 15.5029 10 15.3235 10C15.1441 10 14.972 10.0688 14.8452 10.1912L11.4959 13.4237L8.14667 10.1912C8.01906 10.0722 7.84814 10.0064 7.67074 10.0079C7.49333 10.0094 7.32363 10.0781 7.19818 10.1992C7.07273 10.3202 7.00157 10.484 7.00003 10.6552C6.99848 10.8265 7.06668 10.9914 7.18993 11.1146L11.0175 14.8088C11.1444 14.9312 11.3165 15 11.4959 15C11.6753 15 11.8474 14.9312 11.9743 14.8088L15.8019 11.1146C15.9287 10.9921 16 10.8261 16 10.6529C16 10.4797 15.9287 10.3137 15.8019 10.1912Z"/>
+      </svg>
+    </button>
+
+    <ul class="form-block__toggle-list">
+      {% for item in form_block.toggle.list.items %}
+        <li class="form-block__toggle-item">
+          {% view "@image" with {
+            image: item.image
+          } %}
+
+          <div class="form-block__toggle-content">
+            {% view "@button" with {
+              button: item.button|merge({
+                class: "form-block__toggle-link",
+                href: "#"
+              })
+            } %}
+
+            {% view "@button" with {
+              button: {
+                class: "form-block__toggle-remove",
+                text: {
+                  text: "Удалить"
+                },
+                right_icon: {
+                  class: "form-block__toggle-remove-icon",
+                  name: "sprite-mono.svg#close"
+                }
+              }
+            } %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   <form class="form form-block__form" action="/" method="get">
     {% for input in form_block.inputs %}
       {% view "@input" with {

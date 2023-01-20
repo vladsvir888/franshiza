@@ -17,7 +17,7 @@
 
       {% if content.data.type == '&detail_tabs_slider' %}
         {% view "&detail_tabs_slider" with {
-          detail_tabs_slider: content.data.tabs_slider_content
+          detail_tabs_slider: content.data.content
         } %}
       {% elseif content.data.type == '^video' %}
         {% view "^video" %}
@@ -25,7 +25,7 @@
         {% view "^kind_franchise" %}
       {% elseif content.data.type == '&tabs_card' %}
         <ul class="tabs__card">
-          {% for item in content.data.tabs_card_content.items %}
+          {% for item in content.data.content.items %}
             <li class="tabs__card-item">
               {% view "&tabs_card" with {
                 tabs_card: item

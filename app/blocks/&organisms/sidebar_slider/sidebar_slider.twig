@@ -4,7 +4,8 @@
       <div class="swiper-slide sidebar-slider__item">
         {% view "@image" with {
           image: item.image|merge({
-            class: "sidebar-slider__img"
+            class: "sidebar-slider__img",
+            lazy: false
           })
         } %}
 

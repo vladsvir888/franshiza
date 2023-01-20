@@ -16,6 +16,7 @@ class Accordion {
 
       if (this.activeIndex === i) {
         content.style.maxHeight = this.setMaxHeight(content);
+        item.setAttribute('aria-expanded', true);
       }
     });
   }
@@ -30,9 +31,9 @@ class Accordion {
     } = e;
     const btn = target.closest(Accordion.selectors.button);
     const currentIndex = this.items.indexOf(btn);
+    const currentSection = btn.parentElement.nextElementSibling;
     const activeSection = this.items[this.activeIndex].parentElement.nextElementSibling;
     const btnActiveSection = this.items[this.activeIndex];
-    const currentSection = btn.parentElement.nextElementSibling;
 
     if (this.activeIndex === currentIndex) {
       if (currentSection.style.maxHeight) {

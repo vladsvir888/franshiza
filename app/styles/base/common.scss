@@ -141,15 +141,29 @@ small {
 .main {
   position: relative;
   flex: 1 0 auto;
-  margin: rem(75) 0 rem(100);
+  margin: rem(75) 0 rem(56);
 
   @include media('600', max) {
-    margin: rem(52) 0 rem(46);
+    margin: rem(52) 0 rem(16);
   }
 
   &--detail {
     .title--h1 {
       margin-bottom: rem(27);
+    }
+  }
+
+  &--catalog {
+    .breadcrumbs {
+      @include media('600', max) {
+        margin-bottom: rem(24);
+      }
+    }
+
+    .sidebar-accordion--mobile {
+      @include media('600', max) {
+        margin-bottom: rem(40);
+      }
     }
   }
 
@@ -192,6 +206,14 @@ small {
       margin-bottom: rem(8);
     }
   }
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 // вырубаем стрелки

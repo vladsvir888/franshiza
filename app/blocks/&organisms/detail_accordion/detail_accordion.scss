@@ -7,10 +7,8 @@
     display: block;
   }
 
-  &__item {
-    &:not(:last-child) {
-      margin-bottom: rem(12);
-    }
+  &__content {
+    padding-bottom: rem(14);
   }
 
   &__btn {
@@ -33,5 +31,9 @@
     height: rem(24);
     margin-left: rem(6);
     transition: transform var(--transition);
+  }
+
+  .detail-tabs-slider__pagination.swiper-pagination-bullets {
+    bottom: rem(-18);
   }
 }

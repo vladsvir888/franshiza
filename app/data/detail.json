@@ -52,7 +52,7 @@
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -104,7 +104,7 @@
           "text": {
             "text": "Франшизы по городам/странам"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect2'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -693,7 +693,7 @@
           "text": {
             "text": "Фото"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='detail_acc_sect1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='detail_acc_sect1'",
           "right_icon": {
             "class": "detail-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -701,6 +701,7 @@
         },
         "content": {
           "id": "detail_acc_sect1",
+          "class": "detail-accordion__content",
           "attrs": "aria-labelledby='detail_accordion1id'"
         },
         "data": {
@@ -741,7 +742,7 @@
           "text": {
             "text": "Видео"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='detail_acc_sect2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='detail_acc_sect2'",
           "right_icon": {
             "class": "detail-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -749,6 +750,7 @@
         },
         "content": {
           "id": "detail_acc_sect2",
+          "class": "detail-accordion__content",
           "attrs": "aria-labelledby='detail_accordion2id'"
         },
         "data": {
@@ -770,6 +772,7 @@
         },
         "content": {
           "id": "detail_acc_sect3",
+          "class": "detail-accordion__content",
           "attrs": "aria-labelledby='detail_accordion3id'"
         },
         "data": {
@@ -994,6 +997,7 @@
         },
         "content": {
           "id": "detail_acc_sect4",
+          "class": "detail-accordion__content",
           "attrs": "aria-labelledby='detail_accordion4id'"
         },
         "data": {
@@ -1128,7 +1132,7 @@
           "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-1'",
           "data": {
             "type": "&detail_tabs_slider",
-            "tabs_slider_content": {
+            "content": {
               "items": [{
                 "image": {
                   "name": "detail_tabs_slider/01.png"
@@ -1169,7 +1173,7 @@
           "attrs": "role='tabpanel' tabindex='0' aria-labelledby='tab-3'",
           "data": {
             "type": "&tabs_card",
-            "tabs_card_content": {
+            "content": {
               "items": [{
                 "image": {
                   "name": "tabs_card/01.png"
@@ -1384,7 +1388,7 @@
       }
     },
     "text_block": {
-      "type": "&detail_text_block"
+      "type": "detail_text_block"
     },
     "form_block": {
       "class": "form-block--heading-left",

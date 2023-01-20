@@ -1,11 +1,12 @@
-<div class="detail-tabs-slider">
+<div class="detail-tabs-slider {{ detail_tabs_slider.class }}">
   <div class="swiper detail-tabs-slider__inner">
     <div class="swiper-wrapper">
       {% for item in detail_tabs_slider.items %}
         <div class="swiper-slide">
           {% view "@image" with {
             image: item.image|merge({
-              class: "detail-tabs-slider__img"
+              class: "detail-tabs-slider__img",
+              lazy: false
             })
           } %}
         </div>

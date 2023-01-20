@@ -2,6 +2,8 @@
   $this: &;
 
   position: relative;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     #{$this}__title {
@@ -12,6 +14,16 @@
   @include media('500', max) {
     width: calc(100% + 2rem);
     margin-left: -1rem;
+  }
+
+  &--secondary {
+    #{$this}__content {
+      background-color: var(--pallette-nepal-soft);
+
+      @include media('500', max) {
+        padding: rem(10) rem(16) rem(16);
+      }
+    }
   }
 
   &__img {
@@ -27,6 +39,7 @@
   &__content {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     padding: rem(10) rem(12) rem(14);
     border-bottom-left-radius: rem(6);
     border-bottom-right-radius: rem(6);

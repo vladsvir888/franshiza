@@ -2,6 +2,9 @@
   "pages": [{
     "text": "Страница франшизы",
     "link": "detail"
+  }, {
+    "text": "Все франшизы",
+    "link": "catalog"
   }],
   "meta": {
     "html_lang": "ru",

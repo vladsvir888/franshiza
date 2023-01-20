@@ -12,6 +12,8 @@ import initVideo from './components/video';
 import addToList from './components/addToList';
 import scrollToForm from './components/scrollToForm';
 import showModal from './components/showModal';
+import Dropdown from './components/dropdown';
+import toggleList from './components/toggleList';
 
 document.addEventListener('DOMContentLoaded', () => {
   new LazyLoad();
@@ -22,16 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   sidebarSlider();
 
-  detailTabsSlider();
+  detailTabsSlider('.detail-tabs');
+  detailTabsSlider('.detail-accordion');
 
   document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
 
-  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 1));
+  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 0));
 
   initVideo();
   addToList();
   scrollToForm();
   showModal();
+  toggleList();
+
+  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
 
   // new AirDatepicker('#input');
 });

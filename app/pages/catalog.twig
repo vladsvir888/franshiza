@@ -1,0 +1,65 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main main--catalog" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: catalog.breadcrumbs
+        } %}
+
+        {% view "&accordion" with {
+          accordion: catalog.sidebar_accordion_mobile
+        } %}
+
+        {% view "@title" with {
+          title: catalog.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        {% view "^dropdown" with {
+          dropdown: catalog.dropdown
+        } %}
+
+        {% view "&section" with {
+          section: catalog.cards
+        } %}
+
+        {% view "&text_block" with {
+          text_block: catalog.text_block
+        } %}
+
+        {% view "&form_block" with {
+          form_block: catalog.form_block
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: catalog.sidebar_slider_mobile
+        } %}
+
+        {% view "&section" with {
+          section: catalog.review_franchise_and_exclusive_interviews
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&section" with {
+          section: catalog.news_and_info_about_franchise
+        } %}
+      </div>
+      <div class="main__sidebar">
+        {% view "&accordion" with {
+          accordion: catalog.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: catalog.sidebar_slider
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

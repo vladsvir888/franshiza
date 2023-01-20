@@ -1,17 +1,17 @@
 import Swiper, { Pagination, Navigation } from 'swiper';
 
-const detailTabsSlider = () => {
-  new Swiper('.detail-tabs-slider__inner', {
+const detailTabsSlider = (selector) => {
+  new Swiper(`${selector} .detail-tabs-slider__inner`, {
     modules: [Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 20,
     pagination: {
-      el: '.swiper-pagination',
+      el: `${selector} .swiper-pagination`,
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: `${selector} .swiper-button-next`,
+      prevEl: `${selector} .swiper-button-prev`,
     },
     breakpoints: {
       500: {

@@ -6,10 +6,7 @@
   &--mobile {
     display: none;
     height: rem(582);
-
-    &:not(:last-child) {
-      margin-bottom: rem(30);
-    }
+    margin-bottom: rem(30);
 
     @include media('600', max) {
       display: block;
