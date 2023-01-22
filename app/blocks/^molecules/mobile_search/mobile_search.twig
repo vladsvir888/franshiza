@@ -1,6 +1,8 @@
 <div class="mobile-search">
   {% view "@button" with {
-    button: mobile_search.open_btn
+    button: mobile_search.open_btn|merge({
+      attrs: "aria-label='Открыть поиск'"
+    })
   } %}
 
   {% view "^search" with {

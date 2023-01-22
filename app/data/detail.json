@@ -1677,7 +1677,11 @@
         "items": [{
           "image": {
             "name": "card_block/01.jpg",
-            "alt": "Галина Каравайцева, Красноярск."
+            "alt": "Галина Каравайцева, Красноярск.",
+            "sizes": {
+              "width": 204,
+              "height": 204
+            }
           },
           "content": {
             "title": {
@@ -1699,7 +1703,11 @@
         }, {
           "image": {
             "name": "card_block/02.jpg",
-            "alt": "Анастасия Гришина, Уфа."
+            "alt": "Анастасия Гришина, Уфа.",
+            "sizes": {
+              "width": 204,
+              "height": 204
+            }
           },
           "content": {
             "title": {
@@ -1721,7 +1729,11 @@
         }, {
           "image": {
             "name": "card_block/03.jpg",
-            "alt": "Халил Яхъяев, Астрахань."
+            "alt": "Халил Яхъяев, Астрахань.",
+            "sizes": {
+              "width": 204,
+              "height": 204
+            }
           },
           "content": {
             "title": {
@@ -1743,7 +1755,11 @@
         }, {
           "image": {
             "name": "card_block/04.jpg",
-            "alt": "Юлия Артюхова, Краснодар."
+            "alt": "Юлия Артюхова, Краснодар.",
+            "sizes": {
+              "width": 204,
+              "height": 204
+            }
           },
           "content": {
             "title": {

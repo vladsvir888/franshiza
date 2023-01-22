@@ -1,7 +1,11 @@
 <article class="card {{ card.class }}">
   {% view "@image" with {
     image: card.image|merge({
-      class: "card__img"
+      class: "card__img",
+      sizes: {
+        width: 285,
+        height: 210
+      }
     })
   } %}
 

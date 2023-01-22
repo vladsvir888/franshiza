@@ -9,7 +9,11 @@
 
     {% view "@image" with {
       image: sidebar_form.content.image|merge({
-        class: "sidebar-form__content-img"
+        class: "sidebar-form__content-img",
+        sizes: {
+          width: 70,
+          height: 70
+        }
       })
     } %}
 

@@ -10,7 +10,11 @@
   } %}
   {% view "@image" with {
     image: card.image|merge({
-      class: "detail-card__img"
+      class: "detail-card__img",
+      sizes: {
+        width: 285,
+        height: 207
+      }
     })
   } %}
   <div class="detail-card__info">
@@ -52,7 +56,11 @@
     <div class="detail-card__specialist-header">
       {% view "@image" with {
         image: card.specialist.image|merge({
-          class: "detail-card__img"
+          class: "detail-card__img",
+          sizes: {
+            width: 82,
+            height: 82
+          }
         })
       } %}
 

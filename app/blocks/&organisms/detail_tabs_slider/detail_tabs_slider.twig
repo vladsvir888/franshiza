@@ -6,13 +6,17 @@
           {% view "@image" with {
             image: item.image|merge({
               class: "detail-tabs-slider__img",
-              lazy: false
+              lazy: false,
+              sizes: {
+                width: 285,
+                height: 181
+              }
             })
           } %}
         </div>
       {% endfor %}
     </div>
-    <button class="btn swiper-button-prev detail-tabs-slider__btn">
+    <button class="btn swiper-button-prev detail-tabs-slider__btn" aria-label="Назад">
       {% view "@icon" with {
         icon: {
           class: "detail-tabs-slider__btn-icon",
@@ -20,7 +24,7 @@
         }
       } %}
     </button>
-    <button class="btn swiper-button-next detail-tabs-slider__btn detail-tabs-slider__btn--next">
+    <button class="btn swiper-button-next detail-tabs-slider__btn detail-tabs-slider__btn--next" aria-label="Вперед">
       {% view "@icon" with {
         icon: {
           class: "detail-tabs-slider__btn-icon",

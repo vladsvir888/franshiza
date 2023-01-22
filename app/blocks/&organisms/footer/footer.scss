@@ -34,6 +34,7 @@
 
     @include media('375', max) {
       padding-left: 1rem;
+      max-width: rem(210);
     }
   }
 

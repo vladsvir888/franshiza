@@ -5,7 +5,6 @@
 
   &--mobile {
     display: none;
-    height: rem(582);
     margin-bottom: rem(30);
 
     @include media('600', max) {

@@ -5,7 +5,11 @@
         {% view "@image" with {
           image: item.image|merge({
             class: "sidebar-slider__img",
-            lazy: false
+            lazy: false,
+            sizes: {
+              width: 240,
+              height: 400
+            }
           })
         } %}
 
