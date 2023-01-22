@@ -1,4 +1,4 @@
-import LazyLoad from 'vanilla-lazyload';
+// import LazyLoad from 'vanilla-lazyload';
 // import AirDatepicker from 'air-datepicker';
 
 // components
@@ -16,7 +16,7 @@ import Dropdown from './components/dropdown';
 import toggleList from './components/toggleList';
 
 document.addEventListener('DOMContentLoaded', () => {
-  new LazyLoad();
+  // new LazyLoad();
 
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
 

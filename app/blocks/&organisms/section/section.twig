@@ -1,4 +1,10 @@
 <section class="section">
+  {% if section.title %}
+    {% view "@title" with {
+      title: section.title
+    } %}
+  {% endif %}
+
   {% if section.header %}
     <div class="section__header">
       {% view "@title" with {

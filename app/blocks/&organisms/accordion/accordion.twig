@@ -10,10 +10,11 @@
       </h3>
 
       {% if item.content %}
-        <section
+        <div
           {% if item.content.id %}id="{{ item.content.id }}"{% endif %}
           class="accordion__content {{ item.content.class }}"
           {{ item.content.attrs }}
+          role="region"
         >
 
           {% if item.data.type == '@sidebar_accordion_list' %}
@@ -39,7 +40,7 @@
           {% elseif item.data.type == '^kind_franchise' %}
             {% view "^kind_franchise" %}
           {% endif %}
-        </section>
+        </div>
       {% endif %}
     </div>
   {% endfor %}

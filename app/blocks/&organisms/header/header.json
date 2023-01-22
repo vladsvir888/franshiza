@@ -24,18 +24,21 @@
         "wrap": {
           "class": "search__input-block"
         },
-        "id": "header_search",
-        "class": "search__input",
-        "type": "search",
-        "text": "Поиск, например, магазин",
-        "name": "search",
-        "btn": {
-          "class": "search__btn",
-          "icon": {
-            "class": "search__icon",
-            "name": "sprite-mono.svg#search"
-          },
-          "attrs": "aria-label='Поиск' type='submit'"
+        "element": {
+          "class": "search__input",
+          "type": "search",
+          "text": "Поиск, например, магазин",
+          "name": "search"
+        },
+        "label": {
+          "btn": {
+            "class": "search__btn",
+            "icon": {
+              "class": "search__icon",
+              "name": "sprite-mono.svg#search"
+            },
+            "attrs": "type='submit' id='header_search'"
+          }
         }
       }
     },
@@ -105,18 +108,21 @@
         "wrap": {
           "class": "search__input-block"
         },
-        "id": "header_search_2",
-        "class": "search__input",
-        "type": "search",
-        "text": "Поиск, например, магазин",
-        "name": "search",
-        "btn": {
-          "class": "search__btn",
-          "icon": {
-            "class": "search__icon",
-            "name": "sprite-mono.svg#search"
-          },
-          "attrs": "aria-label='Поиск' type='submit'"
+        "element": {
+          "class": "search__input",
+          "type": "search",
+          "text": "Поиск, например, магазин",
+          "name": "search"
+        },
+        "label": {
+          "btn": {
+            "class": "search__btn",
+            "icon": {
+              "class": "search__icon",
+              "name": "sprite-mono.svg#search"
+            },
+            "attrs": "id='header_search_2' type='submit'"
+          }
         }
       }
     }

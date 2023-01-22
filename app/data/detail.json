@@ -9,30 +9,39 @@
       "subtitle": "Ваш запрос получит Михаил&nbsp;Черепанов",
       "content": {
         "image": {
-          "name": "sidebar_form/01.png"
+          "name": "sidebar_form/01.png",
+          "alt": "Михаил Черепанов, специалист отдела развития сети ГК Альфа."
         },
-        "title": "Специалист отдела развития <br /> сети ГК Альфа"
+        "title": "Специалист отдела развития <br> сети ГК Альфа"
       },
       "inputs": [{
-        "id": "sidebar_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "sidebar_form_name",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "sidebar_form_city",
-        "type": "text",
-        "text": "Введите ваш город",
-        "name": "city"
+        "element": {
+          "id": "sidebar_form_city",
+          "type": "text",
+          "text": "Введите ваш город",
+          "name": "city"
+        }
       }, {
-        "id": "sidebar_form_email",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
+        "element": {
+          "id": "sidebar_form_email",
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
       }, {
-        "id": "sidebar_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "sidebar_form_tel",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -709,27 +718,33 @@
           "content": {
             "items": [{
               "image": {
-                "name": "detail_tabs_slider/01.png"
+                "name": "detail_tabs_slider/01.png",
+                "alt": "Запатентованная технология."
               }
             }, {
               "image": {
-                "name": "detail_tabs_slider/02.png"
+                "name": "detail_tabs_slider/02.png",
+                "alt": "Доход от 300 000 руб/мес."
               }
             }, {
               "image": {
-                "name": "detail_tabs_slider/03.png"
+                "name": "detail_tabs_slider/03.png",
+                "alt": "Более 189 партнеров."
               }
             }, {
               "image": {
-                "name": "detail_tabs_slider/01.png"
+                "name": "detail_tabs_slider/01.png",
+                "alt": "Запатентованная технология."
               }
             }, {
               "image": {
-                "name": "detail_tabs_slider/02.png"
+                "name": "detail_tabs_slider/02.png",
+                "alt": "Доход от 300 000 руб/мес."
               }
             }, {
               "image": {
-                "name": "detail_tabs_slider/03.png"
+                "name": "detail_tabs_slider/03.png",
+                "alt": "Более 189 партнеров."
               }
             }]
           }
@@ -780,7 +795,8 @@
           "content": {
             "items": [{
               "image": {
-                "name": "tabs_card/01.png"
+                "name": "tabs_card/01.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -800,7 +816,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/02.png"
+                "name": "tabs_card/02.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -820,7 +837,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/03.png"
+                "name": "tabs_card/03.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -840,7 +858,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/04.png"
+                "name": "tabs_card/04.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -860,7 +879,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/05.png"
+                "name": "tabs_card/05.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -880,7 +900,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/06.png"
+                "name": "tabs_card/06.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -900,7 +921,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/07.png"
+                "name": "tabs_card/07.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -920,7 +942,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/08.png"
+                "name": "tabs_card/08.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -940,7 +963,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/09.png"
+                "name": "tabs_card/09.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -960,7 +984,8 @@
               }
             }, {
               "image": {
-                "name": "tabs_card/10.png"
+                "name": "tabs_card/10.png",
+                "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
               },
               "content": {
                 "title": {
@@ -1008,27 +1033,32 @@
     "sidebar_slider": {
       "items": [{
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
@@ -1049,7 +1079,8 @@
     },
     "main_card": {
       "image": {
-        "name": "detail_card/01.png"
+        "name": "detail_card/01.png",
+        "alt": "IT франшиза самого выгодного рекламного сервиса с гарантией окупаемости."
       },
       "info": {
         "list": {
@@ -1076,7 +1107,8 @@
       },
       "specialist": {
         "image": {
-          "name": "detail_card/02.png"
+          "name": "detail_card/02.png",
+          "alt": "Михаил Черепанов, специалист отдела развития сети ГК Альфа."
         },
         "name": "Михаил Черепанов",
         "job": "Специалист отдела развития сети ГК Альфа",
@@ -1135,27 +1167,33 @@
             "content": {
               "items": [{
                 "image": {
-                  "name": "detail_tabs_slider/01.png"
+                  "name": "detail_tabs_slider/01.png",
+                  "alt": "Запатентованная технология."
                 }
               }, {
                 "image": {
-                  "name": "detail_tabs_slider/02.png"
+                  "name": "detail_tabs_slider/02.png",
+                  "alt": "Доход от 300 000 руб/мес."
                 }
               }, {
                 "image": {
-                  "name": "detail_tabs_slider/03.png"
+                  "name": "detail_tabs_slider/03.png",
+                  "alt": "Более 189 партнеров."
                 }
               }, {
                 "image": {
-                  "name": "detail_tabs_slider/01.png"
+                  "name": "detail_tabs_slider/01.png",
+                  "alt": "Запатентованная технология."
                 }
               }, {
                 "image": {
-                  "name": "detail_tabs_slider/02.png"
+                  "name": "detail_tabs_slider/02.png",
+                  "alt": "Доход от 300 000 руб/мес."
                 }
               }, {
                 "image": {
-                  "name": "detail_tabs_slider/03.png"
+                  "name": "detail_tabs_slider/03.png",
+                  "alt": "Более 189 партнеров."
                 }
               }]
             }
@@ -1176,7 +1214,8 @@
             "content": {
               "items": [{
                 "image": {
-                  "name": "tabs_card/01.png"
+                  "name": "tabs_card/01.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1196,7 +1235,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/02.png"
+                  "name": "tabs_card/02.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1216,7 +1256,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/03.png"
+                  "name": "tabs_card/03.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1236,7 +1277,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/04.png"
+                  "name": "tabs_card/04.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1256,7 +1298,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/05.png"
+                  "name": "tabs_card/05.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1276,7 +1319,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/06.png"
+                  "name": "tabs_card/06.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1296,7 +1340,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/07.png"
+                  "name": "tabs_card/07.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1316,7 +1361,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/08.png"
+                  "name": "tabs_card/08.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1336,7 +1382,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/09.png"
+                  "name": "tabs_card/09.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1356,7 +1403,8 @@
                 }
               }, {
                 "image": {
-                  "name": "tabs_card/10.png"
+                  "name": "tabs_card/10.png",
+                  "alt": "Франшиза Группы компаний Альфа: Отзыв о франшизе от топового партнера."
                 },
                 "content": {
                   "title": {
@@ -1397,15 +1445,19 @@
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_block_form_name",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_block_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_block_form_tel",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1422,15 +1474,19 @@
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name_2",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_block_form_name_2",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_block_form_tel_2",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_block_form_tel_2",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1447,15 +1503,19 @@
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name_3",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_block_form_name_3",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_block_form_tel_3",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_block_form_tel_3",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1472,15 +1532,19 @@
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name_4",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_block_form_name_4",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_block_form_tel_4",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_block_form_tel_4",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1495,49 +1559,56 @@
         "info": {
           "text": "Минимальная сумма необходимых инвестиций",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M15 4.32812C10.58 4.32812 7 7.90812 7 12.3281C7 16.7481 10.58 20.3281 15 20.3281C19.42 20.3281 23 16.7481 23 12.3281C23 7.90812 19.42 4.32812 15 4.32812ZM15 18.3281C11.69 18.3281 9 15.6381 9 12.3281C9 9.01813 11.69 6.32812 15 6.32812C18.31 6.32812 21 9.01813 21 12.3281C21 15.6381 18.31 18.3281 15 18.3281ZM7 6.67812C4.67 7.49812 3 9.71813 3 12.3281C3 14.9381 4.67 17.1581 7 17.9781V20.0681C3.55 19.1781 1 16.0581 1 12.3281C1 8.59812 3.55 5.47812 7 4.58812V6.67812Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#circle_with_semicircle"
           }
         }
       }, {
         "info": {
           "text": "Вступительный взнос",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M20.5 5.32812V7.60813C21.09 7.95813 21.5 8.58813 21.5 9.32812V15.3281C21.5 16.0681 21.09 16.6981 20.5 17.0481V19.3281C20.5 20.4281 19.6 21.3281 18.5 21.3281H4.5C3.39 21.3281 2.5 20.4281 2.5 19.3281V5.32812C2.5 4.22812 3.39 3.32812 4.5 3.32812H18.5C19.6 3.32812 20.5 4.22812 20.5 5.32812ZM12.5 15.3281H19.5V9.32812H12.5V15.3281ZM4.5 19.3281V5.32812H18.5V7.32812H12.5C11.4 7.32812 10.5 8.22813 10.5 9.32812V15.3281C10.5 16.4281 11.4 17.3281 12.5 17.3281H18.5V19.3281H4.5ZM14 12.3281C14 11.4997 14.6716 10.8281 15.5 10.8281C16.3284 10.8281 17 11.4997 17 12.3281C17 13.1566 16.3284 13.8281 15.5 13.8281C14.6716 13.8281 14 13.1566 14 12.3281Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#wallet"
           }
         }
       }, {
         "info": {
           "text": "Сумма роялти",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M4.5 12.3281C4.5 7.35813 8.53 3.32812 13.5 3.32812C18.47 3.32812 22.5 7.35813 22.5 12.3281C22.5 17.2981 18.47 21.3281 13.5 21.3281C11.01 21.3281 8.77 20.3181 7.14 18.6881L8.56 17.2681C9.82 18.5381 11.57 19.3281 13.5 19.3281C17.37 19.3281 20.5 16.1981 20.5 12.3281C20.5 8.45813 17.37 5.32812 13.5 5.32812C9.63 5.32812 6.5 8.45813 6.5 12.3281H9.5L5.5 16.3181L1.5 12.3281H4.5ZM12.5 13.3281V8.32812H14V12.4781L17.52 14.5681L16.75 15.8481L12.5 13.3281Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#clock_with_arrow"
           }
         }
       }, {
         "info": {
           "text": "Количество франшизных точек",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M9.19 9.45813L12 2.82812L14.81 9.45813L22 10.0681L16.54 14.7981L18.18 21.8281L12 18.0981L5.82 21.8281L7.46 14.7981L2 10.0681L9.19 9.45813ZM12.97 10.2481L12 7.95813L11.03 10.2281L10.56 11.3381L9.36 11.4381L6.89 11.6481L8.77 13.2781L9.68 14.0681L9.41 15.2481L8.85 17.6581L10.97 16.3781L12 15.7581L13.03 16.3981L15.15 17.6781L14.59 15.2681L14.32 14.0881L15.23 13.2981L17.11 11.6681L14.64 11.4581L13.44 11.3581L12.97 10.2481Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#star"
           }
         }
       }, {
         "info": {
           "text": "Количество собственных объектов",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M11.99 2.32812C6.47 2.32812 2 6.80813 2 12.3281C2 17.8481 6.47 22.3281 11.99 22.3281C17.52 22.3281 22 17.8481 22 12.3281C22 6.80813 17.52 2.32812 11.99 2.32812ZM19.47 9.48812L14.46 9.05813L12.46 4.34812C15.67 4.53813 18.37 6.61812 19.47 9.48812ZM12 14.3081L14.4 15.7481L13.76 13.0181L15.87 11.1881L13.09 10.9481L12 8.38812L10.91 10.9581L8.13 11.1981L10.24 13.0281L9.61 15.7481L12 14.3081ZM11.54 4.34812L9.54 9.06812L4.52 9.49813C5.62 6.61812 8.32 4.52813 11.54 4.34812ZM4.23 10.4681C4.08 11.0681 4 11.6881 4 12.3281C4 14.8081 5.13 17.0281 6.91 18.4981L8.02 13.7481L4.23 10.4681ZM7.84 19.1481L12 16.6381L16.16 19.1381C14.94 19.8881 13.52 20.3281 11.99 20.3281C10.47 20.3281 9.05 19.8881 7.84 19.1481ZM15.98 13.7481L17.09 18.4981C18.86 17.0281 20 14.8081 20 12.3281C20 11.6881 19.91 11.0581 19.77 10.4681L15.98 13.7481Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#star_with_border"
           }
         }
       }, {
         "info": {
           "text": "Год основания компании",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M12.5 3.82812L13.5 5.82812H19.5V15.8281H12.5L11.5 13.8281H6.5V20.8281H4.5V3.82812H12.5ZM13.5 13.8281H17.5V7.82812H12.5L11.5 5.82812H6.5V11.8281H12.5L13.5 13.8281Z' fill='#828282'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#flag"
           }
         }
       }, {
         "info": {
           "text": "Год начала франчайзинговой деятельности",
           "icon": {
-            "svg_as_code": "<svg class='statistics__info-icon statistics__info-icon--with-stroke' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M13.3374 9.16866L12.5453 7.58435H9.58447H8.58447V8.58435V11.3373V12.3373H9.58447H13.3374L14.1296 13.9216H16.2982H17.2982V12.9216V10.1687V9.16866H16.2982H13.3374ZM13.3373 6L14.1294 7.58431H17.8824H18.8824V8.58431V14.5059V15.5059H17.8824H13.3373L12.5451 13.9216H9.58431H8.58431V14.9216V18.4667V19.4667H8H7.58431H7V18.4667V7V6H8H13.3373Z' fill='#828282'/><path d='M13.3374 9.16866L13.1625 9.25612L13.2166 9.36422H13.3374V9.16866ZM12.5453 7.58435L12.7202 7.4969L12.6661 7.3888H12.5453V7.58435ZM8.58447 7.58435V7.3888H8.38892V7.58435H8.58447ZM8.58447 12.3373H8.38892V12.5328H8.58447V12.3373ZM13.3374 12.3373L13.5123 12.2498L13.4583 12.1417H13.3374V12.3373ZM14.1296 13.9216L13.9547 14.0091L14.0087 14.1172H14.1296V13.9216ZM17.2982 13.9216V14.1172H17.4938V13.9216H17.2982ZM17.2982 9.16866H17.4938V8.97311H17.2982V9.16866ZM13.3373 6L13.5122 5.91254L13.4581 5.80444H13.3373V6ZM14.1294 7.58431L13.9545 7.67177L14.0086 7.77987H14.1294V7.58431ZM18.8824 7.58431H19.0779V7.38876H18.8824V7.58431ZM18.8824 15.5059V15.7014H19.0779V15.5059H18.8824ZM13.3373 15.5059L13.1623 15.5933L13.2164 15.7014H13.3373V15.5059ZM12.5451 13.9216L12.72 13.8341L12.666 13.726H12.5451V13.9216ZM8.58431 13.9216V13.726H8.38876V13.9216H8.58431ZM8.58431 19.4667V19.6622H8.77987V19.4667H8.58431ZM7 19.4667H6.80444V19.6622H7V19.4667ZM7 6V5.80444H6.80444V6H7ZM13.5123 9.08121L12.7202 7.4969L12.3703 7.67181L13.1625 9.25612L13.5123 9.08121ZM12.5453 7.3888H9.58447V7.77991H12.5453V7.3888ZM9.58447 7.3888H8.58447V7.77991H9.58447V7.3888ZM8.38892 7.58435V8.58435H8.78003V7.58435H8.38892ZM8.38892 8.58435V11.3373H8.78003V8.58435H8.38892ZM8.38892 11.3373V12.3373H8.78003V11.3373H8.38892ZM8.58447 12.5328H9.58447V12.1417H8.58447V12.5328ZM9.58447 12.5328H13.3374V12.1417H9.58447V12.5328ZM13.1625 12.4247L13.9547 14.0091L14.3045 13.8341L13.5123 12.2498L13.1625 12.4247ZM14.1296 14.1172H16.2982V13.726H14.1296V14.1172ZM16.2982 14.1172H17.2982V13.726H16.2982V14.1172ZM17.4938 13.9216V12.9216H17.1026V13.9216H17.4938ZM17.4938 12.9216V10.1687H17.1026V12.9216H17.4938ZM17.4938 10.1687V9.16866H17.1026V10.1687H17.4938ZM17.2982 8.97311H16.2982V9.36422H17.2982V8.97311ZM16.2982 8.97311H13.3374V9.36422H16.2982V8.97311ZM13.1623 6.08746L13.9545 7.67177L14.3043 7.49686L13.5122 5.91254L13.1623 6.08746ZM14.1294 7.77987H17.8824V7.38876H14.1294V7.77987ZM17.8824 7.77987H18.8824V7.38876H17.8824V7.77987ZM18.6868 7.58431V8.58431H19.0779V7.58431H18.6868ZM18.6868 8.58431V14.5059H19.0779V8.58431H18.6868ZM18.6868 14.5059V15.5059H19.0779V14.5059H18.6868ZM18.8824 15.3103H17.8824V15.7014H18.8824V15.3103ZM17.8824 15.3103H13.3373V15.7014H17.8824V15.3103ZM13.5122 15.4184L12.72 13.8341L12.3702 14.009L13.1623 15.5933L13.5122 15.4184ZM12.5451 13.726H9.58431V14.1171H12.5451V13.726ZM9.58431 13.726H8.58431V14.1171H9.58431V13.726ZM8.38876 13.9216V14.9216H8.77987V13.9216H8.38876ZM8.38876 14.9216V18.4667H8.77987V14.9216H8.38876ZM8.38876 18.4667V19.4667H8.77987V18.4667H8.38876ZM8.58431 19.2711H8V19.6622H8.58431V19.2711ZM8 19.2711H7.58431V19.6622H8V19.2711ZM7.58431 19.2711H7V19.6622H7.58431V19.2711ZM7.19556 19.4667V18.4667H6.80444V19.4667H7.19556ZM7.19556 18.4667V7H6.80444V18.4667H7.19556ZM7.19556 7V6H6.80444V7H7.19556ZM7 6.19556H8V5.80444H7V6.19556ZM8 6.19556H13.3373V5.80444H8V6.19556Z' fill='#828282'/><rect x='3' y='3' width='18' height='18' rx='9' stroke='#828282' stroke-width='2'/></svg>"
+            "class": "statistics__info-icon",
+            "name": "sprite-multi.svg#flag_with_border"
           }
         }
       }]
@@ -1605,7 +1676,8 @@
         "type": "&card_block",
         "items": [{
           "image": {
-            "name": "card_block/01.jpg"
+            "name": "card_block/01.jpg",
+            "alt": "Галина Каравайцева, Красноярск."
           },
           "content": {
             "title": {
@@ -1626,7 +1698,8 @@
           }
         }, {
           "image": {
-            "name": "card_block/02.jpg"
+            "name": "card_block/02.jpg",
+            "alt": "Анастасия Гришина, Уфа."
           },
           "content": {
             "title": {
@@ -1647,7 +1720,8 @@
           }
         }, {
           "image": {
-            "name": "card_block/03.jpg"
+            "name": "card_block/03.jpg",
+            "alt": "Халил Яхъяев, Астрахань."
           },
           "content": {
             "title": {
@@ -1668,14 +1742,15 @@
           }
         }, {
           "image": {
-            "name": "card_block/04.jpg"
+            "name": "card_block/04.jpg",
+            "alt": "Юлия Артюхова, Краснодар."
           },
           "content": {
             "title": {
               "level": 3,
               "text": "Юлия Артюхова, Краснодар"
             },
-            "text": "Я владела салоном красоты, хотела ввести услугу лазерной эпиляции, но поставила некачественное оборудование и услугу не удалось развить. Тогда и познакомилась с Dr.Laser и приняла решение о покупке франшизы. <br /> Специалисты ведут полностью каждый шаг до открытия и сопровождают после, а качеству оказываемых услуг уделяется огромное внимание.",
+            "text": "Я владела салоном красоты, хотела ввести услугу лазерной эпиляции, но поставила некачественное оборудование и услугу не удалось развить. Тогда и познакомилась с Dr.Laser и приняла решение о покупке франшизы. <br> Специалисты ведут полностью каждый шаг до открытия и сопровождают после, а качеству оказываемых услуг уделяется огромное внимание.",
             "time": {
               "text": "22 ноя 2022",
               "datetime": "2022-11-22"
@@ -1721,7 +1796,8 @@
         "type": "&card",
         "items": [{
           "image": {
-            "name": "card/01.png"
+            "name": "card/01.png",
+            "alt": "Франшиза ARTCRAFT."
           },
           "content": {
             "title": {
@@ -1744,7 +1820,8 @@
           }
         }, {
           "image": {
-            "name": "card/03.png"
+            "name": "card/03.png",
+            "alt": "Франшиза INDI."
           },
           "content": {
             "title": {
@@ -1766,7 +1843,8 @@
           }
         }, {
           "image": {
-            "name": "card/02.png"
+            "name": "card/02.png",
+            "alt": "Франшиза GASTRONOM."
           },
           "content": {
             "title": {
@@ -1799,25 +1877,33 @@
         "text": "Получить бизнес-план и контакты франшизы Группы компаний Альфа"
       },
       "inputs": [{
-        "id": "form_photo_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_photo_name",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_photo_city",
-        "type": "text",
-        "text": "Введите ваш город",
-        "name": "city"
+        "element": {
+          "id": "form_photo_city",
+          "type": "text",
+          "text": "Введите ваш город",
+          "name": "city"
+        }
       }, {
-        "id": "form_photo_email",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
+        "element": {
+          "id": "form_photo_email",
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
       }, {
-        "id": "form_photo_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_photo_tel",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1828,7 +1914,8 @@
       "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
       "content_block": {
         "image": {
-          "name": "form_photo_block/01.png"
+          "name": "form_photo_block/01.png",
+          "alt": "Михаил Черепанов, специалист отдела развития сети ГК Альфа."
         },
         "title": "Ваш запрос получит Михаил Черепанов",
         "text": "Специалист отдела развития <b>сети ГК Альфа</b>"
@@ -1865,27 +1952,32 @@
       "class": "sidebar-slider--mobile",
       "items": [{
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
@@ -1895,20 +1987,20 @@
       "items": [{
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion1id",
+          "id": "accordion_mobile1id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect1",
-          "attrs": "aria-labelledby='accordion1id'"
+          "id": "sect_mobile1",
+          "attrs": "aria-labelledby='accordion_mobile1id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1947,20 +2039,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion2id",
+          "id": "accordion_mobile2id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по городам/странам"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile2'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect2",
-          "attrs": "aria-labelledby='accordion2id'"
+          "id": "sect_mobile2",
+          "attrs": "aria-labelledby='accordion_mobile2id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1999,20 +2091,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion3id",
+          "id": "accordion_mobile3id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по вложениям"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect3'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile3'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect3",
-          "attrs": "aria-labelledby='accordion3id'"
+          "id": "sect_mobile3",
+          "attrs": "aria-labelledby='accordion_mobile3id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2051,20 +2143,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion4id",
+          "id": "accordion_mobile4id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Питание"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect4'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile4'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect4",
-          "attrs": "aria-labelledby='accordion4id'"
+          "id": "sect_mobile4",
+          "attrs": "aria-labelledby='accordion_mobile4id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2103,20 +2195,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion5id",
+          "id": "accordion_mobile5id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Детские товары и услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect5'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile5'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect5",
-          "attrs": "aria-labelledby='accordion5id'"
+          "id": "sect_mobile5",
+          "attrs": "aria-labelledby='accordion_mobile5id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2155,20 +2247,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion6id",
+          "id": "accordion_mobile6id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Красота и здоровье"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect6'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile6'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect6",
-          "attrs": "aria-labelledby='accordion6id'"
+          "id": "sect_mobile6",
+          "attrs": "aria-labelledby='accordion_mobile6id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2207,20 +2299,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion7id",
+          "id": "accordion_mobile7id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Торговля"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect7'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile7'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect7",
-          "attrs": "aria-labelledby='accordion7id'"
+          "id": "sect_mobile7",
+          "attrs": "aria-labelledby='accordion_mobile7id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2259,20 +2351,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion8id",
+          "id": "accordion_mobile8id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Производство"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect8'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile8'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect8",
-          "attrs": "aria-labelledby='accordion8id'"
+          "id": "sect_mobile8",
+          "attrs": "aria-labelledby='accordion_mobile8id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2311,20 +2403,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion9id",
+          "id": "accordion_mobile9id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect9'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile9'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect9",
-          "attrs": "aria-labelledby='accordion9id'"
+          "id": "sect_mobile9",
+          "attrs": "aria-labelledby='accordion_mobile9id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2363,20 +2455,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion10id",
+          "id": "accordion_mobile10id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "В интернете"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect10'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile10'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect10",
-          "attrs": "aria-labelledby='accordion10id'"
+          "id": "sect_mobile10",
+          "attrs": "aria-labelledby='accordion_mobile10id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2415,20 +2507,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion11id",
+          "id": "accordion_mobile11id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Популярные"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect11'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile11'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect11",
-          "attrs": "aria-labelledby='accordion11id'"
+          "id": "sect_mobile11",
+          "attrs": "aria-labelledby='accordion_mobile11id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2467,20 +2559,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion12id",
+          "id": "accordion_mobile12id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Бизнес-идеи"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect12'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile12'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect12",
-          "attrs": "aria-labelledby='accordion12id'"
+          "id": "sect_mobile12",
+          "attrs": "aria-labelledby='accordion_mobile12id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -2567,15 +2659,19 @@
         }
       },
       "inputs": [{
-        "id": "modal_form_email",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
+        "element": {
+          "id": "modal_form_email",
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
       }, {
-        "id": "modal_form_password",
-        "type": "password",
-        "text": "Введите пароль",
-        "name": "password"
+        "element": {
+          "id": "modal_form_password",
+          "type": "password",
+          "text": "Введите пароль",
+          "name": "password"
+        }
       }],
       "button_forgot_password": {
         "href": "#",

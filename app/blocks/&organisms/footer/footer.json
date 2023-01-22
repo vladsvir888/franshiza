@@ -93,10 +93,12 @@
           "wrap": {
             "class": "subscribe__input-block"
           },
-          "id": "subscribe_form",
-          "type": "text",
-          "text": "Ваш E-mail",
-          "name": "subscribe"
+          "element": {
+            "id": "subscribe_form",
+            "type": "text",
+            "text": "Ваш E-mail",
+            "name": "subscribe"
+          }
         },
         "btn": {
           "text": {

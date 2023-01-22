@@ -1,20 +1,20 @@
-{% set input_type = input.type|default('text') %}
+{% set input_type = input.element.type|default('text') %}
 
 <div class="input-block {{ input.wrap.class }}">
+  {% if input.label %}
+    <label {% if input.element.id %}for="{{ input.element.id }}"{% endif %}>
+      {% if input.label.btn %}
+        {% view "@button" with {
+          button: input.label.btn
+        } %}
+      {% endif %}
+    </label>
+  {% endif %}
   <input
-    id="{{ input.id }}"
-    class="input-block__input {{ input.class }}"
+    {% if input.element.id %}id="{{ input.element.id }}"{% endif %}
+    class="input-block__input {{ input.element.class }}"
     type="{{ input_type }}"
-    name="{{ input.name }}"
-    placeholder="{{ input.text }}"
+    name="{{ input.element.name }}"
+    {% if input.element.text %}placeholder="{{ input.element.text }}"{% endif %}
   >
-  <label for="{{ input.id }}">
-    {% if input.btn %}
-      {% view "@button" with {
-        button: input.btn
-      } %}
-    {% else %}
-      <span class="visually-hidden">{{ input.text }}</span>
-    {% endif %}
-  </label>
 </div>

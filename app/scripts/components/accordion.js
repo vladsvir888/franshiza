@@ -51,6 +51,10 @@ class Accordion {
 
       this.activeIndex = currentIndex;
     }
+
+    setTimeout(() => {
+      btn.scrollIntoView();
+    }, 300);
   }
 }
 

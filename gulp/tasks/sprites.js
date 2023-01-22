@@ -18,7 +18,7 @@ const spriteMono = () => (
               plugins: [
                 {
                   removeAttrs: {
-                    attrs: ['class', 'data-name', 'fill.*', 'stroke.*'],
+                    attrs: ['class', 'data-name', 'fill', 'stroke'],
                   },
                 },
               ],

@@ -648,27 +648,32 @@
     "sidebar_slider": {
       "items": [{
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/01.jpg"
+          "name": "sidebar_slider/01.jpg",
+          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
@@ -678,20 +683,20 @@
       "items": [{
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion1id",
+          "id": "accordion_mob1id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mob1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect1",
-          "attrs": "aria-labelledby='accordion1id'"
+          "id": "sect_mob1",
+          "attrs": "aria-labelledby='accordion_mob1id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -730,20 +735,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion2id",
+          "id": "accordion_mob2id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по городам/странам"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob2'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect2",
-          "attrs": "aria-labelledby='accordion2id'"
+          "id": "sect_mob2",
+          "attrs": "aria-labelledby='accordion_mob2id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -782,20 +787,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion3id",
+          "id": "accordion_mob3id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по вложениям"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect3'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob3'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect3",
-          "attrs": "aria-labelledby='accordion3id'"
+          "id": "sect_mob3",
+          "attrs": "aria-labelledby='accordion_mob3id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -834,20 +839,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion4id",
+          "id": "accordion_mob4id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Питание"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect4'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob4'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect4",
-          "attrs": "aria-labelledby='accordion4id'"
+          "id": "sect_mob4",
+          "attrs": "aria-labelledby='accordion_mob4id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -886,20 +891,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion5id",
+          "id": "accordion_mob5id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Детские товары и услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect5'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob5'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect5",
-          "attrs": "aria-labelledby='accordion5id'"
+          "id": "sect_mob5",
+          "attrs": "aria-labelledby='accordion_mob5id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -938,20 +943,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion6id",
+          "id": "accordion_mob6id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Красота и здоровье"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect6'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob6'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect6",
-          "attrs": "aria-labelledby='accordion6id'"
+          "id": "sect_mob6",
+          "attrs": "aria-labelledby='accordion_mob6id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -990,20 +995,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion7id",
+          "id": "accordion_mob7id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Торговля"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect7'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob7'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect7",
-          "attrs": "aria-labelledby='accordion7id'"
+          "id": "sect_mob7",
+          "attrs": "aria-labelledby='accordion_mob7id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1042,20 +1047,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion8id",
+          "id": "accordion_mob8id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Производство"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect8'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob8'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect8",
-          "attrs": "aria-labelledby='accordion8id'"
+          "id": "sect_mob8",
+          "attrs": "aria-labelledby='accordion_mob8id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1094,20 +1099,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion9id",
+          "id": "accordion_mob9id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect9'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob9'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect9",
-          "attrs": "aria-labelledby='accordion9id'"
+          "id": "sect_mob9",
+          "attrs": "aria-labelledby='accordion_mob9id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1146,20 +1151,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion10id",
+          "id": "accordion_mob10id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "В интернете"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect10'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob10'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect10",
-          "attrs": "aria-labelledby='accordion10id'"
+          "id": "sect_mob10",
+          "attrs": "aria-labelledby='accordion_mob10id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1198,20 +1203,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion11id",
+          "id": "accordion_mob11id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Популярные"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect11'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob11'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect11",
-          "attrs": "aria-labelledby='accordion11id'"
+          "id": "sect_mob11",
+          "attrs": "aria-labelledby='accordion_mob11id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1250,20 +1255,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion12id",
+          "id": "accordion_mob12id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Бизнес-идеи"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect12'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob12'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect12",
-          "attrs": "aria-labelledby='accordion12id'"
+          "id": "sect_mob12",
+          "attrs": "aria-labelledby='accordion_mob12id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1354,12 +1359,18 @@
       }
     },
     "cards": {
+      "title": {
+        "level": 2,
+        "class": "visually-hidden",
+        "text": "Наши франшизы"
+      },
       "content": {
         "type": "&card",
         "items": [{
           "class": "card--secondary",
           "image": {
-            "name": "catalog/grill.png"
+            "name": "catalog/grill.png",
+            "alt": "Франшиза Гриль Хаус."
           },
           "content": {
             "title": {
@@ -1382,7 +1393,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/it_franchise.png"
+            "name": "catalog/it_franchise.png",
+            "alt": "Франшиза ГК Альфа."
           },
           "content": {
             "title": {
@@ -1405,7 +1417,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/up_sushi.png"
+            "name": "catalog/up_sushi.png",
+            "alt": "Франшиза UP SUSHI."
           },
           "content": {
             "title": {
@@ -1428,7 +1441,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/it_franchise.png"
+            "name": "catalog/it_franchise.png",
+            "alt": "Франшиза ГК Альфа."
           },
           "content": {
             "title": {
@@ -1451,7 +1465,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/grill.png"
+            "name": "catalog/grill.png",
+            "alt": "Франшиза Гриль Хаус."
           },
           "content": {
             "title": {
@@ -1475,7 +1490,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/up_sushi.png"
+            "name": "catalog/up_sushi.png",
+            "alt": "Франшиза UP SUSHI."
           },
           "content": {
             "title": {
@@ -1498,7 +1514,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/up_sushi.png"
+            "name": "catalog/up_sushi.png",
+            "alt": "Франшиза UP SUSHI."
           },
           "content": {
             "title": {
@@ -1521,7 +1538,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/grill.png"
+            "name": "catalog/grill.png",
+            "alt": "Франшиза Гриль Хаус."
           },
           "content": {
             "title": {
@@ -1545,7 +1563,8 @@
         }, {
           "class": "card--secondary",
           "image": {
-            "name": "catalog/it_franchise.png"
+            "name": "catalog/it_franchise.png",
+            "alt": "Франшиза ГК Альфа."
           },
           "content": {
             "title": {
@@ -1567,7 +1586,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/grill.png"
+            "name": "catalog/grill.png",
+            "alt": "Франшиза Гриль Хаус."
           },
           "content": {
             "title": {
@@ -1590,7 +1610,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/it_franchise.png"
+            "name": "catalog/it_franchise.png",
+            "alt": "Франшиза ГК Альфа."
           },
           "content": {
             "title": {
@@ -1612,7 +1633,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/up_sushi.png"
+            "name": "catalog/up_sushi.png",
+            "alt": "Франшиза UP SUSHI."
           },
           "content": {
             "title": {
@@ -1634,7 +1656,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/up_sushi.png"
+            "name": "catalog/up_sushi.png",
+            "alt": "Франшиза UP SUSHI."
           },
           "content": {
             "title": {
@@ -1656,7 +1679,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/grill.png"
+            "name": "catalog/grill.png",
+            "alt": "Франшиза Гриль Хаус."
           },
           "content": {
             "title": {
@@ -1679,7 +1703,8 @@
           }
         }, {
           "image": {
-            "name": "catalog/it_franchise.png"
+            "name": "catalog/it_franchise.png",
+            "alt": "Франшиза ГК Альфа."
           },
           "content": {
             "title": {
@@ -1722,20 +1747,26 @@
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
       },
       "inputs": [{
-        "id": "form_block_form_name",
-        "type": "text",
-        "text": "Введите ваше имя",
-        "name": "name"
+        "element": {
+          "id": "form_block_form_name",
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
       }, {
-        "id": "form_block_form_tel",
-        "type": "email",
-        "text": "Введите ваш E-mail",
-        "name": "email"
+        "element": {
+          "id": "form_block_form_email",
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
       }, {
-        "id": "form_block_form_tel",
-        "type": "tel",
-        "text": "Введите номер телефона",
-        "name": "tel"
+        "element": {
+          "id": "form_block_form_tel",
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
       }],
       "button": {
         "text": {
@@ -1748,7 +1779,8 @@
         "list": {
           "items": [{
             "image": {
-              "name": "form_block/01.png"
+              "name": "form_block/01.png",
+              "alt": "Франшиза ГК Альфа."
             },
             "button": {
               "text": {
@@ -1757,7 +1789,8 @@
             }
           }, {
             "image": {
-              "name": "form_block/02.png"
+              "name": "form_block/02.png",
+              "alt": "Франшиза Гриль Хаус."
             },
             "button": {
               "text": {
@@ -1766,7 +1799,8 @@
             }
           }, {
             "image": {
-              "name": "form_block/03.png"
+              "name": "form_block/03.png",
+              "alt": "Франшиза UP SUSHI."
             },
             "button": {
               "text": {
@@ -1905,27 +1939,32 @@
       "class": "sidebar-slider--mobile",
       "items": [{
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
       }, {
         "image": {
-          "name": "sidebar_slider/02.jpg"
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
         },
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]

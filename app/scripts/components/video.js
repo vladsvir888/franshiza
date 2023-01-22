@@ -18,7 +18,7 @@ const initVideo = () => {
 
   function parseMediaURL(media) {
     const regexp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/maxresdefault\.jpg/i;
-    const url = media.dataset.src;
+    const url = media.src;
     const match = url.match(regexp);
 
     return match[1];
