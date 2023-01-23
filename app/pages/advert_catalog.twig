@@ -1,0 +1,67 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: advert_catalog.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: advert_catalog.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        <p class="main__text">
+          {{ advert_catalog.text }}
+        </p>
+
+        {% view "&form_block" with {
+          form_block: advert_catalog.form_block
+        } %}
+
+        {% view "&section" with {
+          section: advert_catalog.cooperation
+        } %}
+
+        {% view "&section" with {
+          section: advert_catalog.review_partners
+        } %}
+
+        {% view "&section" with {
+          section: advert_catalog.review_franchise_and_exclusive_interviews
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&accordion" with {
+          accordion: advert_catalog.sidebar_accordion_mobile
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: advert_catalog.sidebar_slider_mobile
+        } %}
+
+        {% view "&section" with {
+          section: advert_catalog.news_and_info_about_franchise
+        } %}
+      </div>
+      <div class="main__sidebar">
+        {% view "&accordion" with {
+          accordion: advert_catalog.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: advert_catalog.sidebar_slider
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

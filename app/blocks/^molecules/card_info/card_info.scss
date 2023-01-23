@@ -30,10 +30,20 @@
   }
 
   &__text {
+    position: relative;
     margin-bottom: rem(12);
 
     @include media('600', max) {
       @include font-size(12, 16);
+    }
+
+    a {
+      color: var(--pallette-deep-cerulean);
+      transition: color var(--transition);
+
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 

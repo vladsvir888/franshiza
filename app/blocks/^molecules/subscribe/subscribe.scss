@@ -6,7 +6,7 @@
     margin-bottom: rem(24);
 
     @include media('600', max) {
-      margin-bottom: rem(16);
+      margin-bottom: rem(15);
     }
   }
 
@@ -67,10 +67,6 @@
 
   &__form {
     margin-bottom: rem(14);
-
-    @include media('600', max) {
-      margin-bottom: rem(9);
-    }
   }
 
   &__input-block {
@@ -84,5 +80,11 @@
   &__text {
     @include font-size(12, 16);
     color: var(--pallette-nobel);
+  }
+
+  &__input {
+    &::placeholder {
+      color: var(--pallette-nepal);
+    }
   }
 }

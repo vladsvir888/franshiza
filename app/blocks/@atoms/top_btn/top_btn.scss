@@ -1,0 +1,30 @@
+.top-btn {
+  @include flex-center;
+  position: fixed;
+  top: 50%;
+  z-index: 10;
+  right: rem(24);
+  width: rem(50);
+  height: rem(50);
+  border-radius: rem(25);
+  background-color: var(--pallette-mystic-soft);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%);
+  transition: background-color var(--transition), opacity var(--transition);
+
+  &--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover {
+    background-color: var(--pallette-mystic);
+  }
+
+  &__icon {
+    width: rem(16);
+    height: rem(16);
+    fill: var(--pallette-deep-cerulean);
+  }
+}

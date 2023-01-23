@@ -147,5 +147,9 @@
       height: rem(24);
       transition: transform var(--transition);
     }
+
+    &-img {
+      border-radius: rem(6);
+    }
   }
 }

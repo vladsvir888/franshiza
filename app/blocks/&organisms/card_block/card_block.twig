@@ -6,6 +6,14 @@
   } %}
 
   <div class="card-block__content">
+    {% if card_block.content.subtitle %}
+      {% view "@button" with {
+        button: card_block.content.subtitle|merge({
+          class: "card-block__subtitle"
+        })
+      } %}
+    {% endif %}
+
     {% if card_block.content.title %}
       {% view "@title" with {
         title: card_block.content.title|merge({
@@ -15,9 +23,21 @@
     {% endif %}
 
     {% if card_block.content.text %}
-      <p class="card-block__text">
+      <div class="card-block__text">
         {{ card_block.content.text }}
-      </p>
+      </div>
+    {% endif %}
+
+    {% if card_block.content.toggle %}
+      {% view "@button" with {
+        button: card_block.content.toggle|merge({
+          class: "card-block__toggle",
+          right_icon: {
+            class: "card-block__toggle-icon",
+            name: "sprite-mono.svg#arrow_up"
+          }
+        })
+      } %}
     {% endif %}
 
     {% if card_block.content.time %}
@@ -35,6 +55,18 @@
           }
         })
       } %}
+    {% endif %}
+
+    {% if card_block.content.bottom %}
+      <div class="card-block__bottom">
+        {% if card_block.content.bottom.first_btn %}
+          {% view "@button" with {
+            button: card_block.content.bottom.first_btn|merge({
+              class: "btn--btn btn--primary btn--scroll card-block__bottom-btn"
+            })
+          } %}
+        {% endif %}
+      </div>
     {% endif %}
   </div>
 </article>

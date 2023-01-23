@@ -45,5 +45,23 @@
         })
       } %}
     </form>
+  {% elseif modal.type == 'send_request' %}
+    <p class="modal__text">
+      {{ modal.text }}
+    </p>
+
+    <div class="modal__footer">
+      {% view "@button" with {
+        button: modal.button_send|merge({
+          class: "btn--btn btn--primary btn--large"
+        })
+      } %}
+
+      {% view "@button" with {
+        button: modal.button_continue|merge({
+          class: "btn--btn btn--tertiary modal__footer-btn"
+        })
+      } %}
+    </div>
   {% endif %}
 </div>

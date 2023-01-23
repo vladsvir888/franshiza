@@ -1,6 +1,6 @@
 import Swiper, { Pagination, Navigation } from 'swiper';
 
-const detailTabsSlider = (selector) => {
+const similarFranchiseSlider = (selector) => {
   new Swiper(`${selector} .swiper`, {
     modules: [Pagination, Navigation],
     slidesPerView: 1,
@@ -24,4 +24,4 @@ const detailTabsSlider = (selector) => {
   });
 };
 
-export default detailTabsSlider;
+export default similarFranchiseSlider;

@@ -7,11 +7,36 @@
   background-color: var(--pallette-mystic);
 
   &--login {
-    width: rem(520);
+    max-width: rem(520);
+    width: 100%;
+
+    .carousel__button {
+      width: rem(24);
+      height: rem(24);
+
+      svg {
+        filter: none;
+        stroke: rgba(0, 0, 0, 0.54);
+      }
+    }
+  }
+
+  &--send-request {
+    max-width: rem(609);
+    width: 100%;
+
+    .carousel__button {
+      width: rem(16);
+      height: rem(16);
+
+      svg {
+        filter: none;
+        stroke: var(--pallette-nepal);
+      }
+    }
 
     @include media('600', max) {
-      width: rem(300);
-      padding: rem(15);
+      padding: rem(28.5) rem(24.5);
     }
   }
 
@@ -19,6 +44,7 @@
     @include font-size(22, 33);
     margin-bottom: rem(24);
     font-weight: 400;
+    text-align: center;
   }
 
   &__socials {
@@ -44,6 +70,41 @@
     color: var(--pallette-cerulean);
   }
 
+  &__text {
+    margin-bottom: rem(32);
+
+    @include media('600', max) {
+      font-size: rem(13);
+    }
+  }
+
+  &__footer {
+    display: flex;
+    width: 100%;
+    gap: rem(16);
+
+    @include media('600', max) {
+      gap: rem(20);
+    }
+
+    > * {
+      width: 50%;
+
+      @include media('600', max) {
+        width: 100%;
+      }
+    }
+
+    @include media('600', max) {
+      flex-direction: column;
+    }
+
+    &-btn {
+      font-weight: 400;
+      color: var(--pallette-deep-cerulean);
+    }
+  }
+
   &.fancybox__content input:focus:not(.carousel__button.is-close) {
     outline: none;
   }
@@ -51,15 +112,5 @@
   &.fancybox__content > .carousel__button.is-close {
     top: rem(16);
     right: rem(16);
-  }
-
-  .carousel__button {
-    width: rem(24);
-    height: rem(24);
-
-    svg {
-      filter: none;
-      stroke: rgba(0, 0, 0, 0.54);
-    }
   }
 }

@@ -83,7 +83,7 @@
 
   {% view "@button" with {
     button: {
-      class: "btn--btn btn--large btn--primary btn--sticky",
+      class: "btn--btn btn--large btn--primary btn--sticky btn--scroll",
       text: {
         text: "Получить бизнес-план"
       }
@@ -94,5 +94,7 @@
 {% view "&modal" with {
   modal: detail.modal_login
 } %}
+
+{% view "@top_btn" %}
 
 {% endblock %}

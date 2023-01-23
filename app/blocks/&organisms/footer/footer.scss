@@ -13,8 +13,8 @@
     }
 
     @include media('600', max) {
-      padding: 0 0 rem(48);
-      gap: rem(32);
+      padding: 0 0 rem(29);
+      gap: rem(29);
       border-top: 0;
     }
 
@@ -145,7 +145,7 @@
       padding: 0 1rem;
       max-width: 100%;
       border-bottom: rem(1) solid var(--pallette-mystic);
-      padding-bottom: rem(25);
+      padding-bottom: rem(20);
     }
   }
 
@@ -163,6 +163,7 @@
       width: calc(100% + 2rem);
       margin-left: -1rem;
       margin-right: -1rem;
+      padding: rem(20) 0 rem(16);
     }
 
     &-text {

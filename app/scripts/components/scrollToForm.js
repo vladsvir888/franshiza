@@ -1,8 +1,10 @@
 const scrollToForm = () => {
-  document.querySelector('.btn--sticky')?.addEventListener('click', () => {
-    const form = document.querySelector('.form-photo-block');
+  document.querySelectorAll('.btn--scroll').forEach((btn) => {
+    btn?.addEventListener('click', () => {
+      const form = document.querySelector('.form-scroll');
 
-    form.scrollIntoView();
+      form.scrollIntoView();
+    });
   });
 };
 

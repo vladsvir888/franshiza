@@ -95,6 +95,7 @@
           },
           "element": {
             "id": "subscribe_form",
+            "class": "subscribe__input",
             "type": "text",
             "text": "Ваш E-mail",
             "name": "subscribe"

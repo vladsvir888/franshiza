@@ -30,6 +30,13 @@
     }
   }
 
+  &--secondary {
+    #{$this}__btn-img {
+      width: rem(68);
+      height: rem(45);
+    }
+  }
+
   &__link {
     position: absolute;
     inset: 0;

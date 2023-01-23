@@ -1,20 +1,34 @@
 {% set input_type = input.element.type|default('text') %}
 
-<div class="input-block {{ input.wrap.class }}">
-  {% if input.label %}
-    <label {% if input.element.id %}for="{{ input.element.id }}"{% endif %}>
-      {% if input.label.btn %}
-        {% view "@button" with {
-          button: input.label.btn
-        } %}
-      {% endif %}
-    </label>
-  {% endif %}
-  <input
-    {% if input.element.id %}id="{{ input.element.id }}"{% endif %}
-    class="input-block__input {{ input.element.class }}"
-    type="{{ input_type }}"
-    name="{{ input.element.name }}"
-    {% if input.element.text %}placeholder="{{ input.element.text }}"{% endif %}
-  >
-</div>
+{% if input.textarea %}
+  <textarea
+    {% if input.textarea.id %}id="{{ input.textarea.id }}"{% endif %}
+    class="textarea {{ input.textarea.class }}"
+    name="{{ input.textarea.name }}"
+    {% if input.textarea.text %}placeholder="{{ input.textarea.text }}"{% endif %}
+    {{ input.textarea.attrs }}
+  ></textarea>
+{% elseif input.picture %}
+  {% view "@image" with {
+    image: input.picture
+  } %}
+{% else %}
+  <div class="input-block {{ input.wrap.class }}">
+    {% if input.label %}
+      <label {% if input.element.id %}for="{{ input.element.id }}"{% endif %}>
+        {% if input.label.btn %}
+          {% view "@button" with {
+            button: input.label.btn
+          } %}
+        {% endif %}
+      </label>
+    {% endif %}
+    <input
+      {% if input.element.id %}id="{{ input.element.id }}"{% endif %}
+      class="input-block__input {{ input.element.class }}"
+      type="{{ input_type }}"
+      name="{{ input.element.name }}"
+      {% if input.element.text %}placeholder="{{ input.element.text }}"{% endif %}
+    >
+  </div>
+{% endif %}

@@ -21,9 +21,9 @@
             {% view "^sidebar_accordion_list" with {
               sidebar_accordion_list: item.data.content
             } %}
-          {% elseif item.data.type == '&detail_tabs_slider' %}
-            {% view "&detail_tabs_slider" with {
-              detail_tabs_slider: item.data.content
+          {% elseif item.data.type == '&slider' %}
+            {% view "&slider" with {
+              slider: item.data
             } %}
           {% elseif item.data.type == '^video' %}
             {% view "^video" %}

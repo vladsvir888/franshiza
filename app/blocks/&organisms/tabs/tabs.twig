@@ -14,10 +14,9 @@
         class="tabs__content {{ content.class }}"
         {{ content.attrs }}
       >
-
-      {% if content.data.type == '&detail_tabs_slider' %}
-        {% view "&detail_tabs_slider" with {
-          detail_tabs_slider: content.data.content
+      {% if content.data.type == '&slider' %}
+        {% view "&slider" with {
+          slider: content.data
         } %}
       {% elseif content.data.type == '^video' %}
         {% view "^video" %}

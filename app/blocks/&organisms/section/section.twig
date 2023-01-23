@@ -29,27 +29,41 @@
     </p>
   {% endif %}
 
-  {% if section.content.type == '^card_info' %}
+  {% if section.data.type == '^card_info' %}
     <div class="section__content section__content--two-items">
-      {% for item in section.content.items %}
+      {% for item in section.data.content.items %}
         {% view "^card_info" with {
           card_info: item
         } %}
       {% endfor %}
     </div>
-  {% elseif section.content.type == '&card_block' %}
+  {% elseif section.data.type == '&card_block' %}
     <div class="section__content section__content--mb">
-      {% for item in section.content.items %}
+      {% for item in section.data.content.items %}
         {% view "&card_block" with {
           card_block: item
         } %}
       {% endfor %}
     </div>
-  {% elseif section.content.type == '&card' %}
+  {% elseif section.data.type == '&card' %}
     <div class="section__content section__content--three-items">
-      {% for item in section.content.items %}
+      {% for item in section.data.content.items %}
         {% view "&card" with {
           card: item
+        } %}
+      {% endfor %}
+    </div>
+  {% elseif section.data.type == '&slider' %}
+    {% view "&slider" with {
+      slider: section.data
+    } %}
+  {% elseif section.data.type == '^video' %}
+    <div class="section__content section__content--two-items">
+      {% for i in 0..9 %}
+        {% view "^video" with {
+          video: {
+            class: "video--secondary"
+          }
         } %}
       {% endfor %}
     </div>

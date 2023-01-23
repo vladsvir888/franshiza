@@ -15,15 +15,9 @@
 
   > h2 {
     @include font-size(22, 33);
+    margin-top: rem(44);
     margin-bottom: rem(24);
-    margin-top: rem(56);
     font-weight: 400;
-
-    &:first-of-type {
-      @include media('600', max) {
-        margin-bottom: rem(24);
-      }
-    }
 
     @include media('600', max) {
       @include font-size(16, 24);
@@ -95,15 +89,6 @@
 
       @include media('600', max) {
         margin-bottom: rem(30);
-      }
-    }
-
-    + h2 {
-      margin-top: rem(44);
-
-      @include media('600', max) {
-        margin-top: rem(30);
-        margin-bottom: rem(24);
       }
     }
   }

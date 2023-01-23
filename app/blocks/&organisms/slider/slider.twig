@@ -1,0 +1,43 @@
+<div class="slider {{ slider.content.class }}">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      {% for item in slider.content.items %}
+        <div class="swiper-slide">
+          {% if slider.content.type == '&detail_tabs_slider' %}
+            {% view "@image" with {
+              image: item.image|merge({
+                class: "detail-tabs-slider__img",
+                lazy: false,
+                sizes: {
+                  width: 285,
+                  height: 181
+                }
+              })
+            } %}
+          {% elseif slider.content.type == '&card' %}
+            {% view "&card" with {
+              card: item
+            } %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    <button class="btn swiper-button-prev slider__btn" aria-label="Назад">
+      {% view "@icon" with {
+        icon: {
+          class: "slider__btn-icon",
+          name: "sprite-mono.svg#arrow_left"
+        }
+      } %}
+    </button>
+    <button class="btn swiper-button-next slider__btn slider__btn--next" aria-label="Вперед">
+      {% view "@icon" with {
+        icon: {
+          class: "slider__btn-icon",
+          name: "sprite-mono.svg#arrow_left"
+        }
+      } %}
+    </button>
+  </div>
+  <div class="swiper-pagination slider__pagination"></div>
+</div>

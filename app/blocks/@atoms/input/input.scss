@@ -1,4 +1,3 @@
-// инпут в формах
 .input-block {
   padding: rem(11) rem(12);
   background-color: var(--pallette-athens-gray);
@@ -10,7 +9,35 @@
     background-color: transparent;
 
     &::placeholder {
-      color: var(--pallette-nepal);
+      color: var(--pallette-nobel);
     }
+  }
+}
+
+.textarea {
+  padding: rem(11) rem(12);
+  width: 100%;
+  height: rem(139);
+  border: none;
+  background-color: var(--pallette-athens-gray);
+  border-radius: rem(6);
+  resize: none;
+
+  &::placeholder {
+    color: var(--pallette-nobel);
+  }
+}
+
+.form {
+  margin-bottom: rem(10);
+
+  > * {
+    &:not(:last-child) {
+      margin-bottom: rem(8);
+    }
+  }
+
+  &__img {
+    margin: rem(8) auto rem(8);
   }
 }

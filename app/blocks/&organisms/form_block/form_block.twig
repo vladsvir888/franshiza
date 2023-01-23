@@ -17,7 +17,13 @@
       {% for item in form_block.toggle.list.items %}
         <li class="form-block__toggle-item">
           {% view "@image" with {
-            image: item.image
+            image: item.image|merge({
+              class: "form-block__toggle-img",
+              sizes: {
+                width: 57,
+                height: 43
+              }
+            })
           } %}
 
           <div class="form-block__toggle-content">

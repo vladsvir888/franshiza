@@ -1,4 +1,4 @@
-.detail-tabs-slider {
+.slider {
   $this: &;
 
   position: relative;
@@ -30,14 +30,20 @@
 
     &[disabled] {
       opacity: 1;
-      background-color: rgba(224, 227, 229, 0.75);
+      pointer-events: auto;
+      cursor: not-allowed;
     }
   }
 
   &__pagination {
-    &.swiper-pagination-bullets {
-      bottom: rem(-32);
+    position: static;
+    margin-top: rem(24);
 
+    @include media('600', max) {
+      margin-top: rem(16);
+    }
+
+    &.swiper-pagination-bullets {
       .swiper-pagination-bullet {
         width: rem(6);
         height: rem(6);
@@ -50,12 +56,14 @@
       }
     }
   }
+}
 
-  &__img {
-    border-radius: rem(6);
+.similar-franchise-slider {
+  .slider__pagination {
+    margin-top: rem(10);
 
-    @include media('1200', max) {
-      margin: 0 auto;
+    @include media('600', max) {
+      margin-top: rem(16);
     }
   }
 }

@@ -1,13 +1,13 @@
 import { Fancybox } from '@fancyapps/ui';
 
-const showModal = () => {
-  document.querySelectorAll('.statistics__btn').forEach((btn) => {
+const showModal = ({ btnSelector, modalSelector, closeSelector }) => {
+  document.querySelectorAll(btnSelector).forEach((btn) => {
     btn.addEventListener('click', () => {
       const link = document.head.querySelector('link[data-link="fancybox"]');
 
       link?.remove();
 
-      Fancybox.show([{ src: '#modal_login', type: 'inline' }]);
+      Fancybox.show([{ src: modalSelector, type: 'inline' }]);
 
       const script = document.createElement('link');
       script.setAttribute('rel', 'stylesheet');
@@ -16,6 +16,14 @@ const showModal = () => {
 
       document.head.prepend(script);
     });
+  });
+
+  document.querySelector(closeSelector)?.addEventListener('click', () => {
+    Fancybox.close([{ src: modalSelector, type: 'inline' }]);
+
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 200);
   });
 };
 

@@ -5,6 +5,9 @@
   }, {
     "text": "Все франшизы",
     "link": "catalog"
+  }, {
+    "text": "Реклама в каталоге",
+    "link": "advert_catalog"
   }],
   "meta": {
     "html_lang": "ru",

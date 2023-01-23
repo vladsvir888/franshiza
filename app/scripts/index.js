@@ -1,6 +1,3 @@
-// import LazyLoad from 'vanilla-lazyload';
-// import AirDatepicker from 'air-datepicker';
-
 // components
 import BurgerMenu from './components/burgerMenu';
 import MobileSearch from './components/mobileSearch';
@@ -14,10 +11,11 @@ import scrollToForm from './components/scrollToForm';
 import showModal from './components/showModal';
 import Dropdown from './components/dropdown';
 import toggleList from './components/toggleList';
+import toggleBtn from './components/topBtn';
+import similarFranchiseSlider from './components/similarFranchiseSlider';
+import toggleCardText from './components/toggleCardText';
 
 document.addEventListener('DOMContentLoaded', () => {
-  // new LazyLoad();
-
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
 
   new MobileSearch(document.querySelector(MobileSearch.selectors.header));
@@ -32,12 +30,28 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 0));
 
   initVideo();
+
   addToList();
+
   scrollToForm();
-  showModal();
+
+  showModal({
+    btnSelector: '.statistics__btn',
+    modalSelector: '#modal_login',
+  });
+  showModal({
+    btnSelector: '.form-block__btn',
+    modalSelector: '#send_request',
+    closeSelector: '.modal__footer-btn',
+  });
+
   toggleList();
 
-  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
+  toggleBtn();
 
-  // new AirDatepicker('#input');
+  toggleCardText();
+
+  similarFranchiseSlider('.similar-franchise-slider');
+
+  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
 });
