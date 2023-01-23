@@ -36,6 +36,7 @@
   }
 
   &__pagination {
+    @include flex-center-x;
     position: static;
     margin-top: rem(24);
 

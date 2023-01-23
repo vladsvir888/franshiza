@@ -67,6 +67,10 @@
     @include font-size(12, 16);
     display: block;
     color: var(--pallette-scorpion);
+
+    &:not(:last-child) {
+      margin-bottom: rem(12);
+    }
   }
 
   &__btn {
@@ -84,7 +88,7 @@
     font-weight: 700;
 
     &:not(:last-child) {
-      margin-bottom: rem(16);
+      margin-bottom: rem(14);
 
       @include media('600', max) {
         margin-bottom: rem(6);
@@ -141,6 +145,10 @@
     &-btn {
       padding: rem(12) rem(37);
       font-weight: 400;
+
+      @include media('600', max) {
+        width: 100%;
+      }
     }
   }
 }

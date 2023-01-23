@@ -30,7 +30,6 @@
   }
 
   &__text {
-    position: relative;
     margin-bottom: rem(12);
 
     @include media('600', max) {
@@ -38,6 +37,7 @@
     }
 
     a {
+      position: relative;
       color: var(--pallette-deep-cerulean);
       transition: color var(--transition);
 
