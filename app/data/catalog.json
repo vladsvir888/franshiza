@@ -1359,6 +1359,7 @@
       }
     },
     "cards": {
+      "modifier": "three-items",
       "title": {
         "level": 2,
         "class": "visually-hidden",
@@ -1774,7 +1775,7 @@
         "text": {
           "text": "Получить бизнес-план"
         },
-        "attrs": "type='button'"
+        "attrs": "type='submit'"
       },
       "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
       "toggle": {
@@ -1814,6 +1815,7 @@
       }
     },
     "review_franchise_and_exclusive_interviews": {
+      "modifier": "two-items",
       "header": {
         "title": {
           "level": 2,
@@ -1868,6 +1870,7 @@
       }
     },
     "news_and_info_about_franchise": {
+      "modifier": "two-items",
       "header": {
         "title": {
           "level": 2,
@@ -1974,29 +1977,6 @@
         },
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
-    },
-    "modal_login": {
-      "type": "send_request",
-      "id": "send_request",
-      "class": "modal--send-request",
-      "attrs": "role='dialog' aria-labelledby='modal_title'",
-      "title": {
-        "id": "modal_title",
-        "level": 2,
-        "text": "Отправить запрос 3 франшизам?"
-      },
-      "text": "из подборки “Беспроигрышная франшиза”",
-      "button_send": {
-        "text": {
-          "text": "Отправить"
-        },
-        "attrs": "type='submit'"
-      },
-      "button_continue": {
-        "text": {
-          "text": "Продолжить выбор франшиз"
-        }
-      }
     }
   }
 }

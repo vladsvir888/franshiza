@@ -69,6 +69,20 @@
     }
   }
 
+  > img {
+    margin: rem(40) 0;
+    border-radius: rem(8);
+
+    @include media('1200', max) {
+      margin: rem(40) auto;
+    }
+
+    @include media('600', max) {
+      border-radius: 0;
+      margin: rem(24) auto;
+    }
+  }
+
   .sidebar-form {
     @include media('600', max) {
       + .form-block {

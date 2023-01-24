@@ -56,22 +56,6 @@
     }
   }
 
-  &__show-more {
-    padding: rem(10) rem(32);
-    margin-top: rem(20);
-
-    .btn__icon {
-      width: rem(14);
-      height: rem(24);
-      margin-left: rem(6);
-    }
-
-    @include media('375', max) {
-      width: 100%;
-      margin-top: rem(16);
-    }
-  }
-
   &__content {
     &--two-items {
       display: grid;

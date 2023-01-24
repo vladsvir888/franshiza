@@ -58,7 +58,7 @@
     @include flex-center-y;
     color: var(--pallette-cerulean);
     font-weight: 700;
-    margin: 0 auto rem(20);
+    margin: 0 auto rem(24);
 
     &:hover {
       color: var(--pallette-deep-cerulean);
@@ -67,6 +67,10 @@
     &--active {
       #{$this}__toggle-icon {
         transform: rotate(-180deg);
+      }
+
+      + #{$this}__toggle-list {
+        visibility: visible;
       }
     }
 
@@ -81,6 +85,7 @@
       gap: rem(20);
       max-height: 0;
       overflow: hidden;
+      visibility: hidden;
       transition: max-height var(--transition);
 
       &[style] + #{$this}__form {

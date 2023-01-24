@@ -1,0 +1,20 @@
+<div class="contacts-block">
+  <dl class="contacts-block__list">
+    {% for item in contacts_block.items %}
+      <div class="contacts-block__item">
+        <dt class="contacts-block__term">
+          {{ item.term }}
+        </dt>
+        <dd class="contacts-block__descr">
+          {{ item.descr }}
+        </dd>
+      </div>
+    {% endfor %}
+  </dl>
+
+  {% if contacts_block.text %}
+    <div class="contacts-block__text">
+      {{ contacts_block.text }}
+    </div>
+  {% endif %}
+</div>

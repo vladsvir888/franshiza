@@ -29,36 +29,31 @@
     </p>
   {% endif %}
 
-  {% if section.data.type == '^card_info' %}
-    <div class="section__content section__content--two-items">
+  <div class="section__content {% if section.modifier == 'two-items' %}section__content--two-items{% elseif section.modifier == 'three-items' %}section__content--three-items{% elseif section.modifier == 'margin-bottom' %}section__content--mb{% endif %}"
+  >
+    {% if section.data.type == '^card_info' %}
       {% for item in section.data.content.items %}
         {% view "^card_info" with {
           card_info: item
         } %}
       {% endfor %}
-    </div>
-  {% elseif section.data.type == '&card_block' %}
-    <div class="section__content section__content--mb">
+    {% elseif section.data.type == '&card_block' %}
       {% for item in section.data.content.items %}
         {% view "&card_block" with {
           card_block: item
         } %}
       {% endfor %}
-    </div>
-  {% elseif section.data.type == '&card' %}
-    <div class="section__content section__content--three-items">
+    {% elseif section.data.type == '&card' %}
       {% for item in section.data.content.items %}
         {% view "&card" with {
           card: item
         } %}
       {% endfor %}
-    </div>
-  {% elseif section.data.type == '&slider' %}
-    {% view "&slider" with {
-      slider: section.data
-    } %}
-  {% elseif section.data.type == '^video' %}
-    <div class="section__content section__content--two-items">
+    {% elseif section.data.type == '&slider' %}
+      {% view "&slider" with {
+        slider: section.data
+      } %}
+    {% elseif section.data.type == '^video' %}
       {% for i in 0..9 %}
         {% view "^video" with {
           video: {
@@ -66,8 +61,8 @@
           }
         } %}
       {% endfor %}
-    </div>
-  {% endif %}
+    {% endif %}
+  </div>
 
   {% if section.footer %}
     <div class="section__footer">
@@ -82,7 +77,7 @@
       {% if section.footer.show_more_button %}
         {% view "@button" with {
           button: section.footer.show_more_button|merge({
-            class: "btn--large btn--btn btn--primary section__show-more"
+            class: "btn--large btn--btn btn--primary btn--show-more"
           })
         } %}
       {% endif %}

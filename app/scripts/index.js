@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalSelector: '#modal_login',
   });
   showModal({
-    btnSelector: '.form-block__btn',
+    btnSelector: '.form-block__modal-btn',
     modalSelector: '#send_request',
     closeSelector: '.modal__footer-btn',
   });

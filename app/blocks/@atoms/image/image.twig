@@ -11,19 +11,12 @@
     <source
       type="image/avif"
       srcset="{{ path ~ filename ~ '.avif' }}"
-      {# srcset="./assets/images/pixel.png" #}
-      {# data-srcset="{{ path ~ filename ~ '.avif' }}" #}
     >
     <source
       type="image/webp"
       srcset="{{ path ~ filename ~ '.webp' }}"
-      {# srcset="./assets/images/pixel.png" #}
-      {# data-srcset="{{ path ~ filename ~ '.webp' }}" #}
     >
     <img
-      {# class="img lazy {% if image.class %}{{ image.class }}{% endif %}" #}
-      {# src="./assets/images/pixel.png" #}
-      {# data-src="{{ path ~ image.name }}" #}
       class="img {% if image.class %}{{ image.class }}{% endif %}"
       src="{{ path ~ image.name }}"
       loading="lazy"

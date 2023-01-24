@@ -1,4 +1,4 @@
-<article class="card-block">
+<article class="card-block {{ card_block.class }}">
   {% view "@image" with {
     image: card_block.image|merge({
       class: "card-block__img"
@@ -15,11 +15,24 @@
     {% endif %}
 
     {% if card_block.content.title %}
-      {% view "@title" with {
-        title: card_block.content.title|merge({
-          class: "card-block__title"
-        })
-      } %}
+      <div class="card-block__top">
+        {% view "@title" with {
+          title: card_block.content.title|merge({
+            class: "card-block__title"
+          })
+        } %}
+
+        {% if card_block.content.top_link %}
+          {% view "@button" with {
+            button: card_block.content.top_link|merge({
+              class: "btn--arrow",
+              right_icon: {
+                name: "sprite-mono.svg#arrow_right"
+              }
+            })
+          } %}
+        {% endif %}
+      </div>
     {% endif %}
 
     {% if card_block.content.text %}
@@ -40,10 +53,31 @@
       } %}
     {% endif %}
 
+    {% if card_block.content.list %}
+      <dl class="card-block__list">
+        {% for item in card_block.content.list.items %}
+          <div class="card-block__list-item">
+            <dt class="card-block__list-term">
+              {{ item.term }}
+            </dt>
+            <dd class="card-block__list-descr">
+              {{ item.descr }}
+            </dd>
+          </div>
+        {% endfor %}
+      </dl>
+    {% endif %}
+
     {% if card_block.content.time %}
       <time class="card-block__time" datetime="{{ card_block.content.time.datetime }}">
         {{ card_block.content.time.text }}
       </time>
+    {% endif %}
+
+    {% if card_block.content.author %}
+      <p class="card-block__author">
+        {{ card_block.content.author }}
+      </p>
     {% endif %}
 
     {% if card_block.content.button %}
@@ -63,6 +97,17 @@
           {% view "@button" with {
             button: card_block.content.bottom.first_btn|merge({
               class: "btn--btn btn--primary btn--scroll card-block__bottom-btn"
+            })
+          } %}
+        {% endif %}
+
+        {% if card_block.content.bottom.second_btn %}
+          {% view "@button" with {
+            button: card_block.content.bottom.second_btn|merge({
+              class: "btn--btn btn--toggle btn--toggle-white card-block__bottom-btn",
+              icon: {
+                name: "sprite-multi.svg#square"
+              }
             })
           } %}
         {% endif %}

@@ -1,0 +1,32 @@
+.landing-tabs {
+  $this: &;
+
+  &__btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(8);
+    margin-bottom: rem(20);
+
+    @include media('600', max) {
+      margin-bottom: rem(16);
+    }
+  }
+
+  &__btn {
+    padding: rem(8) rem(12);
+    color: var(--pallette-scorpion);
+    border-radius: rem(6);
+    border: rem(1) solid var(--pallette-nobel);
+    transition: border-color var(--transition), color var(--transition);
+
+    &[aria-selected=true] {
+      color: var(--pallette-deep-cerulean);
+      border-color: var(--pallette-deep-cerulean);
+    }
+
+    &:hover {
+      color: var(--pallette-deep-cerulean);
+      border-color: var(--pallette-deep-cerulean);
+    }
+  }
+}

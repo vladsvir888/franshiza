@@ -1,5 +1,18 @@
-<div class="tabs {{ tabs.class }}">
-  <div role="tablist" class="tabs__btns {{ tabs.btns.class }}">
+<div
+  class="tabs {{ tabs.class }}"
+  >
+  {% if tabs.title %}
+    {% view "@title" with {
+      title: tabs.title|merge({
+        class: "tabs__title"
+      })
+    } %}
+  {% endif %}
+  <div
+    role="tablist"
+    class="tabs__btns {{ tabs.btns.class }}"
+    {{ tabs.btns.attrs }}
+    >
     {% for btn in tabs.btns.items %}
       {% view "@button" with {
         button: btn|default({})|merge({
@@ -32,7 +45,21 @@
             </li>
           {% endfor %}
         </ul>
+      {% elseif content.data.type == '&card_block' %}
+        {% for item in content.data.content.data.content.items %}
+          {% view "&card_block" with {
+            card_block: item
+          } %}
+        {% endfor %}
       {% endif %}
     </div>
   {% endfor %}
+
+  {% if tabs.content.show_more_btn %}
+    {% view "@button" with {
+      button: tabs.content.show_more_btn|merge({
+        class: "btn--btn btn--large btn--primary btn--show-more"
+      })
+    } %}
+  {% endif %}
 </div>

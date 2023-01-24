@@ -61,7 +61,7 @@
 
     {% view "@button" with {
       button: form_block.button|merge({
-        class: "btn--btn btn--primary btn--large form-block__btn"
+        class: "btn--btn btn--primary btn--large form-block__btn " ~ form_block.button.class
       })
     } %}
   </form>

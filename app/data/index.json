@@ -8,6 +8,15 @@
   }, {
     "text": "Реклама в каталоге",
     "link": "advert_catalog"
+  }, {
+    "text": "Контакты",
+    "link": "contacts"
+  }, {
+    "text": "Лендинг",
+    "link": "landing"
+  }, {
+    "text": "Новости",
+    "link": "news"
   }],
   "meta": {
     "html_lang": "ru",

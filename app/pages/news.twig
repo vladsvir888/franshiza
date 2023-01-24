@@ -1,0 +1,55 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: news.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: news.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        <p class="main__text">
+          {{ news.text }}
+        </p>
+
+        {% view "&section" with {
+          section: news.review_partners
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&section" with {
+          section: news.news_and_info_franchise
+        } %}
+
+        {% view "&accordion" with {
+          accordion: news.sidebar_accordion_mobile
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: news.sidebar_slider_mobile
+        } %}
+      </div>
+      <div class="main__sidebar">
+        {% view "&accordion" with {
+          accordion: news.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: news.sidebar_slider
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

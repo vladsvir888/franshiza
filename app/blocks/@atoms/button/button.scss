@@ -130,4 +130,21 @@
       font-size: rem(14);
     }
   }
+
+  &--show-more {
+    display: flex;
+    padding: rem(10) rem(32);
+    margin: rem(20) auto 0;
+
+    #{$this}__icon {
+      width: rem(14);
+      height: rem(24);
+      margin-left: rem(6);
+    }
+
+    @include media('375', max) {
+      width: 100%;
+      margin-top: rem(16);
+    }
+  }
 }

@@ -184,6 +184,12 @@ a {
     }
   }
 
+  &--landing {
+    .form-block {
+      margin-bottom: rem(24);
+    }
+  }
+
   &__inner {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -220,7 +226,7 @@ a {
   display: none;
 }
 
-// делаем обычный курсор
+// делаем обычный курсор на оверлэе
 .fancybox__carousel.is-draggable .fancybox__slide,
 .fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
   cursor: default;
