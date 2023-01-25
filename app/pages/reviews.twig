@@ -1,0 +1,67 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main main--reviews" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: reviews.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: reviews.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        <p class="main__text">
+          {{ reviews.text }}
+        </p>
+
+        {% view "^review_list" with {
+          review_list: reviews.review_list_mobile
+        } %}
+
+        {% view "&section" with {
+          section: reviews.review_current_partners
+        } %}
+
+        {% view "&section" with {
+          section: reviews.review_current_partners_2
+        } %}
+
+        {% view "&section" with {
+          section: reviews.review_current_partners_3
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&accordion" with {
+          accordion: reviews.sidebar_accordion_mobile
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: reviews.sidebar_slider_mobile
+        } %}
+      </div>
+      <div class="main__sidebar">
+        {% view "^review_list" with {
+          review_list: reviews.review_list
+        } %}
+
+        {% view "&accordion" with {
+          accordion: reviews.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: reviews.sidebar_slider
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

@@ -1,4 +1,4 @@
-const toggleList = () => {
+const toggleResultList = () => {
   const toggleBtn = document.querySelector('.form-block__toggle');
   const toggleContent = document.querySelector('.form-block__toggle-list');
 
@@ -13,4 +13,4 @@ const toggleList = () => {
   });
 };
 
-export default toggleList;
+export default toggleResultList;

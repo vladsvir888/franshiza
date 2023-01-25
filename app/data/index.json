@@ -17,6 +17,18 @@
   }, {
     "text": "Новости",
     "link": "news"
+  }, {
+    "text": "Отзывы",
+    "link": "reviews"
+  }, {
+    "text": "Отзыв",
+    "link": "review"
+  }, {
+    "text": "Авторизация",
+    "link": "auth"
+  }, {
+    "text": "Регистрация",
+    "link": "registration"
   }],
   "meta": {
     "html_lang": "ru",

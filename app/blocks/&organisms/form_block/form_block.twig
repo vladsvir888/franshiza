@@ -52,6 +52,18 @@
     </ul>
   {% endif %}
 
+  {% if form_block.socials %}
+    {% view "^socials" with {
+      socials: form_block.socials|merge({
+        class: "form-block__socials"
+      })
+    } %}
+
+    <p class="form-block__small-text">
+      или
+    </p>
+  {% endif %}
+
   <form class="form form-block__form" action="/" method="get">
     {% for input in form_block.inputs %}
       {% view "@input" with {
@@ -59,14 +71,32 @@
       } %}
     {% endfor %}
 
+    {% if form_block.button_forgot_password %}
+      {% view "@button" with {
+        button: form_block.button_forgot_password|merge({
+          class: "form-block__forgot-password"
+        })
+      } %}
+    {% endif %}
+
     {% view "@button" with {
       button: form_block.button|merge({
         class: "btn--btn btn--primary btn--large form-block__btn " ~ form_block.button.class
       })
     } %}
+
+    {% if form_block.button_registration %}
+      {% view "@button" with {
+        button: form_block.button_registration|merge({
+          class: "btn--btn btn--tertiary btn--large form-block__registration-btn"
+        })
+      } %}
+    {% endif %}
   </form>
 
-  <p class="form-block__note">
-    {{ form_block.note }}
-  </p>
+  {% if form_block.note %}
+    <p class="form-block__note">
+      {{ form_block.note }}
+    </p>
+  {% endif %}
 </div>

@@ -10,10 +10,10 @@ import addToList from './components/addToList';
 import scrollToForm from './components/scrollToForm';
 import showModal from './components/showModal';
 import Dropdown from './components/dropdown';
-import toggleList from './components/toggleList';
-import toggleBtn from './components/topBtn';
+import toggleResultList from './components/toggleResultList';
+import topBtn from './components/topBtn';
 import similarFranchiseSlider from './components/similarFranchiseSlider';
-import toggleCardText from './components/toggleCardText';
+import toggleText from './components/toggleText';
 
 document.addEventListener('DOMContentLoaded', () => {
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
@@ -45,11 +45,21 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSelector: '.modal__footer-btn',
   });
 
-  toggleList();
+  toggleResultList();
 
-  toggleBtn();
+  topBtn();
 
-  toggleCardText();
+  toggleText({
+    selector: '.card-block__toggle',
+    text: 'Развернуть',
+    activeText: 'Свернуть',
+  });
+
+  toggleText({
+    selector: '.review-list__show-more',
+    text: 'Развернуть список отзывов',
+    activeText: 'Свернуть список отзывов',
+  });
 
   similarFranchiseSlider('.similar-franchise-slider');
 

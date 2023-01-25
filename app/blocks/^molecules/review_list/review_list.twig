@@ -1,0 +1,30 @@
+<div class="review-list {{ review_list.class }}">
+  {% view "@title" with {
+    title: review_list.title|merge({
+      class: "review-list__title"
+    })
+  } %}
+
+  <ul class="review-list__list">
+    {% for item in review_list.items %}
+      <li class="review-list__item">
+        {% view "@button" with {
+          button: item.button|merge({
+            class: "review-list__btn",
+            href: "#"
+          })
+        } %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% view "@button" with {
+    button: review_list.show_more_btn|merge({
+      class: "review-list__show-more",
+      right_icon: {
+        class: "review-list__show-more-icon",
+        name: "sprite-mono.svg#arrow_up"
+      }
+    })
+  } %}
+</div>

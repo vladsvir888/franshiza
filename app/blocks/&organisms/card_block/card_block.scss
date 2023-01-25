@@ -30,15 +30,15 @@
     }
   }
 
-  &--show {
-    #{$this}__text {
-      height: unset;
-    }
+  // &--show {
+  //   #{$this}__text {
+  //     height: unset;
+  //   }
 
-    #{$this}__toggle-icon {
-      transform: rotate(180deg);
-    }
-  }
+  //   #{$this}__toggle-icon {
+  //     transform: rotate(180deg);
+  //   }
+  // }
 
   &__img {
     border-radius: rem(6);
@@ -74,14 +74,27 @@
   }
 
   &__content {
+    @include flex-column;
+
     @include media('375', max) {
       padding: rem(16);
+    }
+
+    &.show {
+      #{$this}__text {
+        height: unset;
+      }
+
+      #{$this}__toggle-icon {
+        transform: rotate(180deg);
+      }
     }
   }
 
   &__time {
     @include font-size(12, 16);
     display: block;
+    margin-top: auto;
     color: var(--pallette-scorpion);
 
     &:not(:last-child) {

@@ -7,14 +7,17 @@
     display: block;
   }
 
-  &__content {
-    padding-bottom: rem(14);
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: rem(12);
+    }
   }
 
   &__btn {
     @include flex-center;
     @include font-size(22, 33);
     color: var(--pallette-deep-cerulean);
+    font-weight: 400;
 
     &[aria-expanded=true] {
       margin-bottom: rem(12);
@@ -31,9 +34,5 @@
     height: rem(24);
     margin-left: rem(6);
     transition: transform var(--transition);
-  }
-
-  .detail-tabs-slider__pagination.swiper-pagination-bullets {
-    bottom: rem(-18);
   }
 }

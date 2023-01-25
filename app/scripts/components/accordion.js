@@ -52,9 +52,9 @@ class Accordion {
       this.activeIndex = currentIndex;
     }
 
-    setTimeout(() => {
-      btn.scrollIntoView();
-    }, 300);
+    // setTimeout(() => {
+    //   btn.scrollIntoView();
+    // }, 300);
   }
 }
 

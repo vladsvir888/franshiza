@@ -68,6 +68,10 @@
     display: block;
     padding-left: rem(12);
     color: var(--pallette-cerulean);
+
+    &:hover {
+      color: var(--pallette-deep-cerulean);
+    }
   }
 
   &__text {

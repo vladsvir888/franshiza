@@ -58,13 +58,3 @@
     }
   }
 }
-
-.similar-franchise-slider {
-  .slider__pagination {
-    margin-top: rem(10);
-
-    @include media('600', max) {
-      margin-top: rem(16);
-    }
-  }
-}

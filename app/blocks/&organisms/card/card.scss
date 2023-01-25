@@ -26,10 +26,10 @@
       }
     }
 
-    #{$this}__btn {
-      width: 100%;
-      margin-left: unset;
-    }
+    // #{$this}__btn {
+    //   width: 100%;
+    //   margin-left: unset;
+    // }
   }
 
   &__img {
@@ -91,5 +91,10 @@
     position: relative;
     width: calc(100% + 1.5rem);
     margin-left: -0.8rem;
+
+    @include media('600', max) {
+      width: 100%;
+      margin-left: unset;
+    }
   }
 }

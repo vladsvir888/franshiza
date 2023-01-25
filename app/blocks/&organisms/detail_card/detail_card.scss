@@ -13,6 +13,7 @@
   @include media('600', max) {
     grid-template-columns: 1fr;
     gap: rem(24);
+    margin-bottom: rem(30);
   }
 
   &__list {

@@ -1,5 +1,5 @@
 .socials {
-  @include flex-center-y;
+  @include flex-center;
   gap: rem(24);
 
   @include media('600', max) {

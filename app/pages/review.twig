@@ -1,0 +1,59 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: review.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: review.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        {% view "&form_photo_block" with {
+          form_photo_block: review.form_photo_block
+        } %}
+
+        {% view "^socials" with {
+          socials: review.socials
+        } %}
+
+        {% view "&section" with {
+          section: review.similar_franchise
+        } %}
+
+        {% view "&section" with {
+          section: review.read_more
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&accordion" with {
+          accordion: review.sidebar_accordion_mobile
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: review.sidebar_slider_mobile
+        } %}
+      </div>
+      <div class="main__sidebar">
+        {% view "&accordion" with {
+          accordion: review.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: review.sidebar_slider
+        } %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

@@ -13,7 +13,7 @@
 
   @include media('600', max) {
     padding: rem(20) rem(16);
-    margin-top: rem(30);
+    // margin-top: rem(30);
     width: calc(100% + 2rem);
     margin-left: -1rem;
     border-radius: 0;
@@ -64,7 +64,28 @@
       color: var(--pallette-deep-cerulean);
     }
 
+    @include media('600', max) {
+      margin: 0 auto rem(30);
+    }
+
+    @include media('375', max) {
+      @include font-size(14, 20);
+      margin: 0 0 rem(30);
+    }
+
     &--active {
+      @include media('600', max) {
+        &#{$this}__toggle {
+          margin: 0 auto rem(8);
+        }
+      }
+
+      @include media('375', max) {
+        &#{$this}__toggle {
+          margin: 0 0 rem(8);
+        }
+      }
+
       #{$this}__toggle-icon {
         transform: rotate(-180deg);
       }
@@ -74,10 +95,6 @@
       }
     }
 
-    @include media('375', max) {
-      @include font-size(14, 20);
-      margin: 0 0 rem(8);
-    }
 
     &-list {
       display: grid;
@@ -86,10 +103,14 @@
       max-height: 0;
       overflow: hidden;
       visibility: hidden;
-      transition: max-height var(--transition);
+      transition: max-height var(--transition), margin var(--transition);
 
-      &[style] + #{$this}__form {
-        margin-top: rem(24);
+      &[style] {
+        margin-bottom: rem(24);
+
+        @include media('600', max) {
+          margin-bottom: rem(30);
+        }
       }
 
       @include media('767', max) {
@@ -155,6 +176,36 @@
 
     &-img {
       border-radius: rem(6);
+    }
+  }
+
+  &__socials {
+    display: flex;
+    margin-bottom: rem(8);
+  }
+
+  &__small-text {
+    color: var(--pallette-nepal);
+    margin-bottom: rem(8);
+  }
+
+  &__registration-btn {
+    width: 100%;
+    font-weight: 400;
+  }
+
+  &__forgot-password {
+    display: block;
+    padding-left: rem(12);
+    color: var(--pallette-cerulean);
+    text-align: left;
+
+    &:hover {
+      color: var(--pallette-deep-cerulean);
+    }
+
+    @include media('600', max) {
+      padding-left: 0;
     }
   }
 }

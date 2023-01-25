@@ -139,7 +139,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: rem(20);
-  margin-top: rem(80);
+  margin: rem(40) 0;
 
   &__link {
     color: inherit;
@@ -187,6 +187,12 @@ a {
   &--landing {
     .form-block {
       margin-bottom: rem(24);
+    }
+  }
+
+  &--reviews {
+    .main__text {
+      max-width: rem(800);
     }
   }
 
