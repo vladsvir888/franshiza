@@ -1,0 +1,23 @@
+<div class="not-found">
+  {% view "@title" with {
+    title: not_found.title|merge({
+      class: "title--h1 not-found__title"
+    })
+  } %}
+
+  <div class="not-found__content">
+    <p class="not-found__subtitle">
+      {{ not_found.text }}
+    </p>
+
+    <p class="not-found__text">
+      {{ not_found.text_with_link }}
+    </p>
+
+    {% view "^search" with {
+      search: not_found.search|merge({
+        class: "not-found__search"
+      })
+    } %}
+  </div>
+</div>

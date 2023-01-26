@@ -696,6 +696,9 @@
     "title": {
       "text": "Отзыв о франшизе студии коррекции фигуры WOWBODY из Иваново"
     },
+    "text_block": {
+      "type": "review_text_block"
+    },
     "form_photo_block": {
       "class": "form-scroll",
       "title": {
@@ -704,28 +707,24 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_photo_name",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_photo_city",
           "type": "text",
           "text": "Введите ваш город",
           "name": "city"
         }
       }, {
         "element": {
-          "id": "form_photo_email",
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email"
         }
       }, {
         "element": {
-          "id": "form_photo_tel",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"

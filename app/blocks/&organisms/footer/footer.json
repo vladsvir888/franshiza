@@ -94,7 +94,6 @@
             "class": "subscribe__input-block"
           },
           "element": {
-            "id": "subscribe_form",
             "class": "subscribe__input",
             "type": "text",
             "text": "Ваш E-mail",

@@ -13,7 +13,6 @@
 
   @include media('600', max) {
     padding: rem(20) rem(16);
-    // margin-top: rem(30);
     width: calc(100% + 2rem);
     margin-left: -1rem;
     border-radius: 0;
@@ -94,7 +93,6 @@
         visibility: visible;
       }
     }
-
 
     &-list {
       display: grid;

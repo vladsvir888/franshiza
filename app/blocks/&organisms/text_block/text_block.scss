@@ -37,8 +37,16 @@
 
   a:not([class]) {
     @include font-size(14, 20);
-    font-weight: 700;
     color: var(--pallette-deep-cerulean);
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
   }
 
   b {
@@ -114,6 +122,26 @@
       @include media('600', max) {
         margin-bottom: rem(30);
       }
+    }
+  }
+
+  &:has(+ .author) {
+    margin-bottom: rem(24);
+  }
+
+  .dialog {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(14);
+      }
+    }
+
+    dd {
+      color: var(--pallette-scorpion);
+    }
+
+    @include media('600', max) {
+      @include font-size(12, 16);
     }
   }
 }

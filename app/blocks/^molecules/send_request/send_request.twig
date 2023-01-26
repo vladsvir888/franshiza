@@ -1,0 +1,11 @@
+<div class="send-request">
+  {% view "@title" with {
+    title: send_request.title|merge({
+      class: "title--h1 send-request__title"
+    })
+  } %}
+
+  <p class="send-request__text">
+    {{ send_request.text }}
+  </p>
+</div>

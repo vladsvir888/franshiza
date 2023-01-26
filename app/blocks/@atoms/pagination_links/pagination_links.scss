@@ -1,0 +1,48 @@
+.pagination-links {
+  $this: &;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: rem(10);
+
+  @include media('500', max) {
+    justify-content: center;
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--pallette-deep-cerulean);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+
+    &-icon {
+      width: rem(24);
+      height: rem(24);
+    }
+
+    &--left {
+      #{$this}__link-icon {
+        transform: rotate(180deg);
+        margin-right: rem(6);
+      }
+    }
+
+    &--right {
+      #{$this}__link-icon {
+        margin-left: rem(6);
+      }
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: rem(44);
+
+    @include media('600', max) {
+      margin-bottom: rem(30);
+    }
+  }
+}

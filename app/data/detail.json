@@ -1450,14 +1450,12 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_block_form_name",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_block_form_tel",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"
@@ -1479,14 +1477,12 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_block_form_name_2",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_block_form_tel_2",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"
@@ -1508,14 +1504,12 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_block_form_name_3",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_block_form_tel_3",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"
@@ -1537,14 +1531,12 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_block_form_name_4",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_block_form_tel_4",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"
@@ -1932,28 +1924,24 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_photo_name",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_photo_city",
           "type": "text",
           "text": "Введите ваш город",
           "name": "city"
         }
       }, {
         "element": {
-          "id": "form_photo_email",
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email"
         }
       }, {
         "element": {
-          "id": "form_photo_tel",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"
@@ -2714,14 +2702,12 @@
       },
       "inputs": [{
         "element": {
-          "id": "modal_form_email",
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email"
         }
       }, {
         "element": {
-          "id": "modal_form_password",
           "type": "password",
           "text": "Введите пароль",
           "name": "password"

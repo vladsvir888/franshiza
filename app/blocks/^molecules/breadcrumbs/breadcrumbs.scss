@@ -2,7 +2,10 @@
   $this: &;
 
   margin-bottom: rem(20);
-  overflow: auto;
+
+  @include media('767', max) {
+    overflow: auto;
+  }
 
   @include media('600', max) {
     margin-bottom: rem(8);

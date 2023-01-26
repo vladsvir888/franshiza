@@ -17,6 +17,12 @@
       @include font-size(12, 16);
       margin-bottom: rem(16);
     }
+
+    &-btn {
+      @include media('600', max) {
+        display: none;
+      }
+    }
   }
 
   &__text {
@@ -40,14 +46,8 @@
     }
   }
 
-  &__header-btn {
-    @include media('600', max) {
-      display: none;
-    }
-  }
-
   &__footer {
-    @include flex-center;
+    @include flex-center-column;
 
     &-btn {
       margin-top: rem(20);

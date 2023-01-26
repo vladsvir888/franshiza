@@ -1,0 +1,27 @@
+<div class="pagination-links">
+  {% view "@button" with {
+    button: {
+      class: "pagination-links__link pagination-links__link--left",
+      text: {
+        text: "На страницу франшизы WOWBODY"
+      },
+      icon: {
+        class: "pagination-links__link-icon",
+        name: "sprite-mono.svg#arrow_right"
+      }
+    }
+  } %}
+
+  {% view "@button" with {
+    button: {
+      class: "pagination-links__link pagination-links__link--right",
+      text: {
+        text: "Вернуться к списку новостей"
+      },
+      right_icon: {
+        class: "pagination-links__link-icon",
+        name: "sprite-mono.svg#arrow_right"
+      }
+    }
+  } %}
+</div>

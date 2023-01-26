@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Авторизация",
-    "description": "Авторизация"
+    "title": "Запрос отправлен Франшиза Pedant.ru",
+    "description": "Запрос отправлен Франшиза Pedant.ru"
   },
-  "auth": {
+  "done": {
     "sidebar_accordion": {
       "class": "sidebar-accordion",
       "items": [{
@@ -678,647 +678,6 @@
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
     },
-    "sidebar_accordion_mobile": {
-      "class": "sidebar-accordion sidebar-accordion--mobile",
-      "items": [{
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob1id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Особые списки франшиз"
-          },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mob1'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob1",
-          "attrs": "aria-labelledby='accordion_mob1id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Акции на франшизы"
-              }
-            }, {
-              "text": {
-                "text": "Беспроигрышная франшиза"
-              }
-            }, {
-              "text": {
-                "text": "Добрая франшиза"
-              }
-            }, {
-              "text": {
-                "text": "Идеи, куда вложить деньги"
-              }
-            }, {
-              "text": {
-                "text": "ТОП франшизы"
-              }
-            }, {
-              "text": {
-                "text": "Франшиза с гарантиями"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы от Сбербанка"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob2id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Франшизы по городам/странам"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob2'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob2",
-          "attrs": "aria-labelledby='accordion_mob2id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob3id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Франшизы по вложениям"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob3'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob3",
-          "attrs": "aria-labelledby='accordion_mob3id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob4id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Питание"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob4'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob4",
-          "attrs": "aria-labelledby='accordion_mob4id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob5id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Детские товары и услуги"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob5'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob5",
-          "attrs": "aria-labelledby='accordion_mob5id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob6id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Красота и здоровье"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob6'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob6",
-          "attrs": "aria-labelledby='accordion_mob6id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob7id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Торговля"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob7'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob7",
-          "attrs": "aria-labelledby='accordion_mob7id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob8id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Производство"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob8'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob8",
-          "attrs": "aria-labelledby='accordion_mob8id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob9id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Услуги"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob9'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob9",
-          "attrs": "aria-labelledby='accordion_mob9id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob10id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "В интернете"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob10'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob10",
-          "attrs": "aria-labelledby='accordion_mob10id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob11id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Популярные"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob11'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob11",
-          "attrs": "aria-labelledby='accordion_mob11id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "id": "accordion_mob12id",
-          "class": "sidebar-accordion__btn",
-          "text": {
-            "text": "Бизнес-идеи"
-          },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob12'",
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        },
-        "content": {
-          "id": "sect_mob12",
-          "attrs": "aria-labelledby='accordion_mob12id'"
-        },
-        "data": {
-          "type": "@sidebar_accordion_list",
-          "content": {
-            "items": [{
-              "text": {
-                "text": "Франшизы в Беларуси"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Екатеринбурге"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Казахстане"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Москве"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Новосибирске"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в России"
-              }
-            }, {
-              "text": {
-                "text": "Франшизы в Санкт-Петербурге"
-              }
-            }]
-          }
-        }
-      }, {
-        "class": "sidebar-accordion__item",
-        "button": {
-          "href": "#",
-          "class": "sidebar-accordion__btn sidebar-accordion__link",
-          "text": {
-            "text": "Все франшизы"
-          },
-          "right_icon": {
-            "class": "sidebar-accordion__icon",
-            "name": "sprite-mono.svg#arrow_up"
-          }
-        }
-      }]
-    },
     "breadcrumbs": {
       "items": [{
         "text": {
@@ -1326,136 +685,141 @@
         }
       }, {
         "text": {
-          "text": "Авторизация"
+          "text": "Страница не найдена"
         }
       }]
     },
-    "title": {
-      "text": "Авторизация"
-    },
-    "form_block": {
+    "send_request": {
       "title": {
-        "level": 2,
-        "text": "Войти через"
+        "text": "Запрос отправлен <a class='btn send-request__link' href='#'>Франшиза Pedant.ru</a>"
       },
-      "socials": {
-        "list": {
-          "items": [{
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#gmail"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#vk"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#yandex"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#mail"
-            }
-          }]
-        }
-      },
-      "inputs": [{
-        "element": {
-          "type": "email",
-          "text": "Введите E-mail",
-          "name": "email"
-        }
-      }, {
-        "element": {
-          "type": "password",
-          "text": "Введите пароль",
-          "name": "password"
-        }
-      }],
-      "button_forgot_password": {
-        "href": "#",
-        "text": {
-          "text": "Забыли пароль?"
-        }
-      },
-      "button": {
-        "text": {
-          "text": "Войти"
-        },
-        "attrs": "type='submit'"
-      },
-      "button_registration": {
-        "href": "#",
-        "text": {
-          "text": "Зарегистрироваться"
-        }
-      }
+      "text": "Вам ответят на указанные Вами контакты"
     },
-    "review_franchise_and_exclusive_interviews": {
-      "modifier": "two-items",
+    "similar_franchise": {
       "header": {
         "title": {
           "level": 2,
-          "text": "Отзывы о франшизах и эксклюзивные интервью"
+          "text": "Похожие франшизы"
         },
         "button": {
           "href": "#",
           "text": {
-            "text": "Все отзывы"
+            "text": "Каталог"
           },
           "right_icon": {
             "name": "sprite-mono.svg#arrow_right"
           }
         }
       },
+      "text": "Добавьте и эти франшизы в список, чтобы запросить подробности сразу у нескольких и сравнить условия",
       "data": {
-        "type": "^card_info",
+        "type": "&slider",
         "content": {
+          "type": "&card",
+          "class": "similar-franchise-slider",
           "items": [{
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
+            "image": {
+              "name": "card/01.png",
+              "alt": "Франшиза ARTCRAFT."
             },
-            "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
-            "time": {
-              "text": "23 Авг 2022",
-              "datetime": "2022-08-23"
+            "content": {
+              "title": {
+                "link": true,
+                "level": 3,
+                "text": "Франшиза ARTCRAFT"
+              },
+              "text": "франшиза бьюти-коворкинга",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-gray",
+              "text": {
+                "level": 3,
+                "text": "Добавить в список"
+              }
             }
           }, {
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе магазина Суши Wok из Омска"
+            "image": {
+              "name": "card/03.png",
+              "alt": "Франшиза INDI."
             },
-            "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
-            "time": {
-              "text": "25 Авг 2022",
-              "datetime": "2022-08-25"
+            "content": {
+              "title": {
+                "link": true,
+                "level": 3,
+                "text": "Франшиза INDI"
+              },
+              "text": "франшиза бьюти-коворкинга",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-gray",
+              "text": {
+                "text": "Добавить в список"
+              }
+            }
+          }, {
+            "image": {
+              "name": "card/02.png",
+              "alt": "Франшиза GASTRONOM."
+            },
+            "content": {
+              "title": {
+                "link": true,
+                "level": 3,
+                "text": "Франшиза GASTRONOM"
+              },
+              "text": "франшиза студии маникюра и бровей",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-gray",
+              "text": {
+                "text": "Добавить в список"
+              }
+            }
+          },  {
+            "image": {
+              "name": "card/02.png",
+              "alt": "Франшиза GASTRONOM."
+            },
+            "content": {
+              "title": {
+                "link": true,
+                "level": 3,
+                "text": "Франшиза GASTRONOM"
+              },
+              "text": "франшиза студии маникюра и бровей",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-gray",
+              "text": {
+                "text": "Добавить в список"
+              }
             }
           }]
         }
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
       }
     },
-    "news_and_info_about_franchise": {
+    "news_and_info_franchise": {
       "modifier": "two-items",
       "header": {
         "title": {
           "level": 2,
-          "text": "Новости и информация о&nbsp;франшизе"
+          "text": "Новости и информация о франшизе"
         },
         "button": {
           "href": "#",
@@ -1505,7 +869,7 @@
               "level": 3,
               "text": "Какую купить франшизу? Каталог франшиз представляет: Франшиза ресторана суши с доставкой UP SUSHI"
             },
-            "text": "Каталог франшиз <a href='#'>www.franshiza-info.ru</a> попросил Евгений Баканова, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы ресторана суши UP SUSHI.",
+            "text": "Каталог франшиз www.franshiza-info.ru попросил Евгений Баканова, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы ресторана суши UP SUSHI.",
             "time": {
               "text": "08 Авг 2022",
               "datetime": "2022-08-08"
@@ -1517,13 +881,654 @@
         "button": {
           "href": "#",
           "text": {
-            "text": "Все новости"
+            "text": "Все отзывы"
           },
           "right_icon": {
             "name": "sprite-mono.svg#arrow_right"
           }
         }
       }
+    },
+    "sidebar_accordion_mobile": {
+      "class": "sidebar-accordion sidebar-accordion--mobile",
+      "items": [{
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile1id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Особые списки франшиз"
+          },
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile1",
+          "attrs": "aria-labelledby='accordion_mobile1id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Акции на франшизы"
+              }
+            }, {
+              "text": {
+                "text": "Беспроигрышная франшиза"
+              }
+            }, {
+              "text": {
+                "text": "Добрая франшиза"
+              }
+            }, {
+              "text": {
+                "text": "Идеи, куда вложить деньги"
+              }
+            }, {
+              "text": {
+                "text": "ТОП франшизы"
+              }
+            }, {
+              "text": {
+                "text": "Франшиза с гарантиями"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы от Сбербанка"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile2id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Франшизы по городам/странам"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile2'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile2",
+          "attrs": "aria-labelledby='accordion_mobile2id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile3id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Франшизы по вложениям"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile3'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile3",
+          "attrs": "aria-labelledby='accordion_mobile3id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile4id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Питание"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile4'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile4",
+          "attrs": "aria-labelledby='accordion_mobile4id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile5id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Детские товары и услуги"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile5'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile5",
+          "attrs": "aria-labelledby='accordion_mobile5id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile6id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Красота и здоровье"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile6'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile6",
+          "attrs": "aria-labelledby='accordion_mobile6id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile7id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Торговля"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile7'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile7",
+          "attrs": "aria-labelledby='accordion_mobile7id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile8id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Производство"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile8'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile8",
+          "attrs": "aria-labelledby='accordion_mobile8id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile9id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Услуги"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile9'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile9",
+          "attrs": "aria-labelledby='accordion_mobile9id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile10id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "В интернете"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile10'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile10",
+          "attrs": "aria-labelledby='accordion_mobile10id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile11id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Популярные"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile11'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile11",
+          "attrs": "aria-labelledby='accordion_mobile11id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "id": "accordion_mobile12id",
+          "class": "sidebar-accordion__btn",
+          "text": {
+            "text": "Бизнес-идеи"
+          },
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile12'",
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        },
+        "content": {
+          "id": "sect_mobile12",
+          "attrs": "aria-labelledby='accordion_mobile12id'"
+        },
+        "data": {
+          "type": "@sidebar_accordion_list",
+          "content": {
+            "items": [{
+              "text": {
+                "text": "Франшизы в Беларуси"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Екатеринбурге"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Казахстане"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Москве"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Новосибирске"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в России"
+              }
+            }, {
+              "text": {
+                "text": "Франшизы в Санкт-Петербурге"
+              }
+            }]
+          }
+        }
+      }, {
+        "class": "sidebar-accordion__item",
+        "button": {
+          "href": "#",
+          "class": "sidebar-accordion__btn sidebar-accordion__link",
+          "text": {
+            "text": "Все франшизы"
+          },
+          "right_icon": {
+            "class": "sidebar-accordion__icon",
+            "name": "sprite-mono.svg#arrow_up"
+          }
+        }
+      }]
     },
     "sidebar_slider_mobile": {
       "class": "sidebar-slider--mobile",

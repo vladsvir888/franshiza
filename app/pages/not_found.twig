@@ -6,44 +6,38 @@
     <div class="main__inner">
       <div class="main__content">
         {% view "^breadcrumbs" with {
-          breadcrumbs: news.breadcrumbs
+          breadcrumbs: not_found.breadcrumbs
         } %}
 
-        {% view "@title" with {
-          title: news.title|merge({
-            class: "title--h1"
-          })
+        {% view "^not_found" with {
+          not_found: not_found.content_block
         } %}
-
-        <p class="main__text">
-          {{ news.text }}
-        </p>
 
         {% view "&section" with {
-          section: news.review_partners
+          section: not_found.review_franchise_and_exclusive_interviews
         } %}
 
         {% view "@banner" %}
 
-        {% view "&section" with {
-          section: news.news_and_info_franchise
-        } %}
-
         {% view "&accordion" with {
-          accordion: news.sidebar_accordion_mobile
+          accordion: not_found.sidebar_accordion_mobile
         } %}
 
         {% view "&sidebar_slider" with {
-          sidebar_slider: news.sidebar_slider_mobile
+          sidebar_slider: not_found.sidebar_slider_mobile
+        } %}
+
+        {% view "&section" with {
+          section: not_found.news_and_info_about_franchise
         } %}
       </div>
       <aside class="main__sidebar">
         {% view "&accordion" with {
-          accordion: news.sidebar_accordion
+          accordion: not_found.sidebar_accordion
         } %}
 
         {% view "&sidebar_slider" with {
-          sidebar_slider: news.sidebar_slider
+          sidebar_slider: not_found.sidebar_slider
         } %}
       </aside>
     </div>

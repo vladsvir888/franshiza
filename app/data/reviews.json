@@ -1083,6 +1083,15 @@
         }
       },
       "footer": {
+        "button": {
+          "href": "#",
+          "text": {
+            "text": "Подробнее о франшизе"
+          },
+          "right_icon": {
+            "name": "sprite-mono.svg#arrow_right"
+          }
+        },
         "show_more_button": {
           "text": {
             "text": "Показать еще"

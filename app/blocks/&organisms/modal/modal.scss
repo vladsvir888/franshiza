@@ -109,8 +109,9 @@
     }
   }
 
-  &.fancybox__content input:focus:not(.carousel__button.is-close) {
-    outline: none;
+  &.fancybox__content :focus:not(.carousel__button.is-close) {
+    outline: rem(1) dotted var(--pallette-cerulean);
+    outline-offset: unset;
   }
 
   &.fancybox__content > .carousel__button.is-close {

@@ -1,12 +1,13 @@
 .input-block {
-  padding: rem(11) rem(12);
   background-color: var(--pallette-athens-gray);
   border-radius: rem(6);
 
   &__input {
     width: 100%;
+    padding: rem(11) 0 rem(11) rem(12);
     border: none;
-    background-color: transparent;
+    background-color: var(--pallette-athens-gray);
+    border-radius: rem(6);
 
     &::placeholder {
       color: var(--pallette-nobel);

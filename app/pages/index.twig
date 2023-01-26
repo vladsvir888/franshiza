@@ -1,8 +1,19 @@
 {% extends "../blocks/layout/base.twig" %}
 
 {% block content %}
-<main id="main" class="main" tabindex="-1">
+<main id="main" class="main main--start" tabindex="-1">
   <div class="container">
+    <p class="last-update">
+      Последнее обновление - <span>{{ date().toLocaleString("ru", { year: 'numeric', month: 'numeric', day: 'numeric'}) }}</span>
+    </p>
+
+    {% view "@title" with {
+      title: {
+        class: "title--h1",
+        text: "Навигация по сайту"
+      }
+    } %}
+
     <ul class="page-list">
       {% for page in pages %}
         <li class="page-list__item">
@@ -14,4 +25,7 @@
     </ul>
   </div>
 </main>
+
+{% view "@top_btn" %}
+
 {% endblock %}

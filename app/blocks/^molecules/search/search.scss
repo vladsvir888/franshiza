@@ -1,6 +1,16 @@
 .search {
   position: relative;
 
+  &:focus-within {
+    outline: rem(1) dotted var(--pallette-cerulean);
+    outline-offset: unset;
+    border-radius: rem(6);
+
+    input {
+      outline: none;
+    }
+  }
+
   &__input-block {
     padding-right: rem(35);
   }
@@ -25,5 +35,41 @@
     width: rem(18);
     height: rem(18);
     fill: var(--pallette-deep-cerulean);
+  }
+}
+
+.search-results {
+  max-width: rem(405);
+  margin-bottom: rem(30);
+
+  @include media('600', max) {
+    margin-bottom: rem(16);
+  }
+
+  &__input-block {
+    display: flex;
+    gap: rem(12);
+    background-color: transparent;
+
+    @include media('600', max) {
+      padding-right: rem(35);
+      background-color: var(--pallette-athens-gray);
+    }
+  }
+
+  &__btn {
+    padding: rem(12) rem(32);
+
+    @include media('600', max) {
+      display: none;
+    }
+  }
+
+  .search__btn {
+    display: none;
+
+    @include media('600', max) {
+      display: flex;
+    }
   }
 }

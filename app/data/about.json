@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Авторизация",
-    "description": "Авторизация"
+    "title": "О сайте",
+    "description": "О сайте"
   },
-  "auth": {
+  "about": {
     "sidebar_accordion": {
       "class": "sidebar-accordion",
       "items": [{
@@ -678,25 +678,73 @@
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
     },
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "О сайте"
+        }
+      }]
+    },
+    "title": {
+      "text": "О сайте"
+    },
+    "sidebar_slider_mobile": {
+      "class": "sidebar-slider--mobile",
+      "items": [{
+        "image": {
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
+        },
+        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
+        },
+        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
+        },
+        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
+        },
+        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
+      }, {
+        "image": {
+          "name": "sidebar_slider/02.jpg",
+          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
+        },
+        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
+      }]
+    },
     "sidebar_accordion_mobile": {
       "class": "sidebar-accordion sidebar-accordion--mobile",
       "items": [{
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob1id",
+          "id": "accordion_mobile1id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mob1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob1",
-          "attrs": "aria-labelledby='accordion_mob1id'"
+          "id": "sect_mobile1",
+          "attrs": "aria-labelledby='accordion_mobile1id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -735,20 +783,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob2id",
+          "id": "accordion_mobile2id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по городам/странам"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile2'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob2",
-          "attrs": "aria-labelledby='accordion_mob2id'"
+          "id": "sect_mobile2",
+          "attrs": "aria-labelledby='accordion_mobile2id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -787,20 +835,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob3id",
+          "id": "accordion_mobile3id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по вложениям"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob3'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile3'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob3",
-          "attrs": "aria-labelledby='accordion_mob3id'"
+          "id": "sect_mobile3",
+          "attrs": "aria-labelledby='accordion_mobile3id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -839,20 +887,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob4id",
+          "id": "accordion_mobile4id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Питание"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob4'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile4'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob4",
-          "attrs": "aria-labelledby='accordion_mob4id'"
+          "id": "sect_mobile4",
+          "attrs": "aria-labelledby='accordion_mobile4id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -891,20 +939,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob5id",
+          "id": "accordion_mobile5id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Детские товары и услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob5'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile5'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob5",
-          "attrs": "aria-labelledby='accordion_mob5id'"
+          "id": "sect_mobile5",
+          "attrs": "aria-labelledby='accordion_mobile5id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -943,20 +991,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob6id",
+          "id": "accordion_mobile6id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Красота и здоровье"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob6'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile6'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob6",
-          "attrs": "aria-labelledby='accordion_mob6id'"
+          "id": "sect_mobile6",
+          "attrs": "aria-labelledby='accordion_mobile6id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -995,20 +1043,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob7id",
+          "id": "accordion_mobile7id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Торговля"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob7'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile7'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob7",
-          "attrs": "aria-labelledby='accordion_mob7id'"
+          "id": "sect_mobile7",
+          "attrs": "aria-labelledby='accordion_mobile7id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1047,20 +1095,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob8id",
+          "id": "accordion_mobile8id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Производство"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob8'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile8'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob8",
-          "attrs": "aria-labelledby='accordion_mob8id'"
+          "id": "sect_mobile8",
+          "attrs": "aria-labelledby='accordion_mobile8id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1099,20 +1147,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob9id",
+          "id": "accordion_mobile9id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob9'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile9'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob9",
-          "attrs": "aria-labelledby='accordion_mob9id'"
+          "id": "sect_mobile9",
+          "attrs": "aria-labelledby='accordion_mobile9id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1151,20 +1199,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob10id",
+          "id": "accordion_mobile10id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "В интернете"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob10'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile10'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob10",
-          "attrs": "aria-labelledby='accordion_mob10id'"
+          "id": "sect_mobile10",
+          "attrs": "aria-labelledby='accordion_mobile10id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1203,20 +1251,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob11id",
+          "id": "accordion_mobile11id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Популярные"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob11'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile11'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob11",
-          "attrs": "aria-labelledby='accordion_mob11id'"
+          "id": "sect_mobile11",
+          "attrs": "aria-labelledby='accordion_mobile11id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1255,20 +1303,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob12id",
+          "id": "accordion_mobile12id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Бизнес-идеи"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob12'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile12'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob12",
-          "attrs": "aria-labelledby='accordion_mob12id'"
+          "id": "sect_mobile12",
+          "attrs": "aria-labelledby='accordion_mobile12id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1317,246 +1365,6 @@
             "name": "sprite-mono.svg#arrow_up"
           }
         }
-      }]
-    },
-    "breadcrumbs": {
-      "items": [{
-        "text": {
-          "text": "Главная"
-        }
-      }, {
-        "text": {
-          "text": "Авторизация"
-        }
-      }]
-    },
-    "title": {
-      "text": "Авторизация"
-    },
-    "form_block": {
-      "title": {
-        "level": 2,
-        "text": "Войти через"
-      },
-      "socials": {
-        "list": {
-          "items": [{
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#gmail"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#vk"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#yandex"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#mail"
-            }
-          }]
-        }
-      },
-      "inputs": [{
-        "element": {
-          "type": "email",
-          "text": "Введите E-mail",
-          "name": "email"
-        }
-      }, {
-        "element": {
-          "type": "password",
-          "text": "Введите пароль",
-          "name": "password"
-        }
-      }],
-      "button_forgot_password": {
-        "href": "#",
-        "text": {
-          "text": "Забыли пароль?"
-        }
-      },
-      "button": {
-        "text": {
-          "text": "Войти"
-        },
-        "attrs": "type='submit'"
-      },
-      "button_registration": {
-        "href": "#",
-        "text": {
-          "text": "Зарегистрироваться"
-        }
-      }
-    },
-    "review_franchise_and_exclusive_interviews": {
-      "modifier": "two-items",
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Отзывы о франшизах и эксклюзивные интервью"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "data": {
-        "type": "^card_info",
-        "content": {
-          "items": [{
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
-            },
-            "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
-            "time": {
-              "text": "23 Авг 2022",
-              "datetime": "2022-08-23"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе магазина Суши Wok из Омска"
-            },
-            "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
-            "time": {
-              "text": "25 Авг 2022",
-              "datetime": "2022-08-25"
-            }
-          }]
-        }
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      }
-    },
-    "news_and_info_about_franchise": {
-      "modifier": "two-items",
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Новости и информация о&nbsp;франшизе"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все новости"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "data": {
-        "type": "^card_info",
-        "content": {
-          "items": [{
-            "title": {
-              "level": 3,
-              "text": "Франшиза «Персональное решение»: Незапланированный «круглый стол» с партнёрами франшизы"
-            },
-            "text": "Ежегодно «Персональное решение» (см. франшиза «Персональное решение») проводит форумы для своих партнёров. Это мероприятие, как правило, длится несколько дней, во время которых эксперты компании и лидеры отрасли «прокачивают» знания и навыки участников. Также проводятся мастермайнды, обучающие лекции, практические занятия. Подробнее читайте в каталоге www.franshiza-info.ru.",
-            "time": {
-              "text": "27 Авг 2022",
-              "datetime": "2022-08-27"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Франшиза Группы компании Альфа: Новостной дайджест #1"
-            },
-            "text": "Предлагаем Вашему вниманию новостной дайджест о компании и франшизе Группы компании Альфа.Франчайзи-партнеры ГК Альфа специализируются на лидогенерации и помощи клиентам в получении качественных запросов на их товары и услуги, а также оказывают другие нужные для бизнеса. Из новостей Вы узнаете о последних событиях в компании, достижениях партнеров, государственной поддержке и многое другое. Читайте в каталоге www.franshiza-info.ru еженедельные новости.",
-            "time": {
-              "text": "26 Авг 2022",
-              "datetime": "2022-08-26"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Какую купить франшизу? Каталог франшиз представляет: Франшиза магазина-островка готовой еды «Ресторанный Холдинг BCA»"
-            },
-            "text": "Каталог франшиз www.franshiza-info.ru попросил Карен Мелконян, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы магазина-островка готовой еды «Ресторанный Холдинг BCA».",
-            "time": {
-              "text": "16 Авг 2022",
-              "datetime": "2022-08-16"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Какую купить франшизу? Каталог франшиз представляет: Франшиза ресторана суши с доставкой UP SUSHI"
-            },
-            "text": "Каталог франшиз <a href='#'>www.franshiza-info.ru</a> попросил Евгений Баканова, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы ресторана суши UP SUSHI.",
-            "time": {
-              "text": "08 Авг 2022",
-              "datetime": "2022-08-08"
-            }
-          }]
-        }
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все новости"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      }
-    },
-    "sidebar_slider_mobile": {
-      "class": "sidebar-slider--mobile",
-      "items": [{
-        "image": {
-          "name": "sidebar_slider/02.jpg",
-          "alt": "Франшиза интернет технологий, доход 8 млн. руб. в год."
-        },
-        "title": "Франшиза интернет технологий, доход 8 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg",
-          "alt": "Франшиза интернет технологий, доход 10 млн. руб. в год."
-        },
-        "title": "Франшиза интернет технологий, доход 10 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg",
-          "alt": "Франшиза интернет технологий, доход 12 млн. руб. в год."
-        },
-        "title": "Франшиза интернет технологий, доход 12 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg",
-          "alt": "Франшиза интернет технологий, доход 14 млн. руб. в год."
-        },
-        "title": "Франшиза интернет технологий, доход 14 млн. руб. в год"
-      }, {
-        "image": {
-          "name": "sidebar_slider/02.jpg",
-          "alt": "Франшиза интернет технологий, доход 16 млн. руб. в год."
-        },
-        "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
     }
   }

@@ -29,6 +29,18 @@
   }, {
     "text": "Регистрация",
     "link": "registration"
+  }, {
+    "text": "Ошибка 404",
+    "link": "not_found"
+  }, {
+    "text": "Страница done",
+    "link": "done"
+  }, {
+    "text": "О сайте",
+    "link": "about"
+  }, {
+    "text": "Поиск",
+    "link": "search"
   }],
   "meta": {
     "html_lang": "ru",

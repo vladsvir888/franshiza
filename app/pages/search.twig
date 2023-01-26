@@ -6,56 +6,52 @@
     <div class="main__inner">
       <div class="main__content">
         {% view "^breadcrumbs" with {
-          breadcrumbs: advert_catalog.breadcrumbs
+          breadcrumbs: search.breadcrumbs
         } %}
 
         {% view "@title" with {
-          title: advert_catalog.title|merge({
+          title: search.title|merge({
             class: "title--h1"
           })
         } %}
 
-        <p class="main__text">
-          {{ advert_catalog.text }}
-        </p>
+        {% view "^search" with {
+          search: search.search
+        } %}
 
-        {% view "&form_block" with {
-          form_block: advert_catalog.form_block
+        {% view "^dropdown" with {
+          dropdown: search.dropdown
         } %}
 
         {% view "&section" with {
-          section: advert_catalog.cooperation
+          section: search.results
         } %}
 
         {% view "&section" with {
-          section: advert_catalog.review_partners
-        } %}
-
-        {% view "&section" with {
-          section: advert_catalog.review_franchise_and_exclusive_interviews
+          section: search.review_franchise_and_exclusive_interviews
         } %}
 
         {% view "@banner" %}
 
         {% view "&accordion" with {
-          accordion: advert_catalog.sidebar_accordion_mobile
+          accordion: search.sidebar_accordion_mobile
         } %}
 
         {% view "&sidebar_slider" with {
-          sidebar_slider: advert_catalog.sidebar_slider_mobile
+          sidebar_slider: search.sidebar_slider_mobile
         } %}
 
         {% view "&section" with {
-          section: advert_catalog.news_and_info_about_franchise
+          section: search.news_and_info_about_franchise
         } %}
       </div>
       <aside class="main__sidebar">
         {% view "&accordion" with {
-          accordion: advert_catalog.sidebar_accordion
+          accordion: search.sidebar_accordion
         } %}
 
         {% view "&sidebar_slider" with {
-          sidebar_slider: advert_catalog.sidebar_slider
+          sidebar_slider: search.sidebar_slider
         } %}
       </aside>
     </div>

@@ -15,6 +15,18 @@
           })
         } %}
 
+        <time class="time" datetime="2022-11-23">23 Ноя 2022</time>
+
+        {% view "&text_block" with {
+          text_block: review.text_block
+        } %}
+
+        <p class="author">
+          Автор: ФРАНШИЗА Инфо
+        </p>
+
+        {% view "@pagination_links" %}
+
         {% view "&form_photo_block" with {
           form_photo_block: review.form_photo_block
         } %}
@@ -41,7 +53,7 @@
           sidebar_slider: review.sidebar_slider_mobile
         } %}
       </div>
-      <div class="main__sidebar">
+      <aside class="main__sidebar">
         {% view "&accordion" with {
           accordion: review.sidebar_accordion
         } %}
@@ -49,7 +61,7 @@
         {% view "&sidebar_slider" with {
           sidebar_slider: review.sidebar_slider
         } %}
-      </div>
+      </aside>
     </div>
   </div>
 </main>

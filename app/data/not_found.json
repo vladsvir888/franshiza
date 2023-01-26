@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Авторизация",
-    "description": "Авторизация"
+    "title": "Ошибка 404",
+    "description": "Ошибка 404"
   },
-  "auth": {
+  "not_found": {
     "sidebar_accordion": {
       "class": "sidebar-accordion",
       "items": [{
@@ -1319,6 +1319,34 @@
         }
       }]
     },
+    "content_block": {
+      "title": {
+        "text": "Ошибка 404"
+      },
+      "text": "К сожалению, запрашиваемая вами страница не найдена.",
+      "text_with_link": "Перейдите на <a class='btn not-found__link' href='#'>главную страницу</a> или воспользуйтесь поиском",
+      "search": {
+        "input": {
+          "wrap": {
+            "class": "search__input-block"
+          },
+          "element": {
+            "class": "search__input",
+            "type": "search",
+            "text": "Поиск, например, магазин",
+            "name": "search"
+          },
+          "search_btn": {
+            "class": "search__btn",
+            "icon": {
+              "class": "search__icon",
+              "name": "sprite-mono.svg#search"
+            },
+            "attrs": "type='submit'"
+          }
+        }
+      }
+    },
     "breadcrumbs": {
       "items": [{
         "text": {
@@ -1326,74 +1354,9 @@
         }
       }, {
         "text": {
-          "text": "Авторизация"
+          "text": "Страница не найдена"
         }
       }]
-    },
-    "title": {
-      "text": "Авторизация"
-    },
-    "form_block": {
-      "title": {
-        "level": 2,
-        "text": "Войти через"
-      },
-      "socials": {
-        "list": {
-          "items": [{
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#gmail"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#vk"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#yandex"
-            }
-          }, {
-            "icon": {
-              "class": "socials__icon",
-              "name": "sprite-multi.svg#mail"
-            }
-          }]
-        }
-      },
-      "inputs": [{
-        "element": {
-          "type": "email",
-          "text": "Введите E-mail",
-          "name": "email"
-        }
-      }, {
-        "element": {
-          "type": "password",
-          "text": "Введите пароль",
-          "name": "password"
-        }
-      }],
-      "button_forgot_password": {
-        "href": "#",
-        "text": {
-          "text": "Забыли пароль?"
-        }
-      },
-      "button": {
-        "text": {
-          "text": "Войти"
-        },
-        "attrs": "type='submit'"
-      },
-      "button_registration": {
-        "href": "#",
-        "text": {
-          "text": "Зарегистрироваться"
-        }
-      }
     },
     "review_franchise_and_exclusive_interviews": {
       "modifier": "two-items",

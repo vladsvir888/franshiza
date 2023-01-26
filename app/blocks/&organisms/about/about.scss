@@ -1,0 +1,121 @@
+.about {
+  margin-bottom: rem(44);
+
+  @include media('600', max) {
+    margin-bottom: rem(30);
+  }
+
+  > * {
+    &:not(:last-child) {
+      margin-bottom: rem(14);
+    }
+  }
+
+  > p {
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+
+  a:not([class]) {
+    @include font-size(14, 20);
+    color: var(--pallette-deep-cerulean);
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+
+  b {
+    @include font-size(14, 20);
+  }
+
+  h2 {
+    @include font-size(22, 33);
+    margin-top: rem(44);
+    margin-bottom: rem(24);
+    font-weight: 400;
+
+    @include media('600', max) {
+      @include font-size(16, 24);
+      margin-top: rem(30);
+      margin-bottom: rem(16);
+    }
+
+    + p {
+      @include font-size(16, 24);
+      margin-bottom: rem(10);
+    }
+  }
+
+  ul {
+    padding-left: rem(20);
+    list-style: disc;
+
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+
+  ol {
+    counter-reset: item;
+
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+
+    > * {
+      margin-bottom: rem(14);
+
+      &:last-child {
+        margin-bottom: rem(28);
+
+        @include media('600', max) {
+          margin-bottom: rem(16);
+        }
+      }
+
+      > p {
+        @include font-size(16, 24);
+        display: inline;
+
+        + ol {
+          margin-top: rem(10);
+        }
+
+        @include media('600', max) {
+          @include font-size(14, 20);
+        }
+      }
+
+      > ol {
+        > li {
+          > ol {
+            margin-top: rem(14);
+            margin-left: rem(16);
+
+            > *:last-child {
+              margin-bottom: rem(14);
+            }
+          }
+        }
+      }
+    }
+
+    li {
+      &::before {
+        content: counters(item, ".") ". ";
+        counter-increment: item;
+
+        @include media('600', max) {
+          @include font-size(12, 16);
+        }
+      }
+    }
+  }
+}

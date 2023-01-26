@@ -1,0 +1,51 @@
+.not-found {
+  margin: rem(180) 0;
+
+  @include media('600', max) {
+    margin: rem(8) 0 rem(30);
+  }
+
+  &__title {
+    @include font-size(36, 50);
+    font-weight: 400;
+    color: var(--pallette-deep-cerulean);
+
+    @include media('600', max) {
+      margin-bottom: rem(12);
+    }
+  }
+
+  &__content {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(14);
+      }
+    }
+  }
+
+  &__subtitle {
+    @include font-size(22, 33);
+
+    @include media('600', max) {
+      @include font-size(16, 24);
+    }
+  }
+
+  &__text {
+    @include media('600', max) {
+      @include font-size(12, 16);
+    }
+  }
+
+  &__link {
+    color: var(--pallette-deep-cerulean);
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
+  }
+
+  &__search {
+    max-width: rem(285);
+  }
+}

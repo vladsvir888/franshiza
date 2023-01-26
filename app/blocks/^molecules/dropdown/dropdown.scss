@@ -26,6 +26,10 @@
     @include media('600', max) {
       @include font-size(14, 20);
     }
+
+    &:hover {
+      color: var(--pallette-cerulean);
+    }
   }
 
   &__icon {

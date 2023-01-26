@@ -1751,21 +1751,18 @@
       },
       "inputs": [{
         "element": {
-          "id": "form_block_form_name",
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name"
         }
       }, {
         "element": {
-          "id": "form_block_form_email",
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email"
         }
       }, {
         "element": {
-          "id": "form_block_form_tel",
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel"

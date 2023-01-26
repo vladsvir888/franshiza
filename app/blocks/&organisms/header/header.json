@@ -30,15 +30,13 @@
           "text": "Поиск, например, магазин",
           "name": "search"
         },
-        "label": {
-          "btn": {
-            "class": "search__btn",
-            "icon": {
-              "class": "search__icon",
-              "name": "sprite-mono.svg#search"
-            },
-            "attrs": "type='submit' id='header_search'"
-          }
+        "search_btn": {
+          "class": "search__btn",
+          "icon": {
+            "class": "search__icon",
+            "name": "sprite-mono.svg#search"
+          },
+          "attrs": "type='submit'"
         }
       }
     },
@@ -114,15 +112,13 @@
           "text": "Поиск, например, магазин",
           "name": "search"
         },
-        "label": {
-          "btn": {
-            "class": "search__btn",
-            "icon": {
-              "class": "search__icon",
-              "name": "sprite-mono.svg#search"
-            },
-            "attrs": "id='header_search_2' type='submit'"
-          }
+        "search_btn": {
+          "class": "search__btn",
+          "icon": {
+            "class": "search__icon",
+            "name": "sprite-mono.svg#search"
+          },
+          "attrs": "type='submit'"
         }
       }
     }
