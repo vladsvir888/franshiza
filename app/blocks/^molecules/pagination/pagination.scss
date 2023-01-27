@@ -1,0 +1,60 @@
+.pagination {
+  @include flex-center;
+  gap: rem(24);
+  margin-bottom: rem(44);
+
+  @include media('600', max) {
+    margin-bottom: rem(40);
+    justify-content: space-between;
+  }
+
+  &__list {
+    @include flex-center-y;
+    flex-wrap: wrap;
+    gap: rem(8);
+  }
+
+  &__link {
+    @include font-size(16, 24);
+    color: inherit;
+
+    &[aria-current=page] {
+      color: var(--pallette-deep-cerulean);
+    }
+
+    &:hover {
+      color: var(--pallette-deep-cerulean);
+    }
+  }
+
+  &__icon {
+    width: rem(20);
+    height: rem(20);
+  }
+
+  &__btn {
+    @include flex-center;
+    flex-shrink: 0;
+    width: rem(40);
+    height: rem(40);
+    border-radius: 50%;
+    background-color: var(--pallette-mystic);
+    color: var(--pallette-deep-cerulean);
+
+    &--next {
+      transform: rotate(180deg);
+    }
+
+    &:hover {
+      background-color: var(--pallette-mystic-soft);
+    }
+
+    &[aria-disabled=true] {
+      cursor: not-allowed;
+
+      &:hover {
+        background-color: var(--pallette-mystic);
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div class="price-block">
+  {% view "@image" with {
+    image: price_block.image|merge({
+      class: "price-block__img",
+      picture: {
+        class: "price-block__picture"
+      }
+    })
+  } %}
+
+  <div class="price-block__info">
+    <p class="price-block__title">
+      {{ price_block.title }}
+    </p>
+
+    <p class="price-block__price">
+      {{ price_block.price }}
+    </p>
+
+    <div class="price-block__content">
+      {{ price_block.content }}
+    </div>
+
+    {% view "@button" with {
+      button: price_block.btn|merge({
+        class: "btn--btn btn--large btn--primary btn--scroll price-block__btn"
+      })
+    } %}
+  </div>
+</div>

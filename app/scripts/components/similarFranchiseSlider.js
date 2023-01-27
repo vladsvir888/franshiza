@@ -14,7 +14,7 @@ const similarFranchiseSlider = (selector) => {
       prevEl: `${selector} .swiper-button-prev`,
     },
     breakpoints: {
-      500: {
+      501: {
         slidesPerView: 2,
       },
       767: {

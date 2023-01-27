@@ -41,6 +41,12 @@
   }, {
     "text": "Поиск",
     "link": "search"
+  }, {
+    "text": "Упаковка франшизы",
+    "link": "package_franchise"
+  }, {
+    "text": "Личный кабинет (условия сервиса)",
+    "link": "personal_conditions"
   }],
   "meta": {
     "html_lang": "ru",

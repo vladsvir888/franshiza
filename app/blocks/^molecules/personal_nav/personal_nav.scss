@@ -1,0 +1,27 @@
+.personal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(12) rem(32);
+  margin-bottom: rem(44);
+
+  @include media('600', max) {
+    margin-bottom: rem(24);
+  }
+
+  @include media('375', max) {
+    flex-direction: column;
+  }
+
+  &__link {
+    @include font-size(22, 33);
+    color: var(--pallette-deep-cerulean);
+
+    &[aria-current=page] {
+      color: var(--pallette-ebony);
+    }
+
+    &:hover {
+      color: var(--pallette-ebony);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<div class="advantages-block">
+  <ul class="advantages-block__list">
+    {% for item in advantages_block.items %}
+      <li class="advantages-block__item">
+        {% view "@icon" with {
+          icon: {
+            class: "advantages-block__icon",
+            name: "sprite-mono.svg#check"
+          }
+        } %}
+
+        {{ item.text }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% view "@image" with {
+    image: advantages_block.image|merge({
+      picture: {
+        class: "advantages-block__picture"
+      },
+      sizes: {
+        width: 332,
+        height: 443
+      }
+    })
+  } %}
+</div>

@@ -150,6 +150,7 @@
 
   &__toggle {
     @include flex-center-y;
+    color: inherit;
 
     &:hover {
       color: var(--pallette-cerulean);

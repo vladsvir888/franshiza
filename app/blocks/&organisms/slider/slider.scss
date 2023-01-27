@@ -58,3 +58,22 @@
     }
   }
 }
+
+.detail-tabs-slider {
+  &__img {
+    @include media('600', max) {
+      margin: 0 auto;
+    }
+  }
+}
+
+.similar-franchise-slider {
+  @include media('500', max) {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+
+    .card__content {
+      padding: rem(10) rem(32) 0;
+    }
+  }
+}

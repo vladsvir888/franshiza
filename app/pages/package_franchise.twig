@@ -1,0 +1,75 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main main--package-franchise" tabindex="-1">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__content">
+        {% view "^breadcrumbs" with {
+          breadcrumbs: package_franchise.breadcrumbs
+        } %}
+
+        {% view "@title" with {
+          title: package_franchise.title|merge({
+            class: "title--h1"
+          })
+        } %}
+
+        {% view "^advantages_block" with {
+          advantages_block: package_franchise.advantages_block
+        } %}
+
+        {% view "&form_block" with {
+          form_block: package_franchise.form_block
+        } %}
+
+        {% view "&section" with {
+          section: package_franchise.numeric_list
+        } %}
+
+        {% view "^price_block" with {
+          price_block: package_franchise.price_block
+        } %}
+
+        {% view "&section" with {
+          section: package_franchise.icon_list
+        } %}
+
+        {% view "&form_block" with {
+          form_block: package_franchise.form_block_2
+        } %}
+
+        {% view "&text_block" with {
+          text_block: package_franchise.text_block
+        } %}
+
+        {% view "&form_block" with {
+          form_block: package_franchise.form_block_3
+        } %}
+
+        {% view "@banner" %}
+
+        {% view "&accordion" with {
+          accordion: package_franchise.sidebar_accordion_mobile
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: package_franchise.sidebar_slider_mobile
+        } %}
+      </div>
+      <aside class="main__sidebar">
+        {% view "&accordion" with {
+          accordion: package_franchise.sidebar_accordion
+        } %}
+
+        {% view "&sidebar_slider" with {
+          sidebar_slider: package_franchise.sidebar_slider
+        } %}
+      </aside>
+    </div>
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

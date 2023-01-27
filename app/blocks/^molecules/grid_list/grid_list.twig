@@ -1,0 +1,19 @@
+<{{ grid_list.type_list == 'ol' ? 'ol' : 'ul' }}
+  class="grid-list {{ grid_list.class }}"
+>
+  {% for item in grid_list.content.items %}
+    <li class="grid-list__item">
+      {% if item.icon %}
+        {% view "@icon" with {
+          icon: item.icon|merge({
+            class: "grid-list__icon"
+          })
+        } %}
+      {% endif %}
+
+      <p class="grid-list__text">
+        {{ item.text }}
+      </p>
+    </li>
+  {% endfor %}
+</{{ grid_list.type_list == 'ol' ? 'ol' : 'ul' }}>

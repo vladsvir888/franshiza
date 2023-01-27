@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Поиск",
-    "description": "Поиск"
+    "title": "Упакуем ваш бизнес во франшизу с гарантией продаж",
+    "description": "Упакуем ваш бизнес во франшизу с гарантией продаж"
   },
-  "search": {
+  "package_franchise": {
     "sidebar_accordion": {
       "class": "sidebar-accordion",
       "items": [{
@@ -678,25 +678,327 @@
         "title": "Франшиза интернет технологий, доход 16 млн. руб. в год"
       }]
     },
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "Упаковка франшиз"
+        }
+      }]
+    },
+    "title": {
+      "text": "Упакуем ваш&nbsp;бизнес во&nbsp;франшизу с&nbsp;гарантией продаж"
+    },
+    "advantages_block": {
+      "items": [{
+        "text": "Гарантия продажи франшизы, прописанная в договоре"
+      }, {
+        "text": "Гарантия упаковки за 30 дней, прописанная в договоре"
+      }, {
+        "text": "Возврат инвестиций от 2 месяцев"
+      }, {
+        "text": "БОНУС! Размещение франшизы БЕСПЛАТНО сразу в 2 каталогах - ФРАНШИЗА Инфо и Франшизас"
+      }, {
+        "text": "Консультирование 6 месяцев"
+      }, {
+        "text": "Настройка рекламных каналов"
+      }, {
+        "text": "Совместная обработка возражений"
+      }],
+      "image": {
+        "name": "advantages_block/01.png",
+        "alt": "Мужчина в пиджаке."
+      }
+    },
+    "numeric_list": {
+      "title": {
+        "class": "section__abovetitle",
+        "level": 2,
+        "text": "Как понять, что Ваш бизнес пора масштабировать по франшизе?"
+      },
+      "data": {
+        "type": "^grid_list",
+        "type_list": "ol",
+        "class": "grid-list--ordered",
+        "content": {
+          "items": [{
+            "text": "Приносит высокий стабильный доход"
+          }, {
+            "text": "Построена система продаж и&nbsp;других процессов"
+          }, {
+            "text": "Хотите повысить уровень продаж"
+          }, {
+            "text": "Готовы делиться успешной бизнес-моделью"
+          }, {
+            "text": "Масштабировать бизнес в&nbsp;формате сеть"
+          }, {
+            "text": "Хотите зарабатывать на&nbsp;партнерах"
+          }, {
+            "text": "Привлечь инвестиции для&nbsp;развития сети"
+          }, {
+            "text": "Создайте франшизу и&nbsp;масштабируйте бизнес"
+          }]
+        }
+      }
+    },
+    "icon_list": {
+      "title": {
+        "class": "section__abovetitle",
+        "level": 2,
+        "text": "Что вы получите при работе с нами?"
+      },
+      "data": {
+        "type": "^grid_list",
+        "type_list": "ul",
+        "class": "grid-list--unordered",
+        "content": {
+          "items": [{
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Команда с&nbsp;большим&nbsp;опытом"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Отсутствие навязанных&nbsp;услуг"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Полное погружение в&nbsp;проект"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Быстрый запуск&nbsp;продаж"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Обучение для&nbsp;партнеров"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Адекватная цена"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Гарантия в договоре"
+          }, {
+            "icon": {
+              "name": "sprite-multi.svg#check_with_border"
+            },
+            "text": "Реальные сроки"
+          }]
+        }
+      }
+    },
+    "price_block": {
+      "title": "Стоимость упаковки бизнеса во франшизу",
+      "price": "от 150 000 руб.",
+      "content": "<p>Франчайзинг дает возможность успешному бизнесу расти и развиваться, охватывая новые города и даже страны. Каталог ФРАНШИЗА Инфо предлагает Вам услугу упаковки бизнеса во франшизу, чтобы Вы могли увеличить свой доход и расширить количество представительств.</p><p>У каждого предпринимателя, чей бизнес приносит доход, есть возможность упаковать франшизу. И благодаря этому найти близких по духу и мировоззрению партнеров, вместе с которыми они полноценно настроят работу нового филиала компании в другом городе.</p><p>Специалисты нашего каталога готовы прийти на помощь и сделать всю работу по упаковке франшизы за Вас.</p>",
+      "btn": {
+        "text": {
+          "text": "Узнать подробности упаковки франшизы"
+        }
+      },
+      "image": {
+        "name": "price_block/01.png"
+      }
+    },
+    "form_block": {
+      "class": "form-block--heading-left form-scroll",
+      "title": {
+        "level": 2,
+        "text": "Получить информацию по упаковке франшизы"
+      },
+      "inputs": [{
+        "element": {
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
+      }, {
+        "element": {
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
+      }, {
+        "element": {
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите название и сайт франшизы",
+          "name": "name_and_site_franchise"
+        }
+      }, {
+        "picture": {
+          "class": "form__img",
+          "name": "captcha.png",
+          "alt": "Капча: eghss",
+          "sizes": {
+            "width": "179",
+            "height": "54"
+          }
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите код защиты от спама",
+          "name": "code"
+        }
+      }],
+      "button": {
+        "text": {
+          "text": "Получить"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "form_block_2": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить информацию по упаковке франшизы"
+      },
+      "inputs": [{
+        "element": {
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
+      }, {
+        "element": {
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
+      }, {
+        "element": {
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите название и сайт франшизы",
+          "name": "name_and_site_franchise"
+        }
+      }, {
+        "picture": {
+          "class": "form__img",
+          "name": "captcha.png",
+          "alt": "Капча: eghss",
+          "sizes": {
+            "width": "179",
+            "height": "54"
+          }
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите код защиты от спама",
+          "name": "code"
+        }
+      }],
+      "button": {
+        "text": {
+          "text": "Получить"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "form_block_3": {
+      "class": "form-block--heading-left",
+      "title": {
+        "level": 2,
+        "text": "Получить информацию по упаковке франшизы"
+      },
+      "inputs": [{
+        "element": {
+          "type": "text",
+          "text": "Введите ваше имя",
+          "name": "name"
+        }
+      }, {
+        "element": {
+          "type": "email",
+          "text": "Введите ваш E-mail",
+          "name": "email"
+        }
+      }, {
+        "element": {
+          "type": "tel",
+          "text": "Введите номер телефона",
+          "name": "tel"
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите название и сайт франшизы",
+          "name": "name_and_site_franchise"
+        }
+      }, {
+        "picture": {
+          "class": "form__img",
+          "name": "captcha.png",
+          "alt": "Капча: eghss",
+          "sizes": {
+            "width": "179",
+            "height": "54"
+          }
+        }
+      }, {
+        "element": {
+          "type": "text",
+          "text": "Введите код защиты от спама",
+          "name": "code"
+        }
+      }],
+      "button": {
+        "text": {
+          "text": "Получить"
+        },
+        "attrs": "type='submit'"
+      },
+      "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+    },
+    "text_block": {
+      "type": "package_franchise_text_block"
+    },
     "sidebar_accordion_mobile": {
       "class": "sidebar-accordion sidebar-accordion--mobile",
       "items": [{
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob1id",
+          "id": "accordion_mobile1id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mob1'",
+          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob1",
-          "attrs": "aria-labelledby='accordion_mob1id'"
+          "id": "sect_mobile1",
+          "attrs": "aria-labelledby='accordion_mobile1id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -735,20 +1037,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob2id",
+          "id": "accordion_mobile2id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по городам/странам"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob2'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile2'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob2",
-          "attrs": "aria-labelledby='accordion_mob2id'"
+          "id": "sect_mobile2",
+          "attrs": "aria-labelledby='accordion_mobile2id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -787,20 +1089,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob3id",
+          "id": "accordion_mobile3id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Франшизы по вложениям"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob3'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile3'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob3",
-          "attrs": "aria-labelledby='accordion_mob3id'"
+          "id": "sect_mobile3",
+          "attrs": "aria-labelledby='accordion_mobile3id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -839,20 +1141,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob4id",
+          "id": "accordion_mobile4id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Питание"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob4'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile4'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob4",
-          "attrs": "aria-labelledby='accordion_mob4id'"
+          "id": "sect_mobile4",
+          "attrs": "aria-labelledby='accordion_mobile4id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -891,20 +1193,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob5id",
+          "id": "accordion_mobile5id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Детские товары и услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob5'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile5'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob5",
-          "attrs": "aria-labelledby='accordion_mob5id'"
+          "id": "sect_mobile5",
+          "attrs": "aria-labelledby='accordion_mobile5id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -943,20 +1245,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob6id",
+          "id": "accordion_mobile6id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Красота и здоровье"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob6'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile6'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob6",
-          "attrs": "aria-labelledby='accordion_mob6id'"
+          "id": "sect_mobile6",
+          "attrs": "aria-labelledby='accordion_mobile6id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -995,20 +1297,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob7id",
+          "id": "accordion_mobile7id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Торговля"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob7'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile7'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob7",
-          "attrs": "aria-labelledby='accordion_mob7id'"
+          "id": "sect_mobile7",
+          "attrs": "aria-labelledby='accordion_mobile7id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1047,20 +1349,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob8id",
+          "id": "accordion_mobile8id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Производство"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob8'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile8'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob8",
-          "attrs": "aria-labelledby='accordion_mob8id'"
+          "id": "sect_mobile8",
+          "attrs": "aria-labelledby='accordion_mobile8id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1099,20 +1401,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob9id",
+          "id": "accordion_mobile9id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Услуги"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob9'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile9'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob9",
-          "attrs": "aria-labelledby='accordion_mob9id'"
+          "id": "sect_mobile9",
+          "attrs": "aria-labelledby='accordion_mobile9id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1151,20 +1453,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob10id",
+          "id": "accordion_mobile10id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "В интернете"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob10'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile10'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob10",
-          "attrs": "aria-labelledby='accordion_mob10id'"
+          "id": "sect_mobile10",
+          "attrs": "aria-labelledby='accordion_mobile10id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1203,20 +1505,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob11id",
+          "id": "accordion_mobile11id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Популярные"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob11'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile11'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob11",
-          "attrs": "aria-labelledby='accordion_mob11id'"
+          "id": "sect_mobile11",
+          "attrs": "aria-labelledby='accordion_mobile11id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1255,20 +1557,20 @@
       }, {
         "class": "sidebar-accordion__item",
         "button": {
-          "id": "accordion_mob12id",
+          "id": "accordion_mobile12id",
           "class": "sidebar-accordion__btn",
           "text": {
             "text": "Бизнес-идеи"
           },
-          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mob12'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile12'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
           }
         },
         "content": {
-          "id": "sect_mob12",
-          "attrs": "aria-labelledby='accordion_mob12id'"
+          "id": "sect_mobile12",
+          "attrs": "aria-labelledby='accordion_mobile12id'"
         },
         "data": {
           "type": "@sidebar_accordion_list",
@@ -1318,556 +1620,6 @@
           }
         }
       }]
-    },
-    "breadcrumbs": {
-      "items": [{
-        "text": {
-          "text": "Главная"
-        }
-      }, {
-        "text": {
-          "text": "Поиск"
-        }
-      }]
-    },
-    "title": {
-      "text": "Поиск"
-    },
-    "search": {
-      "class": "search-results",
-      "input": {
-        "wrap": {
-          "class": "search-results__input-block"
-        },
-        "element": {
-          "class": "search__input search-results__input",
-          "type": "search",
-          "text": "Поиск, например, магазин",
-          "name": "search"
-        },
-        "search_btn": {
-          "class": "search__btn",
-          "icon": {
-            "class": "search__icon",
-            "name": "sprite-mono.svg#search"
-          },
-          "attrs": "type='submit'"
-        },
-        "search_btn_with_text": {
-          "class": "btn--btn btn--primary btn--large search-results__btn",
-          "text": {
-            "text": "Поиск"
-          },
-          "attrs": "type='submit'"
-        }
-      }
-    },
-    "dropdown": {
-      "button": {
-        "id": "dropdown_menu_btn",
-        "text": {
-          "text": "Сортировка результатов поиска по релевантности"
-        },
-        "attrs": "aria-expanded='false'"
-      },
-      "menu": {
-        "attrs": "aria-labelledby='dropdown_menu_btn'",
-        "items": [{
-          "text": {
-            "text": "Сортировка результатов поиска по релевантности"
-          }
-        }, {
-          "text": {
-            "text": "Сортировка результатов поиска по дате"
-          }
-        }]
-      }
-    },
-    "results": {
-      "modifier": "margin-bottom",
-      "data": {
-        "type": "&card_block",
-        "content": {
-          "items": [{
-            "image": {
-              "name": "card_block/09.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/10.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/11.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/12.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/13.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/14.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/09.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/10.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/11.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }, {
-            "image": {
-              "name": "card_block/12.jpg",
-              "alt": "Франшиза Burger Club",
-              "sizes": {
-                "width": 204,
-                "height": 204
-              }
-            },
-            "content": {
-              "subtitle": {
-                "href": "#",
-                "text": {
-                  "text": "Франшиза Burger Club"
-                }
-              },
-              "text": "<p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p><p>Франшиза ресторана быстрого питания «Burger Club» - это ресторан в стиле LOFT с идеально сбалансированным меню. Особенностью ресторана «Burger Club» являются крафтовые бургеры, которые готовятся прямо при посетителях на угольной печи или электрогриле. Рецепты бургеров были разработаны специально для ресторанов «Burger Club».</p>",
-              "toggle": {
-                "text": {
-                  "text": "Развернуть"
-                }
-              },
-              "list": {
-                "items": [{
-                  "term": "Инвестиции",
-                  "descr": "от 3 550 000 р"
-                }, {
-                  "term": "Окупаемость",
-                  "descr": "от 12 мес"
-                }]
-              }
-            }
-          }]
-        }
-      }
-    },
-    "pagination": {
-      "items": [{
-        "text": {
-          "text": "1"
-        },
-        "attrs": "aria-label='Страница 1' aria-current='page'"
-      }, {
-        "text": {
-          "text": "2"
-        },
-        "attrs": "aria-label='Страница 2'"
-      }, {
-        "text": {
-          "text": "3"
-        },
-        "attrs": "aria-label='Страница 3'"
-      }, {
-        "text": {
-          "text": "..."
-        }
-      }, {
-        "text": {
-          "text": "6"
-        },
-        "attrs": "aria-label='Страница 6'"
-      }],
-      "btn_prev": {
-        "attrs": "aria-label='Предыдущая страница' aria-disabled='true' rel='prev' tabindex='-1'"
-      },
-      "btn_next": {
-        "attrs": "aria-label='Следующая страница' aria-disabled='false' rel='next' tabindex='0'"
-      }
-    },
-    "review_franchise_and_exclusive_interviews": {
-      "modifier": "two-items",
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Отзывы о франшизах и эксклюзивные интервью"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "data": {
-        "type": "^card_info",
-        "content": {
-          "items": [{
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня"
-            },
-            "text": "Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе Championika English и школа футбола во Дворце Спорта. Каталог франшиз www.franshiza-info.ru публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...",
-            "time": {
-              "text": "23 Авг 2022",
-              "datetime": "2022-08-23"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Отзыв о франшизе магазина Суши Wok из Омска"
-            },
-            "text": "Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...",
-            "time": {
-              "text": "25 Авг 2022",
-              "datetime": "2022-08-25"
-            }
-          }]
-        }
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все отзывы"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      }
-    },
-    "news_and_info_about_franchise": {
-      "modifier": "two-items",
-      "header": {
-        "title": {
-          "level": 2,
-          "text": "Новости и информация о&nbsp;франшизе"
-        },
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все новости"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      },
-      "data": {
-        "type": "^card_info",
-        "content": {
-          "items": [{
-            "title": {
-              "level": 3,
-              "text": "Франшиза «Персональное решение»: Незапланированный «круглый стол» с партнёрами франшизы"
-            },
-            "text": "Ежегодно «Персональное решение» (см. франшиза «Персональное решение») проводит форумы для своих партнёров. Это мероприятие, как правило, длится несколько дней, во время которых эксперты компании и лидеры отрасли «прокачивают» знания и навыки участников. Также проводятся мастермайнды, обучающие лекции, практические занятия. Подробнее читайте в каталоге www.franshiza-info.ru.",
-            "time": {
-              "text": "27 Авг 2022",
-              "datetime": "2022-08-27"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Франшиза Группы компании Альфа: Новостной дайджест #1"
-            },
-            "text": "Предлагаем Вашему вниманию новостной дайджест о компании и франшизе Группы компании Альфа.Франчайзи-партнеры ГК Альфа специализируются на лидогенерации и помощи клиентам в получении качественных запросов на их товары и услуги, а также оказывают другие нужные для бизнеса. Из новостей Вы узнаете о последних событиях в компании, достижениях партнеров, государственной поддержке и многое другое. Читайте в каталоге www.franshiza-info.ru еженедельные новости.",
-            "time": {
-              "text": "26 Авг 2022",
-              "datetime": "2022-08-26"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Какую купить франшизу? Каталог франшиз представляет: Франшиза магазина-островка готовой еды «Ресторанный Холдинг BCA»"
-            },
-            "text": "Каталог франшиз www.franshiza-info.ru попросил Карен Мелконян, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы магазина-островка готовой еды «Ресторанный Холдинг BCA».",
-            "time": {
-              "text": "16 Авг 2022",
-              "datetime": "2022-08-16"
-            }
-          }, {
-            "title": {
-              "level": 3,
-              "text": "Какую купить франшизу? Каталог франшиз представляет: Франшиза ресторана суши с доставкой UP SUSHI"
-            },
-            "text": "Каталог франшиз <a href='#'>www.franshiza-info.ru</a> попросил Евгений Баканова, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы ресторана суши UP SUSHI.",
-            "time": {
-              "text": "08 Авг 2022",
-              "datetime": "2022-08-08"
-            }
-          }]
-        }
-      },
-      "footer": {
-        "button": {
-          "href": "#",
-          "text": {
-            "text": "Все новости"
-          },
-          "right_icon": {
-            "name": "sprite-mono.svg#arrow_right"
-          }
-        }
-      }
     },
     "sidebar_slider_mobile": {
       "class": "sidebar-slider--mobile",

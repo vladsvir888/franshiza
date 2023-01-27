@@ -22,6 +22,7 @@
   @include media('600', max) {
     width: calc(100% + 2rem);
     margin-left: -1rem;
+    margin-bottom: rem(16);
     padding: rem(20) rem(16);
     border-radius: 0;
   }

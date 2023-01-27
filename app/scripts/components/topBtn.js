@@ -1,6 +1,6 @@
 const topBtn = () => {
   const btn = document.querySelector('.top-btn');
-  const target = document.querySelector('.title--h1');
+  const target = document.querySelector('.breadcrumbs');
 
   const callback = (entries) => {
     entries.forEach((entry) => {

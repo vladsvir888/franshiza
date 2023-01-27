@@ -61,6 +61,18 @@
           }
         } %}
       {% endfor %}
+    {% elseif section.data.type == '^numeric_list' %}
+      {% view "^numeric_list" with {
+        numeric_list: section.data
+      } %}
+    {% elseif section.data.type == '^icon_list' %}
+      {% view "^icon_list" with {
+        icon_list: section.data
+      } %}
+    {% elseif section.data.type == '^grid_list' %}
+      {% view "^grid_list" with {
+        grid_list: section.data
+      } %}
     {% endif %}
   </div>
 

@@ -1,0 +1,10 @@
+<nav class="personal-nav" aria-label="Навигация по страницам кабинета">
+  {% for item in personal_nav.items %}
+    {% view "@button" with {
+      button: item|merge({
+        href: "#",
+        class: "personal-nav__link"
+      })
+    } %}
+  {% endfor %}
+</nav>
