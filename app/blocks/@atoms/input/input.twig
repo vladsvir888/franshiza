@@ -15,8 +15,8 @@
 {% else %}
   <div class="input-block {{ input.wrap.class }}">
     {% if input.label %}
-      <label {% if input.element.id %}for="{{ input.element.id }}"{% endif %}>
-        {{ input.element.text }}
+      <label {% if input.label.id %}for="{{ input.label.id }}"{% endif %}>
+        {{ input.label.text }}
       </label>
     {% endif %}
 

@@ -14,7 +14,7 @@
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -1958,6 +1958,7 @@
     },
     "form_block": {
       "class": "form-block--heading-left form-scroll",
+      "form_id": "form_block",
       "title": {
         "level": 2,
         "text": "Получить бизнес-план и&nbsp;контакты от франчайзера"
@@ -2120,7 +2121,7 @@
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -2800,7 +2801,7 @@
         "text": {
           "text": "Отправить"
         },
-        "attrs": "type='submit'"
+        "attrs": "form='form_block' type='submit'"
       },
       "button_continue": {
         "text": {

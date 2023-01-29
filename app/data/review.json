@@ -14,7 +14,7 @@
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect1'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"
@@ -1083,7 +1083,7 @@
           "text": {
             "text": "Особые списки франшиз"
           },
-          "attrs": "type='button' aria-expanded='true' aria-controls='sect_mobile1'",
+          "attrs": "type='button' aria-expanded='false' aria-controls='sect_mobile1'",
           "right_icon": {
             "class": "sidebar-accordion__icon",
             "name": "sprite-mono.svg#arrow_up"

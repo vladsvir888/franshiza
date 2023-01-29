@@ -9,6 +9,12 @@
 
     @include media('600', max) {
       display: block;
+
+      #{$this}__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
   }
 

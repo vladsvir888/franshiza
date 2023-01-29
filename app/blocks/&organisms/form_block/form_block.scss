@@ -1,25 +1,26 @@
 .form-block {
   $this: &;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: rem(30);
   margin-bottom: rem(44);
   border-radius: rem(12);
   background-color: var(--pallette-mystic);
-  text-align: center;
-
-  @include media('600', max) {
-    margin-bottom: rem(30);
-  }
 
   @include media('600', max) {
     padding: rem(20) rem(16);
     width: calc(100% + 2rem);
     margin-left: -1rem;
+    margin-bottom: rem(30);
     border-radius: 0;
   }
 
   &--heading-left {
     @include media('375', max) {
+      align-items: flex-start;
+
       #{$this}__title {
         text-align: left;
         max-width: rem(240);
@@ -40,6 +41,7 @@
 
   &__form {
     max-width: rem(460);
+    width: 100%;
     margin: 0 auto rem(10);
     transition: margin var(--transition);
   }
@@ -51,38 +53,33 @@
   &__note {
     @include font-size(12, 16);
     color: var(--pallette-nepal);
+
+    @include media('375', max) {
+      text-align: center;
+    }
   }
 
   &__toggle {
     @include flex-center-y;
+    margin-bottom: rem(24);
     color: var(--pallette-cerulean);
     font-weight: 700;
-    margin: 0 auto rem(24);
 
     &:hover {
       color: var(--pallette-deep-cerulean);
     }
 
     @include media('600', max) {
-      margin: 0 auto rem(30);
+      margin-bottom: rem(30);
     }
 
     @include media('375', max) {
       @include font-size(14, 20);
-      margin: 0 0 rem(30);
     }
 
     &--active {
       @include media('600', max) {
-        &#{$this}__toggle {
-          margin: 0 auto rem(8);
-        }
-      }
-
-      @include media('375', max) {
-        &#{$this}__toggle {
-          margin: 0 0 rem(8);
-        }
+        margin-bottom: rem(8);
       }
 
       #{$this}__toggle-icon {
@@ -120,6 +117,7 @@
       }
     }
 
+    // выносить в компонент
     &-item {
       @include flex-center-y;
       gap: rem(12);

@@ -8,7 +8,10 @@
       level: 1,
       class: "test-title",
       text: "test-title",
-      attrs: ""
+      attrs: "",
+      link: {
+
+      }
     }
 } %}
 ```
@@ -21,4 +24,6 @@
 
 `level` - уровень, по дефолту 1
 
-`attrs` - строка с атрибутами
+`attrs` - атрибуты
+
+`link` - заголовок-ссылка

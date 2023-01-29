@@ -169,7 +169,8 @@ a {
 .main {
   position: relative;
   flex: 1 0 auto;
-  margin: rem(75) 0 rem(56);
+  // margin: rem(75) 0 rem(56);
+  margin: rem(68) 0 rem(56);
 
   @include media('600', max) {
     margin: rem(40) 0 0;

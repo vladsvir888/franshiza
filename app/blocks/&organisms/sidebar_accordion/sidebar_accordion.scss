@@ -33,12 +33,6 @@
     #{$this}__btn {
       width: 100%;
       justify-content: space-between;
-
-      &[aria-expanded=true] {
-        #{$this}__icon {
-          transform: rotate(-180deg);
-        }
-      }
     }
 
     #{$this}__icon {
@@ -82,14 +76,6 @@
 
       #{$this}__icon {
         fill: var(--pallette-cerulean);
-      }
-    }
-
-    &[aria-expanded=true] {
-      margin-bottom: rem(8);
-
-      #{$this}__icon {
-        transform: rotate(180deg);
       }
     }
   }

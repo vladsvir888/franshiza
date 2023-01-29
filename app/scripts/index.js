@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
 
-  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, 0));
+  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, null, 'always_open'));
 
   initVideo();
 

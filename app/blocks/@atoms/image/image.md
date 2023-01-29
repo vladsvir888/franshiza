@@ -6,7 +6,7 @@
 {% view '@image' with {
     image: {
       class: "test-class",
-      name: "test-img",
+      name: "test-img.png",
       alt: "test-alt",
       sizes: {
         width: 500,
@@ -15,7 +15,8 @@
       lazy: false,
       picture: {
         class: ""
-      }
+      },
+      attrs: "",
     }
 } %}
 ```
@@ -24,14 +25,14 @@
 
 `class` - дополнительные классы
 
-`sizes` - размеры, объект с двумя свойствами width и height
+`sizes` - размеры
 
-`name` - имя картинки
+`name` - имя
 
-`alt` - альтернативный текст картинки
+`alt` - альтернативный текст
 
-`lazy` - картинка с lazyload, по дефолту true, т е с lazyload
+`lazy` - картинка с lazyload, по дефолту true, т.е. с lazyload
 
-`picture` - объект, который содержит свойство class для тега picture
+`picture` - обертка картинки
 
-`attrs` - строка с атрибутами
+`attrs` - атрибуты

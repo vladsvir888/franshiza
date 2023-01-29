@@ -16,7 +16,6 @@
           {{ item.content.attrs }}
           role="region"
         >
-
           {% if item.data.type == '@sidebar_accordion_list' %}
             {% view "^sidebar_accordion_list" with {
               sidebar_accordion_list: item.data.content

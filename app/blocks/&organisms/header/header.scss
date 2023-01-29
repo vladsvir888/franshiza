@@ -70,13 +70,15 @@
     justify-content: space-between;
     gap: rem(20);
     align-items: center;
-    padding-top: rem(14);
+
+    @include media('1400', max) {
+      padding-top: rem(15);
+    }
 
     @include media('1401', min) {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       grid-template-areas: "tel-block tel-block tel-block main-nav main-nav main-nav main-nav main-nav main-nav franchise-btn franchise-btn franchise-btn";
-      align-items: flex-end;
     }
   }
 
@@ -114,6 +116,7 @@
 
   &__main-nav {
     grid-area: main-nav;
+    margin-top: rem(20);
 
     @include media('1400', max) {
       display: none;
@@ -123,6 +126,7 @@
   &__franchise-btn {
     grid-area: franchise-btn;
     margin-left: rem(51);
+    margin-top: rem(24);
 
     @include media('1400', max) {
       display: none;

@@ -5,6 +5,7 @@
 ```twig
 {% view '@button' with {
     button: {
+      id: "test-btn",
       class: "test-btn",
       href: "#",
       text: {
@@ -12,6 +13,9 @@
         text: "test button text"
       },
       icon: {
+
+      },
+      right_icon: {
 
       },
       attrs: ""
@@ -25,8 +29,14 @@
 
 `class` - дополнительные классы
 
-`text` - объект с двумя свойствами - class (класс текста) и text (текст кнопки)
+`text` - текст
 
-`icon` - иконка с кнопкой
+`icon` - иконка
 
-`attrs` - строка с атрибутами
+`attrs` - атрибуты
+
+`id` - id
+
+`right_icon` - иконка справа
+
+`svg_as_code` - строка svg ввиде кода

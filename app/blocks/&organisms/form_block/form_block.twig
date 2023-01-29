@@ -64,7 +64,12 @@
     </p>
   {% endif %}
 
-  <form class="form form-block__form" action="/" method="get">
+  <form
+    {% if form_block.form_id %}id="{{ form_block.form_id }}"{% endif %}
+    class="form form-block__form"
+    action="/"
+    method="get"
+    >
     {% for input in form_block.inputs %}
       {% view "@input" with {
         input: input

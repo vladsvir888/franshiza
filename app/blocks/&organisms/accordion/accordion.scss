@@ -1,14 +1,29 @@
 .accordion {
   $this: &;
 
+  &__item {
+    &.show {
+      #{$this}__content {
+        max-height: unset;
+        visibility: visible;
+      }
+
+      #{$this}__btn {
+        margin-bottom: rem(8);
+
+        .btn__icon {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
+
   &__content {
     max-height: 0;
+    padding: rem(5);
+    margin: rem(-5);
     overflow: hidden;
     visibility: hidden;
     transition: max-height var(--transition);
-
-    &[style] {
-      visibility: visible;
-    }
   }
 }
