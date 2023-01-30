@@ -13,43 +13,13 @@
       </svg>
     </button>
 
-    <ul class="form-block__toggle-list">
+    <div class="form-block__toggle-list">
       {% for item in form_block.toggle.list.items %}
-        <li class="form-block__toggle-item">
-          {% view "@image" with {
-            image: item.image|merge({
-              class: "form-block__toggle-img",
-              sizes: {
-                width: 57,
-                height: 43
-              }
-            })
-          } %}
-
-          <div class="form-block__toggle-content">
-            {% view "@button" with {
-              button: item.button|merge({
-                class: "form-block__toggle-link",
-                href: "#"
-              })
-            } %}
-
-            {% view "@button" with {
-              button: {
-                class: "form-block__toggle-remove",
-                text: {
-                  text: "Удалить"
-                },
-                right_icon: {
-                  class: "form-block__toggle-remove-icon",
-                  name: "sprite-mono.svg#close"
-                }
-              }
-            } %}
-          </div>
-        </li>
+        {% view "^card_text" with {
+          card_text: item
+        } %}
       {% endfor %}
-    </ul>
+    </div>
   {% endif %}
 
   {% if form_block.socials %}

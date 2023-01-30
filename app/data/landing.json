@@ -1993,33 +1993,66 @@
       "toggle": {
         "list": {
           "items": [{
-            "image": {
-              "name": "form_block/01.png",
-              "alt": "Франшиза ГК Альфа."
+            "title": {
+              "level": 2,
+              "link": {
+                "class": "card-text__link"
+              },
+              "text": "Франшиза ГК Альфа"
             },
-            "button": {
+            "image": {
+              "name": "card_text/01.jpg",
+              "alt": "Франшиза ГК Альфа",
+              "sizes": {
+                "width": 57,
+                "height": 43
+              }
+            },
+            "btn": {
               "text": {
-                "text": "Франшиза ГК Альфа"
+                "text": "Удалить"
               }
             }
           }, {
-            "image": {
-              "name": "form_block/02.png",
-              "alt": "Франшиза Гриль Хаус."
+            "title": {
+              "level": 2,
+              "link": {
+                "class": "card-text__link"
+              },
+              "text": "Франшиза Гриль Хаус"
             },
-            "button": {
+            "image": {
+              "name": "card_text/02.jpg",
+              "alt": "Франшиза Гриль Хаус",
+              "sizes": {
+                "width": 57,
+                "height": 43
+              }
+            },
+            "btn": {
               "text": {
-                "text": "Франшиза Гриль Хаус"
+                "text": "Удалить"
               }
             }
           }, {
-            "image": {
-              "name": "form_block/03.png",
-              "alt": "Франшиза UP SUSHI."
+            "title": {
+              "level": 2,
+              "link": {
+                "class": "card-text__link"
+              },
+              "text": "Франшиза UP SUSHI"
             },
-            "button": {
+            "image": {
+              "name": "card_text/03.jpg",
+              "alt": "Франшиза UP SUSHI",
+              "sizes": {
+                "width": 57,
+                "height": 43
+              }
+            },
+            "btn": {
               "text": {
-                "text": "Франшиза UP SUSHI"
+                "text": "Удалить"
               }
             }
           }]

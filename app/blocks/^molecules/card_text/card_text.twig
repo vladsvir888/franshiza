@@ -1,0 +1,36 @@
+<article class="card-text">
+  {% view "@image" with {
+    image: card_text.image|merge({
+      class: "card-text__img"
+    })
+  } %}
+
+  <div class="card-text__content">
+    {% view "@title" with {
+      title: card_text.title|default({})|merge({
+        class: "card-text__title"
+      })
+    } %}
+
+    {% if card_text.time %}
+      <time
+      class="card-text__time"
+      datetime="{{ card_text.time.datetime }}"
+      >
+        {{ card_text.time.text }}
+      </time>
+    {% endif %}
+
+    {% if card_text.btn %}
+      {% view "@button" with {
+        button: card_text.btn|merge({
+          class: "card-text__remove-btn",
+          right_icon: {
+            class: "card-text__remove-icon",
+            name: "sprite-mono.svg#close"
+          }
+        })
+      } %}
+    {% endif %}
+  </div>
+</article>

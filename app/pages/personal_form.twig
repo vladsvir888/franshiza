@@ -3,19 +3,23 @@
 {% block content %}
 <main id="main" class="main main--personal" tabindex="-1">
   <div class="container">
-    <h1 class="visually-hidden">Личный кабинет. Условия сервиса.</h1>
+    <h1 class="visually-hidden">Личный кабинет. Анкета.</h1>
 
     {% view "^breadcrumbs" with {
-      breadcrumbs: personal_conditions.breadcrumbs
+      breadcrumbs: personal_form.breadcrumbs
     } %}
 
     {% view "^personal_nav" with {
-      personal_nav: personal_conditions.nav
+      personal_nav: personal_form.nav
     } %}
 
     <p>
-      {{ personal_conditions.text }}
+      {{ personal_form.text }}
     </p>
+
+    {% view "&personal_form" with {
+      personal_form: personal_form.form_blocks
+    } %}
   </div>
 </main>
 

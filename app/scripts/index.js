@@ -14,6 +14,7 @@ import toggleResultList from './components/toggleResultList';
 import topBtn from './components/topBtn';
 import similarFranchiseSlider from './components/similarFranchiseSlider';
 import toggleText from './components/toggleText';
+import initDatepicker from './components/datepicker';
 
 document.addEventListener('DOMContentLoaded', () => {
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
@@ -64,4 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
   similarFranchiseSlider('.similar-franchise-slider');
 
   document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
+
+  initDatepicker();
 });

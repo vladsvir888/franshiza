@@ -1,0 +1,28 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main main--personal" tabindex="-1">
+  <div class="container">
+    <h1 class="visually-hidden">Личный кабинет. Список франшиз.</h1>
+
+    {% view "^breadcrumbs" with {
+      breadcrumbs: personal_list_franchise.breadcrumbs
+    } %}
+
+    {% view "^personal_nav" with {
+      personal_nav: personal_list_franchise.nav
+    } %}
+
+    <p>
+      {{ personal_list_franchise.text }}
+    </p>
+
+    {% view "&franchise_list" with {
+      franchise_list: personal_list_franchise.list
+    } %}
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

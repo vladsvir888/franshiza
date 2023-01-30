@@ -15,7 +15,10 @@
 {% else %}
   <div class="input-block {{ input.wrap.class }}">
     {% if input.label %}
-      <label {% if input.label.id %}for="{{ input.label.id }}"{% endif %}>
+      <label
+        {% if input.label.id %}for="{{ input.label.id }}"{% endif %}
+        class="input-block__label {{ input.label.class }}"
+      >
         {{ input.label.text }}
       </label>
     {% endif %}
@@ -26,6 +29,7 @@
       type="{{ input_type }}"
       name="{{ input.element.name }}"
       {% if input.element.text %}placeholder="{{ input.element.text }}"{% endif %}
+      {{ input.element.attrs }}
     >
 
     {% if input.search_btn %}
@@ -37,6 +41,12 @@
     {% if input.search_btn_with_text %}
       {% view "@button" with {
         button: input.search_btn_with_text
+      } %}
+    {% endif %}
+
+    {% if input.icon %}
+      {% view "@icon" with {
+        icon: input.icon
       } %}
     {% endif %}
   </div>

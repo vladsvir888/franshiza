@@ -1,0 +1,62 @@
+.card-text {
+  $this: &;
+
+  position: relative;
+  display: flex;
+  gap: rem(12);
+
+  &:hover {
+    #{$this}__link {
+      color: var(--pallette-cerulean);
+    }
+  }
+
+  &__content {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(3);
+      }
+    }
+  }
+
+  &__title {
+    @include font-size(14, 20);
+    font-weight: 400;
+    color: var(--pallette-deep-cerulean);
+  }
+
+  &__link {
+    transition: color var(--transition);
+  }
+
+  &__time {
+    color: var(--pallette-scorpion);
+  }
+
+  &__img {
+    border-radius: rem(6);
+  }
+
+  &__remove {
+    &-btn {
+      position: relative;
+      @include flex-center-y;
+      color: var(--pallette-scorpion);
+
+      &:hover {
+        color: var(--pallette-mine-shaft);
+
+        #{$this}__remove-icon {
+          fill: currentColor;
+        }
+      }
+    }
+
+    &-icon {
+      width: rem(15);
+      height: rem(15);
+      margin-left: rem(2);
+      fill: var(--pallette-nobel);
+    }
+  }
+}

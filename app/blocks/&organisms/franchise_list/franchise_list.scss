@@ -1,0 +1,20 @@
+.franchise-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: rem(30) rem(40);
+  margin: rem(44) 0 rem(44);
+
+  @include media('900', max) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include media('767', max) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media('500', max) {
+    grid-template-columns: 1fr;
+    gap: rem(24);
+    margin: rem(24) 0 0;
+  }
+}

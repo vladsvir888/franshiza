@@ -47,6 +47,15 @@
   }, {
     "text": "Личный кабинет (условия сервиса)",
     "link": "personal_conditions"
+  }, {
+    "text": "Личный кабинет (список франшиз)",
+    "link": "personal_list_franchise"
+  }, {
+    "text": "Личный кабинет (анкета)",
+    "link": "personal_form"
+  }, {
+    "text": "Личный кабинет (запросы)",
+    "link": "personal_request"
   }],
   "meta": {
     "html_lang": "ru",

@@ -1,0 +1,23 @@
+<form action="/" method="get" class="personal-form">
+  <div class="personal-form__inner">
+    {% for item in personal_form.blocks %}
+      {% view "^personal_form_block" with {
+        personal_form_block: item
+      } %}
+    {% endfor %}
+  </div>
+
+  <div class="personal-form__btns">
+    {% view "@button" with {
+      button: personal_form.btn_reset|merge({
+        class: "btn--btn btn--quaternary personal-form__btn"
+      })
+    } %}
+
+    {% view "@button" with {
+      button: personal_form.btn_submit|merge({
+        class: "btn--btn btn--primary personal-form__btn"
+      })
+    } %}
+  </div>
+</form>

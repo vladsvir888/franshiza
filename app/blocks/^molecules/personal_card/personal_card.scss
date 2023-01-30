@@ -1,0 +1,108 @@
+.personal-card {
+  margin-bottom: rem(24);
+
+  @include media('901', min) {
+    display: grid;
+    grid-template-columns: rem(183) 1fr;
+    grid-template-areas:
+      "img title"
+      "img content";
+    grid-template-rows: rem(50) 1fr;
+    gap: rem(20);
+  }
+
+  @include media('600', max) {
+    margin-bottom: rem(30);
+  }
+
+  &__img {
+    border-radius: rem(6);
+    grid-area: img;
+
+    @include media('900', max) {
+      margin-bottom: rem(24);
+    }
+
+    @include media('600', max) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    @include font-size(36, 50);
+    font-weight: 400;
+    grid-area: title;
+
+    @include media('900', max) {
+      margin-bottom: rem(16);
+    }
+
+    @include media('600', max) {
+      @include font-size(22, 33);
+      margin-bottom: rem(16);
+    }
+  }
+
+  &__content {
+    grid-area: content;
+  }
+
+  &__text {
+    @include font-size(22, 33);
+    margin-bottom: rem(24);
+
+    @include media('600', max) {
+      @include font-size(16, 24);
+      margin-bottom: rem(16);
+    }
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(3, rem(183));
+    gap: rem(20);
+
+    @include media('900', max) {
+      grid-template-columns: repeat(2, rem(183));
+    }
+
+    @include media('600', max) {
+      grid-template-columns: 1fr;
+      gap: rem(8);
+    }
+  }
+
+  &__input {
+    &-block {
+      position: relative;
+
+      &:first-child {
+        &::after {
+          position: absolute;
+          top: 50%;
+          right: rem(-15);
+          transform: translateY(-50%);
+          width: rem(10);
+          height: rem(2);
+          background-color: var(--pallette-ebony);
+          content: '';
+
+          @include media('600', max) {
+            content: none;
+          }
+        }
+      }
+    }
+
+    &-icon {
+      position: absolute;
+      top: 50%;
+      right: rem(12);
+      transform: translateY(-50%);
+      width: rem(16);
+      height: rem(16);
+      fill: var(--pallette-deep-cerulean);
+      pointer-events: none;
+    }
+  }
+}

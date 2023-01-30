@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "Личный кабинет. Анкета",
+    "description": "Личный кабинет. Анкета"
+  },
+  "personal_form": {
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "Личный кабинет"
+        }
+      }]
+    },
+    "nav": {
+      "items": [{
+        "text": {
+          "text": "Анкета"
+        },
+        "attrs": "aria-current='page'"
+      }, {
+        "text": {
+          "text": "Список франшиз"
+        }
+      }, {
+        "text": {
+          "text": "Условия сервиса"
+        }
+      }]
+    },
+    "text": "Поля, отмеченные знаком (*) — обязательны для заполнения",
+    "form_blocks": {
+      "blocks": [{
+        "title": {
+          "level": 2,
+          "text": "Личные данные"
+        },
+        "inputs": [{
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_name",
+            "text": "Имя"
+          },
+          "element": {
+            "id": "personal_form_name",
+            "type": "text",
+            "name": "name",
+            "attrs": "value='Иван'"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_surname",
+            "text": "Фамилия"
+          },
+          "element": {
+            "id": "personal_form_surname",
+            "type": "text",
+            "name": "surname",
+            "attrs": "value='Иванов'"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_patronymic",
+            "text": "Отчество"
+          },
+          "element": {
+            "id": "personal_form_patronymic",
+            "type": "text",
+            "name": "patronymic",
+            "attrs": "value='Иванович'"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_email",
+            "text": "E-mail*"
+          },
+          "element": {
+            "id": "personal_form_email",
+            "type": "email",
+            "name": "email",
+            "attrs": "value='name@gmail.ru'"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_password",
+            "text": "Новый пароль"
+          },
+          "element": {
+            "id": "personal_form_password",
+            "type": "password",
+            "name": "password"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_password_repeat",
+            "text": "Подтверждение нового пароля"
+          },
+          "element": {
+            "id": "personal_form_password_repeat",
+            "type": "password",
+            "name": "password_repeat"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_tel",
+            "text": "Мой телефон"
+          },
+          "element": {
+            "id": "personal_form_tel",
+            "type": "tel",
+            "name": "phone",
+            "attrs": "value='+37 (533) 381 25 76'"
+          }
+        }]
+      }, {
+        "title": {
+          "level": 2,
+          "text": "Требования к франшизе"
+        },
+        "inputs": [{
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_city",
+            "text": "Город, где хочется открыть бизнес"
+          },
+          "element": {
+            "id": "personal_form_city",
+            "type": "text",
+            "name": "city"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_num_investment",
+            "text": "Объем инвестиций"
+          },
+          "element": {
+            "id": "personal_form_num_investment",
+            "type": "text",
+            "name": "num_investment"
+          }
+        }, {
+          "wrap": {
+            "class": "personal-form-block__input-block"
+          },
+          "label": {
+            "id": "personal_form_country",
+            "text": "Страна, где хочется открыть бизнес"
+          },
+          "element": {
+            "id": "personal_form_country",
+            "type": "text",
+            "name": "country"
+          }
+        }]
+      }],
+      "btn_reset": {
+        "text": {
+          "text": "Сбросить"
+        },
+        "attrs": "type='reset'"
+      },
+      "btn_submit": {
+        "text": {
+          "text": "Сохранить"
+        },
+        "attrs": "type='submit'"
+      }
+    }
+  }
+}

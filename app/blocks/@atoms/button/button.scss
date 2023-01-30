@@ -54,6 +54,16 @@
     }
   }
 
+  &--quaternary {
+    color: var(--pallette-ebony);
+    font-weight: 400;
+    background-color: var(--pallette-mystic);
+
+    &:hover {
+      background-color: var(--pallette-nobel);
+    }
+  }
+
   &--large {
     @include font-size(17, 22);
   }

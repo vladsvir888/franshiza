@@ -1,0 +1,8 @@
+<ul class="franchise-list">
+  {% for item in franchise_list.items %}
+    <li class="franchise-list__item">
+      {% view "^card_text" with {
+        card_text: item
+      } %}
+    </li>
+  {% endfor %}

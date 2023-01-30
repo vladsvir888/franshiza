@@ -1,0 +1,30 @@
+<div class="table-wrap {{ table.class }}">
+  <table>
+    <thead>
+      <tr>
+        {% for item in table.thead.items %}
+          <th>
+            {{ item.text }}
+          </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for tr in table.tbody.row_items %}
+        <tr>
+          {% for td in tr.cell_items %}
+            <td>
+              {% if td.btn %}
+                {% view "@button" with {
+                  button: td.btn
+                } %}
+              {% else %}
+                {{ td.text }}
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

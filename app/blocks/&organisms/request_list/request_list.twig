@@ -1,0 +1,27 @@
+<section class="request-list">
+  {% view "@title" with {
+    title: request_list.title|merge({
+      class: "request-list__title"
+    })
+  } %}
+
+  <div class="request-list__inner">
+    <p class="request-list__text">
+      {{ request_list.text }}
+    </p>
+
+    {% view "@button" with {
+      button: request_list.download_btn|merge({
+        class: "request-list__btn"
+      })
+    } %}
+  </div>
+
+  {% view "@table" with {
+    table: request_list.table
+  } %}
+
+  {% view "^pagination" with {
+    pagination: request_list.pagination
+  } %}
+</section>

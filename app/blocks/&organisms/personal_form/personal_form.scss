@@ -1,0 +1,35 @@
+.personal-form {
+  margin-top: rem(22);
+
+  &__inner {
+    margin-bottom: rem(30);
+
+    @include media('600', max) {
+      margin-bottom: rem(20);
+    }
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(44);
+
+        @include media('600', max) {
+          margin-bottom: rem(30);
+        }
+      }
+    }
+  }
+
+  &__btns {
+    @include flex-center-x;
+    gap: rem(20);
+
+    @include media('600', max) {
+      flex-direction: column;
+      gap: rem(10);
+    }
+  }
+
+  &__btn {
+    padding: rem(12) rem(58);
+  }
+}

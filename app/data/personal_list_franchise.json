@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "title": "Личный кабинет. Список франшиз",
+    "description": "Личный кабинет. Список франшиз"
+  },
+  "personal_list_franchise": {
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "Личный кабинет"
+        }
+      }]
+    },
+    "nav": {
+      "items": [{
+        "text": {
+          "text": "Анкета"
+        }
+      }, {
+        "text": {
+          "text": "Список франшиз"
+        },
+        "attrs": "aria-current='page'"
+      }, {
+        "text": {
+          "text": "Условия сервиса"
+        }
+      }]
+    },
+    "text": "Список франшиз, у которых я запросил подробности:",
+    "list": {
+      "items": [{
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза Гриль Хаус"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/02.jpg",
+          "alt": "Франшиза Гриль Хаус",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза франчайзера"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/03.jpg",
+          "alt": "Франшиза франчайзера",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }, {
+        "title": {
+          "level": 2,
+          "link": {
+            "class": "card-text__link"
+          },
+          "text": "Франшиза ГК Альфа"
+        },
+        "time": {
+          "text": "10.01.2023",
+          "datetime": "2023-01-10"
+        },
+        "image": {
+          "name": "card_text/01.jpg",
+          "alt": "Франшиза ГК Альфа",
+          "sizes": {
+            "width": 57,
+            "height": 43
+          }
+        }
+      }]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<section class="personal-form-block">
+  {% view "@title" with {
+    title: personal_form_block.title|merge({
+      class: "personal-form-block__title"
+    })
+  } %}
+
+  <div class="personal-form-block__inner">
+    {% for input in personal_form_block.inputs %}
+      {% view "@input" with {
+        input: input
+      } %}
+    {% endfor %}
+  </div>
+</section>

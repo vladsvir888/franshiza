@@ -1,0 +1,47 @@
+.personal-form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: rem(30);
+  border-radius: rem(12);
+  background-color: var(--pallette-mystic);
+
+  @include media('600', max) {
+    padding: rem(20) rem(16);
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    border-radius: 0;
+  }
+
+  &__title {
+    @include font-size(22, 33);
+    font-weight: 400;
+
+    &:not(:last-child) {
+      margin-bottom: rem(24);
+
+      @include media('375', max) {
+        margin-bottom: rem(14);
+      }
+    }
+
+    @include media('375', max) {
+      align-self: flex-start;
+    }
+  }
+
+  &__inner {
+    @include flex-column;
+    max-width: rem(518);
+    width: 100%;
+    gap: rem(24);
+
+    @include media('600', max) {
+      gap: rem(16);
+    }
+  }
+
+  &__input-block {
+    background-color: transparent;
+  }
+}
