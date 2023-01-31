@@ -33,6 +33,10 @@
     color: var(--pallette-scorpion);
   }
 
+  &__picture {
+    flex-shrink: 0;
+  }
+
   &__img {
     border-radius: rem(6);
   }

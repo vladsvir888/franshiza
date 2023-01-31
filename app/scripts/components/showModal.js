@@ -18,12 +18,16 @@ const showModal = ({ btnSelector, modalSelector, closeSelector }) => {
     });
   });
 
-  document.querySelector(closeSelector)?.addEventListener('click', () => {
-    Fancybox.close([{ src: modalSelector, type: 'inline' }]);
+  document.querySelectorAll(closeSelector).forEach((closeBtn) => {
+    closeBtn?.addEventListener('click', () => {
+      Fancybox.close([{ src: modalSelector, type: 'inline' }]);
 
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 200);
+      if (!closeBtn.classList.contains('modal__footer-btn')) return;
+
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 200);
+    });
   });
 };
 

@@ -25,7 +25,7 @@
           Автор: ФРАНШИЗА Инфо
         </p>
 
-        {% view "@pagination_links" %}
+        {% view "^pagination_links" %}
 
         {% view "&form_photo_block" with {
           form_photo_block: review.form_photo_block
@@ -35,9 +35,7 @@
           socials: review.socials
         } %}
 
-        {% view "&section" with {
-          section: review.similar_franchise
-        } %}
+        {% view "&similar_franchise" %}
 
         {% view "&section" with {
           section: review.read_more
@@ -45,22 +43,14 @@
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: review.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: review.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: review.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: review.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

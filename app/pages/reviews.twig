@@ -37,26 +37,18 @@
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: reviews.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: reviews.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
       </div>
       <aside class="main__sidebar">
         {% view "^review_list" with {
           review_list: reviews.review_list
         } %}
 
-        {% view "&accordion" with {
-          accordion: reviews.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: reviews.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

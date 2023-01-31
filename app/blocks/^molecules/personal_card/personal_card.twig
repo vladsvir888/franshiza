@@ -7,7 +7,10 @@
 
   {% view "@image" with {
     image: personal_card.image|merge({
-      class: "personal-card__img"
+      class: "personal-card__img",
+      picture: {
+        class: "personal-card__picture"
+      }
     })
   } %}
 

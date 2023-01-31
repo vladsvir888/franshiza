@@ -1,80 +1,63 @@
-.table-wrap {
+.table {
   overflow-x: auto;
   margin-bottom: rem(30);
 
-  &--request {
-    th, td {
-      &:nth-of-type(1) {
-        width: 11%;
-      }
-
-      &:nth-of-type(2) {
-        width: 22%;
-      }
-
-      &:nth-of-type(3) {
-        width: 15%;
-      }
-
-      &:nth-of-type(4) {
-        width: 15%;
-      }
-
-      &:nth-of-type(5) {
-        width: 27%;
-
-        @include media('600', max) {
-          width: 12%;
+  &--express-form {
+    table {
+      th, td {
+        &:nth-child(1) {
+          width: 11%;
         }
-      }
 
-      &:nth-of-type(6) {
-        width: 10%;
-
-        @include media('600', max) {
-          width: 25%;
+        &:nth-child(2) {
+          width: 31%;
         }
       }
     }
   }
 
   table {
-    width: rem(1200);
+    width: 100%;
     border-spacing: 0;
     text-align: left;
 
-    @include media('600', max) {
-      width: rem(640);
-    }
-  }
-
-  tbody {
-    tr {
-      &:last-child {
-        td {
-          border-bottom: 0;
+    tbody {
+      tr {
+        &:last-child {
+          td {
+            border-bottom: 0;
+          }
         }
       }
     }
-  }
 
-  th, td {
-    padding: rem(20) rem(8) rem(20) 0;
-    border-bottom: rem(1) solid var(--pallette-mystic);
-  }
+    th, td {
+      padding: rem(20) rem(127) rem(20) 0;
+      border-bottom: rem(1) solid var(--pallette-mystic);
+      white-space: nowrap;
 
-  th {
-    border-top: rem(1) solid var(--pallette-mystic);
-    color: var(--pallette-scorpion);
-    font-weight: 400;
-  }
+      &:last-child {
+        padding-right: 0;
+      }
 
-  a {
-    color: var(--pallette-deep-cerulean);
-    transition: color var(--transition);
+      @include media('600', max) {
+        padding: rem(16) rem(46) rem(16) 0;
+      }
+    }
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    th {
+      border-top: rem(1) solid var(--pallette-mystic);
+      color: var(--pallette-scorpion);
+      font-weight: 400;
+    }
+
+    a {
+      color: var(--pallette-deep-cerulean);
+      transition: color var(--transition);
+
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 }

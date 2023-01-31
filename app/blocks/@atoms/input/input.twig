@@ -1,13 +1,15 @@
 {% set input_type = input.element.type|default('text') %}
 
 {% if input.textarea %}
-  <textarea
-    {% if input.textarea.id %}id="{{ input.textarea.id }}"{% endif %}
-    class="textarea {{ input.textarea.class }}"
-    name="{{ input.textarea.name }}"
-    {% if input.textarea.text %}placeholder="{{ input.textarea.text }}"{% endif %}
-    {{ input.textarea.attrs }}
-  ></textarea>
+  <div class="input-block">
+    <textarea
+      {% if input.textarea.id %}id="{{ input.textarea.id }}"{% endif %}
+      class="textarea input-block__textarea {{ input.textarea.class }}"
+      name="{{ input.textarea.name }}"
+      {% if input.textarea.text %}placeholder="{{ input.textarea.text }}"{% endif %}
+      {{ input.textarea.attrs }}
+    ></textarea>
+  </div>
 {% elseif input.picture %}
   {% view "@image" with {
     image: input.picture

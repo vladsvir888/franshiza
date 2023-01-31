@@ -19,13 +19,14 @@
       "items": [{
         "text": {
           "text": "Анкета"
-        },
-        "attrs": "aria-current='page'"
+        }
       }, {
+        "href": "#",
         "text": {
           "text": "Список франшиз"
         }
       }, {
+        "href": "#",
         "text": {
           "text": "Условия сервиса"
         }
@@ -92,7 +93,7 @@
             "id": "personal_form_email",
             "type": "email",
             "name": "email",
-            "attrs": "value='name@gmail.ru'"
+            "attrs": "value='name@gmail.ru' required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
           }
         }, {
           "wrap": {

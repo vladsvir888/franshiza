@@ -1,0 +1,121 @@
+{
+  "similar_franchise": {
+    "header": {
+      "title": {
+        "level": 2,
+        "text": "Похожие франшизы"
+      },
+      "button": {
+        "href": "#",
+        "text": {
+          "text": "Каталог"
+        },
+        "right_icon": {
+          "name": "sprite-mono.svg#arrow_right"
+        }
+      }
+    },
+    "text": "Добавьте и эти франшизы в список, чтобы запросить подробности сразу у нескольких и сравнить условия",
+    "data": {
+      "type": "&slider",
+      "content": {
+        "type": "&card",
+        "class": "similar-franchise-slider",
+        "items": [{
+          "image": {
+            "name": "card/01.png",
+            "alt": "Франшиза ARTCRAFT."
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза ARTCRAFT"
+            },
+            "text": "франшиза бьюти-коворкинга",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "level": 3,
+              "text": "Добавить в список"
+            }
+          }
+        }, {
+          "image": {
+            "name": "card/03.png",
+            "alt": "Франшиза INDI."
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза INDI"
+            },
+            "text": "франшиза бьюти-коворкинга",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "text": "Добавить в список"
+            }
+          }
+        }, {
+          "image": {
+            "name": "card/02.png",
+            "alt": "Франшиза GASTRONOM."
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза GASTRONOM"
+            },
+            "text": "франшиза студии маникюра и бровей",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "text": "Добавить в список"
+            }
+          }
+        },  {
+          "image": {
+            "name": "card/02.png",
+            "alt": "Франшиза GASTRONOM."
+          },
+          "content": {
+            "title": {
+              "link": true,
+              "level": 3,
+              "text": "Франшиза GASTRONOM"
+            },
+            "text": "франшиза студии маникюра и бровей",
+            "investment": {
+              "text": "Инвестиции",
+              "num": "от 3 550 000 р."
+            }
+          },
+          "button": {
+            "class": "btn--toggle-gray",
+            "text": {
+              "text": "Добавить в список"
+            }
+          }
+        }]
+      }
+    }
+  }
+}

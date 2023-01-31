@@ -7,7 +7,6 @@
     grid-template-areas:
       "img title"
       "img content";
-    grid-template-rows: rem(50) 1fr;
     gap: rem(20);
   }
 
@@ -15,9 +14,12 @@
     margin-bottom: rem(30);
   }
 
+  &__picture {
+    grid-area: img;
+  }
+
   &__img {
     border-radius: rem(6);
-    grid-area: img;
 
     @include media('900', max) {
       margin-bottom: rem(24);

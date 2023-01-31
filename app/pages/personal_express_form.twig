@@ -1,0 +1,26 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+<main id="main" class="main main--personal" tabindex="-1">
+  <div class="container">
+    {% view "^breadcrumbs" with {
+      breadcrumbs: personal_express_form.breadcrumbs
+    } %}
+
+    {% view "^personal_nav" with {
+      personal_nav: personal_express_form.nav
+    } %}
+
+    {% view "^personal_card" with {
+      personal_card: personal_express_form.card
+    } %}
+
+    {% view "&request_list" with {
+      request_list: personal_express_form.list
+    } %}
+  </div>
+</main>
+
+{% view "@top_btn" %}
+
+{% endblock %}

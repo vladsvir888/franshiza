@@ -1,5 +1,3 @@
-{% set card = detail.main_card %}
-
 <article class="detail-card">
   {% view "@title" with {
     title: {
@@ -9,7 +7,7 @@
     }
   } %}
   {% view "@image" with {
-    image: card.image|merge({
+    image: detail_card.image|merge({
       class: "detail-card__img",
       sizes: {
         width: 285,
@@ -19,7 +17,7 @@
   } %}
   <div class="detail-card__info">
     <dl class="detail-card__list">
-      {% for item in card.info.list.items %}
+      {% for item in detail_card.info.list.items %}
         <div class="detail-card__item">
           <dt class="detail-card__term">
             {{ item.term }}
@@ -32,7 +30,7 @@
     </dl>
     <div class="detail-card__links">
       {% view "@button" with {
-        button: card.info.site_btn|merge({
+        button: detail_card.info.site_btn|merge({
           class: "detail-card__info-btn",
           icon: {
             class: "detail-card__info-icon",
@@ -42,7 +40,7 @@
       } %}
 
       {% view "@button" with {
-        button: card.info.presentation_btn|merge({
+        button: detail_card.info.presentation_btn|merge({
           class: "detail-card__info-btn",
           icon: {
             class: "detail-card__info-icon",
@@ -55,7 +53,7 @@
   <div class="detail-card__specialist">
     <div class="detail-card__specialist-header">
       {% view "@image" with {
-        image: card.specialist.image|merge({
+        image: detail_card.specialist.image|merge({
           class: "detail-card__img",
           sizes: {
             width: 82,
@@ -66,18 +64,18 @@
 
       <div class="detail-card__specialist-content">
         <div class="detail-card__specialist-name">
-          {{ card.specialist.name }}
+          {{ detail_card.specialist.name }}
         </div>
 
         <p class="detail-card__specialist-job">
-          {{ card.specialist.job }}
+          {{ detail_card.specialist.job }}
         </p>
       </div>
     </div>
 
     <div class="detail-card__specialist-footer">
       {% view "@button" with {
-        button: card.specialist.add_to_list_btn|merge({
+        button: detail_card.specialist.add_to_list_btn|merge({
           class: "btn--btn btn--toggle-gray btn--toggle detail-card__specialist-btn",
           icon: {
             name: "sprite-multi.svg#square"
@@ -86,7 +84,7 @@
       } %}
 
       {% view "@button" with {
-        button: card.specialist.contact_btn|merge({
+        button: detail_card.specialist.contact_btn|merge({
           class: "btn--btn btn--primary btn--large btn--scroll detail-card__specialist-btn"
         })
       } %}

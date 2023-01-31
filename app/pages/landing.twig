@@ -37,26 +37,16 @@
 
         {% view "@banner" %}
 
-        {% view "&section" with {
-          section: landing.review_franchise_and_exclusive_interviews
-        } %}
+        {% view "&review_franchise_and_exclusive_interviews" %}
 
-        {% view "&accordion" with {
-          accordion: landing.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: landing.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: landing.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: landing.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

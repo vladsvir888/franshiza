@@ -1,6 +1,43 @@
 .input-block {
+  $this: &;
+
   background-color: var(--pallette-athens-gray);
   border-radius: rem(6);
+
+  &--success {
+    background-color: transparent;
+    color: var(--pallette-cerulean);
+
+    #{$this}__input {
+      color: inherit;
+      outline: rem(1) solid var(--pallette-cerulean);
+    }
+
+    #{$this}__textarea {
+      color: inherit;
+      outline: rem(1) solid var(--pallette-cerulean);
+    }
+  }
+
+  &--error {
+    background-color: transparent;
+    color: var(--pallette-red);
+
+    #{$this}__input {
+      color: inherit;
+      outline: rem(1) solid var(--pallette-red);
+    }
+
+    #{$this}__textarea {
+      color: inherit;
+      outline: rem(1) solid var(--pallette-red);
+    }
+
+    #{$this}__message {
+      color: inherit;
+      text-align: left;
+    }
+  }
 
   &__input {
     width: 100%;
@@ -11,6 +48,11 @@
 
     &::placeholder {
       color: var(--pallette-nobel);
+    }
+
+    &:disabled {
+      background-color: var(--pallette-mystic-soft);
+      cursor: not-allowed;
     }
   }
 
@@ -23,6 +65,10 @@
     @include media('600', max) {
       padding: 0 0 rem(6) rem(8);
     }
+  }
+
+  &__message {
+    margin-top: rem(4);
   }
 }
 

@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "title": "Личный кабинет. Экспресс-форма",
+    "description": "Личный кабинет. Экспресс-форма"
+  },
+  "personal_express_form": {
+    "breadcrumbs": {
+      "items": [{
+        "text": {
+          "text": "Главная"
+        }
+      }, {
+        "text": {
+          "text": "Личный кабинет"
+        }
+      }]
+    },
+    "nav": {
+      "items": [{
+        "href": "#",
+        "text": {
+          "text": "Запросы"
+        }
+      }, {
+        "text": {
+          "text": "Экспресс форма"
+        }
+      }]
+    },
+    "card": {
+      "image": {
+        "name": "personal/01.png",
+        "alt": "Франшиза #COFFEE_SPOT",
+        "sizes": {
+          "width": 183,
+          "height": 171
+        }
+      },
+      "title": {
+        "level": 1,
+        "text": "Франшиза #COFFEE_SPOT"
+      },
+      "text": "Задать период",
+      "inputs": [{
+        "wrap": {
+          "class": "personal-card__input-block"
+        },
+        "element": {
+          "class": "input-datepicker",
+          "type": "text",
+          "text": "Выберите дату",
+          "name": "date_start",
+          "attrs": "readonly value='2023-01-01'"
+        },
+        "icon": {
+          "class": "personal-card__input-icon",
+          "name": "sprite-mono.svg#calendar"
+        }
+      }, {
+        "wrap": {
+          "class": "personal-card__input-block"
+        },
+        "element": {
+          "class": "input-datepicker",
+          "type": "text",
+          "text": "Выберите дату",
+          "name": "date_end",
+          "attrs": "readonly value='2023-01-30'"
+        },
+        "icon": {
+          "class": "personal-card__input-icon",
+          "name": "sprite-mono.svg#calendar"
+        }
+      }],
+      "btn": {
+        "text": {
+          "text": "Показать запросы"
+        },
+        "attrs": "type='submit'"
+      }
+    },
+    "list": {
+      "title": {
+        "level": 2,
+        "text": "Список запросов"
+      },
+      "text": "Всего в выбранный период 30 запросов",
+      "download_btn": {
+        "href": "./assets/test.xlsx",
+        "text": {
+          "text": "Скачать запросы в формате Excel"
+        },
+        "attrs": "download"
+      },
+      "table": {
+        "class": "table--express-form",
+        "thead": {
+          "items": [{
+            "text": "№"
+          }, {
+            "text": "Дата"
+          }, {
+            "text": "Текст сообщения"
+          }]
+        },
+        "tbody": {
+          "row_items": [{
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }, {
+            "cell_items": [{
+              "text": "1"
+            }, {
+              "text": "10.01.2023 13:09:00"
+            }, {
+              "text": "89604535280 Елена"
+            }]
+          }]
+        }
+      },
+      "pagination": {
+        "items": [{
+          "text": {
+            "text": "1"
+          },
+          "attrs": "aria-label='Страница 1' aria-current='page'"
+        }, {
+          "text": {
+            "text": "2"
+          },
+          "attrs": "aria-label='Страница 2'"
+        }, {
+          "text": {
+            "text": "3"
+          },
+          "attrs": "aria-label='Страница 3'"
+        }, {
+          "text": {
+            "text": "..."
+          }
+        }, {
+          "text": {
+            "text": "6"
+          },
+          "attrs": "aria-label='Страница 6'"
+        }],
+        "btn_prev": {
+          "attrs": "aria-label='Предыдущая страница' aria-disabled='true' rel='prev' tabindex='-1'"
+        },
+        "btn_next": {
+          "attrs": "aria-label='Следующая страница' aria-disabled='false' rel='next' tabindex='0'"
+        }
+      }
+    }
+  }
+}

@@ -1,23 +1,21 @@
-<div class="subscribe {{ subscribe.class }}">
+<section class="subscribe {{ subscribe.class }}">
   {% view "@title" with {
     title: subscribe.title|merge({
       class: "subscribe__title"
     })
   } %}
 
-  <ul class="subscribe__list">
+  <div class="subscribe__socials">
     {% for item in subscribe.list.items %}
-      <li class="subscribe__item {{ item.class }}">
-        {% view "@button" with {
-          button: item.link|merge({
-            class: "subscribe__link"
-          })
-        } %}
-      </li>
+      {% view "@button" with {
+        button: item.link|merge({
+          class: "subscribe__link" ~ (item.link.class is defined ? " " ~ item.link.class : "")
+        })
+      } %}
     {% endfor %}
-  </ul>
+  </div>
 
-  <form action="/" method="get" class="subscribe__form">
+  <form action="/" method="get" class="form form--validation subscribe__form">
     {% view "@input" with {
       input: subscribe.form.input
     } %}
@@ -32,4 +30,4 @@
   <p class="subscribe__text">
     {{ subscribe.text }}
   </p>
-</div>
+</section>

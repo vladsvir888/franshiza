@@ -31,32 +31,20 @@
           pagination: search.pagination
         } %}
 
-        {% view "&section" with {
-          section: search.review_franchise_and_exclusive_interviews
-        } %}
+        {% view "&review_franchise_and_exclusive_interviews" %}
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: search.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: search.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
 
-        {% view "&section" with {
-          section: search.news_and_info_about_franchise
-        } %}
+        {% view "&news_and_info_about_franchise" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: search.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: search.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

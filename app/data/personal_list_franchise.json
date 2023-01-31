@@ -17,15 +17,16 @@
     },
     "nav": {
       "items": [{
+        "href": "#",
         "text": {
           "text": "Анкета"
         }
       }, {
         "text": {
           "text": "Список франшиз"
-        },
-        "attrs": "aria-current='page'"
+        }
       }, {
+        "href": "#",
         "text": {
           "text": "Условия сервиса"
         }

@@ -56,6 +56,9 @@
   }, {
     "text": "Личный кабинет (запросы)",
     "link": "personal_request"
+  }, {
+    "text": "Личный кабинет (экспресс-форма)",
+    "link": "personal_express_form"
   }],
   "meta": {
     "html_lang": "ru",

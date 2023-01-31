@@ -15,9 +15,7 @@
           })
         } %}
 
-        {% view "&detail_card" with {
-          detail_card: detail.detail_card
-        } %}
+        {% view "&detail_card" %}
 
         {% view "&accordion" with {
           accordion: detail.mobile_accordion
@@ -35,9 +33,7 @@
           section: detail.review_partners
         } %}
 
-        {% view "^card_official" with {
-          card_official: detail.card_official
-        } %}
+        {% view "^card_official" %}
 
         {% view "&form_photo_block" with {
           form_photo_block: detail.form_photo_block
@@ -47,36 +43,22 @@
           socials: detail.socials
         } %}
 
-        {% view "&section" with {
-          section: detail.similar_franchise
-        } %}
+        {% view "&similar_franchise" %}
 
-        {% view "&section" with {
-          section: detail.review_franchise_and_exclusive_interviews
-        } %}
+        {% view "&review_franchise_and_exclusive_interviews" %}
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: detail.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: detail.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&sidebar_form" with {
-          sidebar_form: detail.sidebar_form
-        } %}
+        {% view "&sidebar_form" %}
 
-        {% view "&accordion" with {
-          accordion: detail.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: detail.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

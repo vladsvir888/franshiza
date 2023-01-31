@@ -13,32 +13,20 @@
           send_request: done.send_request
         } %}
 
-        {% view "&section" with {
-          section: done.similar_franchise
-        } %}
+        {% view "&similar_franchise" %}
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: done.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: done.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
 
-        {% view "&section" with {
-          section: done.news_and_info_franchise
-        } %}
+        {% view "&news_and_info_about_franchise" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: done.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: done.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

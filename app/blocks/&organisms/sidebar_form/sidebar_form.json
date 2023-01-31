@@ -1,0 +1,53 @@
+{
+  "sidebar_form": {
+    "title": "Получить бизнес-план и контакты франшизы Группы&nbsp;компаний Альфа",
+    "subtitle": "Ваш запрос получит Михаил&nbsp;Черепанов",
+    "content": {
+      "image": {
+        "name": "sidebar_form/01.png",
+        "alt": "Михаил Черепанов, специалист отдела развития сети ГК Альфа."
+      },
+      "title": "Специалист отдела развития <br> сети ГК Альфа"
+    },
+    "inputs": [{
+      "element": {
+        "id": "sidebar_form_name",
+        "type": "text",
+        "text": "Введите ваше имя",
+        "name": "name",
+        "attrs": "required data-pristine-required-message='Это обязательное поле'"
+      }
+    }, {
+      "element": {
+        "id": "sidebar_form_city",
+        "type": "text",
+        "text": "Введите ваш город",
+        "name": "city",
+        "attrs": "required data-pristine-required-message='Это обязательное поле'"
+      }
+    }, {
+      "element": {
+        "id": "sidebar_form_email",
+        "type": "email",
+        "text": "Введите ваш E-mail",
+        "name": "email",
+        "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+      }
+    }, {
+      "element": {
+        "id": "sidebar_form_tel",
+        "type": "tel",
+        "text": "Введите номер телефона",
+        "name": "tel",
+        "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+      }
+    }],
+    "button": {
+      "text": {
+        "text": "Получить бизнес-план"
+      },
+      "attrs": "type='submit'"
+    },
+    "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных"
+  }
+}

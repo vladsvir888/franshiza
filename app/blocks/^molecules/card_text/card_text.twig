@@ -1,13 +1,16 @@
 <article class="card-text">
   {% view "@image" with {
     image: card_text.image|merge({
-      class: "card-text__img"
+      class: "card-text__img",
+      picture: {
+        class: "card-text__picture"
+      }
     })
   } %}
 
   <div class="card-text__content">
     {% view "@title" with {
-      title: card_text.title|default({})|merge({
+      title: card_text.title|merge({
         class: "card-text__title"
       })
     } %}

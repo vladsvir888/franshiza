@@ -19,9 +19,9 @@
       "items": [{
         "text": {
           "text": "Запросы"
-        },
-        "attrs": "aria-current='page'"
+        }
       }, {
+        "href": "#",
         "text": {
           "text": "Экспресс форма"
         }
@@ -93,7 +93,6 @@
         "attrs": "download"
       },
       "table": {
-        "class": "table-wrap--request",
         "thead": {
           "items": [{
             "text": "№"

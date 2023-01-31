@@ -13,32 +13,20 @@
           not_found: not_found.content_block
         } %}
 
-        {% view "&section" with {
-          section: not_found.review_franchise_and_exclusive_interviews
-        } %}
+        {% view "&review_franchise_and_exclusive_interviews" %}
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: not_found.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: not_found.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
 
-        {% view "&section" with {
-          section: not_found.news_and_info_about_franchise
-        } %}
+        {% view "&news_and_info_about_franchise" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: not_found.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: not_found.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

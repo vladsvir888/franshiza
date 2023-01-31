@@ -19,32 +19,20 @@
           form_block: registration.form_block
         } %}
 
-        {% view "&section" with {
-          section: registration.review_franchise_and_exclusive_interviews
-        } %}
+        {% view "&review_franchise_and_exclusive_interviews" %}
 
         {% view "@banner" %}
 
-        {% view "&accordion" with {
-          accordion: registration.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: registration.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
 
-        {% view "&section" with {
-          section: registration.news_and_info_about_franchise
-        } %}
+        {% view "&news_and_info_about_franchise" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: registration.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: registration.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

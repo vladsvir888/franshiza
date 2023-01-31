@@ -25,26 +25,16 @@
 
         {% view "@banner" %}
 
-        {% view "&section" with {
-          section: news.news_and_info_franchise
-        } %}
+        {% view "&news_and_info_about_franchise" %}
 
-        {% view "&accordion" with {
-          accordion: news.sidebar_accordion_mobile
-        } %}
+        {% view "&sidebar_accordion_mobile" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: news.sidebar_slider_mobile
-        } %}
+        {% view "&sidebar_slider_mobile" %}
       </div>
       <aside class="main__sidebar">
-        {% view "&accordion" with {
-          accordion: news.sidebar_accordion
-        } %}
+        {% view "&sidebar_accordion" %}
 
-        {% view "&sidebar_slider" with {
-          sidebar_slider: news.sidebar_slider
-        } %}
+        {% view "&sidebar_slider" %}
       </aside>
     </div>
   </div>

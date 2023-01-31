@@ -10,7 +10,7 @@
     }
   }
 
-  &__list {
+  &__socials {
     display: flex;
     gap: rem(8);
     margin-bottom: rem(15);
@@ -20,10 +20,11 @@
     }
   }
 
-  &__item {
-    width: 50%;
+  &__link {
+    @include flex-center;
+    width: 100%;
+    padding: rem(10);
     border-radius: rem(6);
-    transition: background-color var(--transition);
 
     &--telegram {
       background-color: var(--pallette-cerulean);
@@ -52,12 +53,6 @@
         }
       }
     }
-  }
-
-  &__link {
-    @include flex-center;
-    width: 100%;
-    padding: rem(10);
 
     &-icon {
       width: rem(24);
@@ -67,10 +62,6 @@
 
   &__form {
     margin-bottom: rem(14);
-  }
-
-  &__input-block {
-    margin-bottom: rem(9);
   }
 
   &__btn {

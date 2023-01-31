@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <form class="form sidebar-form__form" action="/" method="get">
+  <form class="form form--validation sidebar-form__form" action="/" method="get">
     {% for input in sidebar_form.inputs %}
       {% view "@input" with {
         input: input

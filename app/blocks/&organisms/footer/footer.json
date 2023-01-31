@@ -67,9 +67,9 @@
       },
       "list": {
         "items": [{
-          "class": "subscribe__item--telegram",
           "link": {
             "href": "#",
+            "class": "subscribe__link--telegram",
             "attrs": "aria-label='Телеграм'",
             "icon": {
               "class": "subscribe__link-icon",
@@ -77,9 +77,9 @@
             }
           }
         }, {
-          "class": "subscribe__item--youtube",
           "link": {
             "href": "#",
+            "class": "subscribe__link--youtube",
             "attrs": "aria-label='Ютуб'",
             "icon": {
               "class": "subscribe__link-icon",
@@ -90,14 +90,12 @@
       },
       "form": {
         "input": {
-          "wrap": {
-            "class": "subscribe__input-block"
-          },
           "element": {
             "class": "subscribe__input",
-            "type": "text",
+            "type": "email",
             "text": "Ваш E-mail",
-            "name": "subscribe"
+            "name": "subscribe",
+            "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
           }
         },
         "btn": {

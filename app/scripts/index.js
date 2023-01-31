@@ -15,6 +15,7 @@ import topBtn from './components/topBtn';
 import similarFranchiseSlider from './components/similarFranchiseSlider';
 import toggleText from './components/toggleText';
 import initDatepicker from './components/datepicker';
+import initValidation from './components/validation';
 
 document.addEventListener('DOMContentLoaded', () => {
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
@@ -39,11 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
   showModal({
     btnSelector: '.statistics__btn',
     modalSelector: '#modal_login',
+    closeSelector: '.modal__close-btn',
   });
   showModal({
     btnSelector: '.form-block__modal-btn',
     modalSelector: '#send_request',
-    closeSelector: '.modal__footer-btn',
+    closeSelector: '.modal__close-btn',
   });
 
   toggleResultList();
@@ -67,4 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
 
   initDatepicker();
+
+  initValidation();
 });
