@@ -6,11 +6,10 @@ import Accordion from './components/accordion';
 import sidebarSlider from './components/sidebarSlider';
 import detailTabsSlider from './components/detailTabsSlider';
 import initVideo from './components/video';
-import addToList from './components/addToList';
+import Wishlist from './components/wishlist';
 import scrollToForm from './components/scrollToForm';
 import showModal from './components/showModal';
 import Dropdown from './components/dropdown';
-import toggleResultList from './components/toggleResultList';
 import topBtn from './components/topBtn';
 import similarFranchiseSlider from './components/similarFranchiseSlider';
 import toggleText from './components/toggleText';
@@ -33,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initVideo();
 
-  addToList();
+  new Wishlist();
 
   scrollToForm();
 
@@ -47,8 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modalSelector: '#send_request',
     closeSelector: '.modal__close-btn',
   });
-
-  toggleResultList();
 
   topBtn();
 

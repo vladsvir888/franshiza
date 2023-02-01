@@ -73,6 +73,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "attrs": "data-id='1'",
                     "image": {
                       "name": "card_block/09.jpg",
                       "alt": "Франшиза Burger Club",
@@ -116,11 +117,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='1'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='2'",
                     "image": {
                       "name": "card_block/10.jpg",
                       "alt": "Франшиза Персональное решение",
@@ -164,11 +167,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='2'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='3'",
                     "image": {
                       "name": "card_block/11.jpg",
                       "alt": "Франшиза s.Oliver shoes",
@@ -212,11 +217,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='3'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='4'",
                     "image": {
                       "name": "card_block/12.jpg",
                       "alt": "Франшиза Растем вместе",
@@ -260,11 +267,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='4'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='5'",
                     "image": {
                       "name": "card_block/13.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -308,11 +317,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='5'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='6'",
                     "image": {
                       "name": "card_block/14.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -356,7 +367,8 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='6'"
                         }
                       }
                     }
@@ -375,6 +387,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "attrs": "data-id='1'",
                     "image": {
                       "name": "card_block/09.jpg",
                       "alt": "Франшиза Burger Club",
@@ -418,11 +431,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='1'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='2'",
                     "image": {
                       "name": "card_block/10.jpg",
                       "alt": "Франшиза Персональное решение",
@@ -466,11 +481,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='2'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='3'",
                     "image": {
                       "name": "card_block/11.jpg",
                       "alt": "Франшиза s.Oliver shoes",
@@ -514,11 +531,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='3'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='4'",
                     "image": {
                       "name": "card_block/12.jpg",
                       "alt": "Франшиза Растем вместе",
@@ -562,11 +581,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='4'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='5'",
                     "image": {
                       "name": "card_block/13.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -610,11 +631,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='5'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='6'",
                     "image": {
                       "name": "card_block/14.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -658,7 +681,8 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='6'"
                         }
                       }
                     }
@@ -677,6 +701,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "attrs": "data-id='1'",
                     "image": {
                       "name": "card_block/09.jpg",
                       "alt": "Франшиза Burger Club",
@@ -720,11 +745,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='1'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='2'",
                     "image": {
                       "name": "card_block/10.jpg",
                       "alt": "Франшиза Персональное решение",
@@ -768,11 +795,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='2'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='3'",
                     "image": {
                       "name": "card_block/11.jpg",
                       "alt": "Франшиза s.Oliver shoes",
@@ -816,11 +845,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='3'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='4'",
                     "image": {
                       "name": "card_block/12.jpg",
                       "alt": "Франшиза Растем вместе",
@@ -864,11 +895,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='4'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='5'",
                     "image": {
                       "name": "card_block/13.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -912,11 +945,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='5'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='6'",
                     "image": {
                       "name": "card_block/14.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -960,7 +995,8 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='6'"
                         }
                       }
                     }
@@ -979,6 +1015,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "attrs": "data-id='1'",
                     "image": {
                       "name": "card_block/09.jpg",
                       "alt": "Франшиза Burger Club",
@@ -1022,11 +1059,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='1'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='2'",
                     "image": {
                       "name": "card_block/10.jpg",
                       "alt": "Франшиза Персональное решение",
@@ -1070,11 +1109,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='2'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='3'",
                     "image": {
                       "name": "card_block/11.jpg",
                       "alt": "Франшиза s.Oliver shoes",
@@ -1118,11 +1159,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='3'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='4'",
                     "image": {
                       "name": "card_block/12.jpg",
                       "alt": "Франшиза Растем вместе",
@@ -1166,11 +1209,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='4'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='5'",
                     "image": {
                       "name": "card_block/13.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -1214,11 +1259,13 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='5'"
                         }
                       }
                     }
                   }, {
+                    "attrs": "data-id='6'",
                     "image": {
                       "name": "card_block/14.jpg",
                       "alt": "Франшиза Онлайн Дом",
@@ -1262,7 +1309,8 @@
                         "second_btn": {
                           "text": {
                             "text": "Добавить в список"
-                          }
+                          },
+                          "attrs": "data-btn-id='6'"
                         }
                       }
                     }
@@ -1320,71 +1368,9 @@
       },
       "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
       "toggle": {
+        "btn": true,
         "list": {
-          "items": [{
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза ГК Альфа"
-            },
-            "image": {
-              "name": "card_text/01.jpg",
-              "alt": "Франшиза ГК Альфа",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }, {
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза Гриль Хаус"
-            },
-            "image": {
-              "name": "card_text/02.jpg",
-              "alt": "Франшиза Гриль Хаус",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }, {
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза UP SUSHI"
-            },
-            "image": {
-              "name": "card_text/03.jpg",
-              "alt": "Франшиза UP SUSHI",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }]
+          "text": "Добавьте сюда франшизы, чтобы запросить информацию сразу у нескольких"
         }
       }
     },

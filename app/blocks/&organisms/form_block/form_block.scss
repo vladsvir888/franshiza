@@ -86,7 +86,7 @@
         transform: rotate(-180deg);
       }
 
-      + #{$this}__toggle-list {
+      + #{$this}__toggle-wrap {
         visibility: visible;
       }
     }
@@ -98,10 +98,7 @@
       transition: transform var(--transition);
     }
 
-    &-list {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: rem(20);
+    &-wrap {
       width: 100%;
       max-height: 0;
       overflow: hidden;
@@ -115,6 +112,12 @@
           margin-bottom: rem(30);
         }
       }
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: rem(20);
 
       @include media('767', max) {
         grid-template-columns: repeat(2, 1fr);
@@ -123,6 +126,10 @@
       @include media('375', max) {
         grid-template-columns: 1fr;
       }
+    }
+
+    &-text {
+      text-align: center;
     }
   }
 

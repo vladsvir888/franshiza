@@ -55,15 +55,18 @@
         "content": {
           "items": [{
             "class": "card--secondary",
+            "attrs": "data-id='1'",
             "image": {
               "name": "catalog/grill.png",
               "alt": "Франшиза Гриль Хаус."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза Гриль Хаус"
+                "text": "Франшиза Гриль Хаус 1"
               },
               "text": "франшиза ресторана",
               "investment": {
@@ -75,19 +78,23 @@
               "class": "btn--toggle-white",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='1'"
             }
           }, {
             "class": "card--secondary",
+            "attrs": "data-id='2'",
             "image": {
               "name": "catalog/it_franchise.png",
               "alt": "Франшиза ГК Альфа."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза ГК Альфа"
+                "text": "Франшиза ГК Альфа 1"
               },
               "text": "франшиза интернет технологии",
               "investment": {
@@ -99,19 +106,23 @@
               "class": "btn--toggle-white",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='2'"
             }
           }, {
             "class": "card--secondary",
+            "attrs": "data-id='3'",
             "image": {
               "name": "catalog/up_sushi.png",
               "alt": "Франшиза UP SUSHI."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза UP SUSHI"
+                "text": "Франшиза UP SUSHI 1"
               },
               "text": "франшиза ресторана суши с доставкой",
               "investment": {
@@ -123,19 +134,23 @@
               "class": "btn--toggle-white",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='3'"
             }
           }, {
             "class": "card--secondary",
+            "attrs": "data-id='4'",
             "image": {
               "name": "catalog/it_franchise.png",
               "alt": "Франшиза ГК Альфа."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза ГК Альфа"
+                "text": "Франшиза ГК Альфа 2"
               },
               "text": "франшиза интернет технологии",
               "investment": {
@@ -147,92 +162,23 @@
               "class": "btn--toggle-white",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='4'"
             }
           }, {
             "class": "card--secondary",
+            "attrs": "data-id='5'",
             "image": {
               "name": "catalog/grill.png",
               "alt": "Франшиза Гриль Хаус."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза Гриль Хаус"
-              },
-              "text": "франшиза ресторана",
-              "investment": {
-                "text": "Инвестиции",
-                "num": "от 3 550 000 р."
-              }
-            },
-            "button": {
-              "class": "btn--toggle-white",
-              "text": {
-                "level": 3,
-                "text": "Добавить в список"
-              }
-            }
-          }, {
-            "class": "card--secondary",
-            "image": {
-              "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
-            },
-            "content": {
-              "title": {
-                "link": true,
-                "level": 2,
-                "text": "Франшиза UP SUSHI"
-              },
-              "text": "франшиза ресторана суши с доставкой",
-              "investment": {
-                "text": "Инвестиции",
-                "num": "от 3 550 000 р."
-              }
-            },
-            "button": {
-              "class": "btn--toggle-white",
-              "text": {
-                "text": "Добавить в список"
-              }
-            }
-          }, {
-            "class": "card--secondary",
-            "image": {
-              "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
-            },
-            "content": {
-              "title": {
-                "link": true,
-                "level": 2,
-                "text": "Франшиза UP SUSHI"
-              },
-              "text": "франшиза ресторана суши с доставкой",
-              "investment": {
-                "text": "Инвестиции",
-                "num": "от 3 550 000 р."
-              }
-            },
-            "button": {
-              "class": "btn--toggle-white",
-              "text": {
-                "text": "Добавить в список"
-              }
-            }
-          }, {
-            "class": "card--secondary",
-            "image": {
-              "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
-            },
-            "content": {
-              "title": {
-                "link": true,
-                "level": 2,
-                "text": "Франшиза Гриль Хаус"
+                "text": "Франшиза Гриль Хаус 2"
               },
               "text": "франшиза ресторана",
               "investment": {
@@ -245,19 +191,108 @@
               "text": {
                 "level": 3,
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='5'"
             }
           }, {
             "class": "card--secondary",
+            "attrs": "data-id='6'",
+            "image": {
+              "name": "catalog/up_sushi.png",
+              "alt": "Франшиза UP SUSHI."
+            },
+            "content": {
+              "title": {
+                "link": {
+                  "class": "js-title"
+                },
+                "level": 2,
+                "text": "Франшиза UP SUSHI 2"
+              },
+              "text": "франшиза ресторана суши с доставкой",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-white",
+              "text": {
+                "text": "Добавить в список"
+              },
+              "attrs": "data-btn-id='6'"
+            }
+          }, {
+            "class": "card--secondary",
+            "attrs": "data-id='7'",
+            "image": {
+              "name": "catalog/up_sushi.png",
+              "alt": "Франшиза UP SUSHI."
+            },
+            "content": {
+              "title": {
+                "link": {
+                  "class": "js-title"
+                },
+                "level": 2,
+                "text": "Франшиза UP SUSHI 3"
+              },
+              "text": "франшиза ресторана суши с доставкой",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-white",
+              "text": {
+                "text": "Добавить в список"
+              },
+              "attrs": "data-btn-id='7'"
+            }
+          }, {
+            "class": "card--secondary",
+            "attrs": "data-id='8'",
+            "image": {
+              "name": "catalog/grill.png",
+              "alt": "Франшиза Гриль Хаус."
+            },
+            "content": {
+              "title": {
+                "link": {
+                  "class": "js-title"
+                },
+                "level": 2,
+                "text": "Франшиза Гриль Хаус 3"
+              },
+              "text": "франшиза ресторана",
+              "investment": {
+                "text": "Инвестиции",
+                "num": "от 3 550 000 р."
+              }
+            },
+            "button": {
+              "class": "btn--toggle-white",
+              "text": {
+                "level": 3,
+                "text": "Добавить в список"
+              },
+              "attrs": "data-btn-id='8'"
+            }
+          }, {
+            "class": "card--secondary",
+            "attrs": "data-id='9'",
             "image": {
               "name": "catalog/it_franchise.png",
               "alt": "Франшиза ГК Альфа."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза ГК Альфа"
+                "text": "Франшиза ГК Альфа 3"
               },
               "text": "франшиза интернет технологии",
               "investment": {
@@ -269,18 +304,22 @@
               "class": "btn--toggle-white",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='9'"
             }
           }, {
+            "attrs": "data-id='10'",
             "image": {
               "name": "catalog/grill.png",
               "alt": "Франшиза Гриль Хаус."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза Гриль Хаус"
+                "text": "Франшиза Гриль Хаус 4"
               },
               "text": "франшиза ресторана",
               "investment": {
@@ -293,18 +332,22 @@
               "text": {
                 "level": 3,
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='10'"
             }
           }, {
+            "attrs": "data-id='11'",
             "image": {
               "name": "catalog/it_franchise.png",
               "alt": "Франшиза ГК Альфа."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза ГК Альфа"
+                "text": "Франшиза ГК Альфа 4"
               },
               "text": "франшиза интернет технологии",
               "investment": {
@@ -316,18 +359,22 @@
               "class": "btn--toggle-gray",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='11'"
             }
           }, {
+            "attrs": "data-id='12'",
             "image": {
               "name": "catalog/up_sushi.png",
               "alt": "Франшиза UP SUSHI."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза UP SUSHI"
+                "text": "Франшиза UP SUSHI 4"
               },
               "text": "франшиза ресторана суши с доставкой",
               "investment": {
@@ -339,18 +386,22 @@
               "class": "btn--toggle-gray",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='12'"
             }
           }, {
+            "attrs": "data-id='13'",
             "image": {
               "name": "catalog/up_sushi.png",
               "alt": "Франшиза UP SUSHI."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза UP SUSHI"
+                "text": "Франшиза UP SUSHI 5"
               },
               "text": "франшиза ресторана суши с доставкой",
               "investment": {
@@ -362,18 +413,22 @@
               "class": "btn--toggle-gray",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='13'"
             }
           }, {
+            "attrs": "data-id='14'",
             "image": {
               "name": "catalog/grill.png",
               "alt": "Франшиза Гриль Хаус."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза Гриль Хаус"
+                "text": "Франшиза Гриль Хаус 5"
               },
               "text": "франшиза ресторана",
               "investment": {
@@ -386,18 +441,22 @@
               "text": {
                 "level": 3,
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='14'"
             }
           }, {
+            "attrs": "data-id='15'",
             "image": {
               "name": "catalog/it_franchise.png",
               "alt": "Франшиза ГК Альфа."
             },
             "content": {
               "title": {
-                "link": true,
+                "link": {
+                  "class": "js-title"
+                },
                 "level": 2,
-                "text": "Франшиза ГК Альфа"
+                "text": "Франшиза ГК Альфа 5"
               },
               "text": "франшиза интернет технологии",
               "investment": {
@@ -409,7 +468,8 @@
               "class": "btn--toggle-gray",
               "text": {
                 "text": "Добавить в список"
-              }
+              },
+              "attrs": "data-btn-id='15'"
             }
           }]
         }
@@ -464,71 +524,9 @@
       },
       "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
       "toggle": {
+        "btn": true,
         "list": {
-          "items": [{
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза ГК Альфа"
-            },
-            "image": {
-              "name": "card_text/01.jpg",
-              "alt": "Франшиза ГК Альфа",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }, {
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза Гриль Хаус"
-            },
-            "image": {
-              "name": "card_text/02.jpg",
-              "alt": "Франшиза Гриль Хаус",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }, {
-            "title": {
-              "level": 2,
-              "link": {
-                "class": "card-text__link"
-              },
-              "text": "Франшиза UP SUSHI"
-            },
-            "image": {
-              "name": "card_text/03.jpg",
-              "alt": "Франшиза UP SUSHI",
-              "sizes": {
-                "width": 57,
-                "height": 43
-              }
-            },
-            "btn": {
-              "text": {
-                "text": "Удалить"
-              }
-            }
-          }]
+          "text": "Добавьте сюда франшизы, чтобы запросить информацию сразу у нескольких"
         }
       }
     }

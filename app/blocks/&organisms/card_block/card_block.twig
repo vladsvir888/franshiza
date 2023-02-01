@@ -1,4 +1,7 @@
-<article class="card-block {{ card_block.class }}">
+<article
+  class="card-block js-card {{ card_block.class }}"
+  {{ card_block.attrs }}
+>
   {% view "@image" with {
     image: card_block.image|merge({
       class: "card-block__img"
@@ -18,7 +21,7 @@
       <div class="card-block__top">
         {% view "@title" with {
           title: card_block.content.title|merge({
-            class: "card-block__title"
+            class: "card-block__title js-title"
           })
         } %}
 
