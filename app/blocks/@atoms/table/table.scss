@@ -4,7 +4,8 @@
 
   &--express-form {
     table {
-      th, td {
+      th,
+      td {
         &:nth-child(1) {
           width: 11%;
         }
@@ -31,7 +32,8 @@
       }
     }
 
-    th, td {
+    th,
+    td {
       padding: rem(20) rem(127) rem(20) 0;
       border-bottom: rem(1) solid var(--pallette-mystic);
       white-space: nowrap;

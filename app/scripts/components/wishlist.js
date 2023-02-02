@@ -12,8 +12,11 @@ class Wishlist {
   };
 
   static classes = {
+    btn_toggle: 'btn--toggle',
     btn_toggle_active: 'btn--toggle-active',
+    form_block_toggle: 'form-block__toggle',
     form_block_toggle_active: 'form-block__toggle--active',
+    card_text_remove_btn: 'card-text__remove-btn',
   };
 
   static strings = {
@@ -36,12 +39,10 @@ class Wishlist {
     this.toggleWrap = document.querySelector(Wishlist.selectors.form_block_toggle_wrap);
     this.toggleText = this.toggleWrap.querySelector(Wishlist.selectors.form_block_toggle_text);
     this.toggleList = this.toggleWrap.querySelector(Wishlist.selectors.form_block_toggle_list);
-
-    this.toggleBtn.addEventListener('click', this.onClickToggleBtn.bind(this));
   }
 
-  createObjProduct(closestEl) {
-    this.parentEl = closestEl.closest(Wishlist.selectors.card);
+  createObjProduct(element) {
+    this.parentEl = element.closest(Wishlist.selectors.card);
 
     if (!this.parentEl) return;
 
@@ -56,6 +57,7 @@ class Wishlist {
     const lastElArrImg = arrImg[arrImg.length - 1];
     const imgName = lastElArrImg.split('.')[0];
 
+    // eslint-disable-next-line consistent-return
     return {
       id: dataId,
       title: titleText,
@@ -64,8 +66,7 @@ class Wishlist {
   }
 
   insertHTML() {
-    const str = this.products.map((product) => {
-      return `
+    const str = this.products.map((product) => `
         <article class="card-text">
           <picture class="card-text__picture">
             <source type="image/avif" srcset="./assets/images/card_block/${product.img}.avif">
@@ -88,8 +89,7 @@ class Wishlist {
             </button>
           </div>
         </article>
-      `;
-    }).join('');
+      `).join('');
 
     const items = this.toggleList.querySelectorAll('article');
 
@@ -111,7 +111,7 @@ class Wishlist {
   }
 
   setHeightToggleWrap() {
-    this.toggleWrap.style.maxHeight = `${this.toggleWrap.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize)}rem`;
+    this.toggleWrap.style.maxHeight = `${this.toggleWrap.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize, 10)}rem`;
   }
 
   updateCounter(type) {
@@ -134,45 +134,48 @@ class Wishlist {
     }
   }
 
-  onClickRemove(el) {
-    const parentEl = el.closest(Wishlist.selectors.card_text_remove_btn);
-
-    if (!parentEl) return;
-
-    this.remove(Number(parentEl.dataset.btnId));
-
-    this.updateCounter('minus');
-
-    this.toggleVisibilityText();
-  }
-
-  onClick(e) {
-    this.targetEl = e.target;
-
-    this.onClickRemove(this.targetEl);
-
-    const closestEl = this.targetEl.closest(Wishlist.selectors.btn_toggle);
-
-    if (!closestEl) return;
-
-    const useEl = closestEl.querySelector('use');
-    const textEl = closestEl.querySelector('span');
+  // eslint-disable-next-line class-methods-use-this, consistent-return
+  toggleWishlistBtn(element) {
+    const useEl = element.querySelector('use');
+    const textEl = element.querySelector('span');
 
     const useElAttr = useEl.getAttribute('href');
 
     const arr = useElAttr.split('#');
 
-    if (!closestEl.classList.contains(Wishlist.classes.btn_toggle_active)) {
-      closestEl.classList.add(Wishlist.classes.btn_toggle_active);
-
+    if (!element.classList.contains(Wishlist.classes.btn_toggle_active)) {
+      element.classList.add(Wishlist.classes.btn_toggle_active);
       useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_active_icon}`);
       textEl.textContent = `${Wishlist.strings.btn_toggle_active_text}`;
 
-      if (!this.toggleBtn) return;
+      return 'add_to_wishlist';
+    }
 
+    element.classList.remove(Wishlist.classes.btn_toggle_active);
+    useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_icon}`);
+    textEl.textContent = `${Wishlist.strings.btn_toggle_text}`;
+  }
+
+  onClickFormToggleBtn() {
+    if (!this.toggleBtn.classList.contains(Wishlist.classes.form_block_toggle_active)) {
+      this.toggleBtn.classList.add(Wishlist.classes.form_block_toggle_active);
+
+      this.setHeightToggleWrap();
+    } else {
+      this.toggleBtn.classList.remove(Wishlist.classes.form_block_toggle_active);
+      this.toggleWrap.removeAttribute('style');
+    }
+  }
+
+  onClickWishlistToggleBtn(element) {
+    const result = this.toggleWishlistBtn(element);
+
+    if (!this.toggleBtn) return;
+
+    if (result === 'add_to_wishlist') {
       this.updateCounter('plus');
 
-      const product = this.createObjProduct(closestEl);
+      const product = this.createObjProduct(element);
 
       this.add(product);
 
@@ -182,18 +185,11 @@ class Wishlist {
         this.setHeightToggleWrap();
       }
     } else {
-      closestEl.classList.remove(Wishlist.classes.btn_toggle_active);
-
-      useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_icon}`);
-      textEl.textContent = `${Wishlist.strings.btn_toggle_text}`;
-
-      if (!this.toggleBtn) return;
-
       this.updateCounter('minus');
 
-      const closestElId = Number(closestEl.dataset.btnId);
+      const elementId = Number(element.dataset.btnId);
 
-      this.remove(closestElId);
+      this.remove(elementId);
 
       this.toggleVisibilityText();
 
@@ -203,14 +199,35 @@ class Wishlist {
     }
   }
 
-  onClickToggleBtn() {
-    if (!this.toggleBtn.classList.contains(Wishlist.classes.form_block_toggle_active)) {
-      this.toggleBtn.classList.add(Wishlist.classes.form_block_toggle_active);
+  onClickRemoveBtn(element) {
+    this.updateCounter('minus');
 
+    const elementId = Number(element.dataset.btnId);
+
+    this.remove(elementId);
+
+    this.toggleVisibilityText();
+
+    if (this.toggleBtn.classList.contains(Wishlist.classes.form_block_toggle_active)) {
       this.setHeightToggleWrap();
-    } else {
-      this.toggleBtn.classList.remove(Wishlist.classes.form_block_toggle_active);
-      this.toggleWrap.removeAttribute('style');
+    }
+
+    this.toggleWishlistBtn(document.querySelector(`.btn--toggle[data-btn-id="${elementId}"]`));
+  }
+
+  onClick(e) {
+    const targetEl = e.target;
+
+    const closestEl = targetEl.closest('button');
+
+    if (!closestEl) return;
+
+    if (closestEl.classList.contains(Wishlist.classes.btn_toggle)) {
+      this.onClickWishlistToggleBtn(closestEl);
+    } else if (closestEl.classList.contains(Wishlist.classes.form_block_toggle)) {
+      this.onClickFormToggleBtn();
+    } else if (closestEl.classList.contains(Wishlist.classes.card_text_remove_btn)) {
+      this.onClickRemoveBtn(closestEl);
     }
   }
 }

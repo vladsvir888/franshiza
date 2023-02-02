@@ -135,7 +135,8 @@
         }
       },
       "image": {
-        "name": "price_block/01.png"
+        "name": "price_block/01.png",
+        "alt": ""
       }
     },
     "form_block": {

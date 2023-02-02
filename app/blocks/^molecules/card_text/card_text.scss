@@ -43,8 +43,8 @@
 
   &__remove {
     &-btn {
-      position: relative;
       @include flex-center-y;
+      position: relative;
       color: var(--pallette-scorpion);
 
       &:hover {

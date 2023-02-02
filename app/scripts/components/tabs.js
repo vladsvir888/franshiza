@@ -8,16 +8,17 @@ class Tabs {
     hidden: 'tabs--hidden',
   }
 
-  constructor(groupNode) { // обертка кнопок табов
+  constructor(groupNode) {
     this.tablistNode = groupNode;
 
-    this.tabs = [...this.tablistNode.querySelectorAll(Tabs.selectors.tab_btn)]; // каждая из кнопок табов
-    this.tabpanels = []; // массив контентов табов
+    this.tabs = [...this.tablistNode.querySelectorAll(Tabs.selectors.tab_btn)];
+    this.tabpanels = [];
 
+    // eslint-disable-next-line prefer-destructuring
     this.firstTab = this.tabs[0];
     this.lastTab = this.tabs[this.tabs.length - 1];
 
-    this.tabs.forEach((tab) => { // тут мы для всех кнопок табов устанавливает tabindex -1, aria-selected=false, пушим контентов табов в массив контентов табов, навешиваем обработчики
+    this.tabs.forEach((tab) => {
       const tabpanel = document.getElementById(tab.getAttribute('aria-controls'));
 
       tab.setAttribute('tabindex', -1);
@@ -28,15 +29,16 @@ class Tabs {
       tab.addEventListener('click', this.onClick.bind(this));
     });
 
-    this.setSelectedTab(this.firstTab, false); // тут для первой кнопки табов устанавливаем aria-selected=true, удаляем tabindex, удаляем класс, который отвечает за скрытие табов и устанавливаем фокус
+    this.setSelectedTab(this.firstTab, false);
   }
 
   setSelectedTab(currentTab, setFocus) {
     if (typeof setFocus !== 'boolean') {
+      // eslint-disable-next-line no-param-reassign
       setFocus = true;
     }
 
-    this.tabs.forEach((tab, i) => { // проверяем условие (если кнопка кликнутого таба равна итерируемой кнопке)
+    this.tabs.forEach((tab, i) => {
       if (currentTab === tab) {
         tab.setAttribute('aria-selected', 'true');
         tab.removeAttribute('tabindex');
@@ -59,7 +61,7 @@ class Tabs {
     if (currentTab === this.firstTab) {
       this.setSelectedTab(this.lastTab);
     } else {
-      index = this.tabs.indexOf(currentTab); // находим индекс текущего таба (тот, с которого уходит фокус)
+      index = this.tabs.indexOf(currentTab);
       this.setSelectedTab(this.tabs[index - 1]);
     }
   }

@@ -20,7 +20,7 @@
       class="img {% if image.class %}{{ image.class }}{% endif %}"
       src="{{ path ~ image.name }}"
       loading="lazy"
-      {% if image.alt %}alt="{{ image.alt }}"{% endif %}
+      {% if image.alt is defined %}alt="{{ image.alt }}"{% endif %}
       {% if image.sizes.width %}width="{{ image.sizes.width }}"{% endif %}
       {% if image.sizes.height %}height="{{ image.sizes.height }}"{% endif %}
       {% if image.attrs %}{{ image.attrs }}{% endif %}
@@ -43,7 +43,7 @@
     <img
       class="img {% if image.class %}{{ image.class }}{% endif %}"
       src="{{ path ~ image.name }}"
-      {% if image.alt %}alt="{{ image.alt }}"{% endif %}
+      {% if image.alt is defined %}alt="{{ image.alt }}"{% endif %}
       {% if image.sizes.width %}width="{{ image.sizes.width }}"{% endif %}
       {% if image.sizes.height %}height="{{ image.sizes.height }}"{% endif %}
       {% if image.attrs %}{{ image.attrs }}{% endif %}

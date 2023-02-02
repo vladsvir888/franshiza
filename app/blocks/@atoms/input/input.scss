@@ -95,6 +95,12 @@
     }
   }
 
+  &__fieldset {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(8);
+  }
+
   &__img {
     margin: rem(8) auto rem(8);
   }

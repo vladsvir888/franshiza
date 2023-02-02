@@ -3,6 +3,7 @@
   class="modal {{ modal.class }}"
   {{ modal.attrs }}
 >
+
   {% view "@title" with {
     title: modal.title|merge({
       class: "modal__title"

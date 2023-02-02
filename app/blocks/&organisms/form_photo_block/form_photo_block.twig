@@ -7,11 +7,13 @@
 
   <div class="form-photo-block__form-block">
     <form class="form form--validation form-photo-block__form" action="/" method="get">
-      {% for input in form_photo_block.inputs %}
-        {% view "@input" with {
-          input: input
-        } %}
-      {% endfor %}
+      <fieldset class="form__fieldset">
+        {% for input in form_photo_block.inputs %}
+          {% view "@input" with {
+            input: input
+          } %}
+        {% endfor %}
+      </fieldset>
 
       {% view "@button" with {
         button: form_photo_block.button|merge({

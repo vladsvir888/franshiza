@@ -27,7 +27,7 @@
               "class": "search__icon",
               "name": "sprite-mono.svg#search"
             },
-            "attrs": "type='submit'"
+            "attrs": "type='submit' aria-label='Отправить'"
           }
         }
       }

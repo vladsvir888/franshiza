@@ -27,6 +27,7 @@ const initValidation = () => {
     }
 
     return false;
+  // eslint-disable-next-line no-template-curly-in-string
   }, '${1}', 1, false);
 
   function appendAlertMessage(form) {

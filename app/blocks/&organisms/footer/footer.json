@@ -68,9 +68,9 @@
       "list": {
         "items": [{
           "link": {
-            "href": "#",
+            "href": "https://t.me/franshiza_info",
             "class": "subscribe__link--telegram",
-            "attrs": "aria-label='Телеграм'",
+            "attrs": "aria-label='Телеграм' target='_blank'",
             "icon": {
               "class": "subscribe__link-icon",
               "name": "sprite-mono.svg#telegram"
@@ -78,9 +78,9 @@
           }
         }, {
           "link": {
-            "href": "#",
+            "href": "https://www.youtube.com/channel/UC0o-BrnqBfEFM7oU43im_-w",
             "class": "subscribe__link--youtube",
-            "attrs": "aria-label='Ютуб'",
+            "attrs": "aria-label='Ютуб' target='_blank'",
             "icon": {
               "class": "subscribe__link-icon",
               "name": "sprite-mono.svg#youtube"

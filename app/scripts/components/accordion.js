@@ -30,8 +30,9 @@ class Accordion {
     }
   }
 
+  // eslint-disable-next-line class-methods-use-this
   setMaxHeight(element) {
-    return `${element.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize)}rem`;
+    return `${element.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize, 10)}rem`;
   }
 
   onClickAlwaysOpen(e) {

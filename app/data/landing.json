@@ -1379,25 +1379,33 @@
       "text": "Поделитесь с друзьями:",
       "list": {
         "items": [{
+          "href": "https://vk.com/share.php?url=https://franshiza-info.ru",
           "icon": {
             "class": "socials__icon",
             "name": "sprite-multi.svg#vk"
-          }
+          },
+          "attrs": "target='_blank' aria-label='Вконтакте'"
         }, {
+          "href": "mailto:franshiza-info.ru",
           "icon": {
             "class": "socials__icon",
             "name": "sprite-multi.svg#email"
-          }
+          },
+          "attrs": "aria-label='Почта'"
         }, {
+          "href": "https://telegram.me/share/url?url=https://franshiza-info.ru",
           "icon": {
             "class": "socials__icon",
             "name": "sprite-multi.svg#telegram"
-          }
+          },
+          "attrs": "target='_blank' aria-label='Телеграм'"
         }, {
+          "href": "https://connect.ok.ru/offer?url=https://franshiza-info.ru",
           "icon": {
             "class": "socials__icon",
             "name": "sprite-multi.svg#odnokl"
-          }
+          },
+          "attrs": "target='_blank' aria-label='Одноклассники'"
         }]
       }
     },

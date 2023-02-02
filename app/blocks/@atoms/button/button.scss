@@ -82,7 +82,7 @@
 
   &--toggle-gray,
   &--toggle-white {
-    .btn__icon {
+    #{$this}__icon {
       width: rem(18);
       height: rem(18);
       margin-right: rem(10);

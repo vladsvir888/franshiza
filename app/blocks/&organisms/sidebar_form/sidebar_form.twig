@@ -23,11 +23,13 @@
   </div>
 
   <form class="form form--validation sidebar-form__form" action="/" method="get">
-    {% for input in sidebar_form.inputs %}
-      {% view "@input" with {
-        input: input
-      } %}
-    {% endfor %}
+    <fieldset class="form__fieldset">
+      {% for input in sidebar_form.inputs %}
+        {% view "@input" with {
+          input: input
+        } %}
+      {% endfor %}
+    </fieldset>
 
     {% view "@button" with {
       button: sidebar_form.button|merge({

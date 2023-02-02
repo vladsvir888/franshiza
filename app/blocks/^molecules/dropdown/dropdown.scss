@@ -3,7 +3,6 @@
 
   position: relative;
   display: inline-flex;
-  // margin-bottom: rem(30);
   margin-bottom: rem(24);
 
   @include media('600', max) {

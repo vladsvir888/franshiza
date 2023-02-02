@@ -48,12 +48,14 @@
     class="form form--validation form-block__form"
     action="/"
     method="get"
-    >
-    {% for input in form_block.inputs %}
-      {% view "@input" with {
-        input: input
-      } %}
-    {% endfor %}
+  >
+    <fieldset class="form__fieldset">
+      {% for input in form_block.inputs %}
+        {% view "@input" with {
+          input: input
+        } %}
+      {% endfor %}
+    </fieldset>
 
     {% if form_block.button_forgot_password %}
       {% view "@button" with {

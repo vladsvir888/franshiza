@@ -26,25 +26,33 @@
       "socials": {
         "list": {
           "items": [{
+            "href": "https://accounts.google.com/v3/signin/identifier?dsh=S1728532186%3A1675288700788104&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdUMCGcme7j6tqls0hMbSoZ34jleFkJWpOklnwn7BnGfjllPy18vEsxvWgi0LTfYi3MUiTl9w",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#gmail"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Гугл почта'"
           }, {
+            "href": "https://vk.com/share.php?url=https://franshiza-info.ru",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#vk"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Вконтакте'"
           }, {
+            "href": "https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fmail.yandex.ru%2F&backpath=https%3A%2F%2Fmail.yandex.ru%2F%3Fnoretpath%3D1&from=mail&origin=hostroot_homer_auth_ru",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#yandex"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Яндекс почта'"
           }, {
+            "href": "https://connect.mail.ru/login?connect=1&page=https%3a%2f%2fconnect.mail.ru%2fshare",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#mail"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Майл.ру почта'"
           }]
         }
       },
