@@ -10,11 +10,6 @@
 
   @include media('600', max) {
     grid-template-columns: 1fr;
-    gap: rem(14);
-    padding: rem(14);
-  }
-
-  @include media('375', max) {
     width: calc(100% + 2rem);
     gap: 0;
     margin-left: -1rem;
@@ -35,9 +30,7 @@
 
     @include media('600', max) {
       margin: 0 auto;
-    }
 
-    @include media('375', max) {
       width: 100%;
       border-radius: 0;
     }
@@ -66,7 +59,7 @@
   &__content {
     @include flex-column;
 
-    @include media('375', max) {
+    @include media('600', max) {
       padding: rem(16);
     }
 
@@ -104,7 +97,7 @@
   &__btn {
     color: var(--pallette-ebony);
 
-    @include media('375', max) {
+    @include media('600', max) {
       max-width: rem(240);
     }
   }
@@ -204,6 +197,14 @@
 
       @include media('600', max) {
         width: 100%;
+
+        &:first-child {
+          order: 1;
+        }
+
+        &:last-child {
+          order: 0;
+        }
       }
     }
   }

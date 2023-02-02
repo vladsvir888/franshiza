@@ -9,7 +9,7 @@
       margin-bottom: rem(12);
     }
 
-    @include media('375', max) {
+    @include media('600', max) {
       justify-content: space-between;
     }
   }

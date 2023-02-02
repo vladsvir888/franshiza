@@ -4,12 +4,9 @@
   margin-bottom: rem(44);
 
   @include media('600', max) {
-    margin-bottom: rem(30);
-  }
-
-  @include media('375', max) {
     width: calc(100% + 2rem);
     margin-left: -1rem;
+    margin-bottom: rem(30);
   }
 
   &__img {
@@ -19,7 +16,7 @@
       margin: 0 auto;
     }
 
-    @include media('375', max) {
+    @include media('600', max) {
       width: 100%;
       border-radius: 0;
     }

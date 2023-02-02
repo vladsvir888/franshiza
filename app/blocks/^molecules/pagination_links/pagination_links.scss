@@ -6,7 +6,7 @@
   justify-content: space-between;
   gap: rem(10);
 
-  @include media('500', max) {
+  @include media('600', max) {
     justify-content: center;
   }
 

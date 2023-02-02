@@ -256,7 +256,11 @@ a {
     .title--h1 {
       max-width: rem(560);
 
-      @include media('375', max) {
+      @include media('600', max) {
+        max-width: rem(260);
+      }
+
+      @include media('400', max) {
         max-width: rem(170);
       }
     }

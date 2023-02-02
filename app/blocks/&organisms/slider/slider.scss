@@ -68,7 +68,7 @@
 }
 
 .similar-franchise-slider {
-  @include media('500', max) {
+  @include media('600', max) {
     width: calc(100% + 2rem);
     margin-left: -1rem;
 

@@ -16,9 +16,6 @@
     margin-right: -1rem;
     margin-bottom: rem(30);
     border-radius: 0;
-  }
-
-  @include media('375', max) {
     padding: rem(20) rem(16);
   }
 
@@ -36,7 +33,7 @@
     @include flex-center-y;
     @include font-size(16, 22);
 
-    @include media('375', max) {
+    @include media('600', max) {
       @include font-size(14, 20);
     }
   }
@@ -59,7 +56,7 @@
       justify-content: center;
     }
 
-    @include media('375', max) {
+    @include media('600', max) {
       position: absolute;
       bottom: 100%;
       right: 0;

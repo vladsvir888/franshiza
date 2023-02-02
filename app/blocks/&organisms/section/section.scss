@@ -10,7 +10,7 @@
     font-weight: 400;
     margin-bottom: rem(16);
 
-    @include media('375', max) {
+    @include media('600', max) {
       @include font-size(16, 24);
     }
   }
@@ -50,7 +50,7 @@
     @include font-size(22, 33);
     font-weight: 400;
 
-    @include media('375', max) {
+    @include media('600', max) {
       @include font-size(16, 24);
       max-width: rem(248);
     }
@@ -89,7 +89,7 @@
         grid-template-columns: repeat(2, 1fr);
       }
 
-      @include media('500', max) {
+      @include media('600', max) {
         grid-template-columns: 1fr;
         gap: rem(20);
       }

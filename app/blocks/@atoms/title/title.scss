@@ -4,7 +4,7 @@
     font-weight: 400;
     margin-bottom: rem(20);
 
-    @include media('375', max) {
+    @include media('600', max) {
       @include font-size(22, 33);
       margin-bottom: rem(16);
     }

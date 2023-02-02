@@ -20,12 +20,12 @@
     &:not(:last-child) {
       margin-bottom: rem(24);
 
-      @include media('375', max) {
+      @include media('600', max) {
         margin-bottom: rem(14);
       }
     }
 
-    @include media('375', max) {
+    @include media('600', max) {
       align-self: flex-start;
     }
   }

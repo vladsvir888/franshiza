@@ -12,7 +12,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @include media('500', max) {
+  @include media('600', max) {
     grid-template-columns: 1fr;
     gap: rem(24);
     margin: rem(24) 0 0;

@@ -11,7 +11,7 @@
     }
   }
 
-  @include media('500', max) {
+  @include media('600', max) {
     width: calc(100% + 2rem);
     margin-left: -1rem;
   }
@@ -21,7 +21,7 @@
       padding: rem(10) rem(12) rem(14);
       background-color: var(--pallette-nepal-soft);
 
-      @include media('500', max) {
+      @include media('600', max) {
         padding: rem(10) rem(16) rem(16);
       }
     }
@@ -36,7 +36,7 @@
     margin: 0 auto;
     border-radius: rem(6);
 
-    @include media('500', max) {
+    @include media('600', max) {
       width: 100%;
       border-radius: 0;
     }
@@ -50,7 +50,7 @@
     border-bottom-left-radius: rem(6);
     border-bottom-right-radius: rem(6);
 
-    @include media('500', max) {
+    @include media('600', max) {
       padding: rem(10) rem(16) 0;
     }
   }

@@ -16,9 +16,6 @@
       padding: 0 0 rem(29);
       gap: rem(29);
       border-top: 0;
-    }
-
-    @include media('375', max) {
       width: calc(100% + 2rem);
       margin-left: -1rem;
       margin-right: -1rem;
@@ -30,9 +27,6 @@
 
     @include media('600', max) {
       order: 3;
-    }
-
-    @include media('375', max) {
       padding-left: 1rem;
       max-width: rem(210);
     }
@@ -105,11 +99,7 @@
       }
 
       @include media('600', max) {
-        width: 45%;
         order: 1;
-      }
-
-      @include media('375', max) {
         width: 42%;
         padding-left: 1rem;
       }
@@ -123,11 +113,7 @@
       }
 
       @include media('600', max) {
-        width: 45%;
         order: 2;
-      }
-
-      @include media('375', max) {
         width: 42%;
         padding-right: 1rem;
       }
@@ -139,11 +125,9 @@
 
     @include media('600', max) {
       order: 0;
-    }
-
-    @include media('375', max) {
-      padding: 0 1rem;
       max-width: 100%;
+      width: 100%;
+      padding: 0 1rem;
       border-bottom: rem(1) solid var(--pallette-mystic);
       padding-bottom: rem(20);
     }

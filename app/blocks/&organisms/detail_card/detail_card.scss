@@ -98,5 +98,9 @@
 
   &__img {
     border-radius: rem(6);
+
+    @include media('600', max) {
+      width: 100%;
+    }
   }
 }

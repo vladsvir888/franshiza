@@ -8,7 +8,7 @@
     margin-bottom: rem(24);
   }
 
-  @include media('375', max) {
+  @include media('600', max) {
     flex-direction: column;
   }
 

@@ -13,10 +13,6 @@
   }
 
   @include media('600', max) {
-    --cards: 2;
-  }
-
-  @include media('375', max) {
     --cards: 1;
   }
 
@@ -36,7 +32,7 @@
         counter-increment: numeric_list;
         content: counter(numeric_list);
 
-        @include media('375', max) {
+        @include media('600', max) {
           @include font-size(16, 24);
         }
       }
@@ -47,13 +43,13 @@
     #{$this}__text {
       max-width: rem(140);
 
-      @include media('375', max) {
+      @include media('600', max) {
         max-width: 100%;
       }
     }
 
     #{$this}__item {
-      @include media('375', max) {
+      @include media('600', max) {
         flex-direction: row;
         align-items: center;
         padding: rem(12) 0;
@@ -78,9 +74,6 @@
 
     @include media('600', max) {
       @include font-size(12, 16);
-    }
-
-    @include media('375', max) {
       padding: rem(8) 0 rem(12);
 
       &:first-child {
@@ -98,7 +91,7 @@
     height: rem(24);
     margin-bottom: rem(14);
 
-    @include media('375', max) {
+    @include media('600', max) {
       margin-bottom: 0;
       margin-right: rem(8);
     }

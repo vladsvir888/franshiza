@@ -18,7 +18,7 @@
   }
 
   &--heading-left {
-    @include media('375', max) {
+    @include media('600', max) {
       align-items: flex-start;
 
       #{$this}__title {
@@ -44,6 +44,10 @@
     width: 100%;
     margin: 0 auto rem(10);
     transition: margin var(--transition);
+
+    @include media('600', max) {
+      max-width: 100%;
+    }
   }
 
   &__btn {
@@ -54,7 +58,7 @@
     @include font-size(12, 16);
     color: var(--pallette-nepal);
 
-    @include media('375', max) {
+    @include media('600', max) {
       text-align: center;
     }
   }
@@ -70,11 +74,8 @@
     }
 
     @include media('600', max) {
-      margin-bottom: rem(30);
-    }
-
-    @include media('375', max) {
       @include font-size(14, 20);
+      margin-bottom: rem(30);
     }
 
     &--active {
@@ -123,7 +124,7 @@
         grid-template-columns: repeat(2, 1fr);
       }
 
-      @include media('375', max) {
+      @include media('600', max) {
         grid-template-columns: 1fr;
       }
     }

@@ -3,6 +3,7 @@
 
   position: absolute;
   right: 0;
+  z-index: 1;
   display: none;
 
   @include media('1400', max) {
