@@ -67,7 +67,7 @@
     @include flex-center-y;
     color: var(--pallette-cerulean);
     font-weight: 700;
-    transition: margin-bottom var(--transition);
+    transition: margin-bottom var(--transition), color var(--transition);
 
     &:hover {
       color: var(--pallette-deep-cerulean);

@@ -135,7 +135,7 @@ class Wishlist {
   }
 
   // eslint-disable-next-line class-methods-use-this, consistent-return
-  toggleWishlistBtn(element) {
+  toggleWishlistBtn(element, isRemove) {
     const useEl = element.querySelector('use');
     const textEl = element.querySelector('span');
 
@@ -151,9 +151,11 @@ class Wishlist {
       return 'add_to_wishlist';
     }
 
-    element.classList.remove(Wishlist.classes.btn_toggle_active);
-    useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_icon}`);
-    textEl.textContent = `${Wishlist.strings.btn_toggle_text}`;
+    if (isRemove) {
+      element.classList.remove(Wishlist.classes.btn_toggle_active);
+      useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_icon}`);
+      textEl.textContent = `${Wishlist.strings.btn_toggle_text}`;
+    }
   }
 
   onClickFormToggleBtn() {
@@ -184,18 +186,8 @@ class Wishlist {
       if (this.toggleBtn.classList.contains(Wishlist.classes.form_block_toggle_active)) {
         this.setHeightToggleWrap();
       }
-    } else {
-      this.updateCounter('minus');
 
-      const elementId = Number(element.dataset.btnId);
-
-      this.remove(elementId);
-
-      this.toggleVisibilityText();
-
-      if (this.toggleBtn.classList.contains(Wishlist.classes.form_block_toggle_active)) {
-        this.setHeightToggleWrap();
-      }
+      element.setAttribute('onclick', `window.location.href = '${window.location.origin}/franchise/catalog.html'`);
     }
   }
 
@@ -212,7 +204,7 @@ class Wishlist {
       this.setHeightToggleWrap();
     }
 
-    this.toggleWishlistBtn(document.querySelector(`.btn--toggle[data-btn-id="${elementId}"]`));
+    this.toggleWishlistBtn(document.querySelector(`.btn--toggle[data-btn-id="${elementId}"]`), true);
   }
 
   onClick(e) {
