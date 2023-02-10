@@ -1,7 +1,7 @@
 .input-block {
   $this: &;
 
-  background-color: var(--pallette-athens-gray);
+  background-color: var(--pallette-white);
   border-radius: rem(6);
 
   &--success {
@@ -43,8 +43,9 @@
     width: 100%;
     padding: rem(11) 0 rem(11) rem(12);
     border: none;
-    background-color: var(--pallette-athens-gray);
+    background-color: var(--pallette-white);
     border-radius: rem(6);
+    color: var(--pallette-cerulean);
 
     &::placeholder {
       color: var(--pallette-nobel);
@@ -77,7 +78,7 @@
   width: 100%;
   height: rem(139);
   border: none;
-  background-color: var(--pallette-athens-gray);
+  background-color: var(--pallette-white);
   border-radius: rem(6);
   resize: none;
 

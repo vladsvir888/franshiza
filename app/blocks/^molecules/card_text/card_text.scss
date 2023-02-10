@@ -11,6 +11,12 @@
     }
   }
 
+  &--secondary {
+    #{$this}__title {
+      color: var(--pallette-deep-cerulean);
+    }
+  }
+
   &__content {
     > * {
       &:not(:last-child) {
@@ -22,7 +28,7 @@
   &__title {
     @include font-size(14, 20);
     font-weight: 400;
-    color: var(--pallette-deep-cerulean);
+    color: var(--pallette-ebony);
   }
 
   &__link {

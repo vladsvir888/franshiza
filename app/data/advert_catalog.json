@@ -107,6 +107,7 @@
         "type": "&card_block",
         "content": {
           "items": [{
+            "class": "card-block--tertiary",
             "image": {
               "name": "card_block/05.jpg",
               "alt": "Александр Левковец",
@@ -141,6 +142,7 @@
               }
             }
           }, {
+            "class": "card-block--tertiary",
             "image": {
               "name": "card_block/06.jpg",
               "alt": "Александр Левковец",
@@ -175,6 +177,7 @@
               }
             }
           }, {
+            "class": "card-block--tertiary",
             "image": {
               "name": "card_block/07.jpg",
               "alt": "Александр Левковец",
@@ -209,6 +212,7 @@
               }
             }
           }, {
+            "class": "card-block--tertiary",
             "image": {
               "name": "card_block/08.jpg",
               "alt": "Александр Левковец",

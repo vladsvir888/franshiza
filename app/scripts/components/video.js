@@ -30,6 +30,8 @@ const initVideo = () => {
     const button = video.querySelector('.video__btn');
     const id = parseMediaURL(media);
 
+    console.log(id);
+
     video.addEventListener('click', () => {
       const iframe = createIframe(id);
 

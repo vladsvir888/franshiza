@@ -90,6 +90,9 @@
       },
       "form": {
         "input": {
+          "wrap": {
+            "class": "subscribe__input-wrap"
+          },
           "element": {
             "class": "subscribe__input",
             "type": "email",

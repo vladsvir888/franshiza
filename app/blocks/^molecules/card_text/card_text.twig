@@ -1,4 +1,6 @@
-<article class="card-text">
+<article
+  class="card-text {{ card_text.class }}"
+>
   {% view "@image" with {
     image: card_text.image|merge({
       class: "card-text__img",

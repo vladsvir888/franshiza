@@ -14,18 +14,31 @@
   &__list {
     display: flex;
     align-items: center;
-    gap: rem(10) rem(25);
+    // gap: rem(10) rem(25);
     width: max-content;
   }
 
   &__item {
     position: relative;
 
+    &:last-child {
+      @include media('600', max) {
+        overflow: hidden;
+        max-width: rem(100);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
     &:not(:last-child) {
+      padding-right: rem(10);
+      margin-right: rem(10);
+
       &::after {
         position: absolute;
         top: 50%;
-        right: rem(-12.5);
+        // right: rem(-12.5);
+        right: 0;
         width: rem(1);
         height: 60%;
         transform: translateY(-50%);

@@ -91,9 +91,7 @@ class Wishlist {
         </article>
       `).join('');
 
-    const items = this.toggleList.querySelectorAll('article');
-
-    items.forEach((item) => item.remove());
+    this.toggleList.innerHTML = '';
 
     this.toggleList.insertAdjacentHTML('afterbegin', str);
   }
@@ -111,7 +109,9 @@ class Wishlist {
   }
 
   setHeightToggleWrap() {
-    this.toggleWrap.style.maxHeight = `${this.toggleWrap.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize, 10)}rem`;
+    const style = window.getComputedStyle(this.toggleWrap);
+
+    this.toggleWrap.style.maxHeight = `${this.toggleWrap.scrollHeight / parseInt(window.getComputedStyle(document.body).fontSize, 10) + parseInt(style.marginBottom, 10)}rem`;
   }
 
   updateCounter(type) {

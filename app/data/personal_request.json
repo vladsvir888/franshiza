@@ -46,11 +46,11 @@
           "class": "personal-card__input-block"
         },
         "element": {
-          "class": "input-datepicker",
+          "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
           "name": "date_start",
-          "attrs": "readonly value='2023-01-01'"
+          "attrs": "value='2023-01-01'"
         },
         "icon": {
           "class": "personal-card__input-icon",
@@ -61,11 +61,11 @@
           "class": "personal-card__input-block"
         },
         "element": {
-          "class": "input-datepicker",
+          "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
           "name": "date_end",
-          "attrs": "readonly value='2023-01-30'"
+          "attrs": "value='2023-01-30'"
         },
         "icon": {
           "class": "personal-card__input-icon",
@@ -120,13 +120,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -139,13 +144,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -158,13 +168,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -177,13 +192,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -196,13 +216,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -215,13 +240,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -234,13 +264,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -253,13 +288,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -272,13 +312,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -291,13 +336,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -310,13 +360,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -329,13 +384,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -348,13 +408,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -367,13 +432,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -386,13 +456,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -405,13 +480,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -424,13 +504,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -443,13 +528,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -462,13 +552,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }, {
             "cell_items": [{
@@ -481,13 +576,18 @@
               "text": "Саратов"
             }, {
               "btn": {
-                "href": "#",
+                "href": "mailto:mihanya.engels@gmail.com",
                 "text": {
                   "text": "mihanya.engels@gmail.com"
                 }
               }
             }, {
-              "text": "+7 960 354 44 10"
+              "btn": {
+                "href": "tel:+7 960 354 44 10",
+                "text": {
+                  "text": "+7 960 354 44 10"
+                }
+              }
             }]
           }]
         }

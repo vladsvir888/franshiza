@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   similarFranchiseSlider('.similar-franchise-slider');
 
-  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element));
+  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element, 0));
 
   initDatepicker();
 

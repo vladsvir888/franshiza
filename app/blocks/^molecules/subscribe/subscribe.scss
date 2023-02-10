@@ -73,7 +73,13 @@
     color: var(--pallette-nobel);
   }
 
+  &__input-wrap {
+    background-color: var(--pallette-athens-gray);
+  }
+
   &__input {
+    background-color: var(--pallette-athens-gray);
+
     &::placeholder {
       color: var(--pallette-nepal);
     }

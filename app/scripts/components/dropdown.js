@@ -3,6 +3,7 @@ class Dropdown {
     dropdown: '.dropdown',
     btn: '.dropdown__btn',
     menu: '.dropdown__menu',
+    menu_btn: '.dropdown__menu-btn',
     menu_btn_active: '.dropdown__menu-btn--active',
   };
 
@@ -12,11 +13,18 @@ class Dropdown {
     menu_btn_active: 'dropdown__menu-btn--active',
   };
 
-  constructor(containerEl) {
+  constructor(containerEl, numActiveEl) {
     this.dropdown = containerEl;
     this.btn = this.dropdown.querySelector(Dropdown.selectors.btn);
     this.btns = this.dropdown.querySelectorAll(Dropdown.selectors.btn);
     this.menu = this.dropdown.querySelector(Dropdown.selectors.menu);
+    this.menuBtns = this.menu.querySelectorAll(Dropdown.selectors.menu_btn);
+
+    this.menuBtns.forEach((menuBtn, index) => {
+      if (index === numActiveEl) {
+        menuBtn.classList.add(Dropdown.classes.menu_btn_active);
+      }
+    });
 
     document.addEventListener('click', this.onClick.bind(this));
   }

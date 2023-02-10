@@ -46,11 +46,11 @@
           "class": "personal-card__input-block"
         },
         "element": {
-          "class": "input-datepicker",
+          "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
           "name": "date_start",
-          "attrs": "readonly value='2023-01-01'"
+          "attrs": "value='2023-01-01'"
         },
         "icon": {
           "class": "personal-card__input-icon",
@@ -61,11 +61,11 @@
           "class": "personal-card__input-block"
         },
         "element": {
-          "class": "input-datepicker",
+          "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
           "name": "date_end",
-          "attrs": "readonly value='2023-01-30'"
+          "attrs": "value='2023-01-30'"
         },
         "icon": {
           "class": "personal-card__input-icon",

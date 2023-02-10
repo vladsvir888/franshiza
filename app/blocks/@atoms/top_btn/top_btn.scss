@@ -1,7 +1,7 @@
 .top-btn {
   @include flex-center;
   position: fixed;
-  top: 50%;
+  bottom: rem(45);
   z-index: 10;
   right: rem(24);
   width: rem(50);
@@ -10,7 +10,6 @@
   background-color: var(--pallette-mystic-soft);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-50%);
   transition: background-color var(--transition), opacity var(--transition);
 
   &--active {

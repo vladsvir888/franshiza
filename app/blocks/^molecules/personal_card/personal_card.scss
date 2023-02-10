@@ -75,8 +75,11 @@
   }
 
   &__input {
+    background-color: var(--pallette-athens-gray);
+
     &-block {
       position: relative;
+      background-color: var(--pallette-athens-gray);
 
       &:first-child {
         &::after {
