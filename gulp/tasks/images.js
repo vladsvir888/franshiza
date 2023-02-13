@@ -3,8 +3,8 @@ import imagemin from 'gulp-imagemin';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminWebp from 'imagemin-webp';
 import gulpif from 'gulp-if';
-import rename from 'gulp-rename';
 import gulpAvif from 'gulp-avif';
+import gulpWebp from 'gulp-webp';
 import {
   config, src, dest, watch, series,
 } from '../config';
@@ -26,9 +26,7 @@ const convertImagesToWebp = () => (
     .pipe(gulpif(config.isProd, imagemin([
       imageminWebp({ quality: 80 }),
     ])))
-    .pipe(rename({
-      extname: '.webp',
-    }))
+    .pipe(gulpWebp())
     .pipe(dest(`${config.build.assets}/images`))
 );
 

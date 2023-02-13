@@ -63,6 +63,7 @@
     "air-datepicker": "^3.1.0",
     "core-js": "^3.20.0",
     "focus-trap": "^7.2.0",
+    "gulp-webp": "^4.0.1",
     "pristinejs": "^0.1.9",
     "swiper": "^8.3.0",
     "youtube-player": "^5.5.2"

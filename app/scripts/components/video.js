@@ -3,10 +3,30 @@ import YouTubePlayer from 'youtube-player';
 const initVideo = () => {
   const arr = [];
 
+  function stopVideo(playerId) {
+    arr.forEach((item) => {
+      item.getIframe().then((res) => {
+        if (res.id !== playerId) {
+          item.pauseVideo();
+        }
+      });
+    });
+  }
+
   function createIframe(id, video) {
-    return YouTubePlayer(video.querySelector('.video__iframe'), {
+    const player = YouTubePlayer(video.querySelector('.video__iframe'), {
       videoId: id,
     });
+
+    player.on('stateChange', (event) => {
+      if (event.data === 1) {
+        stopVideo(event.target.h.id);
+      }
+    });
+
+    arr.push(player);
+
+    player.playVideo();
   }
 
   function parseMediaURL(media) {
@@ -24,16 +44,10 @@ const initVideo = () => {
     const id = parseMediaURL(media);
 
     video.addEventListener('click', () => {
-      const iframe = createIframe(id, video);
-
-      arr.push(iframe);
+      createIframe(id, video);
 
       link.remove();
       button.remove();
-
-      arr.forEach((item) => item.pauseVideo());
-
-      iframe.playVideo();
     });
 
     link.removeAttribute('href');
