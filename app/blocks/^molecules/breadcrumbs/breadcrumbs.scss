@@ -47,8 +47,10 @@
       }
 
       #{$this}__link {
-        &:hover {
-          color: var(--pallette-cerulean);
+        @media (hover: hover) {
+          &:hover {
+            color: var(--pallette-cerulean);
+          }
         }
       }
     }

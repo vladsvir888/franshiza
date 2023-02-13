@@ -10,9 +10,11 @@
     padding: rem(12);
   }
 
-  &:hover {
-    #{$this}__title {
-      color: var(--pallette-cerulean);
+  @media (hover: hover) {
+    &:hover {
+      #{$this}__title {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -41,8 +43,10 @@
       color: var(--pallette-deep-cerulean);
       transition: color var(--transition);
 
-      &:hover {
-        color: var(--pallette-cerulean);
+      @media (hover: hover) {
+        &:hover {
+          color: var(--pallette-cerulean);
+        }
       }
     }
   }

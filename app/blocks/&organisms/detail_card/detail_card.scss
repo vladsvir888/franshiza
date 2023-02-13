@@ -29,6 +29,13 @@
     &:not(:last-child) {
       margin-bottom: rem(6);
     }
+
+    &--token {
+      #{$this}__descr {
+        @include font-size(14, 20);
+        font-weight: 400;
+      }
+    }
   }
 
   &__term {
@@ -46,11 +53,13 @@
       @include flex-center-y;
       color: var(--pallette-scorpion);
 
-      &:hover {
-        color: var(--pallette-cerulean);
+      @media (hover: hover) {
+        &:hover {
+          color: var(--pallette-cerulean);
 
-        #{$this}__info-icon {
-          fill: var(--pallette-cerulean);
+          #{$this}__info-icon {
+            fill: var(--pallette-cerulean);
+          }
         }
       }
     }

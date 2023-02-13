@@ -5,9 +5,11 @@
   display: flex;
   gap: rem(12);
 
-  &:hover {
-    #{$this}__link {
-      color: var(--pallette-cerulean);
+  @media (hover: hover) {
+    &:hover {
+      #{$this}__link {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -53,11 +55,13 @@
       position: relative;
       color: var(--pallette-scorpion);
 
-      &:hover {
-        color: var(--pallette-mine-shaft);
+      @media (hover: hover) {
+        &:hover {
+          color: var(--pallette-mine-shaft);
 
-        #{$this}__remove-icon {
-          fill: currentColor;
+          #{$this}__remove-icon {
+            fill: currentColor;
+          }
         }
       }
     }

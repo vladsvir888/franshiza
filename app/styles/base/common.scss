@@ -197,8 +197,10 @@ a {
       &__link {
         color: inherit;
 
-        &:hover {
-          color: var(--pallette-cerulean);
+        @media (hover: hover) {
+          &:hover {
+            color: var(--pallette-cerulean);
+          }
         }
       }
     }

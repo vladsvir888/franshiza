@@ -3,7 +3,7 @@
 
   @include media('901', min) {
     display: grid;
-    grid-template-columns: rem(183) 1fr;
+    grid-template-columns: rem(276) rem(591);
     grid-template-areas:
       "img title"
       "img content";
@@ -19,10 +19,11 @@
   }
 
   &__img {
+    width: 100%;
     border-radius: rem(6);
 
     @include media('900', max) {
-      margin-bottom: rem(24);
+      margin-bottom: rem(27);
     }
 
     @include media('600', max) {
@@ -108,6 +109,31 @@
       height: rem(16);
       fill: var(--pallette-deep-cerulean);
       pointer-events: none;
+    }
+  }
+
+  &__token {
+    margin-bottom: rem(20);
+
+    @include media('900', max) {
+      margin-bottom: rem(27);
+    }
+
+    &-text {
+      @include font-size(12, 16);
+      color: var(--pallette-scorpion);
+      padding-left: rem(16);
+      margin-bottom: rem(6);
+
+      @include media('600', max) {
+        padding-left: rem(12);
+      }
+    }
+
+    &-code {
+      padding: rem(12) rem(15);
+      background-color: var(--pallette-athens-gray);
+      border-radius: rem(6);
     }
   }
 }

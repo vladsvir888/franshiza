@@ -40,6 +40,10 @@
         "level": 1,
         "text": "Франшиза #COFFEE_SPOT"
       },
+      "token": {
+        "text": "Токен",
+        "code": "erir:34kjhkj345213sdvs"
+      },
       "text": "Задать период",
       "inputs": [{
         "wrap": {

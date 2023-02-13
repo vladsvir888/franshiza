@@ -24,9 +24,11 @@
       border-color: var(--pallette-deep-cerulean);
     }
 
-    &:hover {
-      color: var(--pallette-deep-cerulean);
-      border-color: var(--pallette-deep-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-deep-cerulean);
+        border-color: var(--pallette-deep-cerulean);
+      }
     }
   }
 }

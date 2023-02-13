@@ -5,10 +5,12 @@
   width: 100%;
   aspect-ratio: 16 / 9;
 
-  &:hover {
-    #{$this}__btn-shape {
-      fill: var(--pallette-red);
-      fill-opacity: 1;
+  @media (hover: hover) {
+    &:hover {
+      #{$this}__btn-shape {
+        fill: var(--pallette-red);
+        fill-opacity: 1;
+      }
     }
   }
 
@@ -41,7 +43,7 @@
     inset: 0;
   }
 
-  &__media {
+  &__iframe {
     position: absolute;
     top: 0;
     left: 0;

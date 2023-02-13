@@ -15,6 +15,16 @@
   } %}
 
   <div class="personal-card__content">
+    <div class="personal-card__token">
+      <p class="personal-card__token-text">
+        {{ personal_card.token.text }}
+      </p>
+
+      <p class="personal-card__token-code">
+        {{ personal_card.token.code }}
+      </p>
+    </div>
+
     <p class="personal-card__text">
       {{ personal_card.text }}
     </p>

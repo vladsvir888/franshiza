@@ -18,7 +18,7 @@
   <div class="detail-card__info">
     <dl class="detail-card__list">
       {% for item in detail_card.info.list.items %}
-        <div class="detail-card__item">
+        <div class="detail-card__item {{ item.class }}">
           <dt class="detail-card__term">
             {{ item.term }}
           </dt>

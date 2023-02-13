@@ -12,6 +12,10 @@
         }, {
           "term": "Окупаемость",
           "descr": "от 2 мес."
+        }, {
+          "class": "detail-card__item--token",
+          "term": "Токен",
+          "descr": "erir:34kjhkj345213sdvs"
         }]
       },
       "site_btn": {

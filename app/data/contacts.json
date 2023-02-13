@@ -47,28 +47,28 @@
         "textarea": {
           "text": "Укажите название и сайт франшизы.&#10;Мы пришлём Вам условия размещения",
           "name": "name_and_site_franchise",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле название и сайт франшизы является обязательным'"
         }
       }, {
         "element": {
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+          "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }, {
         "picture": {
@@ -85,7 +85,7 @@
           "type": "text",
           "text": "Введите код защиты от спама",
           "name": "code",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле код защиты от спама является обязательным'"
         }
       }],
       "button": {

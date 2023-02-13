@@ -155,6 +155,7 @@ class Wishlist {
       element.classList.remove(Wishlist.classes.btn_toggle_active);
       useEl.setAttribute('href', `${arr[0]}${Wishlist.strings.btn_toggle_icon}`);
       textEl.textContent = `${Wishlist.strings.btn_toggle_text}`;
+      element.removeAttribute('onclick');
     }
   }
 

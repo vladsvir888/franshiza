@@ -17,8 +17,10 @@
     visibility: visible;
   }
 
-  &:hover {
-    background-color: var(--pallette-mystic);
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--pallette-mystic);
+    }
   }
 
   &__icon {

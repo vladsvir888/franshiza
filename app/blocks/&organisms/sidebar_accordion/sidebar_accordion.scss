@@ -56,8 +56,10 @@
     &-btn {
       color: var(--pallette-scorpion);
 
-      &:hover {
-        color: var(--pallette-cerulean);
+      @media (hover: hover) {
+        &:hover {
+          color: var(--pallette-cerulean);
+        }
       }
     }
   }
@@ -71,11 +73,13 @@
       margin-bottom var(--transition),
       color var(--transition);
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
 
-      #{$this}__icon {
-        fill: var(--pallette-cerulean);
+        #{$this}__icon {
+          fill: var(--pallette-cerulean);
+        }
       }
     }
   }

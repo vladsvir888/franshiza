@@ -33,8 +33,10 @@
         fill: var(--pallette-white);
       }
 
-      &:hover {
-        background-color: var(--pallette-deep-cerulean);
+      @media (hover: hover) {
+        &:hover {
+          background-color: var(--pallette-deep-cerulean);
+        }
       }
     }
 
@@ -45,11 +47,13 @@
         fill: var(--pallette-cerulean);
       }
 
-      &:hover {
-        background-color: var(--pallette-cerulean);
+      @media (hover: hover) {
+        &:hover {
+          background-color: var(--pallette-cerulean);
 
-        #{$this}__link-icon {
-          fill: var(--pallette-white);
+          #{$this}__link-icon {
+            fill: var(--pallette-white);
+          }
         }
       }
     }

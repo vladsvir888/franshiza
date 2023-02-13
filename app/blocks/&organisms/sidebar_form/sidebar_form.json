@@ -15,7 +15,7 @@
         "type": "text",
         "text": "Введите ваше имя",
         "name": "name",
-        "attrs": "required data-pristine-required-message='Это обязательное поле'"
+        "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
       }
     }, {
       "element": {
@@ -23,7 +23,7 @@
         "type": "text",
         "text": "Введите ваш город",
         "name": "city",
-        "attrs": "required data-pristine-required-message='Это обязательное поле'"
+        "attrs": "required data-pristine-required-message='Поле город является обязательным'"
       }
     }, {
       "element": {
@@ -31,7 +31,7 @@
         "type": "email",
         "text": "Введите ваш E-mail",
         "name": "email",
-        "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+        "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
       }
     }, {
       "element": {
@@ -39,7 +39,7 @@
         "type": "tel",
         "text": "Введите номер телефона",
         "name": "tel",
-        "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+        "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
       }
     }],
     "button": {

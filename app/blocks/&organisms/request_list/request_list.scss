@@ -28,8 +28,10 @@
     color: var(--pallette-deep-cerulean);
     text-decoration: underline;
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 }

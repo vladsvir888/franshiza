@@ -22,8 +22,10 @@
     color: var(--pallette-deep-cerulean);
     transition: color var(--transition);
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
 
     @include media('600', max) {

@@ -685,14 +685,14 @@
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }],
       "button": {
@@ -714,14 +714,14 @@
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }],
       "button": {
@@ -743,14 +743,14 @@
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }],
       "button": {
@@ -772,14 +772,14 @@
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }],
       "button": {
@@ -989,28 +989,28 @@
           "type": "text",
           "text": "Введите ваше имя",
           "name": "name",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле имя является обязательным'"
         }
       }, {
         "element": {
           "type": "text",
           "text": "Введите ваш город",
           "name": "city",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле город является обязательным'"
         }
       }, {
         "element": {
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+          "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
         }
       }, {
         "element": {
           "type": "tel",
           "text": "Введите номер телефона",
           "name": "tel",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
+          "attrs": "required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'"
         }
       }],
       "button": {
@@ -1077,25 +1077,33 @@
       "socials": {
         "list": {
           "items": [{
+            "href": "https://accounts.google.com/v3/signin/identifier?dsh=S1728532186%3A1675288700788104&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdUMCGcme7j6tqls0hMbSoZ34jleFkJWpOklnwn7BnGfjllPy18vEsxvWgi0LTfYi3MUiTl9w",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#gmail"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Гугл почта'"
           }, {
+            "href": "https://vk.com/share.php?url=https://franshiza-info.ru",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#vk"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Вконтакте'"
           }, {
+            "href": "https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fmail.yandex.ru%2F&backpath=https%3A%2F%2Fmail.yandex.ru%2F%3Fnoretpath%3D1&from=mail&origin=hostroot_homer_auth_ru",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#yandex"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Яндекс почта'"
           }, {
+            "href": "https://connect.mail.ru/login?connect=1&page=https%3a%2f%2fconnect.mail.ru%2fshare",
             "icon": {
               "class": "socials__icon",
               "name": "sprite-multi.svg#mail"
-            }
+            },
+            "attrs": "target='_blank' aria-label='Майл.ру почта'"
           }]
         }
       },
@@ -1104,14 +1112,14 @@
           "type": "email",
           "text": "Введите ваш E-mail",
           "name": "email",
-          "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+          "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
         }
       }, {
         "element": {
           "type": "password",
           "text": "Введите пароль",
           "name": "password",
-          "attrs": "required data-pristine-required-message='Это обязательное поле'"
+          "attrs": "required data-pristine-required-message='Поле пароль является обязательным'"
         }
       }],
       "button_forgot_password": {

@@ -22,8 +22,10 @@
       color: var(--pallette-deep-cerulean);
     }
 
-    &:hover {
-      color: var(--pallette-deep-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-deep-cerulean);
+      }
     }
   }
 
@@ -45,15 +47,19 @@
       transform: rotate(180deg);
     }
 
-    &:hover {
-      background-color: var(--pallette-mystic-soft);
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--pallette-mystic-soft);
+      }
     }
 
     &[aria-disabled=true] {
       cursor: not-allowed;
 
-      &:hover {
-        background-color: var(--pallette-mystic);
+      @media (hover: hover) {
+        &:hover {
+          background-color: var(--pallette-mystic);
+        }
       }
     }
   }

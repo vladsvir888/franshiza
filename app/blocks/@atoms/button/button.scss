@@ -31,16 +31,20 @@
   &--primary {
     background-color: var(--pallette-cerulean);
 
-    &:hover {
-      background-color: var(--pallette-deep-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--pallette-deep-cerulean);
+      }
     }
   }
 
   &--secondary {
     background-color: var(--pallette-deep-cerulean);
 
-    &:hover {
-      background-color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -48,9 +52,11 @@
     background-color: var(--pallette-white);
     color: var(--pallette-cerulean);
 
-    &:hover {
-      background-color: var(--pallette-cerulean);
-      color: var(--pallette-white);
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--pallette-cerulean);
+        color: var(--pallette-white);
+      }
     }
   }
 
@@ -59,8 +65,10 @@
     font-weight: 400;
     background-color: var(--pallette-mystic);
 
-    &:hover {
-      background-color: var(--pallette-nobel);
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--pallette-nobel);
+      }
     }
   }
 
@@ -108,11 +116,13 @@
       fill: currentColor;
     }
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
 
-      #{$this}__icon {
-        fill: var(--pallette-cerulean);
+        #{$this}__icon {
+          fill: var(--pallette-cerulean);
+        }
       }
     }
   }
@@ -121,8 +131,10 @@
     color: inherit;
     text-decoration: underline;
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 

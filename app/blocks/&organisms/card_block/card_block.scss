@@ -127,8 +127,10 @@
       }
     }
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -159,8 +161,10 @@
     @include flex-center-y;
     color: inherit;
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
 
     &:not(:last-child) {

@@ -63,8 +63,10 @@
     width: rem(32);
     height: rem(32);
 
-    &:hover {
-      fill: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        fill: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -107,8 +109,10 @@
   &__link {
     color: inherit;
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 
@@ -140,8 +144,10 @@
     color: inherit;
     font-weight: 700;
 
-    &:hover {
-      color: var(--pallette-cerulean);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-cerulean);
+      }
     }
   }
 }

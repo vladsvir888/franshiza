@@ -18,8 +18,10 @@
       color: var(--pallette-ebony);
     }
 
-    &:hover {
-      color: var(--pallette-ebony);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--pallette-ebony);
+      }
     }
   }
 }
