@@ -47,7 +47,9 @@
     }
   }
 
-  &__search {
-    max-width: rem(285);
+  @include media('601', min) {
+    &__search {
+      max-width: rem(285);
+    }
   }
 }

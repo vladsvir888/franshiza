@@ -53,8 +53,7 @@
           "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
-          "name": "date_start",
-          "attrs": "value='2023-01-01'"
+          "name": "date_start"
         },
         "icon": {
           "class": "personal-card__input-icon",
@@ -68,8 +67,7 @@
           "class": "input-datepicker personal-card__input",
           "type": "text",
           "text": "Выберите дату",
-          "name": "date_end",
-          "attrs": "value='2023-01-30'"
+          "name": "date_end"
         },
         "icon": {
           "class": "personal-card__input-icon",
