@@ -140,6 +140,11 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+  display: none;
+}
+
 .time {
   @include font-size(12, 16);
   display: block;

@@ -23,17 +23,17 @@ const copyImages = () => (
 const convertImagesToWebp = () => (
   src(config.app.imagesAfterCopy)
     .pipe(changed(config.build.assets, { extension: '.webp' }))
+    .pipe(gulpWebp())
     .pipe(gulpif(config.isProd, imagemin([
       imageminWebp({ quality: 80 }),
     ])))
-    .pipe(gulpWebp())
     .pipe(dest(`${config.build.assets}/images`))
 );
 
 const convertImagesToAvif = () => (
   src(config.app.imagesAfterCopy)
     .pipe(changed(config.build.assets, { extension: '.avif' }))
-    .pipe(gulpAvif())
+    .pipe(gulpAvif({ quality: 80 }))
     .pipe(dest(`${config.build.assets}/images`))
 );
 
