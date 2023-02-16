@@ -39,6 +39,10 @@
         margin-bottom: rem(12);
       }
     }
+
+    @include media('600', max) {
+      height: rem(235);
+    }
   }
 
   &__btn {

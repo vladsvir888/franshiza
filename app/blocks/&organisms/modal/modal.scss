@@ -1,4 +1,6 @@
 .modal {
+  $this: &;
+
   display: none;
   flex-direction: column;
   align-items: center;

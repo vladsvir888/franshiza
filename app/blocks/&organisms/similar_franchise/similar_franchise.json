@@ -42,7 +42,7 @@
             "class": "btn--toggle-gray",
             "text": {
               "level": 3,
-              "text": "Добавить в список"
+              "text": "Добавить в список <span class='visually-hidden'>Франшиза ARTCRAFT</span>"
             }
           }
         }, {
@@ -65,7 +65,7 @@
           "button": {
             "class": "btn--toggle-gray",
             "text": {
-              "text": "Добавить в список"
+              "text": "Добавить в список <span class='visually-hidden'>Франшиза INDI</span>"
             }
           }
         }, {
@@ -88,7 +88,7 @@
           "button": {
             "class": "btn--toggle-gray",
             "text": {
-              "text": "Добавить в список"
+              "text": "Добавить в список <span class='visually-hidden'>Франшиза GASTRONOM</span>"
             }
           }
         },  {
@@ -111,7 +111,7 @@
           "button": {
             "class": "btn--toggle-gray",
             "text": {
-              "text": "Добавить в список"
+              "text": "Добавить в список <span class='visually-hidden'>Франшиза GASTRONOM</span>"
             }
           }
         }]

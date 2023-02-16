@@ -98,7 +98,7 @@
             "type": "email",
             "text": "Ваш E-mail",
             "name": "subscribe",
-            "attrs": "required data-pristine-required-message='Это обязательное поле' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+            "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
           }
         },
         "btn": {

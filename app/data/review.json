@@ -274,7 +274,7 @@
               "button": {
                 "href": "#",
                 "text": {
-                  "text": "Читайте подробнее"
+                  "text": "Читайте подробнее <span class='visually-hidden'>Франшиза CENTURY 21: В лидерах рейтинга Forbes в России</span>"
                 }
               }
             }
@@ -302,7 +302,7 @@
               "button": {
                 "href": "#",
                 "text": {
-                  "text": "Читайте подробнее"
+                  "text": "Читайте подробнее <span class='visually-hidden'>Франшиза CENTURY 21: В лидерах рейтинга Forbes в России</span>"
                 }
               }
             }
@@ -330,7 +330,7 @@
               "button": {
                 "href": "#",
                 "text": {
-                  "text": "Читайте подробнее"
+                  "text": "Читайте подробнее <span class='visually-hidden'>Франшиза CENTURY 21: В лидерах рейтинга Forbes в России</span>"
                 }
               }
             }
@@ -358,7 +358,7 @@
               "button": {
                 "href": "#",
                 "text": {
-                  "text": "Читайте подробнее"
+                  "text": "Читайте подробнее <span class='visually-hidden'>Франшиза CENTURY 21: В лидерах рейтинга Forbes в России</span>"
                 }
               }
             }

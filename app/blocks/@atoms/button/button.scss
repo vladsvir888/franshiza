@@ -107,12 +107,14 @@
   &--arrow {
     display: inline-flex;
     align-items: center;
+    margin-top: rem(-2);
     color: var(--pallette-deep-cerulean);
 
     #{$this}__icon {
       width: rem(24);
       height: rem(24);
       margin-left: rem(6);
+      margin-top: rem(2);
       fill: currentColor;
     }
 

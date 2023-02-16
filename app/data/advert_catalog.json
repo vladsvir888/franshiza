@@ -136,7 +136,7 @@
               "bottom": {
                 "first_btn": {
                   "text": {
-                    "text": "Добавить франшизу в каталог"
+                    "text": "Добавить франшизу <span class='visually-hidden'>«Coffee Machine»</span> в каталог"
                   }
                 }
               }
@@ -171,7 +171,7 @@
               "bottom": {
                 "first_btn": {
                   "text": {
-                    "text": "Добавить франшизу в каталог"
+                    "text": "Добавить франшизу <span class='visually-hidden'>«Coffee Machine»</span> в каталог"
                   }
                 }
               }
@@ -206,7 +206,7 @@
               "bottom": {
                 "first_btn": {
                   "text": {
-                    "text": "Добавить франшизу в каталог"
+                    "text": "Добавить франшизу <span class='visually-hidden'>«Coffee Machine»</span> в каталог"
                   }
                 }
               }
@@ -241,7 +241,7 @@
               "bottom": {
                 "first_btn": {
                   "text": {
-                    "text": "Добавить франшизу в каталог"
+                    "text": "Добавить франшизу <span class='visually-hidden'>«Coffee Machine»</span> в каталог"
                   }
                 }
               }

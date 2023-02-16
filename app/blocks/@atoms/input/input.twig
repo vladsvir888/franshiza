@@ -51,5 +51,11 @@
         icon: input.icon
       } %}
     {% endif %}
+
+    {% if input.button %}
+      {% view "@button" with {
+        button: input.button
+      } %}
+    {% endif %}
   </div>
 {% endif %}

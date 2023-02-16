@@ -1,6 +1,7 @@
 .input-block {
   $this: &;
 
+  position: relative;
   background-color: var(--pallette-white);
   border-radius: rem(6);
 
@@ -56,6 +57,10 @@
     }
   }
 
+  &__input-password {
+    padding-right: rem(35);
+  }
+
   &__label {
     @include font-size(12, 16);
     display: block;
@@ -69,6 +74,34 @@
 
   &__message {
     margin-top: rem(4);
+  }
+
+  &__btn-eye {
+    @include flex-center;
+    position: absolute;
+    top: rem(8);
+    right: rem(10);
+
+    &.slash {
+      #{$this}__icon-eye {
+        &--no-slash {
+          display: block;
+        }
+
+        &--slash {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__icon-eye {
+    width: rem(24);
+    height: rem(24);
+
+    &--no-slash {
+      display: none;
+    }
   }
 }
 

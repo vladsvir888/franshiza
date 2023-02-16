@@ -58,7 +58,7 @@
             "attrs": "data-id='1'",
             "image": {
               "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
+              "alt": "Франшиза Гриль Хаус 1."
             },
             "content": {
               "title": {
@@ -77,7 +77,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 1</span> в список"
               },
               "attrs": "data-btn-id='1'"
             }
@@ -86,7 +86,7 @@
             "attrs": "data-id='2'",
             "image": {
               "name": "catalog/it_franchise.png",
-              "alt": "Франшиза ГК Альфа."
+              "alt": "Франшиза ГК Альфа 1."
             },
             "content": {
               "title": {
@@ -105,7 +105,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза ГК Альфа 1</span> в список"
               },
               "attrs": "data-btn-id='2'"
             }
@@ -114,7 +114,7 @@
             "attrs": "data-id='3'",
             "image": {
               "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
+              "alt": "Франшиза UP SUSHI 1."
             },
             "content": {
               "title": {
@@ -133,7 +133,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза UP SUSHI 1</span> в список"
               },
               "attrs": "data-btn-id='3'"
             }
@@ -142,7 +142,7 @@
             "attrs": "data-id='4'",
             "image": {
               "name": "catalog/it_franchise.png",
-              "alt": "Франшиза ГК Альфа."
+              "alt": "Франшиза ГК Альфа 2."
             },
             "content": {
               "title": {
@@ -161,7 +161,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза ГК Альфа 2</span> в список"
               },
               "attrs": "data-btn-id='4'"
             }
@@ -170,7 +170,7 @@
             "attrs": "data-id='5'",
             "image": {
               "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
+              "alt": "Франшиза Гриль Хаус 2."
             },
             "content": {
               "title": {
@@ -190,7 +190,7 @@
               "class": "btn--toggle-white",
               "text": {
                 "level": 3,
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 2</span> в список"
               },
               "attrs": "data-btn-id='5'"
             }
@@ -199,7 +199,7 @@
             "attrs": "data-id='6'",
             "image": {
               "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
+              "alt": "Франшиза UP SUSHI 2."
             },
             "content": {
               "title": {
@@ -218,7 +218,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза UP SUSHI 2</span> в список"
               },
               "attrs": "data-btn-id='6'"
             }
@@ -227,7 +227,7 @@
             "attrs": "data-id='7'",
             "image": {
               "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
+              "alt": "Франшиза UP SUSHI 3."
             },
             "content": {
               "title": {
@@ -246,7 +246,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза UP SUSHI 3</span> в список"
               },
               "attrs": "data-btn-id='7'"
             }
@@ -255,7 +255,7 @@
             "attrs": "data-id='8'",
             "image": {
               "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
+              "alt": "Франшиза Гриль Хаус 3."
             },
             "content": {
               "title": {
@@ -275,7 +275,7 @@
               "class": "btn--toggle-white",
               "text": {
                 "level": 3,
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 3</span> в список"
               },
               "attrs": "data-btn-id='8'"
             }
@@ -284,7 +284,7 @@
             "attrs": "data-id='9'",
             "image": {
               "name": "catalog/it_franchise.png",
-              "alt": "Франшиза ГК Альфа."
+              "alt": "Франшиза ГК Альфа 3."
             },
             "content": {
               "title": {
@@ -303,7 +303,7 @@
             "button": {
               "class": "btn--toggle-white",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза ГК Альфа 3</span> в список"
               },
               "attrs": "data-btn-id='9'"
             }
@@ -311,7 +311,7 @@
             "attrs": "data-id='10'",
             "image": {
               "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
+              "alt": "Франшиза Гриль Хаус 4."
             },
             "content": {
               "title": {
@@ -331,7 +331,7 @@
               "class": "btn--toggle-gray",
               "text": {
                 "level": 3,
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 4</span> в список"
               },
               "attrs": "data-btn-id='10'"
             }
@@ -339,7 +339,7 @@
             "attrs": "data-id='11'",
             "image": {
               "name": "catalog/it_franchise.png",
-              "alt": "Франшиза ГК Альфа."
+              "alt": "Франшиза ГК Альфа 4."
             },
             "content": {
               "title": {
@@ -358,7 +358,7 @@
             "button": {
               "class": "btn--toggle-gray",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза ГК Альфа 4</span> в список"
               },
               "attrs": "data-btn-id='11'"
             }
@@ -366,7 +366,7 @@
             "attrs": "data-id='12'",
             "image": {
               "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
+              "alt": "Франшиза UP SUSHI 4."
             },
             "content": {
               "title": {
@@ -385,7 +385,7 @@
             "button": {
               "class": "btn--toggle-gray",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза UP SUSHI 4</span> в список"
               },
               "attrs": "data-btn-id='12'"
             }
@@ -393,7 +393,7 @@
             "attrs": "data-id='13'",
             "image": {
               "name": "catalog/up_sushi.png",
-              "alt": "Франшиза UP SUSHI."
+              "alt": "Франшиза UP SUSHI 5."
             },
             "content": {
               "title": {
@@ -412,7 +412,7 @@
             "button": {
               "class": "btn--toggle-gray",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза UP SUSHI 5</span> в список"
               },
               "attrs": "data-btn-id='13'"
             }
@@ -420,7 +420,7 @@
             "attrs": "data-id='14'",
             "image": {
               "name": "catalog/grill.png",
-              "alt": "Франшиза Гриль Хаус."
+              "alt": "Франшиза Гриль Хаус 5."
             },
             "content": {
               "title": {
@@ -440,7 +440,7 @@
               "class": "btn--toggle-gray",
               "text": {
                 "level": 3,
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 5</span> в список"
               },
               "attrs": "data-btn-id='14'"
             }
@@ -448,7 +448,7 @@
             "attrs": "data-id='15'",
             "image": {
               "name": "catalog/it_franchise.png",
-              "alt": "Франшиза ГК Альфа."
+              "alt": "Франшиза ГК Альфа 5."
             },
             "content": {
               "title": {
@@ -467,7 +467,7 @@
             "button": {
               "class": "btn--toggle-gray",
               "text": {
-                "text": "Добавить в список"
+                "text": "Добавить <span class='visually-hidden'>Франшиза ГК Альфа 5</span> в список"
               },
               "attrs": "data-btn-id='15'"
             }

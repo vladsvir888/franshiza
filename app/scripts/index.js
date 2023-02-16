@@ -15,6 +15,7 @@ import similarFranchiseSlider from './components/similarFranchiseSlider';
 import toggleText from './components/toggleText';
 import initDatepicker from './components/datepicker';
 import initValidation from './components/validation';
+import toggleInputPassword from './components/inputPassword';
 
 document.addEventListener('DOMContentLoaded', () => {
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
@@ -68,4 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initDatepicker();
 
   initValidation();
+
+  toggleInputPassword();
 });

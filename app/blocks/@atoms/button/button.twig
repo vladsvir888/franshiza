@@ -29,4 +29,15 @@
       })
     } %}
   {% endif %}
+
+  {% if button.icons %}
+    {% for icon in button.icons %}
+      {% view "@icon" with {
+        icon: icon|default({})|merge({
+          class: "btn__icon" ~ (icon.class is defined ? " " ~ icon.class : "")
+        })
+      } %}
+    {% endfor %}
+  {% endif %}
+
 </{{ button.href ? "a" : "button" }}>
