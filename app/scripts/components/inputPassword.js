@@ -1,15 +1,17 @@
 const toggleInputPassword = () => {
-  const btn = document.querySelector('.input-block__btn-eye');
-  const input = document.querySelector('.input-block__input-password');
+  const btns = document.querySelectorAll('.input-block__btn-eye');
 
-  if (!btn && !input) return;
+  if (!btns.length) return;
 
-  btn.addEventListener('click', () => {
-    const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+  btns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const input = btn.parentElement.querySelector('.input-block__input');
+      const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
 
-    input.setAttribute('type', type);
+      input.setAttribute('type', type);
 
-    btn.classList.toggle('slash');
+      btn.classList.toggle('slash');
+    });
   });
 };
 

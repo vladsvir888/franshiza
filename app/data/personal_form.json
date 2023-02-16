@@ -104,9 +104,21 @@
             "text": "Новый пароль"
           },
           "element": {
+            "class": "input-block__input-password",
             "id": "personal_form_password",
             "type": "password",
             "name": "password"
+          },
+          "button": {
+            "class": "input-block__btn-eye",
+            "icons": [{
+              "class": "input-block__icon-eye input-block__icon-eye--no-slash",
+              "name": "sprite-multi.svg#eye"
+            }, {
+              "class": "input-block__icon-eye input-block__icon-eye--slash",
+              "name": "sprite-multi.svg#eye_slash"
+            }],
+            "attrs": "type='button' aria-label='Переключить видимость пароля'"
           }
         }, {
           "wrap": {
@@ -117,9 +129,21 @@
             "text": "Подтверждение нового пароля"
           },
           "element": {
+            "class": "input-block__input-password",
             "id": "personal_form_password_repeat",
             "type": "password",
             "name": "password_repeat"
+          },
+          "button": {
+            "class": "input-block__btn-eye",
+            "icons": [{
+              "class": "input-block__icon-eye input-block__icon-eye--no-slash",
+              "name": "sprite-multi.svg#eye"
+            }, {
+              "class": "input-block__icon-eye input-block__icon-eye--slash",
+              "name": "sprite-multi.svg#eye_slash"
+            }],
+            "attrs": "type='button' aria-label='Переключить видимость пароля'"
           }
         }, {
           "wrap": {

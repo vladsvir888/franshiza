@@ -43,5 +43,9 @@
 
   &__input-block {
     background-color: transparent;
+
+    .input-block__btn-eye {
+      top: rem(30);
+    }
   }
 }
