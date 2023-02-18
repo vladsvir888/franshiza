@@ -1364,7 +1364,7 @@
         "text": {
           "text": "Получить бизнес-план"
         },
-        "attrs": "type='button'"
+        "attrs": "type='button' data-fancybox data-src='#send_request'"
       },
       "note": "Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных",
       "toggle": {

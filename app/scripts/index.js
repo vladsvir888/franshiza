@@ -8,14 +8,15 @@ import detailTabsSlider from './components/detailTabsSlider';
 import initVideo from './components/video';
 import Wishlist from './components/wishlist';
 import scrollToForm from './components/scrollToForm';
-import showModal from './components/showModal';
-import Dropdown from './components/dropdown';
+import toggleModal from './components/toggleModal';
 import topBtn from './components/topBtn';
 import similarFranchiseSlider from './components/similarFranchiseSlider';
 import toggleText from './components/toggleText';
 import initDatepicker from './components/datepicker';
 import initValidation from './components/validation';
 import toggleInputPassword from './components/inputPassword';
+import '@shoelace-style/shoelace/dist/components/select/select';
+import '@shoelace-style/shoelace/dist/components/option/option';
 
 document.addEventListener('DOMContentLoaded', () => {
   new BurgerMenu(document.querySelector(BurgerMenu.selectors.header));
@@ -29,24 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll(Tabs.selectors.tab_list).forEach((tablist) => new Tabs(tablist));
 
-  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element, null, 'always_open'));
+  document.querySelectorAll(Accordion.selectors.accordion).forEach((element) => new Accordion(element));
 
   initVideo();
 
   new Wishlist();
 
   scrollToForm();
-
-  showModal({
-    btnSelector: '.statistics__btn',
-    modalSelector: '#modal_login',
-    closeSelector: '.modal__close-btn',
-  });
-  showModal({
-    btnSelector: '.form-block__modal-btn',
-    modalSelector: '#send_request',
-    closeSelector: '.modal__close-btn',
-  });
 
   topBtn();
 
@@ -64,11 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   similarFranchiseSlider('.similar-franchise-slider');
 
-  document.querySelectorAll(Dropdown.selectors.dropdown).forEach((element) => new Dropdown(element, 0));
-
   initDatepicker();
 
   initValidation();
 
   toggleInputPassword();
+
+  toggleModal();
 });

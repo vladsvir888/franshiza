@@ -18,28 +18,24 @@
     "title": {
       "text": "Добавьте в список, подходящие Вам франшизы"
     },
-    "dropdown": {
-      "button": {
-        "id": "dropdown_menu_btn",
-        "text": {
-          "text": "Сортировка франшиз по популярности"
-        },
-        "attrs": "aria-expanded='false'"
+    "select": {
+      "combobox": {
+        "value": "sort_option_1",
+        "icon": {
+          "name": "sprite-multi.svg#sort",
+          "attrs": "slot='prefix'"
+        }
       },
-      "menu": {
-        "attrs": "aria-labelledby='dropdown_menu_btn'",
+      "listbox": {
         "items": [{
-          "text": {
-            "text": "Сортировка франшиз по популярности"
-          }
+          "text": "Сортировка франшиз по популярности",
+          "value": "sort_option_1"
         }, {
-          "text": {
-            "text": "От низких объемов инвестиций к высоким"
-          }
+          "text": "От низких объемов инвестиций к высоким",
+          "value": "sort_option_2"
         }, {
-          "text": {
-            "text": "От высоких объемов инвестиций к низким"
-          }
+          "text": "От высоких объемов инвестиций к низким",
+          "value": "sort_option_3"
         }]
       }
     },

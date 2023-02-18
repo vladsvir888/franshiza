@@ -1,0 +1,54 @@
+.custom-select {
+  margin-bottom: rem(24);
+
+  @include media('600', max) {
+    margin-bottom: rem(20);
+  }
+
+  &::part(combobox) {
+    --sl-input-font-family: var(--font-primary);
+
+    @include font-size(16, 24);
+    min-height: 0;
+    padding: 0;
+    border: none;
+
+    @include media('600', max) {
+      @include font-size(14, 20);
+    }
+  }
+
+  &::part(display-input) {
+    color: var(--pallette-deep-cerulean);
+  }
+
+  &::part(expand-icon) {
+    display: none;
+  }
+
+  &::part(listbox) {
+    --sl-font-sans: var(--font-primary);
+    padding-block: 0;
+    margin: rem(10) 0;
+  }
+
+  &__option {
+    &::part(base) {
+      --sl-color-primary-600: var(--pallette-deep-cerulean);
+
+      @include media('600', max) {
+        @include font-size(14, 20);
+      }
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &__icon {
+    --sl-input-spacing-medium: #{rem(8)};
+    width: rem(19);
+    height: rem(17);
+  }
+}

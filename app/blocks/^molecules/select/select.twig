@@ -1,0 +1,13 @@
+<sl-select class="custom-select" value="{{ select.combobox.value }}">
+  {% view "@icon" with {
+    icon: select.combobox.icon|default({})|merge({
+      class: "custom-select__icon"
+    })
+  } %}
+
+  {% for item in select.listbox.items %}
+    <sl-option class="custom-select__option" value="{{ item.value }}">
+      {{ item.text }}
+    </sl-option>
+  {% endfor %}
+</sl-select>

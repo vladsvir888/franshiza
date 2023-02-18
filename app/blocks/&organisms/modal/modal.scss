@@ -137,3 +137,14 @@
     }
   }
 }
+
+// вырубаем стрелки
+.fancybox__nav {
+  display: none;
+}
+
+// делаем обычный курсор на оверлэе
+.fancybox__carousel.is-draggable .fancybox__slide,
+.fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
+  cursor: default;
+}

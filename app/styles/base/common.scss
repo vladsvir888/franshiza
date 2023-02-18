@@ -167,21 +167,9 @@ input[type=password]::-ms-clear {
   }
 }
 
-// вырубаем стрелки
-.fancybox__nav {
-  display: none;
-}
-
-// делаем обычный курсор на оверлэе
-.fancybox__carousel.is-draggable .fancybox__slide,
-.fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
-  cursor: default;
-}
-
 .main {
   position: relative;
   flex: 1 0 auto;
-  // margin: rem(75) 0 rem(56);
   margin: rem(68) 0 rem(56);
 
   @include media('600', max) {

@@ -47,24 +47,21 @@
         }
       }
     },
-    "dropdown": {
-      "button": {
-        "id": "dropdown_menu_btn",
-        "text": {
-          "text": "Сортировка результатов поиска по релевантности"
-        },
-        "attrs": "aria-expanded='false'"
+    "select": {
+      "combobox": {
+        "value": "sort_option_1",
+        "icon": {
+          "name": "sprite-multi.svg#sort",
+          "attrs": "slot='prefix'"
+        }
       },
-      "menu": {
-        "attrs": "aria-labelledby='dropdown_menu_btn'",
+      "listbox": {
         "items": [{
-          "text": {
-            "text": "Сортировка результатов поиска по релевантности"
-          }
+          "text": "Сортировка результатов поиска по релевантности",
+          "value": "sort_option_1"
         }, {
-          "text": {
-            "text": "Сортировка результатов поиска по дате"
-          }
+          "text": "Сортировка результатов поиска по дате",
+          "value": "sort_option_2"
         }]
       }
     },
