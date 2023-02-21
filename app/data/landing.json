@@ -73,6 +73,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='1'",
                     "image": {
                       "name": "card_block/09.jpg",
@@ -123,6 +124,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='2'",
                     "image": {
                       "name": "card_block/10.jpg",
@@ -173,6 +175,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='3'",
                     "image": {
                       "name": "card_block/11.jpg",
@@ -223,6 +226,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='4'",
                     "image": {
                       "name": "card_block/12.jpg",
@@ -273,6 +277,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='5'",
                     "image": {
                       "name": "card_block/13.jpg",
@@ -323,6 +328,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='6'",
                     "image": {
                       "name": "card_block/14.jpg",
@@ -387,6 +393,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='7'",
                     "image": {
                       "name": "card_block/09.jpg",
@@ -437,6 +444,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='8'",
                     "image": {
                       "name": "card_block/10.jpg",
@@ -487,6 +495,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='9'",
                     "image": {
                       "name": "card_block/11.jpg",
@@ -537,6 +546,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='10'",
                     "image": {
                       "name": "card_block/12.jpg",
@@ -587,6 +597,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='11'",
                     "image": {
                       "name": "card_block/13.jpg",
@@ -637,6 +648,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='12'",
                     "image": {
                       "name": "card_block/14.jpg",
@@ -701,6 +713,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='13'",
                     "image": {
                       "name": "card_block/09.jpg",
@@ -751,6 +764,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='14'",
                     "image": {
                       "name": "card_block/10.jpg",
@@ -801,6 +815,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='15'",
                     "image": {
                       "name": "card_block/11.jpg",
@@ -851,6 +866,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='16'",
                     "image": {
                       "name": "card_block/12.jpg",
@@ -901,6 +917,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='17'",
                     "image": {
                       "name": "card_block/13.jpg",
@@ -951,6 +968,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='18'",
                     "image": {
                       "name": "card_block/14.jpg",
@@ -1015,6 +1033,7 @@
               "data": {
                 "content": {
                   "items": [{
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='19'",
                     "image": {
                       "name": "card_block/09.jpg",
@@ -1065,6 +1084,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='20'",
                     "image": {
                       "name": "card_block/10.jpg",
@@ -1115,6 +1135,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='21'",
                     "image": {
                       "name": "card_block/11.jpg",
@@ -1165,6 +1186,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='22'",
                     "image": {
                       "name": "card_block/12.jpg",
@@ -1215,6 +1237,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='23'",
                     "image": {
                       "name": "card_block/13.jpg",
@@ -1265,6 +1288,7 @@
                       }
                     }
                   }, {
+                    "class": "card-block--quaternary",
                     "attrs": "data-id='24'",
                     "image": {
                       "name": "card_block/14.jpg",

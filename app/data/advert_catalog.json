@@ -86,8 +86,9 @@
       "modifier": "two-items",
       "header": {
         "title": {
+          "class": "section__title--video",
           "level": 2,
-          "text": "О сотрудничестве с www.franshiza-info.ru"
+          "text": "О сотрудничестве с&nbsp;www.franshiza-info.ru"
         }
       },
       "data": {

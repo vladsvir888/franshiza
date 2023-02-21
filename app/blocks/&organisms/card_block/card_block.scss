@@ -28,6 +28,14 @@
   &--tertiary {
     #{$this}__text {
       height: rem(100);
+      overflow: hidden;
+    }
+  }
+
+  &--quaternary {
+    #{$this}__text {
+      height: rem(80);
+      overflow: hidden;
     }
   }
 
@@ -135,8 +143,8 @@
   }
 
   &__text {
-    height: rem(80);
-    overflow: hidden;
+    // height: rem(80);
+    // overflow: hidden;
 
     &:not(:last-child) {
       margin-bottom: rem(12);

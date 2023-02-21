@@ -9,7 +9,7 @@
     <div class="section__header">
       {% view "@title" with {
         title: section.header.title|merge({
-          class: "section__title"
+          class: "section__title" ~ (section.header.title.class is defined ? " " ~ section.header.title.class : "")
         })
       } %}
 
