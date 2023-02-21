@@ -175,7 +175,7 @@ input[type=password]::-ms-clear {
   grid-template-columns: 1fr rem(230) var(--container-width) rem(230) 1fr;
   grid-template-areas: '. sticky-banner-left container sticky-banner-right .';
 
-  @include media('1500', max) {
+  @include media('1520', max) {
     display: unset;
   }
 

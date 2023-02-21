@@ -76,7 +76,7 @@
         "type": "&card_block",
         "content": {
           "items": [{
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/09.jpg",
               "alt": "Франшиза Burger Club",
@@ -109,7 +109,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/10.jpg",
               "alt": "Франшиза Burger Club",
@@ -136,7 +136,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/11.jpg",
               "alt": "Франшиза Burger Club",
@@ -169,7 +169,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/12.jpg",
               "alt": "Франшиза Burger Club",
@@ -202,7 +202,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/13.jpg",
               "alt": "Франшиза Burger Club",
@@ -235,7 +235,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/14.jpg",
               "alt": "Франшиза Burger Club",
@@ -268,7 +268,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/09.jpg",
               "alt": "Франшиза Burger Club",
@@ -301,7 +301,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/10.jpg",
               "alt": "Франшиза Burger Club",
@@ -334,7 +334,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/11.jpg",
               "alt": "Франшиза Burger Club",
@@ -367,7 +367,7 @@
               }
             }
           }, {
-            "class": "card-block--tertiary",
+            "class": "card-block--quaternary",
             "image": {
               "name": "card_block/12.jpg",
               "alt": "Франшиза Burger Club",

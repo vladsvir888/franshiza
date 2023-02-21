@@ -1,5 +1,5 @@
 .sticky-banner {
-  @include media('1500', max) {
+  @include media('1520', max) {
     display: none;
   }
 
@@ -15,11 +15,11 @@
 
   &__link {
     display: flex;
+    position: sticky;
+    top: rem(20);
   }
 
   &__img {
-    position: sticky;
-    top: rem(20);
     border-radius: rem(12);
   }
 }
