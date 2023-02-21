@@ -9,6 +9,10 @@
     margin-bottom: rem(30);
   }
 
+  &__link {
+    display: flex;
+  }
+
   &__img {
     border-radius: rem(12);
 

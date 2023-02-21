@@ -172,7 +172,7 @@ input[type=password]::-ms-clear {
   flex: 1 0 auto;
   padding: rem(68) 0 rem(56);
   display: grid;
-  grid-template-columns: 1fr rem(230) 1200px rem(230) 1fr;
+  grid-template-columns: 1fr rem(230) var(--container-width) rem(230) 1fr;
   grid-template-areas: '. sticky-banner-left container sticky-banner-right .';
 
   @include media('1500', max) {
