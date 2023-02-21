@@ -1,6 +1,8 @@
 .footer {
   $this: &;
 
+  background-color: var(--pallette-white);
+
   &__top {
     display: flex;
     justify-content: space-between;

@@ -170,10 +170,20 @@ input[type=password]::-ms-clear {
 .main {
   position: relative;
   flex: 1 0 auto;
-  margin: rem(68) 0 rem(56);
+  padding: rem(68) 0 rem(56);
+  background-color: var(--pallette-white);
+
+  display: grid;
+  grid-template-columns: rem(230) var(--container--width) rem(230) ;
+  grid-template-areas:
+    'sticky-banner-left container sticky-banner-right';
 
   @include media('600', max) {
-    margin: rem(40) 0 0;
+    padding: rem(40) 0 0;
+  }
+
+  .container {
+    grid-area: container;
   }
 
   &__text {
@@ -295,5 +305,37 @@ input[type=password]::-ms-clear {
     @include media('1200', max) {
       grid-column: span 12;
     }
+  }
+}
+
+.test {
+  &-1, &-2 {
+    position: sticky;
+    top: 0;
+  }
+
+  &-1 {
+    grid-area: test-1;
+    margin-left: auto;
+  }
+
+  &-2 {
+    grid-area: test-2;
+  }
+}
+
+.sticky-banner {
+  img {
+    position: sticky;
+    top: 0;
+  }
+
+  &--left {
+    grid-area: sticky-banner-left;
+    margin-left: auto;
+  }
+
+  &--right {
+    grid-area: sticky-banner-right;
   }
 }

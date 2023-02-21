@@ -1,6 +1,7 @@
 .header {
   $this: &;
   position: relative;
+  background-color: var(--pallette-white);
 
   &__top {
     display: flex;

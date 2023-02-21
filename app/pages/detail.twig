@@ -2,6 +2,14 @@
 
 {% block content %}
 <main id="main" class="main main--detail" tabindex="-1">
+  <div class="sticky-banner sticky-banner--left">
+    <a href="#">
+      <picture>
+        <img class="sticky-banner__img" src="./assets/images/fixed_banner/desktop.jpg" alt="IT франшиза. Более 189 партнеров. Гарантия выручки 8 миллионов за первый год. Объем выручки более 500 миллионов за 2021 год." loading="lazy" width="206" height="600">
+      </picture>
+    </a>
+  </div>
+
   <div class="container">
     <div class="main__inner">
       <div class="main__content">
@@ -61,6 +69,14 @@
         {% view "&sidebar_slider" %}
       </aside>
     </div>
+  </div>
+
+  <div class="sticky-banner sticky-banner--right">
+    <a href="#">
+      <picture>
+        <img class="sticky-banner__img" src="./assets/images/fixed_banner/desktop.jpg" alt="IT франшиза. Более 189 партнеров. Гарантия выручки 8 миллионов за первый год. Объем выручки более 500 миллионов за 2021 год." loading="lazy" width="206" height="600">
+      </picture>
+    </a>
   </div>
 
   {% view "@button" with {
