@@ -2,7 +2,19 @@
 
 {% block content %}
 <main id="main" class="main main--personal" tabindex="-1">
-  <div class="container">
+  {% view "@sticky_banner" with {
+    sticky_banner: {
+      class: "sticky-banner--left"
+    }
+  } %}
+
+  {% view "@sticky_banner" with {
+    sticky_banner: {
+      class: "sticky-banner--right"
+    }
+  } %}
+
+  <div class="container main__container">
     {% view "^breadcrumbs" with {
       breadcrumbs: personal_request.breadcrumbs
     } %}

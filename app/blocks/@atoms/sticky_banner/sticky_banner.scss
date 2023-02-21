@@ -1,0 +1,21 @@
+.sticky-banner {
+  @include media('1500', max) {
+    display: none;
+  }
+
+  &--left {
+    grid-area: sticky-banner-left;
+    margin-left: auto;
+  }
+
+  &--right {
+    grid-area: sticky-banner-right;
+    margin-right: auto;
+  }
+
+  &__img {
+    position: sticky;
+    top: rem(20);
+    border-radius: rem(12);
+  }
+}
