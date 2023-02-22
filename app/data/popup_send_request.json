@@ -1,0 +1,25 @@
+{
+  "popup_send_request": {
+    "type": "send_request",
+    "id": "send_request",
+    "class": "modal--send-request",
+    "attrs": "role='dialog' aria-labelledby='modal_title'",
+    "title": {
+      "id": "modal_title",
+      "level": 2,
+      "text": "Отправить запрос 3 франшизам?"
+    },
+    "text": "из подборки “Беспроигрышная франшиза”",
+    "button_send": {
+      "text": {
+        "text": "Отправить"
+      },
+      "attrs": "form='form_block' type='submit'"
+    },
+    "button_continue": {
+      "text": {
+        "text": "Продолжить выбор франшиз"
+      }
+    }
+  }
+}

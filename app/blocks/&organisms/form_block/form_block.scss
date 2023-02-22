@@ -52,6 +52,10 @@
 
   &__btn {
     width: 100%;
+
+    @include media('600', max) {
+      @include font-size(14, 20);
+    }
   }
 
   &__note {
@@ -147,6 +151,10 @@
   &__registration-btn {
     width: 100%;
     font-weight: 400;
+
+    @include media('600', max) {
+      @include font-size(14, 20);
+    }
   }
 
   &__forgot-password {
@@ -163,6 +171,19 @@
 
     @include media('600', max) {
       padding-left: 0;
+    }
+  }
+
+  &__info {
+    @include flex-center;
+    @include font-size(12, 16);
+    gap: rem(4);
+    text-align: center;
+    color: var(--pallette-nepal);
+
+    &-icon {
+      width: rem(12);
+      height: rem(12);
     }
   }
 }

@@ -2,6 +2,8 @@ const topBtn = () => {
   const btn = document.querySelector('.top-btn');
   const target = document.querySelector('.breadcrumbs');
 
+  if (!btn || !target) return;
+
   const callback = (entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) {

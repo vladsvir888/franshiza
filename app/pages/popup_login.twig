@@ -1,0 +1,15 @@
+{% extends "../blocks/layout/base.twig" %}
+
+{% block content %}
+
+<script type="module">
+  import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+
+  Fancybox.show([{ src: "#modal_login", type: "inline" }]);
+</script>
+
+{% view "&modal" with {
+  modal: popup_login
+} %}
+
+{% endblock %}

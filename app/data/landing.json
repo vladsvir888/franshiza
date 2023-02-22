@@ -1436,7 +1436,7 @@
     "text_block": {
       "type": "landing_text_block"
     },
-    "modal_login": {
+    "modal_send_request": {
       "type": "send_request",
       "id": "send_request",
       "class": "modal--send-request",

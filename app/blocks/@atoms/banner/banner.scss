@@ -11,6 +11,10 @@
 
   &__link {
     display: flex;
+
+    @include media('1200', max) {
+      display: unset;
+    }
   }
 
   &__img {

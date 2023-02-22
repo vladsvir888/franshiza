@@ -1,0 +1,91 @@
+{
+  "popup_login": {
+    "type": "login",
+    "id": "modal_login",
+    "class": "modal--login",
+    "attrs": "role='dialog' aria-labelledby='modal_title'",
+    "title": {
+      "id": "modal_title",
+      "level": 2,
+      "text": "Войти через"
+    },
+    "socials": {
+      "list": {
+        "items": [{
+          "href": "https://accounts.google.com/v3/signin/identifier?dsh=S1728532186%3A1675288700788104&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdUMCGcme7j6tqls0hMbSoZ34jleFkJWpOklnwn7BnGfjllPy18vEsxvWgi0LTfYi3MUiTl9w",
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#gmail"
+          },
+          "attrs": "target='_blank' aria-label='Гугл почта'"
+        }, {
+          "href": "https://vk.com/share.php?url=https://franshiza-info.ru",
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#vk"
+          },
+          "attrs": "target='_blank' aria-label='Вконтакте'"
+        }, {
+          "href": "https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fmail.yandex.ru%2F&backpath=https%3A%2F%2Fmail.yandex.ru%2F%3Fnoretpath%3D1&from=mail&origin=hostroot_homer_auth_ru",
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#yandex"
+          },
+          "attrs": "target='_blank' aria-label='Яндекс почта'"
+        }, {
+          "href": "https://connect.mail.ru/login?connect=1&page=https%3a%2f%2fconnect.mail.ru%2fshare",
+          "icon": {
+            "class": "socials__icon",
+            "name": "sprite-multi.svg#mail"
+          },
+          "attrs": "target='_blank' aria-label='Майл.ру почта'"
+        }]
+      }
+    },
+    "inputs": [{
+      "element": {
+        "type": "email",
+        "text": "Введите ваш E-mail",
+        "name": "email",
+        "attrs": "required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'"
+      }
+    }, {
+      "element": {
+        "class": "input-block__input-password",
+        "type": "password",
+        "text": "Введите пароль",
+        "name": "password",
+        "attrs": "required data-pristine-required-message='Поле пароль является обязательным'"
+      },
+      "button": {
+        "class": "input-block__btn-eye",
+        "icons": [{
+          "class": "input-block__icon-eye input-block__icon-eye--no-slash",
+          "name": "sprite-multi.svg#eye"
+        }, {
+          "class": "input-block__icon-eye input-block__icon-eye--slash",
+          "name": "sprite-multi.svg#eye_slash"
+        }],
+        "attrs": "type='button' aria-label='Переключить видимость пароля'"
+      }
+    }],
+    "button_forgot_password": {
+      "href": "#",
+      "text": {
+        "text": "Забыли пароль?"
+      }
+    },
+    "button_entry": {
+      "text": {
+        "text": "Войти"
+      },
+      "attrs": "type='submit'"
+    },
+    "button_registration": {
+      "href": "#",
+      "text": {
+        "text": "Зарегистрироваться"
+      }
+    }
+  }
+}

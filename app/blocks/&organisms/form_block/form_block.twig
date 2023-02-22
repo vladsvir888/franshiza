@@ -71,9 +71,30 @@
       })
     } %}
 
+    {% if form_block.info %}
+      <p class="form-block__info">
+        {% view "@icon" with {
+          icon: {
+            class: "form-block__info-icon",
+            name: "sprite-multi.svg#info"
+          }
+        } %}
+
+        {{ form_block.info.text }}
+      </p>
+    {% endif %}
+
     {% if form_block.button_registration %}
       {% view "@button" with {
         button: form_block.button_registration|merge({
+          class: "btn--btn btn--tertiary btn--large form-block__registration-btn"
+        })
+      } %}
+    {% endif %}
+
+    {% if form_block.button_auth %}
+      {% view "@button" with {
+        button: form_block.button_auth|merge({
           class: "btn--btn btn--tertiary btn--large form-block__registration-btn"
         })
       } %}

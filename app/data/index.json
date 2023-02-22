@@ -59,6 +59,18 @@
   }, {
     "text": "Личный кабинет (экспресс-форма)",
     "link": "personal_express_form"
+  }, {
+    "text": "Восстановление пароля 1",
+    "link": "forgot_password_1"
+  }, {
+    "text": "Восстановление пароля 2",
+    "link": "forgot_password_2"
+  }, {
+    "text": "Попап логин",
+    "link": "popup_login"
+  }, {
+    "text": "Попап отправить запрос",
+    "link": "popup_send_request"
   }],
   "meta": {
     "html_lang": "ru",
