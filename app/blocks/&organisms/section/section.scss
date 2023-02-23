@@ -57,7 +57,7 @@
 
     &--video {
       @include media('600', max) {
-        max-width: rem(170);
+        max-width: rem(250);
       }
     }
   }
