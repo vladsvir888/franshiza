@@ -170,23 +170,33 @@ input[type=password]::-ms-clear {
 .main {
   position: relative;
   flex: 1 0 auto;
-  padding: rem(68) 0 rem(56);
+  // padding: rem(68) 0 rem(56);
   display: grid;
   grid-template-columns: 1fr rem(230) var(--container-width) rem(230) 1fr;
   grid-template-areas: '. sticky-banner-left container sticky-banner-right .';
 
-  @include media('1520', max) {
+  @include media('1700', max) {
+    grid-template-columns: 1fr var(--container-width) 1fr;
+    grid-template-areas: 'sticky-banner-left container sticky-banner-right';
+  }
+
+  @include media('1300', max) {
     display: unset;
   }
 
-  @include media('600', max) {
-    padding: rem(40) 0 0;
-  }
+  // @include media('600', max) {
+  //   padding: rem(40) 0 0;
+  // }
 
   &__container {
     width: 100%;
     grid-area: container;
     background-color: var(--pallette-white);
+    padding: rem(68) var(--container-padding) rem(56);
+
+    @include media('600', max) {
+      padding: rem(40) var(--container-padding) 0;
+    }
   }
 
   &__text {

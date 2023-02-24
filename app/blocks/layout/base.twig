@@ -19,7 +19,10 @@
 
   <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
+<body
+  {% if body.style.background_color %}style="background-color: {{ body.style.background_color }};"{% endif %}
+>
+
   {% view "&header" %}
 
   {% block content %}{% endblock %}

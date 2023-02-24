@@ -1,7 +1,9 @@
 .footer {
   $this: &;
 
-  background-color: var(--pallette-white);
+  > .container {
+    background-color: var(--pallette-white);
+  }
 
   &__top {
     display: flex;

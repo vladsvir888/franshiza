@@ -1,5 +1,5 @@
 .sticky-banner {
-  @include media('1520', max) {
+  @include media('1300', max) {
     display: none;
   }
 
