@@ -22,8 +22,9 @@
         "type": "&card",
         "class": "similar-franchise-slider",
         "items": [{
+          "class": "similar-franchise-slider__card",
           "image": {
-            "name": "card/01.png",
+            "name": "card/04.png",
             "alt": "Франшиза ARTCRAFT."
           },
           "content": {
@@ -32,7 +33,7 @@
               "level": 3,
               "text": "Франшиза ARTCRAFT"
             },
-            "text": "франшиза бьюти-коворкинга",
+            "text": "франшиза бьюти-коворкинга франшиза бьюти-коворкинга франшиза бьюти-коворкинга франшиза бьюти-коворкинга франшиза бьюти-коворкинга франшиза бьюти-коворкинга франшиза бьюти-коворкинга",
             "investment": {
               "text": "Инвестиции",
               "num": "от 3 550 000 р."
@@ -46,6 +47,7 @@
             }
           }
         }, {
+          "class": "similar-franchise-slider__card",
           "image": {
             "name": "card/03.png",
             "alt": "Франшиза INDI."
@@ -69,6 +71,7 @@
             }
           }
         }, {
+          "class": "similar-franchise-slider__card",
           "image": {
             "name": "card/02.png",
             "alt": "Франшиза GASTRONOM."
@@ -91,7 +94,8 @@
               "text": "Добавить в список <span class='visually-hidden'>Франшиза GASTRONOM</span>"
             }
           }
-        },  {
+        }, {
+          "class": "similar-franchise-slider__card",
           "image": {
             "name": "card/02.png",
             "alt": "Франшиза GASTRONOM."

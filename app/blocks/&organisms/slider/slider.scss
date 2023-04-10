@@ -76,4 +76,12 @@
       padding: rem(10) rem(32) 0;
     }
   }
+
+  .swiper-slide {
+    height: auto;
+  }
+
+  &__card {
+    height: 100%;
+  }
 }

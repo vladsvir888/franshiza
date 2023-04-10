@@ -37,9 +37,12 @@
   &__img {
     margin: 0 auto;
     border-radius: rem(6);
+    height: rem(210);
+    object-fit: contain;
 
     @include media('600', max) {
       width: 100%;
+      height: unset;
       border-radius: 0;
     }
   }
