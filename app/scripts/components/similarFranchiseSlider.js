@@ -21,6 +21,7 @@ const similarFranchiseSlider = (selector) => {
         slidesPerView: 3,
       },
     },
+    loop: true,
   });
 };
 

@@ -38,6 +38,12 @@
       @include font-size(12, 16);
     }
 
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(12);
+      }
+    }
+
     a {
       position: relative;
       color: var(--pallette-deep-cerulean);

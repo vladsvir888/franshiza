@@ -160,6 +160,17 @@
       }
     }
 
+    a {
+      color: var(--pallette-deep-cerulean);
+      transition: color var(--transition);
+
+      @media (hover: hover) {
+        &:hover {
+          color: var(--pallette-cerulean);
+        }
+      }
+    }
+
     @include media('600', max) {
       @include font-size(12, 16);
     }

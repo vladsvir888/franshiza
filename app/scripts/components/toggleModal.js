@@ -7,6 +7,14 @@ const toggleModal = () => {
   Fancybox.bind('[data-fancybox]', {
     l10n: ru,
     showClass: 'fancybox-fadeIn',
+    dragToClose: false,
+    autoFocus: false,
+    Toolbar: {
+      display: ['close'],
+    },
+    Thumbs: {
+      autoStart: false,
+    },
   });
 
   document.querySelectorAll('.modal__close-btn').forEach((closeBtn) => {

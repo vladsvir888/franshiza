@@ -39,32 +39,20 @@
               "image": {
                 "name": "detail_tabs_slider/01.png",
                 "alt": "Запатентованная технология."
-              }
+              },
+              "attrs": "data-fancybox='gallery2'"
             }, {
               "image": {
                 "name": "detail_tabs_slider/02.png",
                 "alt": "Доход от 300 000 руб/мес."
-              }
+              },
+              "attrs": "data-fancybox='gallery2'"
             }, {
               "image": {
                 "name": "detail_tabs_slider/03.png",
                 "alt": "Более 189 партнеров."
-              }
-            }, {
-              "image": {
-                "name": "detail_tabs_slider/01.png",
-                "alt": "Запатентованная технология."
-              }
-            }, {
-              "image": {
-                "name": "detail_tabs_slider/02.png",
-                "alt": "Доход от 300 000 руб/мес."
-              }
-            }, {
-              "image": {
-                "name": "detail_tabs_slider/03.png",
-                "alt": "Более 189 партнеров."
-              }
+              },
+              "attrs": "data-fancybox='gallery2'"
             }]
           }
         }
@@ -410,32 +398,20 @@
                 "image": {
                   "name": "detail_tabs_slider/01.png",
                   "alt": "Запатентованная технология."
-                }
+                },
+                "attrs": "data-fancybox='gallery'"
               }, {
                 "image": {
                   "name": "detail_tabs_slider/02.png",
                   "alt": "Доход от 300 000 руб/мес."
-                }
+                },
+                "attrs": "data-fancybox='gallery'"
               }, {
                 "image": {
                   "name": "detail_tabs_slider/03.png",
                   "alt": "Более 189 партнеров."
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/01.png",
-                  "alt": "Запатентованная технология."
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/02.png",
-                  "alt": "Доход от 300 000 руб/мес."
-                }
-              }, {
-                "image": {
-                  "name": "detail_tabs_slider/03.png",
-                  "alt": "Более 189 партнеров."
-                }
+                },
+                "attrs": "data-fancybox='gallery'"
               }]
             }
           }

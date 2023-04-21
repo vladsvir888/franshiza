@@ -61,6 +61,8 @@
 
 .detail-tabs-slider {
   &__img {
+    cursor: pointer;
+
     @include media('600', max) {
       margin: 0 auto;
     }

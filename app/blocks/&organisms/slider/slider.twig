@@ -4,16 +4,18 @@
       {% for item in slider.content.items %}
         <div class="swiper-slide">
           {% if slider.content.type == '&detail_tabs_slider' %}
-            {% view "@image" with {
-              image: item.image|merge({
-                class: "detail-tabs-slider__img",
-                lazy: false,
-                sizes: {
-                  width: 285,
-                  height: 181
-                }
-              })
-            } %}
+            <a href="./assets/images/{{ item.image.name }}" {{ item.attrs }}>
+              {% view "@image" with {
+                image: item.image|merge({
+                  class: "detail-tabs-slider__img",
+                  lazy: false,
+                  sizes: {
+                    width: 285,
+                    height: 181
+                  }
+                })
+              } %}
+            </a>
           {% elseif slider.content.type == '&card' %}
             {% view "&card" with {
               card: item
