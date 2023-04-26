@@ -6,6 +6,7 @@
   }
 
   > * {
+    @include font-size(16, 20);
     margin-bottom: rem(14);
 
     &:last-child {

@@ -4,7 +4,7 @@
 <main id="main" class="main main--start" tabindex="-1">
   <div class="container main__container">
     <p class="last-update">
-      Последнее обновление - <span>21.04.2023</span>
+      Последнее обновление - <span>{{ date().toLocaleString("ru", { year: 'numeric', month: 'numeric', day: 'numeric'}) }}</span>
     </p>
 
     {% view "@title" with {
