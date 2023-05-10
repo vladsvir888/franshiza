@@ -20,7 +20,7 @@ const initVideo = () => {
 
     player.on('stateChange', (event) => {
       if (event.data === 1) {
-        stopVideo(event.target.h.id);
+        stopVideo(event.target.getIframe().id);
       }
     });
 
