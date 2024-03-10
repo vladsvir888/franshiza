@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title></title>
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="./assets/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <a href="#main" class="btn btn--btn btn--primary skip-link">
+      <span class="btn__text ">
+        Перейти к главному разделу
+      </span>
+    </a>
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <a class="logo header__logo" href="#">
+            <span class="visually-hidden">Главная страница</span>
+            <img src="./assets/images/logo.png" alt="" width="198" height="46">
+          </a>
+          <a href="#" class="btn btn--btn btn--secondary header__catalog-btn">
+            <svg class="icon btn__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#four_squares"></use>
+            </svg>
+            <span class="btn__text ">
+              Каталог франшиз
+            </span>
+          </a>
+          <form class="search header__search" action="/" method="get">
+            <div class="input-block search__input-block">
+              <input class="input-block__input search__input" type="search" name="search" placeholder="Поиск, например, магазин">
+              <button class="btn search__btn" type='submit' aria-label='Отправить'>
+                <svg class="icon btn__icon search__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+          <nav class="header-nav header-nav--meta header__nav-meta" aria-label='Мета'>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    О сайте
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Контакты
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Войти
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Зарегистрироваться
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn burger" aria-expanded='false' aria-label='Открыть' aria-controls='burger_menu'>
+            <svg class="icon btn__icon burger__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#burger"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header__bottom">
+          <div class="header__tel-block">
+            <p class="header__tel-text">
+              Ваш каталог франшиз №1
+            </p>
+            <a href="tel:+74951855663" class="btn header__tel">
+              <svg class="icon btn__icon header__tel-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#phone"></use>
+              </svg>
+              <span class="btn__text ">
+                +7 (495) 185-56-63
+              </span>
+            </a>
+          </div>
+          <nav class="header-nav header__main-nav" aria-label='Главное'>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Отзывы о франшизах
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Новости франшиз
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Все франшизы
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Упаковка франшизы
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="btn btn--btn btn--primary header__franchise-btn">
+            <span class="btn__text ">
+              Добавить франшизу в каталог
+            </span>
+          </a>
+          <div class="mobile-search">
+            <button class="btn mobile-search__open-btn" aria-label='Открыть поиск'>
+              <svg class="icon btn__icon mobile-search__open-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#search"></use>
+              </svg>
+            </button>
+            <form class="search mobile-search__search" action="/" method="get">
+              <div class="input-block search__input-block">
+                <input class="input-block__input search__input" type="search" name="search" placeholder="Поиск, например, магазин">
+                <button class="btn search__btn" type='submit'>
+                  <svg class="icon btn__icon search__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+            <button class="btn mobile-search__close-btn" aria-label='Закрыть поиск'>
+              <svg class="icon btn__icon mobile-search__close-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="burger_menu" class="burger-menu">
+      <div class="burger-menu__content">
+        <div class="burger-menu__header">
+          <button class="btn burger-menu__search" aria-label='Открыть поиск'>
+            <svg class="icon btn__icon burger-menu__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#search"></use>
+            </svg>
+          </button>
+          <button class="btn burger-menu__close" aria-label='Закрыть меню'>
+            <svg class="icon btn__icon burger-menu__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <a href="tel:+74951855663" class="btn header__tel burger-menu__tel">
+          <svg class="icon btn__icon header__tel-icon" aria-hidden="true">
+            <use href="./assets/sprites/sprite-mono.svg#phone"></use>
+          </svg>
+          <span class="btn__text ">
+            +7 (495) 185-56-63
+          </span>
+        </a>
+        <a href="#" class="btn btn--btn btn--secondary burger-menu__btn">
+          <svg class="icon btn__icon" aria-hidden="true">
+            <use href="./assets/sprites/sprite-mono.svg#four_squares"></use>
+          </svg>
+          <span class="btn__text ">
+            Каталог франшиз
+          </span>
+        </a>
+        <ul class="burger-menu__list">
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Отзывы о франшизах
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Новости франшиз
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Все франшизы
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Упаковка франшизы
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                О сайте
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Контакты
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul class="burger-menu__entry-list">
+          <li class="burger-menu__entry-item">
+            <a href="#" class="btn burger-menu__entry-link">
+              <span class="btn__text ">
+                Войти
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__entry-item">
+            <a href="#" class="btn burger-menu__entry-link">
+              <span class="btn__text ">
+                Зарегистрироваться
+              </span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn--btn btn--primary burger-menu__btn">
+          <span class="btn__text ">
+            Добавить франшизу
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <script type="module">
+    import {
+      Fancybox
+    } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+
+    Fancybox.show([{
+      src: "#modal_login",
+      type: "inline"
+    }]);
+  </script>
+  <div id="modal_login" class="modal modal--login" role='dialog' aria-labelledby='modal_title'>
+    <h2 id="modal_title" class="title modal__title">
+      Войти через
+    </h2>
+    <div class="socials modal__socials">
+      <ul class="socials__list">
+        <li class="socials__item">
+          <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1728532186%3A1675288700788104&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdUMCGcme7j6tqls0hMbSoZ34jleFkJWpOklnwn7BnGfjllPy18vEsxvWgi0LTfYi3MUiTl9w" class="btn socials__btn" target='_blank' aria-label='Гугл почта'>
+            <svg class="icon btn__icon socials__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-multi.svg#gmail"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://vk.com/share.php?url=https://franshiza-info.ru" class="btn socials__btn" target='_blank' aria-label='Вконтакте'>
+            <svg class="icon btn__icon socials__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-multi.svg#vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fmail.yandex.ru%2F&backpath=https%3A%2F%2Fmail.yandex.ru%2F%3Fnoretpath%3D1&from=mail&origin=hostroot_homer_auth_ru" class="btn socials__btn" target='_blank' aria-label='Яндекс почта'>
+            <svg class="icon btn__icon socials__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-multi.svg#yandex"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://connect.mail.ru/login?connect=1&page=https%3a%2f%2fconnect.mail.ru%2fshare" class="btn socials__btn" target='_blank' aria-label='Майл.ру почта'>
+            <svg class="icon btn__icon socials__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-multi.svg#mail"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="modal__small-text">
+      или
+    </p>
+    <form class="form form--validation modal__form" action="/" method="get">
+      <div class="input-block ">
+        <input class="input-block__input " type="email" name="email" placeholder="Введите ваш E-mail" required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'>
+      </div>
+      <div class="input-block ">
+        <input class="input-block__input input-block__input-password" type="password" name="password" placeholder="Введите пароль" required data-pristine-required-message='Поле пароль является обязательным'>
+        <button class="btn input-block__btn-eye" type='button' aria-label='Переключить видимость пароля'>
+          <svg class="icon btn__icon input-block__icon-eye input-block__icon-eye--no-slash" aria-hidden="true">
+            <use href="./assets/sprites/sprite-multi.svg#eye"></use>
+          </svg>
+          <svg class="icon btn__icon input-block__icon-eye input-block__icon-eye--slash" aria-hidden="true">
+            <use href="./assets/sprites/sprite-multi.svg#eye_slash"></use>
+          </svg>
+        </button>
+      </div>
+      <a href="#" class="btn modal__btn modal__forgot-password modal__close-btn">
+        <span class="btn__text ">
+          Забыли пароль?
+        </span>
+      </a>
+      <button class="btn btn--btn btn--primary btn--large modal__btn" type='submit'>
+        <span class="btn__text ">
+          Войти
+        </span>
+      </button>
+      <a href="#" class="btn btn--btn btn--tertiary btn--large modal__btn modal__close-btn">
+        <span class="btn__text ">
+          Зарегистрироваться
+        </span>
+      </a>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__info">
+          <a class="logo footer__logo" href="#">
+            <span class="visually-hidden">Главная страница</span>
+            <img src="./assets/images/logo.png" alt="" width="198" height="46">
+          </a>
+          <div class="footer__address">
+            <p class="footer__location">
+              <svg class="icon footer__location-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#location_pin"></use>
+              </svg>
+              Москва ул. Кулакова, д. 20
+            </p>
+            <p class="footer__copyright">
+              <small>
+                Франшиза Инфо. Каталог франшиз 2022 для желающих купить франшизу. Все права защищены.
+              </small>
+            </p>
+            <a href="mailto:info@franshiza-info.ru" class="btn footer__email">
+              <span class="btn__text ">
+                info@franshiza-info.ru
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="footer__list-block footer__list-block--first">
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Каталог франшиз
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Отзывы о франшизах
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Новости франшиз
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Реклама франшизы
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Все франшизы
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__list-block footer__list-block--second">
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  О сайте
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Контакты
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Упаковка франшизы
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Словарь терминов
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Франшизы по категориям
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <section class="subscribe footer__subscribe">
+          <h2 class="title subscribe__title">
+            Подпишитесь на новости
+          </h2>
+          <div class="subscribe__socials">
+            <a href="https://t.me/franshiza_info" class="btn subscribe__link subscribe__link--telegram" aria-label='Телеграм' target='_blank'>
+              <svg class="icon btn__icon subscribe__link-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#telegram"></use>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UC0o-BrnqBfEFM7oU43im_-w" class="btn subscribe__link subscribe__link--youtube" aria-label='Ютуб' target='_blank'>
+              <svg class="icon btn__icon subscribe__link-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#youtube"></use>
+              </svg>
+            </a>
+          </div>
+          <form action="/" method="get" class="form form--validation subscribe__form">
+            <div class="input-block subscribe__input-wrap">
+              <input class="input-block__input subscribe__input" type="email" name="subscribe" placeholder="Ваш E-mail" required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'>
+            </div>
+            <button class="btn btn--btn btn--primary subscribe__btn" type='submit'>
+              <span class="btn__text ">
+                Подписаться на новости
+              </span>
+            </button>
+          </form>
+          <p class="subscribe__text">
+            Подписываясь на новости, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных
+          </p>
+        </section>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">
+          Вся информация размещенная на сайте каталога франшиз для желающих купить франшизу попадает под закон об охране авторских и смежных прав. Любое копирование, использование, распространение без согласования с администрацией сайта и без активной ссылки на страницу-источник преследуется по закону.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3011 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Добавьте в список, подходящие Вам франшизы">
+  <title>Добавьте в список, подходящие Вам франшизы</title>
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="./assets/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <a href="#main" class="btn btn--btn btn--primary skip-link">
+      <span class="btn__text ">
+        Перейти к главному разделу
+      </span>
+    </a>
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <a class="logo header__logo" href="#">
+            <span class="visually-hidden">Главная страница</span>
+            <img src="./assets/images/logo.png" alt="" width="198" height="46">
+          </a>
+          <a href="#" class="btn btn--btn btn--secondary header__catalog-btn">
+            <svg class="icon btn__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#four_squares"></use>
+            </svg>
+            <span class="btn__text ">
+              Каталог франшиз
+            </span>
+          </a>
+          <form class="search header__search" action="/" method="get">
+            <div class="input-block search__input-block">
+              <input class="input-block__input search__input" type="search" name="search" placeholder="Поиск, например, магазин">
+              <button class="btn search__btn" type='submit' aria-label='Отправить'>
+                <svg class="icon btn__icon search__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+          <nav class="header-nav header-nav--meta header__nav-meta" aria-label='Мета'>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    О сайте
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Контакты
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Войти
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Зарегистрироваться
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn burger" aria-expanded='false' aria-label='Открыть' aria-controls='burger_menu'>
+            <svg class="icon btn__icon burger__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#burger"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header__bottom">
+          <div class="header__tel-block">
+            <p class="header__tel-text">
+              Ваш каталог франшиз №1
+            </p>
+            <a href="tel:+74951855663" class="btn header__tel">
+              <svg class="icon btn__icon header__tel-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#phone"></use>
+              </svg>
+              <span class="btn__text ">
+                +7 (495) 185-56-63
+              </span>
+            </a>
+          </div>
+          <nav class="header-nav header__main-nav" aria-label='Главное'>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Отзывы о франшизах
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Новости франшиз
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Все франшизы
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="btn header-nav__link">
+                  <span class="btn__text ">
+                    Упаковка франшизы
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="btn btn--btn btn--primary header__franchise-btn">
+            <span class="btn__text ">
+              Добавить франшизу в каталог
+            </span>
+          </a>
+          <div class="mobile-search">
+            <button class="btn mobile-search__open-btn" aria-label='Открыть поиск'>
+              <svg class="icon btn__icon mobile-search__open-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#search"></use>
+              </svg>
+            </button>
+            <form class="search mobile-search__search" action="/" method="get">
+              <div class="input-block search__input-block">
+                <input class="input-block__input search__input" type="search" name="search" placeholder="Поиск, например, магазин">
+                <button class="btn search__btn" type='submit'>
+                  <svg class="icon btn__icon search__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+            <button class="btn mobile-search__close-btn" aria-label='Закрыть поиск'>
+              <svg class="icon btn__icon mobile-search__close-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="burger_menu" class="burger-menu">
+      <div class="burger-menu__content">
+        <div class="burger-menu__header">
+          <button class="btn burger-menu__search" aria-label='Открыть поиск'>
+            <svg class="icon btn__icon burger-menu__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#search"></use>
+            </svg>
+          </button>
+          <button class="btn burger-menu__close" aria-label='Закрыть меню'>
+            <svg class="icon btn__icon burger-menu__icon" aria-hidden="true">
+              <use href="./assets/sprites/sprite-mono.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <a href="tel:+74951855663" class="btn header__tel burger-menu__tel">
+          <svg class="icon btn__icon header__tel-icon" aria-hidden="true">
+            <use href="./assets/sprites/sprite-mono.svg#phone"></use>
+          </svg>
+          <span class="btn__text ">
+            +7 (495) 185-56-63
+          </span>
+        </a>
+        <a href="#" class="btn btn--btn btn--secondary burger-menu__btn">
+          <svg class="icon btn__icon" aria-hidden="true">
+            <use href="./assets/sprites/sprite-mono.svg#four_squares"></use>
+          </svg>
+          <span class="btn__text ">
+            Каталог франшиз
+          </span>
+        </a>
+        <ul class="burger-menu__list">
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Отзывы о франшизах
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Новости франшиз
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Все франшизы
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Упаковка франшизы
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                О сайте
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="btn burger-menu__link">
+              <span class="btn__text ">
+                Контакты
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul class="burger-menu__entry-list">
+          <li class="burger-menu__entry-item">
+            <a href="#" class="btn burger-menu__entry-link">
+              <span class="btn__text ">
+                Войти
+              </span>
+            </a>
+          </li>
+          <li class="burger-menu__entry-item">
+            <a href="#" class="btn burger-menu__entry-link">
+              <span class="btn__text ">
+                Зарегистрироваться
+              </span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn--btn btn--primary burger-menu__btn">
+          <span class="btn__text ">
+            Добавить франшизу
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="main main--catalog" tabindex="-1">
+    <div class="sticky-banner sticky-banner--left">
+      <a class="sticky-banner__link" href="#">
+        <picture>
+          <source media="(max-width: 1400px)" type="image/avif" srcset="./assets/images/fixed_banner/03.avif">
+          <source media="(max-width: 1400px)" type="image/webp" srcset="./assets/images/fixed_banner/03.webp">
+          <source media="(max-width: 1400px)" srcset="./assets/images/fixed_banner/03.jpg">
+          <source media="(max-width: 1700px)" type="image/avif" srcset="./assets/images/fixed_banner/02.avif">
+          <source media="(max-width: 1700px)" type="image/webp" srcset="./assets/images/fixed_banner/02.webp">
+          <source media="(max-width: 1700px)" srcset="./assets/images/fixed_banner/02.jpg">
+          <source type="image/avif" srcset="./assets/images/fixed_banner/01.avif">
+          <source type="image/webp" srcset="./assets/images/fixed_banner/01.webp">
+          <img class="sticky-banner__img" src="./assets/images/fixed_banner/01.jpg" alt="IT франшиза. Гарантия окупаемости.">
+        </picture>
+      </a>
+    </div>
+    <div class="sticky-banner sticky-banner--right">
+      <a class="sticky-banner__link" href="#">
+        <picture>
+          <source media="(max-width: 1400px)" type="image/avif" srcset="./assets/images/fixed_banner/03.avif">
+          <source media="(max-width: 1400px)" type="image/webp" srcset="./assets/images/fixed_banner/03.webp">
+          <source media="(max-width: 1400px)" srcset="./assets/images/fixed_banner/03.jpg">
+          <source media="(max-width: 1700px)" type="image/avif" srcset="./assets/images/fixed_banner/02.avif">
+          <source media="(max-width: 1700px)" type="image/webp" srcset="./assets/images/fixed_banner/02.webp">
+          <source media="(max-width: 1700px)" srcset="./assets/images/fixed_banner/02.jpg">
+          <source type="image/avif" srcset="./assets/images/fixed_banner/01.avif">
+          <source type="image/webp" srcset="./assets/images/fixed_banner/01.webp">
+          <img class="sticky-banner__img" src="./assets/images/fixed_banner/01.jpg" alt="IT франшиза. Гарантия окупаемости.">
+        </picture>
+      </a>
+    </div>
+    <div class="container main__container">
+      <div class="main__inner">
+        <div class="main__content">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="btn breadcrumbs__link">
+                  <span class="btn__text ">
+                    Главная
+                  </span>
+                </a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" aria-current="page">
+                  Все франшизы
+                </a>
+              </li>
+            </ol>
+          </nav>
+          <div class="accordion sidebar-accordion sidebar-accordion--mobile">
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile1id" type='button' aria-expanded='false' aria-controls='sect_mobile1'>
+                  <span class="btn__text ">
+                    Особые списки франшиз
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile1" class="accordion__content " aria-labelledby='accordion_mobile1id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Акции на франшизы
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Беспроигрышная франшиза
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Добрая франшиза
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Идеи, куда вложить деньги
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        ТОП франшизы
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшиза с гарантиями
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы от Сбербанка
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile2id" type='button' aria-expanded='false' aria-controls='sect_mobile2'>
+                  <span class="btn__text ">
+                    Франшизы по городам/странам
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile2" class="accordion__content " aria-labelledby='accordion_mobile2id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile3id" type='button' aria-expanded='false' aria-controls='sect_mobile3'>
+                  <span class="btn__text ">
+                    Франшизы по вложениям
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile3" class="accordion__content " aria-labelledby='accordion_mobile3id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile4id" type='button' aria-expanded='false' aria-controls='sect_mobile4'>
+                  <span class="btn__text ">
+                    Питание
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile4" class="accordion__content " aria-labelledby='accordion_mobile4id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile5id" type='button' aria-expanded='false' aria-controls='sect_mobile5'>
+                  <span class="btn__text ">
+                    Детские товары и услуги
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile5" class="accordion__content " aria-labelledby='accordion_mobile5id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile6id" type='button' aria-expanded='false' aria-controls='sect_mobile6'>
+                  <span class="btn__text ">
+                    Красота и здоровье
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile6" class="accordion__content " aria-labelledby='accordion_mobile6id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile7id" type='button' aria-expanded='false' aria-controls='sect_mobile7'>
+                  <span class="btn__text ">
+                    Торговля
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile7" class="accordion__content " aria-labelledby='accordion_mobile7id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile8id" type='button' aria-expanded='false' aria-controls='sect_mobile8'>
+                  <span class="btn__text ">
+                    Производство
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile8" class="accordion__content " aria-labelledby='accordion_mobile8id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile9id" type='button' aria-expanded='false' aria-controls='sect_mobile9'>
+                  <span class="btn__text ">
+                    Услуги
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile9" class="accordion__content " aria-labelledby='accordion_mobile9id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile10id" type='button' aria-expanded='false' aria-controls='sect_mobile10'>
+                  <span class="btn__text ">
+                    В интернете
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile10" class="accordion__content " aria-labelledby='accordion_mobile10id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile11id" type='button' aria-expanded='false' aria-controls='sect_mobile11'>
+                  <span class="btn__text ">
+                    Популярные
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile11" class="accordion__content " aria-labelledby='accordion_mobile11id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion_mobile12id" type='button' aria-expanded='false' aria-controls='sect_mobile12'>
+                  <span class="btn__text ">
+                    Бизнес-идеи
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect_mobile12" class="accordion__content " aria-labelledby='accordion_mobile12id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <a href="#" class="btn accordion__btn sidebar-accordion__btn sidebar-accordion__link">
+                  <span class="btn__text ">
+                    Все франшизы
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </a>
+              </h3>
+            </div>
+          </div>
+          <h1 class="title title--h1">
+            Добавьте в список, подходящие Вам франшизы
+          </h1>
+          <sl-select class="custom-select" value="sort_option_1">
+            <svg class="icon custom-select__icon" slot='prefix' aria-hidden="true">
+              <use href="./assets/sprites/sprite-multi.svg#sort"></use>
+            </svg>
+            <sl-option class="custom-select__option" value="sort_option_1">
+              Сортировка франшиз по популярности
+            </sl-option>
+            <sl-option class="custom-select__option" value="sort_option_2">
+              От низких объемов инвестиций к высоким
+            </sl-option>
+            <sl-option class="custom-select__option" value="sort_option_3">
+              От высоких объемов инвестиций к низким
+            </sl-option>
+          </sl-select>
+          <section class="section">
+            <h2 class="title visually-hidden">
+              Наши франшизы
+            </h2>
+            <div class="section__content section__content--three-items">
+              <article class="card js-card card--secondary" data-id='1'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/grill.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/grill.webp">
+                  <img class="img card__img" src="./assets/images/catalog/grill.png" loading="lazy" alt="Франшиза Гриль Хаус 1." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза Гриль Хаус 1
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='1'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 1</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='2'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/it_franchise.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/it_franchise.webp">
+                  <img class="img card__img" src="./assets/images/catalog/it_franchise.png" loading="lazy" alt="Франшиза ГК Альфа 1." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза ГК Альфа 1
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза интернет технологии
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='2'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза ГК Альфа 1</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='3'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/up_sushi.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/up_sushi.webp">
+                  <img class="img card__img" src="./assets/images/catalog/up_sushi.png" loading="lazy" alt="Франшиза UP SUSHI 1." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза UP SUSHI 1
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана суши с доставкой
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='3'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза UP SUSHI 1</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='4'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/it_franchise.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/it_franchise.webp">
+                  <img class="img card__img" src="./assets/images/catalog/it_franchise.png" loading="lazy" alt="Франшиза ГК Альфа 2." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза ГК Альфа 2
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза интернет технологии
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='4'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза ГК Альфа 2</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='5'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/grill.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/grill.webp">
+                  <img class="img card__img" src="./assets/images/catalog/grill.png" loading="lazy" alt="Франшиза Гриль Хаус 2." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза Гриль Хаус 2
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='5'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 2</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='6'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/up_sushi.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/up_sushi.webp">
+                  <img class="img card__img" src="./assets/images/catalog/up_sushi.png" loading="lazy" alt="Франшиза UP SUSHI 2." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза UP SUSHI 2
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана суши с доставкой
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='6'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза UP SUSHI 2</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='7'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/up_sushi.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/up_sushi.webp">
+                  <img class="img card__img" src="./assets/images/catalog/up_sushi.png" loading="lazy" alt="Франшиза UP SUSHI 3." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза UP SUSHI 3
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана суши с доставкой
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='7'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза UP SUSHI 3</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='8'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/grill.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/grill.webp">
+                  <img class="img card__img" src="./assets/images/catalog/grill.png" loading="lazy" alt="Франшиза Гриль Хаус 3." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза Гриль Хаус 3
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='8'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 3</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card card--secondary" data-id='9'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/it_franchise.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/it_franchise.webp">
+                  <img class="img card__img" src="./assets/images/catalog/it_franchise.png" loading="lazy" alt="Франшиза ГК Альфа 3." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза ГК Альфа 3
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза интернет технологии
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-white" data-btn-id='9'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза ГК Альфа 3</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='10'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/grill.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/grill.webp">
+                  <img class="img card__img" src="./assets/images/catalog/grill.png" loading="lazy" alt="Франшиза Гриль Хаус 4." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза Гриль Хаус 4
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='10'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 4</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='11'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/it_franchise.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/it_franchise.webp">
+                  <img class="img card__img" src="./assets/images/catalog/it_franchise.png" loading="lazy" alt="Франшиза ГК Альфа 4." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза ГК Альфа 4
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза интернет технологии
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='11'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза ГК Альфа 4</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='12'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/up_sushi.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/up_sushi.webp">
+                  <img class="img card__img" src="./assets/images/catalog/up_sushi.png" loading="lazy" alt="Франшиза UP SUSHI 4." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза UP SUSHI 4
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана суши с доставкой
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='12'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза UP SUSHI 4</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='13'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/up_sushi.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/up_sushi.webp">
+                  <img class="img card__img" src="./assets/images/catalog/up_sushi.png" loading="lazy" alt="Франшиза UP SUSHI 5." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза UP SUSHI 5
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана суши с доставкой
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='13'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза UP SUSHI 5</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='14'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/grill.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/grill.webp">
+                  <img class="img card__img" src="./assets/images/catalog/grill.png" loading="lazy" alt="Франшиза Гриль Хаус 5." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза Гриль Хаус 5
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза ресторана
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='14'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза Гриль Хаус 5</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="card js-card " data-id='15'>
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/catalog/it_franchise.avif">
+                  <source type="image/webp" srcset="./assets/images/catalog/it_franchise.webp">
+                  <img class="img card__img" src="./assets/images/catalog/it_franchise.png" loading="lazy" alt="Франшиза ГК Альфа 5." width="285" height="210">
+                </picture>
+                <div class="card__content">
+                  <h2 class="title card__title">
+                    <a class="title__link js-title" href="#">
+                      Франшиза ГК Альфа 5
+                    </a>
+                  </h2>
+                  <p class="card__text">
+                    франшиза интернет технологии
+                  </p>
+                  <div class="card__bottom">
+                    <dl class="card__list">
+                      <div class="card__item">
+                        <dt class="card__term">
+                          Инвестиции
+                        </dt>
+                        <dd class="card__descr">
+                          от 3 550 000 р.
+                        </dd>
+                      </div>
+                    </dl>
+                    <button class="btn card__btn btn--btn btn--toggle btn--toggle-gray" data-btn-id='15'>
+                      <svg class="icon btn__icon" aria-hidden="true">
+                        <use href="./assets/sprites/sprite-multi.svg#square"></use>
+                      </svg>
+                      <span class="btn__text ">
+                        Добавить <span class='visually-hidden'>Франшиза ГК Альфа 5</span> в список
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="section__footer">
+              <button class="btn btn--large btn--btn btn--primary btn--show-more">
+                <span class="btn__text ">
+                  Показать еще
+                </span>
+                <svg class="icon btn__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#arrow_bottom"></use>
+                </svg>
+              </button>
+            </div>
+          </section>
+          <div class="text-block">
+            <h2>
+              Хотите купить франшизу?
+            </h2>
+            <p>
+              Сфера предпринимательства привлекательна для людей разных возрастов. Открыть собственный бизнес и посвятить себя его дальнейшему становлению и развитию стремятся как молодые люди, только начинающие свой профессиональный путь, так и профессионалы, сумевшие состояться в разных областях деятельности. Многие идут к успеху самостоятельно, натыкаясь на препятствия и учась на собственных ошибках. Другие же сходятся во мнении, что гораздо проще купить франшизу готового бизнеса и двигаться к успеху по накатанной.
+            </p>
+            <p>
+              Предпринимательская деятельность обладает рядом преимуществ, в числе которых – возможность воплощения собственных замыслов и достижения поставленных целей, самостоятельность в организации рабочего графика и подборе персонала. Однако нельзя умолчать и об обратной стороне данного вида занятости – о так называемых подводных камнях. Прежде всего, это необходимость в значительных финансовых затратах, которые могут в итоге не окупиться. Для начинающего предпринимателя данный риск из всех возможных является наиболее пугающим. Не менее проблемной является и такая задача, как подбор и обучение персонала, даже при наличии соответствующего опыта у кандидатов. Упомянутые и другие проблемы можно избежать, если купить франшизу, открыв тем самым своё предприятие по уже оправдавшей себя бизнес-технологии.
+            </p>
+            <h2>
+              Какую франшизу купить?
+            </h2>
+            <p>
+              Современный российский рынок франчайзинга привлекает разнообразием представленных на нём предложений. Здесь можно купить франшизы, разнящиеся такими критериями, как размеры инвестиций, сфера деятельности и др. Немалый интерес у российских бизнесменов вызывают как отечественные, так и зарубежные франшизы. Различаются франшизы также и условиями сотрудничества франчайзера и франчайзи.
+            </p>
+            <p>
+              Если говорить о стоимости франшиз, то разброс инвестиций по истине гигантский. Некоторые франшизы можно купить за 50 000 рублей, другие же стоят несколько миллионов. Предложения ориентированы на начинающих и опытных предпринимателей, стремящихся реализоваться в таких сферах деятельности, как питание и розничная торговля, здоровье и красота, отдых и развлечения, товары и услуги для детей и т.д.
+            </p>
+            <h2>
+              Где купить франшизу?
+            </h2>
+            <p>
+              Непрерывное и интенсивное развитие франчайзингового рынка Российской Федерации привело к созданию специальных интернет-каталогов, которые успешно помогают предпринимателям купить франшизы. На страницах этих сайтов российские и зарубежные компании представляют свои проекты – предложения сотрудничества на основе договора франшизы.
+            </p>
+            <p>
+              Сделать первый шаг каждому предпринимателю, потенциальному франчайзи, достаточно просто: для этого ему нужно просто подать заявку по заинтересовавшей его франшизе. Отправленная заявка попадает непосредственно к франчайзеру, являющемуся разработчиком конкретного проекта. Каталоги удобны в использовании: для быстрой и успешной в них ориентации все представленные предложения разбиты по категориям.
+            </p>
+            <p>
+              Покупайте готовые франшизы!
+            </p>
+            <p>
+              На страницах нашего каталога представлено огромное количество различных по своим условиям и характеристикам франшиз. Каждый из этих проектов является готовой франшизой. Предприниматель, покупающий франшизу, получает со стороны головной компании всеохватную поддержку – юридическое и финансовое сопровождение, помощь в подборе и обучении сотрудников. Самое важное – сделать первый шаг: отправить заявку!
+            </p>
+            <h2>
+              Покупайте готовые франшизы!
+            </h2>
+            <p>
+              На страницах нашего каталога представлено огромное количество различных по своим условиям и характеристикам франшиз. Каждый из этих проектов является готовой франшизой. Предприниматель, покупающий франшизу, получает со стороны головной компании всеохватную поддержку – юридическое и финансовое сопровождение, помощь в подборе и обучении сотрудников. Самое важное – сделать первый шаг: отправить заявку!
+            </p>
+          </div>
+          <div class="form-block form-block--heading-left">
+            <h2 class="title form-block__title">
+              Получить бизнес-план и&nbsp;контакты от франчайзера
+            </h2>
+            <button class="btn btn--large form-block__toggle">
+              У франшиз из списка (<span class="btn__text form-block__toggle-num">0</span>)
+              <svg class="icon btn__icon form-block__toggle-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.8019 10.1912C15.675 10.0688 15.5029 10 15.3235 10C15.1441 10 14.972 10.0688 14.8452 10.1912L11.4959 13.4237L8.14667 10.1912C8.01906 10.0722 7.84814 10.0064 7.67074 10.0079C7.49333 10.0094 7.32363 10.0781 7.19818 10.1992C7.07273 10.3202 7.00157 10.484 7.00003 10.6552C6.99848 10.8265 7.06668 10.9914 7.18993 11.1146L11.0175 14.8088C11.1444 14.9312 11.3165 15 11.4959 15C11.6753 15 11.8474 14.9312 11.9743 14.8088L15.8019 11.1146C15.9287 10.9921 16 10.8261 16 10.6529C16 10.4797 15.9287 10.3137 15.8019 10.1912Z" />
+              </svg>
+            </button>
+            <div class="form-block__toggle-wrap">
+              <div class="form-block__toggle-list">
+              </div>
+              <p class="form-block__toggle-text">
+                Добавьте сюда франшизы, чтобы запросить информацию сразу у нескольких
+              </p>
+            </div>
+            <form class="form form--validation form-block__form" action="/" method="get">
+              <fieldset class="form__fieldset">
+                <div class="input-block ">
+                  <input class="input-block__input " type="text" name="name" placeholder="Введите ваше имя" required data-pristine-required-message='Поле имя является обязательным'>
+                </div>
+                <div class="input-block ">
+                  <input class="input-block__input " type="email" name="email" placeholder="Введите ваш E-mail" required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'>
+                </div>
+                <div class="input-block ">
+                  <input class="input-block__input " type="tel" name="tel" placeholder="Введите номер телефона" required data-pristine-required-message='Поле телефон является обязательным' data-pristine-phone-validator='Введите только числа (от 0 до 9)'>
+                </div>
+              </fieldset>
+              <button class="btn btn--btn btn--primary btn--large form-block__btn " type='submit'>
+                <span class="btn__text ">
+                  Получить бизнес-план
+                </span>
+              </button>
+            </form>
+            <p class="form-block__note">
+              Отправляя запрос, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных
+            </p>
+          </div>
+          <section class="section">
+            <div class="section__header">
+              <h2 class="title section__title">
+                Отзывы о франшизах и эксклюзивные интервью
+              </h2>
+              <a href="#" class="btn btn--arrow section__header-btn">
+                <span class="btn__text ">
+                  Все отзывы
+                </span>
+                <svg class="icon btn__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#arrow_right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="section__content section__content--two-items">
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Отзыв о франшизе детской школы футбола «Зенит-Чемпионика» от мульти-франчайзи из г. Лобня
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Кристина Богданова открыла свою детскую школу футбола по франшизе «Зенит-Чемпионика» в г. Лобня и успешно руководит ею уже 6 лет. (с 2016 г.). На сегодняшний день у Кристины собственный Центр, где проводятся занятия футболом и английским языком по франшизе <a href='#'>Championika English</a> и школа футбола во Дворце Спорта. Каталог франшиз <a href='#'>www.franshiza-info.ru</a> публикует интервью, которое дала Кристина Андрею Кравченко, руководителю отдела развития сети «Чемпионика»...
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-23">
+                  23 Авг 2022
+                </time>
+              </article>
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Отзыв о франшизе магазина Суши Wok из Омска
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Ирина Сальникова открыла совместно с супругом Юрием Никоновым предприятие по франшизе магазина Суши Wok в городе Омск и семейный бизнес успешно работает с сентября 2017 года. Каталог франшиз www.franshiza-info.ru публикует информацию из первых уст о том, как все начиналось...
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-25">
+                  25 Авг 2022
+                </time>
+              </article>
+            </div>
+            <div class="section__footer">
+              <a href="#" class="btn btn--arrow section__footer-btn">
+                <span class="btn__text ">
+                  Все отзывы
+                </span>
+                <svg class="icon btn__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#arrow_right"></use>
+                </svg>
+              </a>
+            </div>
+          </section>
+          <div class="banner">
+            <a class="banner__link" href="#">
+              <picture>
+                <source type="image/avif" media="(max-width: 600px)" srcset="./assets/images/banner/01_mobile.avif">
+                <source type="image/avif" srcset="./assets/images/banner/01.avif">
+                <source type="image/webp" media="(max-width: 600px)" srcset="./assets/images/banner/01_mobile.webp">
+                <source type="image/webp" srcset="./assets/images/banner/01.webp">
+                <source media="(max-width: 600px)" srcset="./assets/images/banner/01_mobile.png">
+                <img class="banner__img" src="./assets/images/banner/01.png" alt="IT франшиза. Более 189 партнеров. Гарантия выручки 8 миллионов за первый год. Объем выручки более 500 миллионов за 2021 год." loading="lazy" width="895" height="324">
+              </picture>
+            </a>
+          </div>
+          <section class="section">
+            <div class="section__header">
+              <h2 class="title section__title">
+                Новости и информация о франшизе
+              </h2>
+              <a href="#" class="btn btn--arrow section__header-btn">
+                <span class="btn__text ">
+                  Все новости
+                </span>
+                <svg class="icon btn__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#arrow_right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="section__content section__content--two-items">
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Франшиза «Персональное решение»: Незапланированный «круглый стол» с партнёрами франшизы
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Ежегодно «Персональное решение» (см. франшиза «Персональное решение») проводит форумы для своих партнёров. Это мероприятие, как правило, длится несколько дней, во время которых эксперты компании и лидеры отрасли «прокачивают» знания и навыки участников. Также проводятся мастермайнды, обучающие лекции, практические занятия. Подробнее читайте в каталоге www.franshiza-info.ru.
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-27">
+                  27 Авг 2022
+                </time>
+              </article>
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Франшиза Группы компании Альфа: Новостной дайджест #1
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Предлагаем Вашему вниманию новостной дайджест о компании и франшизе Группы компании Альфа.Франчайзи-партнеры ГК Альфа специализируются на лидогенерации и помощи клиентам в получении качественных запросов на их товары и услуги, а также оказывают другие нужные для бизнеса. Из новостей Вы узнаете о последних событиях в компании, достижениях партнеров, государственной поддержке и многое другое. Читайте в каталоге www.franshiza-info.ru еженедельные новости.
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-26">
+                  26 Авг 2022
+                </time>
+              </article>
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Какую купить франшизу? Каталог франшиз представляет: Франшиза магазина-островка готовой еды «Ресторанный Холдинг BCA»
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Каталог франшиз www.franshiza-info.ru попросил Карен Мелконян, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы магазина-островка готовой еды «Ресторанный Холдинг BCA».
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-16">
+                  16 Авг 2022
+                </time>
+              </article>
+              <article class="card-info">
+                <h3 class="title card-info__title">
+                  <a class="title__link card-info__title-link" href="#">
+                    Какую купить франшизу? Каталог франшиз представляет: Франшиза ресторана суши с доставкой UP SUSHI
+                  </a>
+                </h3>
+                <div class="card-info__text">
+                  <p>
+                    Каталог франшиз www.franshiza-info.ru попросил Евгений Баканова, основателя сети, рассказать о тонкостях выбора франшизы вообще и об особенностях франшизы ресторана суши UP SUSHI.
+                  </p>
+                </div>
+                <time class="card-info__time" datetime="2022-08-08">
+                  08 Авг 2022
+                </time>
+              </article>
+            </div>
+            <div class="section__footer">
+              <a href="#" class="btn btn--arrow section__footer-btn">
+                <span class="btn__text ">
+                  Все новости
+                </span>
+                <svg class="icon btn__icon" aria-hidden="true">
+                  <use href="./assets/sprites/sprite-mono.svg#arrow_right"></use>
+                </svg>
+              </a>
+            </div>
+          </section>
+          <div class="swiper sidebar-slider sidebar-slider--mobile">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/02.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/02.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/02.jpg" alt="Франшиза интернет технологий, доход 8 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 8 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/02.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/02.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/02.jpg" alt="Франшиза интернет технологий, доход 10 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 10 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/02.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/02.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/02.jpg" alt="Франшиза интернет технологий, доход 12 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 12 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/02.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/02.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/02.jpg" alt="Франшиза интернет технологий, доход 14 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 14 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/02.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/02.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/02.jpg" alt="Франшиза интернет технологий, доход 16 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 16 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="main__sidebar">
+          <div class="accordion sidebar-accordion">
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion1id" type='button' aria-expanded='false' aria-controls='sect1'>
+                  <span class="btn__text ">
+                    Особые списки франшиз
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect1" class="accordion__content " aria-labelledby='accordion1id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Акции на франшизы
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Беспроигрышная франшиза
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Добрая франшиза
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Идеи, куда вложить деньги
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        ТОП франшизы
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшиза с гарантиями
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы от Сбербанка
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion2id" type='button' aria-expanded='false' aria-controls='sect2'>
+                  <span class="btn__text ">
+                    Франшизы по городам/странам
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect2" class="accordion__content " aria-labelledby='accordion2id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion3id" type='button' aria-expanded='false' aria-controls='sect3'>
+                  <span class="btn__text ">
+                    Франшизы по вложениям
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect3" class="accordion__content " aria-labelledby='accordion3id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion4id" type='button' aria-expanded='false' aria-controls='sect4'>
+                  <span class="btn__text ">
+                    Питание
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect4" class="accordion__content " aria-labelledby='accordion4id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion5id" type='button' aria-expanded='false' aria-controls='sect5'>
+                  <span class="btn__text ">
+                    Детские товары и услуги
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect5" class="accordion__content " aria-labelledby='accordion5id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion6id" type='button' aria-expanded='false' aria-controls='sect6'>
+                  <span class="btn__text ">
+                    Красота и здоровье
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect6" class="accordion__content " aria-labelledby='accordion6id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion7id" type='button' aria-expanded='false' aria-controls='sect7'>
+                  <span class="btn__text ">
+                    Торговля
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect7" class="accordion__content " aria-labelledby='accordion7id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion8id" type='button' aria-expanded='false' aria-controls='sect8'>
+                  <span class="btn__text ">
+                    Производство
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect8" class="accordion__content " aria-labelledby='accordion8id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion9id" type='button' aria-expanded='false' aria-controls='sect9'>
+                  <span class="btn__text ">
+                    Услуги
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect9" class="accordion__content " aria-labelledby='accordion9id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion10id" type='button' aria-expanded='false' aria-controls='sect10'>
+                  <span class="btn__text ">
+                    В интернете
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect10" class="accordion__content " aria-labelledby='accordion10id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion11id" type='button' aria-expanded='false' aria-controls='sect11'>
+                  <span class="btn__text ">
+                    Популярные
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect11" class="accordion__content " aria-labelledby='accordion11id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <button class="btn accordion__btn sidebar-accordion__btn" id="accordion12id" type='button' aria-expanded='false' aria-controls='sect12'>
+                  <span class="btn__text ">
+                    Бизнес-идеи
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </button>
+              </h3>
+              <div id="sect12" class="accordion__content " aria-labelledby='accordion12id' role="region">
+                <ul class="sidebar-accordion__list">
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Беларуси
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Екатеринбурге
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Казахстане
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Москве
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Новосибирске
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в России
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-accordion__list-item">
+                    <a href="#" class="btn sidebar-accordion__list-btn">
+                      <span class="btn__text ">
+                        Франшизы в Санкт-Петербурге
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion__item sidebar-accordion__item">
+              <h3 class="accordion__heading">
+                <a href="#" class="btn accordion__btn sidebar-accordion__btn sidebar-accordion__link">
+                  <span class="btn__text ">
+                    Все франшизы
+                  </span>
+                  <svg class="icon btn__icon sidebar-accordion__icon" aria-hidden="true">
+                    <use href="./assets/sprites/sprite-mono.svg#arrow_up"></use>
+                  </svg>
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="swiper sidebar-slider ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/01.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/01.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/01.jpg" alt="Франшиза интернет технологий, доход 8 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 8 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/01.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/01.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/01.jpg" alt="Франшиза интернет технологий, доход 10 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 10 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/01.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/01.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/01.jpg" alt="Франшиза интернет технологий, доход 12 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 12 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/01.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/01.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/01.jpg" alt="Франшиза интернет технологий, доход 14 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 14 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+              <div class="swiper-slide sidebar-slider__item">
+                <picture>
+                  <source type="image/avif" srcset="./assets/images/sidebar_slider/01.avif">
+                  <source type="image/webp" srcset="./assets/images/sidebar_slider/01.webp">
+                  <img class="img sidebar-slider__img" src="./assets/images/sidebar_slider/01.jpg" alt="Франшиза интернет технологий, доход 16 млн. руб. в год." width="240" height="400">
+                </picture>
+                <h3 class="title sidebar-slider__title">
+                  <a class="sidebar-slider__link" href="#">
+                    Франшиза интернет технологий, доход 16 млн. руб. в год
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <a href="#header" class="btn top-btn" aria-label='На вверх'>
+    <svg class="icon btn__icon top-btn__icon" aria-hidden="true">
+      <use href="./assets/sprites/sprite-mono.svg#top_btn"></use>
+    </svg>
+  </a>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__info">
+          <a class="logo footer__logo" href="#">
+            <span class="visually-hidden">Главная страница</span>
+            <img src="./assets/images/logo.png" alt="" width="198" height="46">
+          </a>
+          <div class="footer__address">
+            <p class="footer__location">
+              <svg class="icon footer__location-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#location_pin"></use>
+              </svg>
+              Москва ул. Кулакова, д. 20
+            </p>
+            <p class="footer__copyright">
+              <small>
+                Франшиза Инфо. Каталог франшиз 2022 для желающих купить франшизу. Все права защищены.
+              </small>
+            </p>
+            <a href="mailto:info@franshiza-info.ru" class="btn footer__email">
+              <span class="btn__text ">
+                info@franshiza-info.ru
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="footer__list-block footer__list-block--first">
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Каталог франшиз
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Отзывы о франшизах
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Новости франшиз
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Реклама франшизы
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Все франшизы
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__list-block footer__list-block--second">
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  О сайте
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Контакты
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Упаковка франшизы
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Словарь терминов
+                </span>
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="btn footer-list__link">
+                <span class="btn__text ">
+                  Франшизы по категориям
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <section class="subscribe footer__subscribe">
+          <h2 class="title subscribe__title">
+            Подпишитесь на новости
+          </h2>
+          <div class="subscribe__socials">
+            <a href="https://t.me/franshiza_info" class="btn subscribe__link subscribe__link--telegram" aria-label='Телеграм' target='_blank'>
+              <svg class="icon btn__icon subscribe__link-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#telegram"></use>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UC0o-BrnqBfEFM7oU43im_-w" class="btn subscribe__link subscribe__link--youtube" aria-label='Ютуб' target='_blank'>
+              <svg class="icon btn__icon subscribe__link-icon" aria-hidden="true">
+                <use href="./assets/sprites/sprite-mono.svg#youtube"></use>
+              </svg>
+            </a>
+          </div>
+          <form action="/" method="get" class="form form--validation subscribe__form">
+            <div class="input-block subscribe__input-wrap">
+              <input class="input-block__input subscribe__input" type="email" name="subscribe" placeholder="Ваш E-mail" required data-pristine-required-message='Поле email является обязательным' data-pristine-email-message='Введите правильный E-mail. Например,&nbsp;myemail@gmail.com'>
+            </div>
+            <button class="btn btn--btn btn--primary subscribe__btn" type='submit'>
+              <span class="btn__text ">
+                Подписаться на новости
+              </span>
+            </button>
+          </form>
+          <p class="subscribe__text">
+            Подписываясь на новости, я <a class='btn btn--underline' href='#'>соглашаюсь на обработку</a> персональных данных
+          </p>
+        </section>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">
+          Вся информация размещенная на сайте каталога франшиз для желающих купить франшизу попадает под закон об охране авторских и смежных прав. Любое копирование, использование, распространение без согласования с администрацией сайта и без активной ссылки на страницу-источник преследуется по закону.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
